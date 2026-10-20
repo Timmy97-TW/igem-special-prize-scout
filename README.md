@@ -12,5 +12,12 @@ award, 0–5 each.
 
 **Recommendation: nominate for Measurement.**
 
+The collection's deficit is clerical, not scientific: about 12 hours of writing —
+no new experiments — would take it from 10.0 to roughly **14.5 and 4th place**,
+with an absolute ceiling of 15.5. It cannot reach first, because our own blots
+show green and red light read the same, which caps the "finished functional
+system" criterion. The page carries the per-criterion projection, the material we
+already hold but never put on the Registry, and a work order costed in hours.
+
 The page is bilingual (English / 繁體中文). Scores are our own reading of public
 pages against the handbook, not iGEM's, and are a snapshot taken 21 October 2026.
