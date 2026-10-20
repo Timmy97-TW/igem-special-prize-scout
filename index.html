@@ -340,6 +340,8 @@ $('method').innerHTML=C.method.map(p=>`<p>${bi(p.en,p.zh)}</p>`).join('');
 function setLang(l){document.body.dataset.lang=l;document.documentElement.lang=l==='zh'?'zh-Hant':'en';document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.set===l));try{localStorage.setItem('lang',l)}catch(e){}}
 document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.set)));
 try{const l=localStorage.getItem('lang');if(l)setLang(l)}catch(e){}
+// boards render after load, so a direct #anchor visit lands at the pre-render offset
+if(location.hash){const t=document.querySelector(location.hash);if(t)requestAnimationFrame(()=>t.scrollIntoView())}
 </script>
 </body>
 </html>
