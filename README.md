@@ -7,7 +7,7 @@ Every high-school team's `/measurement` wiki page and every high-school Registry
 part collection was scored against the 2026 Judging Handbook — four criteria per
 award, 0–5 each.
 
-- **Measurement:** GEMS-Taiwan ranks **1st of 35** scored entries (18.5 / 20).
+- **Measurement:** GEMS-Taiwan ranks **1st of 35** scored entries (**19.0 / 20** after the 21 Oct revision).
 - **Part Collection:** GEMS-Taiwan ranks **22nd of 36** (10.0 / 20).
 
 **Recommendation: nominate for Measurement.**
