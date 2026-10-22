@@ -1,0 +1,1396 @@
+{
+ "panel": [
+  {
+   "id": "J1",
+   "lens": "a wet-lab molecular biologist and university PI. You look first at the experimental evidence: controls, replicates, gels, plate-reader and assay data, statistics, and whether the claimed parts were actually shown to function.",
+   "memo": {
+    "finalist_rule": "HANDBOOK RULES\n- p.12, Step 8: \"the highest ranking teams as determined by the 'Project', 'Wiki', and 'Presentation' sections of the ballot will become Finalists.\"\n- p.28, Finalists: the \"highest score from a weighted average of these Rubric categories: Project, Presentation and Wiki, within each section\". There are 3 undergraduate, 2 overgraduate and 2 high school finalists. So High School teams are ranked only against other High School teams, and the top 2 become finalists.\n- p.31: the Project section \"is the main determinant for choosing finalists\". The handbook does not publish the weights.\n- p.27: each team is scored by a panel of six judges, and awards use that panel's votes. Code of Conduct item 7 (p.10): each vote is an individual opinion, not a panel consensus.\n- p.28: every award needs a minimum number of votes and a minimum vote score. If no team clears both, the award is not given. Judges must vote in every category visible to them.\n- Ch.5 p.101: score High School teams \"just as you would a standard collegiate team\" and \"mark the ballot according to the language scale\". A HS team still gets credit for HS conditions: it \"can be considered a substantial achievement for a high school team to make a functioning Part\".\n\nPANEL CONVENTIONS FOR THIS SIMULATION (not handbook rules; all three judges must agree on them before scoring)\n- C1 Weights. Presentation cannot be observed here (simulation brief), so the composite is 0.7 × mean Project (a1-a8) + 0.3 × mean Wiki (w1-w5). The handbook gives no numbers. The only basis for these weights is that p.31 calls Project \"the main determinant\".\n- C2 Wiki is used second, as a tie-breaker. The handbook does not rank Wiki behind Project. This is our choice for the simulation.\n- C3 Tie-break. If two composites are within 0.25 of each other, compare a2, then a6, then a1. This order is ours and is not in the handbook.\n- C4 Functioning-part benchmark. This is a calibration aid, not a gate. When a team's top-of-scale score depends on a Part, I check whether the wiki or Registry shows at least one Part working with data and controls. If none is shown, that team rarely earns more than 3 on a2. No team is removed from consideration for lacking one. The handbook (p.101) describes a functioning Part as an achievement, not a requirement.\n\nACADEMIC INTEGRITY\nThe handbook has no rule that excludes a team from the finalists. If I see a specific violation (fabricated citation, AI-generated or altered evidentiary figure, invented quote, plagiarism), I report it to rcc@igem.org, as digital p.94-95 says (\"should be reported to the RCC\") and p.25 confirms. I score only what is documented. A figure I cannot trust does not count as evidence for a2 or w2. I do not accuse the team or propose a penalty (p.25: \"it is not up to judges to make accusations or suggest punitive measures\"). The RCC decides the outcome.",
+    "anchors": "The exact aspect wording, quoted once:\n- Project, p.31: (1) \"How impressive is this project?\" (2) \"Did the project work or is it likely to work?\" (3) \"Is the project likely to have an impact?\" (4) \"How well were engineering principles used (e.g., design-build-test cycle, use of standards, modularity, etc.)?\" (5) \"How thoughtful and thorough was the team's consideration of human practices?\" (6) \"How much of the work did the team do themselves and how much was done by others?\" (7) \"Did the team design a project based on synthetic biology and standard components (BioBricks, software, etc.)?\" (8) \"Are the project components well documented on the team's Wiki/Registry pages (parts should be documented in the Registry)?\" (9) is Q&A and is not scored here.\n- Wiki, digital p.94: (1) \"How well does the wiki communicate the team's project and their goals?\" (2) \"Did the team clearly document their project and support their results with convincing experimental evidence?\" (3) \"Does the design of the Wiki support visitors in finding and understanding the content?\" (4) \"Will the wiki be a compelling record of the team's project for future teams?\" (5) \"Is the content (including text, images, and prior work from iGEM teams and other research groups) on the wiki properly referenced and cited?\"\nThe labels a1-a8 and w1-w5 below are shorthand for this wording. Half points are allowed.\n\na1 Impressive (p.32 scale and scope, not \"tick box\"; GreatBay_SZ p.32-35; TAS Taipei p.102-104)\n- 5: Several linked results that build on each other in increasing difficulty. GreatBay: silk expressed, then spun, then the construct varied, then dyes made, then fusion attempts. TAS Taipei: two working routes, then a model, then a calculator, then a wastewater-style test.\n- 4: One clear working result plus a real next step, such as optimisation or a prototype.\n- 3: A coherent design with partial lab progress, for example a construct cloned and confirmed but its function only qualitative.\n- 2: An ambitious plan, mostly literature, design and modelling, with little completed work.\n\na2 Worked or likely to work (p.20-21 Measurement; TAS p.102-103)\n- 5: The function is shown against proper controls, with replicates, a plotted readout and stated units. Example: TAS PR strain vs control, with absorbance falling over time and darker pellets; csgD/ompR234 alone and combined, each compared to baseline. Failures are shown too.\n- 4: The function is shown with controls. Replicates or statistics are thin, or only one of several modules works.\n- 3: Construction is verified (gel or sequencing) and there is some qualitative function data. p.20 accepts honest qualitative results ahead of flawed quantitative ones.\n- 2: The claims say \"successful\", but no figure, no control and no numbers support them. A modelled result is presented in place of a measured one.\n\na3 Impact\n- 5: The impact is tested in a real-world-like setting, or quantified from the team's own data. TAS ran a wastewater setup and changed it (adding a biofilm carrier). GreatBay worked with textile factories.\n- 4: The use case is credible and supported by stakeholder input. There are numbers, but some are from literature.\n- 3: A plausible problem statement with a generic route to application.\n- 2: Broad \"solve the world\" framing (p.23) with no link from the data to the use.\n\na4 Engineering (p.16-17 methodology, including assumptions and quantifiable measures of success; p.14 Tip 2 \"routine troubleshooting\")\n- 5: At least one complete DBTL cycle where a test result changed the next design. GreatBay redesigned the blue dye and changed the number of repeats. TAS used a model to estimate parameters and build a calculator. Measures of success are stated before testing.\n- 4: One documented iteration driven by data.\n- 3: DBTL is described, but the iterations are troubleshooting (re-running PCR) rather than redesign.\n- 2: A DBTL diagram with nothing tested behind it.\n\na5 Human Practices (p.21-23: reflective, responsible, responsive; two-way dialogue)\n- 5: HP shaped the design and execution. GreatBay: \"Human Practices informed every aspect\" (p.34). TAS: application thinking about real wastewater.\n- 4: Several stakeholders, and at least one documented design change caused by them.\n- 3: Interviews and surveys that are relevant but only loosely tied to decisions.\n- 2: Outreach or marketing only, with no exchange between the project and the bigger picture (p.24).\n\na6 Own work (p.25-26 Attributions, now on the team page; p.31 \"primarily by the students\"; TAS: \"the students themselves likely did most of the work\" from figure captions and the attributions page)\n- 5: Students designed and ran the experiments, and the attribution is specific to tasks.\n- 4: Students did the core work. Defined pieces (sequencing, synthesis, one instrument run) are outsourced and declared.\n- 3: Shared work, or key experiments run by mentors or a host lab.\n- 2: Most of the execution was done by others, or the attribution is incomplete and the main tasks have no owner.\n\na7 SynBio and standard components (p.18-19; RFC10 / Type IIS RFC1000 screened automatically)\n- 5: Engineered genetic devices built from Registry-compatible parts, with a new part plus reuse of existing ones. TAS: only the PR gene was new, but the project is \"definitely based on synthetic biology and standard parts\" (p.104).\n- 4: A standard-part design with minor gaps.\n- 3: Some synthetic biology content, but the standard parts are peripheral.\n- 2: Mainly hardware or software, with nominal biology.\n\na8 Documentation (p.18: parts are judged on the Registry only, looking at sequence features, topology, host, rationale, experiments with controls, and characterisation; p.29: standard pages only)\n- 5: Registry entries carry data and controls, and the wiki explains everything clearly from the standard pages.\n- 4: Good wiki, but the Registry is thin for some parts.\n- 3: The Registry has sequences and descriptions only, and the experimental data are on the wiki alone.\n- 2: Parts are listed with no documentation, or key content is off-namespace or hidden.\n\nw1 Communicates goals (Lambert_GA p.97: concise homepage, one schematic per idea; Patras p.95)\n- 5: Problem, approach and outcome are clear within one screen.\n- 4: Clear, with a little drift.\n- 3: Understandable after some digging.\n- 2: Jargon or hype hides what was done.\n\nw2 Documented and supported by evidence (Lambert p.98: \"rigorous experiments\", setup, protocols, data analysis)\n- 5: Every key claim has a figure with controls, replicates, a legend and methods.\n- 4: Most do.\n- 3: Some data, but missing legends, n, or controls.\n- 2: Claims without data, or model output shown as a result.\n\nw3 Design aids finding and understanding (Patras: side menu mapped to criteria, p.95-96)\n- 5: Navigation follows the ballot, and the standard URLs are intact.\n- 4: Easy to navigate, with minor friction.\n- 3: Usable, but the key information is buried.\n- 2: Sprawling, with broken or relocated standard pages.\n\nw4 Record for future teams (digital p.94 \"reconstruct the project from the ground up\"; Lambert p.98)\n- 5: Protocols, notebook, parts, raw data and failures are all present, so the project could be reproduced.\n- 4: Mostly reproducible.\n- 3: Results without the protocols needed to repeat them.\n- 2: A showcase only.\n\nw5 Referencing (digital p.94-95 Academic Integrity)\n- 5: Every claim and image is cited to a resolvable source, and prior iGEM teams are credited (GreatBay p.34).\n- 4: Small gaps.\n- 3: A reference list only, with weak inline linking.\n- 2: Uncited figures or claims, or citations that do not resolve.",
+    "red_flags": "- A claim of \"worked\" or \"successful\" with no figure, table, gel or numbers. It does not count for a2 or w2.\n- Modelled, simulated or planned results presented as experimental. I mark each one as modelled and score only the measured evidence. Digital p.95 classes AI-generated simulated results presented as data as misconduct.\n- Missing controls, n = 1, no error bars, unlabelled gels, ladders with no size marks, or a photo of a well plate in place of plate-reader values (p.20-21).\n- Part documentation that exists only on the wiki. p.18: judge the Registry only.\n- Content on external sites (Google Drive, GitHub Pages, YouTube) or off the team namespace. Under p.29 it cannot be judged. Changed standard URLs, and material judges would have to hunt for.\n- Execution outsourced to a university lab, a company or a mentor, or a vague attributions page (p.25-26, p.31). This lowers a6 and is not an integrity case in itself.\n- For a High School team, organisms or activities outside the Whitelist: animals, most sporulating fungi, BSL-2 or higher, human samples (p.25). I raise these with safety@igem.org and do not decide them myself.\n- Academic integrity issues (digital p.94-95): fabricated or non-resolving citations, AI-made or \"cleaned\" gels and plots, invented stakeholder quotes, plagiarism, AI-written substance. I report specific concerns to rcc@igem.org (digital p.94-95; p.25). I give no credit to evidence I cannot trust and make no accusation or penalty myself. The RCC decides.\n- HP that is marketing or a \"save the world\" pitch with no two-way dialogue (p.23).\n- Length used in place of quality. A sprawling wiki fails the digital p.94 test of \"complete but not sprawling\".",
+    "not_observable": "- Presentation (four aspects, digital p.85-86): this simulation cannot see the videos. That comes from the simulation brief, not the handbook. Digital p.85 says that at a real Jamboree the videos \"will be viewable to judges before the Grand Jamboree\". I record Presentation as \"not assessed\" and do not infer a score from wiki polish. The weighted average therefore uses Project and Wiki only, under panel convention C1.\n- Aspect 9 (Q&A): p.32 says judges \"will primarily use the discussion time during the Judging Session\". p.11 Step 3 says not to pre-fill items that depend on the Jamboree. I leave it blank and do not use a proxy for it.\n- I do not score anything I cannot see: lab notebooks held off-wiki, external videos, or claims of private data. Where something matters, I write it down as a question I would ask the team.\n- I note in every ballot that my ranking would be revised once the Presentation and Q&A were seen.",
+    "memo": "J1 CALIBRATION MEMO: High School section, iGEM 2026 (wet-lab molecular biologist)\n\n1. What decides the finalists\nThe handbook sets the rule. Finalists are the highest-ranking teams on the Project, Wiki and Presentation sections of the ballot (p.12, Step 8). The ranking uses a weighted average of those three, computed within each section. The High School section gets 2 finalists (p.28). Project \"is the main determinant for choosing finalists\" (p.31), but the handbook publishes no weights. Each team has six judges (p.27). Each vote is my own opinion and not a consensus (p.10, item 7). Awards need a minimum number of votes and a minimum score (p.28).\n\nThe simulation brief says we cannot see the Presentation videos. Digital p.85 says that in the real competition judges can view them before the Jamboree. So the missing Presentation score is a limit of this exercise, not handbook policy. I record Presentation as not assessed.\n\nThe panel conventions below are local to this simulation and are not handbook rules. All three judges need to agree on them.\n- C1: composite = 0.7 × Project mean + 0.3 × Wiki mean.\n- C2: Wiki is used second, as a tie-breaker.\n- C3: if composites are within 0.25, compare a2, then a6, then a1.\n- C4: a functioning-part benchmark, used for calibration only. Without one demonstrated working Part, a team rarely gets above 3 on a2. It never removes a team from consideration. The handbook calls a functioning Part \"a substantial achievement\" for a HS team (p.101). That describes an achievement, not a requirement.\n\n2. High School calibration\nChapter 5 tells me to score HS teams \"just as you would a standard collegiate team\" and to \"mark the ballot according to the language scale\" (p.101). It also asks me to keep in mind smaller budgets, limited lab access and shorter hours. My 5s are pegged to the two HS Grand Prize case studies:\n- GreatBay_SZ 2019 (p.32-35): spider silk expressed, spun, re-engineered and dyed. Failures discussed, iterative redesign, HP informing \"every aspect\", and a task-level attribution chart.\n- TAS Taipei 2017 (p.102-104): PR citrate binding and curli-boosted biofilm, each tested against controls. Then a model used to fit parameters and build a dosing calculator, and a wastewater-style test that led to a design change (a biofilm carrier).\n\nTAS shows that the parts do not have to be novel. Only one was new to the Registry. What carries a 5 is controls, a proof of concept, prototyping, and clear signs that students did the work. A 4 is clearly above the field with real data but one notch short of that coherence. A 3 is a competent medal-level project with partial function data. A 2 means the claims outrun the evidence.\n\n3. What I look for first (my bias, made explicit so I can correct for it)\nI go to Results, Engineering, Measurement and the Registry first. I check that:\n- every \"works\" claim has a figure with a negative and a positive control;\n- replicates are stated, n is given, error bars are defined and units are given;\n- gels have size-marked ladders and named lanes;\n- plate-reader data are normalised (OD, blank subtraction) and not shown as a well photo;\n- modelled curves are clearly labelled as modelled.\np.20 rewards an honest qualitative result over a flawed quantitative one, and I will apply that. Because I lean toward the bench, I will also read HP (a5), impact (a3) and wiki design (w1, w3) closely enough to score them on their own merits. The handbook asks judges to be \"master generalists\" (p.8), and every aspect counts.\n\n4. The exact aspect wording I score against\nProject (p.31) includes a2 \"Did the project work or is it likely to work?\", a6 \"How much of the work did the team do themselves and how much was done by others?\" and a8 \"Are the project components well documented on the team's Wiki/Registry pages (parts should be documented in the Registry)?\" Wiki (digital p.94) includes w2 \"Did the team clearly document their project and support their results with convincing experimental evidence?\" and w3 \"Does the design of the Wiki support visitors in finding and understanding the content?\" Full wording and anchors are in the anchors field.\n\n5. Evidence boundaries\n- Only the wiki namespace, the Registry and iGEM GitLab count. I do not hunt for content, and standard URLs must be preserved (p.29).\n- Parts are judged on the Registry entry alone: annotation, topology, host, rationale, experiments with controls, and characterisation (p.18). RFC10 and Type IIS compatibility is screened automatically (p.19).\n- Attribution now appears on the team page (p.26). Outsourced execution lowers a6.\n- HS teams must stay on the Whitelist: no animals, most sporulating fungi, BSL-2 or higher, or human samples (p.25). Questions go to safety@igem.org.\n\n6. Integrity\nDigital p.94-95 lists fabricated citations, AI-made or \"cleaned\" evidentiary figures, invented quotes, plagiarism, and AI-authored substance or simulated results presented as data. These \"should be reported to the RCC\". If I find a specific concern I email rcc@igem.org (also p.25). I give no evidential credit to material I cannot trust, and I score only what is documented. I do not exclude the team, accuse them or suggest a penalty myself. p.25 says it \"is not up to judges\" to do that, and the RCC decides. Finalist selection stays the weighted average (p.28).\n\n7. What I cannot observe\n- Presentation (four aspects, digital p.85-86) is not assessed, for the reason given in section 1.\n- Aspect 9 is judged \"primarily\" in the Judging Session discussion (p.32). Following p.11 Step 3, I leave it blank.\n- In each team's notes I list the questions I would ask in Q&A, and I flag that my ranking could change once the video and Q&A were seen.\n\n8. Fairness and feedback\nLength is not quality. A wiki should be \"complete but not sprawling\" (digital p.94). I apply the same evidence bar to every team and ignore reputation. Written feedback is specific and kind (p.13-15), and in my own words without AI-generated substance (p.10, item 10; p.15, Tip 6). High school students may still be deciding on a science career (p.101)."
+   },
+   "exam": {
+    "pass": true,
+    "errors": [],
+    "corrections": "I checked the memo against judge/judge.txt (printed pages 10-12, 14-29, 31-35) and the digital handbook (pages 84-86, 94-98, 101-104, using the footer page numbers). I found nothing material wrong.\n\nConfirmed against the handbook:\n- Finalist rule, p.12 Step 8: the quote is exact.\n- Finalist rule, p.28: \"weighted average of these Rubric categories: Project, Presentation and Wiki, within each section\". The finalist counts are 3 undergraduate, 2 overgraduate and 2 high school. The minimum-votes and minimum-score rule is there too.\n- p.31: \"main determinant for choosing finalists\" is correct, and the handbook publishes no weights. The memo marks C1-C4 as simulation conventions, not handbook rules, which is right.\n- Judging panel: the six-judge panel is on p.27. Code of Conduct item 7 (individual opinion, not consensus) is on p.10, and item 10 (no AI for substantive assessments) is on p.10 as well.\n- Project aspects: all eight match the p.31 wording exactly.\n- Aspect 9: p.32 (\"primarily use the discussion time during the Judging Session\") and p.11 Step 3 (\"Do not pre-fill\") are both correct.\n- Wiki aspects: all five match the digital p.94 wording exactly, including \"the Wiki\" with a capital W in aspect 3. \"Reconstruct the project from the ground up\" and \"complete but not sprawling\" are both on p.94.\n- Academic integrity: the Academic Integrity box is on p.94 (\"should be reported to the RCC\"). Responsible AI usage, which treats simulated results as misconduct, is on p.95.\n- Presentation: the four aspects are on digital p.85, and \"viewable to judges before the Grand Jamboree\" is on p.85.\n- High school: \"just as you would a standard collegiate team\", \"mark the ballot according to the language scale\" and \"substantial achievement for a high school team to make a functioning Part\" are all on digital p.101. The Whitelist list (animals, most sporulating fungi, BSL-2 or higher, human samples) and safety@igem.org are on p.25.\n- Evidence boundaries: Registry-only judging of parts is on p.18 and RFC10/RFC1000 screening on p.19. Attribution shown on the team page is on p.26. External sites not judged, standard URLs preserved and judges not required to hunt are all on p.29. Only Wiki, Registry and GitLab count.\n- RCC: rcc@igem.org and \"it is not up to judges to make accusations or suggest punitive measures\" are on p.25.\n- Case studies: GreatBay_SZ is on p.32-35, with \"Human Practices informed every aspect\" and the attribution chart on p.34. TAS Taipei is on p.102-104, with \"definitely based on synthetic biology and standard parts\" and \"the students themselves likely did most of the work\" on p.104. Patras is on p.95-96 and Lambert on p.97-98 (\"rigorous experiments\" on p.98).\n- Other anchors: p.8 \"master generalist\", p.14 Tip 2 \"routine troubleshooting\", p.15 Tip 6, p.20 (qualitative results acknowledged over flawed quantitative ones), p.21-22 reflective/responsive, p.23 \"save the world\", p.24 \"bigger picture\" and p.32 \"tick box\" are all correct.\n\nMinor wording points, none of them material:\n(1) finalist_rule says \"Judges must vote in every category visible to them\". p.28 actually says it is \"critically important that all judges vote in all relevant ballot categories (i.e., the ones that are made visible to you)\". The memo should note that leaving aspect 9 and Presentation blank is a limit of the simulation, based on p.11 Step 3 and p.32. It does not break p.28.\n(2) The TAS anchor says the model was used to \"fit\" parameters. The handbook says \"estimate the kinetic parameters\". \"Estimate\" is closer, and the memo already uses it in a4.\n(3) The p.25 \"not up to judges\" quote comes from the Attribution subsection. Applying it to integrity concerns generally is a reasonable reading, but the quote is about attribution."
+   }
+  },
+  {
+   "id": "J2",
+   "lens": "a bioprocess and hardware engineer from industry. You look first at the design-build-test-learn cycles, use of standards and modularity, whether the system is likely to work outside the lab, and how the pieces integrate into one working project.",
+   "memo": {
+    "finalist_rule": "How the 2 High School finalists are chosen, from the handbook:\n- p.12 (Quick Start, Step 8): \"the highest ranking teams as determined by the 'Project', 'Wiki', and 'Presentation' sections of the ballot will become Finalists.\" They are announced Sunday 15 Nov, and the Grand Prize is voted at the final judge meeting on Monday 16 Nov, after a main-stage talk and a judging-room Q&A.\n- p.28 (\"Finalists\"): finalists are the teams with the \"highest score from a weighted average of these Rubric categories: Project, Presentation and Wiki, within each section\". The high school section is ranked on its own and gets 2 finalists. The undergraduate section gets 3 and the overgraduate section gets 2.\n- p.31: the Project section \"is the main determinant for choosing finalists\". The handbook does not publish the weights. I will treat Project as the heaviest weight, with Wiki and Presentation next.\n- p.27: each team is scored by six judges with no known conflicts of interest, and each category uses that panel's votes. Judges must match their votes to the rubric language so scores are consistent across the judging body.\n- p.28 (end): every award needs a minimum number of votes and a minimum score. A judge who abstains or votes carelessly can make a team ineligible, so I score every observable aspect.\n- p.32: winners are the teams that impress the judges through the scale and scope of what they achieved, not through ticked boxes.\n- Digital handbook Ch.5 p.101: judge HS teams \"just as you would a standard collegiate team\" and mark the ballot by the language scale. I still allow for HS limits: smaller budgets and labs, shorter hours, Whitelist organisms only (p.25). A working Part counts as \"a substantial achievement\".\n- Ranking procedure for this panel: Presentation videos cannot be seen, so my Presentation score is \"not assessed\" and is never invented. The working rank is Project first, using the mean of a1-a8 with a1, a2 and a4 most decisive, then the Wiki mean (w1-w5) as the second key. When Project scores are close, the Wiki score breaks the tie. The top 2 by this rank are my proposed finalists.",
+    "anchors": "Scale: 5 = finalist level for a high school team; 4 = strong, clearly above the field, with real evidence; 3 = solid medal-team work; 2 = present but thin, claims go beyond the evidence. Anchors: GreatBay_SZ 2019 (judge.txt p.32-35) and TAS Taipei 2017 (digital Ch.5 p.102-104).\n\na1 How impressive. 5: scale and scope at GreatBay level. GreatBay went through a chain of harder and harder steps (silk expression, then spinning on a modified rig, then repeat-number variants, then dyes, then fusions, then mixing) and told it as one story (p.33-34). TAS Taipei achieved \"an impressive number of accomplishments\" with high engineering quality (p.104). 4: two or three linked results with data, and one stage taken beyond the bench. 3: one clear goal, one or two results, and the rest planned. 2: an ambitious story where most of the work is design, modelling or intent.\n\na2 Did it work. 5: the main function is shown with controls and replicates. TAS Taipei shows an absorbance drop against a control strain plus a visible pellet (p.102), a biofilm proof of concept with an antibiotic-killed control, and a csgD/ompR234 combination that beats either gene alone (p.103). GreatBay also reports its failures, such as the insoluble red fusion (p.33). 4: at least one part works with quantitative data and controls, and the gaps are honestly marked. 3: construction is verified (gel or sequencing) and the function data are qualitative or preliminary. 2: \"worked\" is claimed with no figure, or the results are modelled. A working Part alone already counts strongly for a HS team (p.101).\n\na3 Impact. 5: credible use outside the lab, tested in a realistic setting. TAS Taipei ran a wastewater-style setup, found it insufficient, added a biofilm carrier, and showed fit with existing microbial treatment (p.104). 4: stakeholder-checked deployment route with concrete constraints. 3: the impact is plausible and argued from literature. 2: generic \"save the world\" claims, which p.23 warns against.\n\na4 Engineering. 5: real DBTL iterations that change the design. GreatBay \"used iterative engineering to step back and fix parts\" (p.34). TAS Taipei used controls, proof of concept, prototyping, and a model fitted to data then turned into a dose calculator (p.104). It also follows the p.17 method: quantified measures of success, assumptions stated, validation. 4: at least one complete cycle, where test data drive a redesign. 3: the DBTL is described, but cycles are mostly routine troubleshooting (p.14 warns about this). 2: a DBTL diagram with no test data behind it.\n\na5 Human Practices. 5: HP shapes every aspect. GreatBay consulted textile factories, technical experts and businesses (p.34). The p.21-22 criteria are reflective, responsible and responsive, with clear rationale for who was consulted and documented changes to the design. 4: several stakeholders, and at least one design change traced to them. 3: interviews and surveys that are reflective but loosely tied to design. 2: outreach or education presented as HP (p.24 says that does not count) or a list of contacts with no follow-up.\n\na6 Own work. 5: an attribution chart showing who did what (GreatBay p.34), figure captions and the attributions page showing students did most of the work (TAS Taipei p.104), and every field of the form complete (p.25). 4: clear attribution with modest outside help in the lab or on instruments. 3: idea and design are by students, but key steps (cloning, synthesis, measurement) were outsourced and say so. 2: vague attribution, or core execution by a lab or company.\n\na7 SynBio and standard parts. 5: built on standard parts with new parts in the Registry. TAS Taipei's parts were \"not necessarily complicated\" but standard and well documented, with one new part (p.104). A parts collection designed to be reused, or software, also counts (p.18). 4: new basic or composite parts that are RFC10/RFC1000 compatible and characterised. 3: existing parts reused, or one new part with light characterisation. 2: synthetic biology is peripheral, for example mostly hardware or chemistry, or no Registry parts.\n\na8 Documentation. 5: Registry pages have annotation, topology, host, rationale, experiments with controls, and characterisation (p.18), plus a wiki that lets someone rebuild the project. 4: most parts are documented on the Registry with data. 3: data are on the wiki but Registry entries are thin. Registry-only rule: I judge parts on the Registry, not the wiki (p.18). 2: Registry stubs only.\n\nw1 Communication. 5: Lambert_GA style (digital p.97), with a concise concept on the home page, one sentence and one schematic per idea, and a clear description page. 3: the goal is clear but buried. 2: the reader cannot state the aim after reading the home and description pages.\nw2 Evidence. 5: methods, protocols, graphs and analysis that validate the results (Lambert_GA p.98). 4: real data for the main claims. 3: some data, with gaps. 2: assertions, or modelled results only.\nw3 Design and navigation. 5: Patras_Medicine (p.95-96), where a side menu maps to the judging criteria, the flow runs page to page, and the palette is accessible. 3: usable but sprawling. 2: key content hard to find, or the standard pages are empty.\nw4 Record for future teams. 5: complete but not sprawling (p.94), with notebook, protocols, parts and modelling all on iGEM servers (Patras p.96). 3: partial. 2: a team could not reproduce the work from it.\nw5 Citations. 5: every figure, prior iGEM work and claim is cited, and the references resolve (p.94). 3: a reference list with uneven in-text use. 2: few citations, or images without credit. Any fabricated citation is an integrity problem and goes outside this scale.",
+    "red_flags": "- Unsupported claims: \"it worked\" or \"successfully\" with no figure, table, gel or numbers. This caps a2 and w2 at 2. Results with no controls or replicates are weaker (p.20-21 measurement questions; TAS Taipei was praised for its controls, p.104).\n- Modelled, simulated or \"expected\" results presented as experimental. I label every result modelled, planned or measured. A model counts in a4 only if it predicts or explains measured data (p.17). A dose calculator built on fitted kinetics, as TAS Taipei did, is good. A calculator built on assumed constants is not evidence that the project works.\n- Outsourced work: a CRO, university lab or company doing the cloning, synthesis or measurement. Instructors doing core execution. An attribution form with empty fields or \"specific tasks\" that do not match what was achieved (p.25-26). These lower a6, and a1 if the impressiveness rests on that work. I do not accuse anyone. I note it as a question and may refer it to the RCC (p.25).\n- Content off the iGEM wiki: external sites, Google Drive, YouTube or GitHub cannot be judged (p.29). Parts documented only on the wiki and not on the Registry do not count for a7 or a8 (p.18). Supplementary pages count only if the standard pages link to them, because judges are not required to hunt (p.29).\n- Academic integrity (digital p.94-95): fabricated or garbled citations, AI-generated or AI-cleaned evidence figures, invented \"representative\" stakeholder quotes, plagiarism, and AI-authored substance or simulated results. These are violations to report to the RCC, not just low scores. When I see a specific concrete indicator, I flag it to the panel and mark the aspects that rely on that content as unverified.\n- Safety: a HS team using non-Whitelist organisms, BSL-2 work, animals or human samples (p.25). This goes to safety@igem.org.\n- HP mislabelled: outreach or education with no exchange between the project and the bigger picture is not HP (p.24). Proselytising \"SynBio saves the world\" (p.23).\n- Engineering theatre: DBTL diagrams with no test data, or \"cycles\" that are only repeated troubleshooting (p.14). Hardware claimed to work with no bench measurement, units or calibration (p.20: \"measurements are the only way to show whether hardware is functioning\").\n- Length used in place of quality: a sprawling wiki with thin evidence scores below a concise one with strong data (digital p.94).",
+    "not_observable": "- Project aspect 9 (Q&A competence): not scored. p.32 says it is judged mainly in the judging session. p.11 Step 3 says not to pre-fill questions that depend on Jamboree interaction. It stays blank. It does not become an implicit 0 or an assumed 3.\n- Presentation section (4 aspects, digital p.85-86: communication with evidence, visual design, engagement, acknowledgement): videos are not visible to this panel, so it is recorded as \"not assessed\". I do not infer it from wiki polish. The finalist rank is computed from Project (a1-a8) and Wiki (w1-w5) only, and I say clearly that the official weighted average (p.28) also includes Presentation, which could reorder close teams.\n- If a team's evidence appears to exist only in the video or the session (for example \"we will show data at the Jamboree\"), it does not count now. I note it as a follow-up question, as p.11 Step 2 says.\n- Hardware demonstrations at booths are not judged (p.26). Only data documented on the wiki or Registry counts.\n- Uncertainty: when an aspect depends on content I could not open (a broken page, or a JS-only page that did not render in the crawl), I try the live page in headless Chrome. If it still fails, I score only what I could read and note the gap. I do not penalise a rendering problem as if the content were absent without checking.",
+    "memo": "J2 calibration memo: iGEM 2026 High School section (bioprocess and hardware engineer)\n\n1. What I am deciding\nI am proposing the 2 High School finalists. The handbook rule is short. Finalists are the \"highest ranking teams as determined by the Project, Wiki and Presentation sections\" (p.12, Step 8), using a weighted average of those three, ranked within the high school section, with 2 finalists (p.28). The Project section \"is the main determinant for choosing finalists\" (p.31). The weights are not published. Presentation videos are not visible to us, so my Presentation score is \"not assessed\" and I never invent one. My working rank is the Project mean (a1-a8) first, then the Wiki mean (w1-w5) as the second key and tie-breaker. Aspect 9, Q&A, stays blank (p.32; p.11 Step 3). I should tell the panel the official rank would also include Presentation, so close calls could flip.\n\n2. What winning looks like for a high school team\nTwo anchors set the top of my scale.\nGreatBay_SZ 2019 (p.32-35): spider silk in E. coli. They spun fibre on a rig adapted from a previous iGEM team, varied repeat number to tune the properties, built dye pathways, redesigned an insoluble blue dye with another team, and tried silk-dye fusions (GFP worked, red did not). They then switched to mixing separately purified proteins and made coloured fibres. The judges valued \"a logical sequence of increasingly difficult steps\", failures discussed openly, iterative engineering, HP that \"informed every aspect\" (textile factories, technical experts, businesses), and a who-did-what attribution chart.\nTAS Taipei 2017 (digital Ch.5, p.102-104): nanoparticle capture. A proteorhodopsin strain was tested against a control. A biofilm proof of concept included an antibiotic-killed control. csgD and ompR234 each increased biofilm, and together they increased it more. Kinetic parameters were fitted and turned into a dose calculator. A wastewater-style setup was tested, found insufficient, and fixed with a biofilm carrier. The judges cited controls, proof of concept, prototyping and student-led work. They noted the parts were \"not necessarily complicated\" but standard and well documented.\nWhat separates winners is being impressive (p.32): scale and scope of what was achieved in the time, not ticked boxes. The best engineered projects \"don't try to take on too much\" but define success criteria and deliver robust, characterised solutions (p.17). For a HS team, \"it can be considered a substantial achievement... to make a functioning Part\" (p.101). I credit one well-characterised working part strongly. Even so, the top HS teams compete with each other, and the finalists will be the ones that go further, toward a real-world test, a model fed by data, and redesign driven by data.\n\n3. My lens, kept within the rubric\nMy background makes me look first at a4 (DBTL), a7 (standards and modularity), a2/a3 (will it work outside the lab) and how the pieces join up. I must not let that become a hardware bonus. Every aspect counts as the handbook says, including a5 (HP) and a6 (attribution), where I am less expert. I read HP against the p.21-23 reflective, responsible and responsive criteria, not against how much engineering it contains.\nEngineering tests I will apply (p.15-17, p.20):\n- Is there a stated, quantified measure of success, and was it measured?\n- Did a test result cause a redesign? A real cycle changes the next build. Repeating a PCR until it works is troubleshooting (p.14).\n- Is a model used to predict or explain data, or is it decoration? Was it fitted to their own measurements?\n- Are there controls, replicates and units? Is it reproducible? Was it tested in more than one condition or host?\n- For hardware or a bioreactor: calibration against a reference, sensor ranges and saturation, and a demonstration on real samples. \"Measurements are the only way to show whether hardware is functioning correctly\" (p.20).\n- Modularity: RFC10/RFC1000-compatible parts, a collection designed for reuse, and a system whose subsystems were each validated and then integrated.\n\n4. Evidence discipline\n- No figure, table, gel or numbers means \"claimed\", not \"worked\".\n- Every result gets one of three labels: measured, modelled or planned. Modelled and planned results never support a2.\n- Parts are judged on the Registry only, not the wiki (p.18). Content off iGEM servers cannot be judged (p.29). I am not required to hunt beyond what the standard pages link to (p.29).\n- Attribution is read from the team page form (p.26). I check whether every field is complete and the tasks plausible, and whether the core execution was by students. If outsourcing is declared, a6 goes down but there is no integrity issue. If outsourcing is undeclared but evident, I raise it as a question and may refer it to the RCC. I never make accusations (p.25).\n- Academic integrity (digital p.94-95): fabricated citations, AI-made or AI-cleaned evidence figures, invented quotes and plagiarism are RCC matters. I flag specific indicators to the panel and mark the dependent aspects as unverified. A suspicion alone does not lower a score.\n- Whitelist breaches go to safety@igem.org (p.25).\n- Length is not quality. A great wiki is \"complete but not sprawling\" (p.94).\n\n5. Scoring scale I will hold myself to\n5 = a finalist at TAS Taipei or GreatBay level on that aspect. 4 = strong and clearly above the field, with real data. 3 = competent medal-team work. 2 = present but thin, claims ahead of evidence. 1 = token. 0 = absent. I use half points. I expect most teams to score 2.5-3.5. A 5 needs evidence I can point to by page and figure. Each 4 or 5 in my notes will name a specific figure or Registry part, and each 2 or below will name what is missing.\nWiki anchors: Patras_Medicine 2022 for navigation and keeping everything on iGEM servers (p.95-96). Lambert_GA 2022 for communication, documentation and evidence (p.97-98).\n\n6. Procedure per team\n1) Home and description pages: can I state the aim, the chassis, the parts and the success criterion? (w1)\n2) Results, proof-of-concept, engineering and hardware pages: list each claim and label it measured, modelled or planned, with figure numbers. (a2, a4, w2)\n3) Registry: the parts listed, their documentation depth, and compatibility. (a7, a8)\n4) HP and implementation: who was consulted and why, and what changed in the design. (a5, a3)\n5) Attributions form: completeness, and who did the execution. (a6)\n6) Citations: spot-check that a few resolve and say what the wiki claims. (w5)\n7) Score a1 last, as an overall judgement of scale and scope.\n8) Record questions I would have asked in Q&A, without scoring them.\n\n7. Fairness\nI have no favourite team. Past reputation and wiki gloss do not earn points. I apply the same evidence standard to every team. Feedback is written by me, in my own words, kind but specific (p.13-15, p.10 rule 10). I remember these are high school students whose career choices my words may affect (digital p.101)."
+   },
+   "exam": {
+    "pass": true,
+    "errors": [
+     "Minor, invented sub-weighting: 'Project first, using the mean of a1-a8 with a1, a2 and a4 most decisive' has no basis in the handbook. p.31 makes the Project section the main determinant, but nothing in the handbook ranks aspects inside it. p.32 says excellent teams 'do not necessarily need to score highly in every aspect', and that the deciding factor is how impressive the work is. Using Wiki as the tie-breaker is also the panel's own procedure, not a handbook rule. The memo admits the weights are unpublished, so this is not fatal, but it should be labelled as panel convention.",
+     "Moderate narrowing of aspect 2: the handbook wording (p.31) is 'Did the project work or is it likely to work?'. The memo says 'Modelled and planned results never support a2', and its a2 scale ignores the 'likely to work' half. The brief's evidence rule (modelled is not experimental, and no data means not 'worked') is fine. But a team with partial measured data plus a well-grounded design or model can still earn credit for 'likely to work'. The memo should say this aspect is scored on 'worked or likely to work', with modelled support weighted below measured data, not shut out.",
+     "Misquote at p.20: the handbook reads 'Well-reported measurements are the only way to show whether hardware is functioning correctly'. The memo drops 'Well-reported' but keeps the quotation marks, in both red_flags and section 3.",
+     "Small citation and overreach slips: (a) 'software also counts (p.18)'. Software appears in the aspect 7 wording on p.31, not on p.18, which covers parts and part collections. (b) Saying parts documented only on the wiki 'do not count for a7' stretches p.18, which governs how Registry contributions and documentation (a8) are assessed. Aspect 7 asks whether the project is based on synthetic biology and standard components. (c) 'Supplementary pages count only if the standard pages link to them' is stronger than p.29, which says teams must guide judges and judges are not required to seek content out. It does not say unlinked team-namespace content is void. (d) The memo never states that iGEM GitLab content is judgeable. p.29 names Wiki, Registry and iGEM's GitLab as the permitted locations. GitHub is correctly listed as external."
+    ],
+    "corrections": "I checked the memo against the handbook text, and its core rules are correct:\n- p.12 Step 8 quote, and the 15 Nov / 16 Nov dates.\n- p.28: weighted average of Project, Presentation and Wiki within each section, with 3 undergraduate, 2 overgraduate and 2 high school finalists.\n- p.31: Project 'is the main determinant'.\n- p.27: six-judge panel; p.28: minimum votes and scores.\n- p.32: aspect 9 is judged mainly in the judging session; p.11 Step 3: do not pre-fill.\n- Presentation has 4 aspects (digital p.85) and is correctly recorded as not assessed, with the caveat that it could reorder close teams.\n- p.29: off-server content cannot be judged.\n- p.18: Registry-only for parts documentation.\n- p.25: Whitelist, RCC, attribution form.\n- p.26: attributions shown on the team page; nothing is judged in Villages.\n- Digital p.101: judge HS teams 'just as you would a standard collegiate team', and making a functioning Part is 'a substantial achievement'.\n- Digital p.94-95: Academic Integrity box and Responsible AI box.\n- Anchors match the handbook text: GreatBay_SZ 2019 (p.32-34) and TAS Taipei 2017 (digital p.102-104). Wiki anchors Patras_Medicine (p.95-96) and Lambert_GA (p.97-98) also match.\n- The eight Project aspect labels and five Wiki aspect labels are fair short forms of the handbook questions.\n\nFixes needed:\n1. Label the 'a1, a2, a4 most decisive' ordering and the Wiki tie-break as panel convention, not handbook rules. Better still, drop the within-Project weighting and use the plain a1-a8 mean, with a1 treated holistically as p.32 describes.\n2. Restate a2 as 'worked or is likely to work' (p.31). Measured data drive the score. A design or model grounded in the team's own partial data can support 'likely to work' at a lower level. Pure assertion or plans alone cannot.\n3. Restore the full p.20 quote: 'Well-reported measurements are the only way to show whether hardware is functioning correctly'.\n4. Re-cite software under aspect 7 to p.31. Limit the Registry-only rule to a8 and parts documentation (p.18).\n5. Soften the supplementary-page rule to: judges are not required to seek out content the standard pages do not link to (p.29).\n6. Add that iGEM GitLab content is judgeable alongside the wiki and Registry (p.29).\n\nNone of these change the finalist rule, the counts or the HS expectations, so the memo passes once these corrections are made."
+   }
+  },
+  {
+   "id": "J3",
+   "lens": "a human practices, bioethics and science-education specialist who has judged iGEM high school teams before. You look first at whether stakeholder input really changed the design, at honest attribution of who did the work, and at how clearly the wiki communicates and cites.",
+   "memo": {
+    "finalist_rule": "Judge-handbook rules, cited by page (judge.txt page markers; Chapters 4 and 5 by the printed page numbers in the digital copy):\n\n1. Finalists come from the ballot, not from medals or special awards. Step 8 (p.12) says the highest-ranking teams on the \"Project\", \"Wiki\" and \"Presentation\" sections of the ballot become Finalists.\n2. The formula is on p.28, under \"Finalists\": the highest score from a weighted average of the Project, Presentation and Wiki rubric categories, worked out within each section. High school is its own section. The High School section has exactly 2 finalists (undergraduate has 3, overgraduate 2). High school teams are not ranked against collegiate teams for this.\n3. Weighting. The handbook does not publish the weights. P.31 says the Project section \"is the main determinant for choosing finalists\", so Project carries the most weight, with Wiki and Presentation behind it.\n4. Each team has six judges (p.27). The award uses the panel's scores. Each vote is one individual judge's opinion and judges need not agree (p.10, rule 7). Every judge must vote in every visible category, or a team can lose eligibility. Every award also has a minimum number of votes and a minimum score (p.28).\n5. Inside Project, aspect 9 (Q&A) is scored only at the Judging Session (p.32). Teams are not expected to max every aspect. \"Impressing the judges is what distinguishes winning teams from great teams\", judged on the scale and scope achieved in the time, not on ticked boxes (p.32).\n6. Score high school teams on the same ballot language as collegiate teams. Keep in mind smaller budgets, fewer labs and shorter hours: \"it can be considered a substantial achievement for a high school team to make a functioning Part\". The top HS teams can be hard to tell apart from collegiate teams (Ch.5, p.101).\n7. Process for this exercise: score a1-a8 and w1-w5 for every team. Record Presentation and a9 as NOT ASSESSED. Rank first on the Project average (a1-a8), then use the Wiki average to separate close teams. Nominate the top 2. Where the two are close on Project, state openly that a missing Presentation score could reorder them.",
+    "anchors": "The anchors come from GreatBay_SZ 2019 (p.32-35), TAS Taipei 2017 (Ch.5 p.102-104), GreatBay-SCIE 2025 for integrated HP (p.66-67), the Engineering, Parts, Measurement, HP and Attribution guidance (p.15-26), and Patras_Medicine 2022 and Lambert_GA 2022 for the wiki (p.95-98). Half points are allowed.\n\nPROJECT\na1 Impressive\n5: covers a lot and climbs logically through harder and harder steps to a coherent story with elegant results, all within one season. Examples: GreatBay silk, then spinning, then optimised repeat variants, then dyes, then colour mixing (p.33-34); TAS with two working mechanisms plus a model, a calculator and a wastewater prototype (p.103-104).\n4: one mechanism carried convincingly from design to data, plus one extra layer (a model used for design, a prototype or hardware).\n3: a sensible idea, carried through to partial data.\n2: an ambitious story whose evidence stops at cloning or at plans.\n\na2 Worked / likely to work\n5: the core parts clearly work, with controls and time courses, and a picture or measurement a reader can check. TAS showed absorbance dropping against a control strain and darker pellets, and its biofilm genes beat the control both alone and combined (p.102-103). Failures are reported honestly (p.34).\n4: the main device works, shown by replicated quantitative data with controls, though secondary goals are unproven.\n3: a construct was built and confirmed (gel or sequencing) and there is preliminary function data with weak controls or n=1.\n2: only cloning, or the claims of function rest on modelled or expected results.\n\na3 Impact\n5: a credible route into a real system, tested in something close to the real setting, and stakeholders confirm the need. TAS: microbes already sit in wastewater treatment, and the team adapted its system to sedimentation tanks with a biofilm carrier (p.104). GreatBay: textile factories (p.34).\n4: a real need confirmed by users, plus a concrete deployment plan that names its limits.\n3: a plausible need backed only by literature.\n2: generic \"save the world\" framing (warned against on p.23).\n\na4 Engineering\n5: several genuine DBTL loops in which a failure led to a redesign. GreatBay redesigned the insoluble blue dye construct with another team, and when the red fusion failed it switched to separate expression (p.33-34). TAS used controls, a proof of concept before building, and prototyping (p.104). The model is fitted to the team's own data and then used for design (TAS kinetic parameters and calculator). The team also defines measures of success and its assumptions (p.17).\n4: one complete, documented cycle in which a Learn step actually changed the next Build, with quantitative success criteria.\n3: DBTL is described, but it reads as routine troubleshooting (p.14).\n2: a DBTL diagram with no data behind the iteration.\n\na5 Human practices\n5: HP shapes every aspect of the project (GreatBay p.34). Stakeholder feedback turns into concrete changes in a documented reflection loop (GreatBay-SCIE: a survey led to non-toxic components and a fragrance, p.67). Critical voices are consulted, negative impacts and misuse are anticipated, and surveys follow the ethics rules and validity practice for minors (p.21-24).\n4: two or more named design changes, each traceable to a specific stakeholder, with a rationale for why those stakeholders were chosen.\n3: a broad set of interviews with thoughtful reflection, but the project would look the same without them.\n2: a list of contacts or outreach events with no exchange between project and world. That is outreach, not HP (p.24).\n\na6 Own work\n5: a chart of which student did what. External help, past iGEM teams and references are acknowledged, and figure captions and the Attributions form agree that students did most of the bench and analysis work (GreatBay p.34; TAS p.104; form requirements p.25-26, p.42).\n4: clear attribution of the main tasks to students, with outside help bounded and named.\n3: the form is filled in but vague, and some key steps are done by a host lab or company.\n2: synthesis, assays or modelling done largely by others, or attribution missing or unclear for the essential work.\n\na7 Synthetic biology and standard parts\n5: the design is built from standard parts in RFC10/RFC1000-compatible form. It contributes at least one new or improved functional part and uses existing parts well. TAS had only one new part but \"definitely based on synthetic biology and standard parts\" (p.104). Software or hardware can count as standard components (p.31).\n4: designed composite parts, at least one of them shown to work.\n3: standard parts assembled, but little new design.\n2: synthetic biology is peripheral, or the parts were designed but never built.\n\na8 Wiki and Registry documentation\n5: parts documented on the Registry itself with sequence features, topology, host, rationale, experiments with controls, and characterisation. Collection-level documentation where relevant (p.18). The wiki gives figure captions, protocols and raw data. TAS parts were \"well-documented in the Registry\" (p.104).\n4: the main parts are documented on the Registry with real data, though minor parts are thin.\n3: entries exist but carry little data, and the data live only on the wiki. Wiki-only documentation does not count for parts (p.18).\n2: stub entries, or parts named but not registered.\n\nWIKI\nw1 Communicates goals\n5: the home page states problem, approach and goal in a few lines with a schematic, then guides the reader onward (Lambert_GA, Patras p.95-97).\n4: clear, with minor digressions.\n3: the goal is clear only after several pages.\n2: jargon-heavy, or the goal is unclear.\n\nw2 Documented with convincing experimental evidence\n5: every claim is backed by a figure with controls, units and n. Results are clearly separated from model outputs and plans (Lambert_GA \"rigorous experiments… well-documented results\", p.98).\n4: the main claims are backed by data, with gaps acknowledged.\n3: some data, mixed with unsupported claims.\n2: mostly narrative, or simulated results presented as results.\n\nw3 Design and navigation\n5: standard pages kept, the side menu maps onto the judging criteria, and the wiki is \"complete but not sprawling\" (p.94-95).\n4: easy to navigate, with minor dead ends.\n3: usable, but content is buried or off the standard pages.\n2: judges have to hunt for material, against the rule on p.29.\n\nw4 Record for future teams\n5: everything needed to rebuild the project is there: protocols, notebook, raw data, parts, safety, who did what, all on iGEM servers (p.94, p.96).\n4: mostly reproducible.\n3: protocols are thin or missing.\n2: a showcase only.\n\nw5 References and citations\n5: every image, prior iGEM team and paper is cited, each reference resolves, and the cited claim is really in the source (Academic Integrity p.94).\n4: consistent citations with minor lapses.\n3: a reference list exists, but in-text links are patchy or images are uncredited.\n2: few citations, or prior iGEM work not acknowledged.",
+    "red_flags": "1. Claims without data. \"Worked\", \"successfully\" or \"validated\" with no figure, gel, table, numbers or controls shown counts as not worked (brief evidence rules; p.20-21 Measurement). It caps a2 and w2 at 2.\n2. Modelled, simulated, expected or \"representative\" results written up as experimental results. If a projected yield, \"expected results\" figure or dose calculation carries no label, mark down a2, w2 and a4. Producing simulated results with AI is research misconduct and goes to the RCC (Responsible AI, p.94-95).\n3. Outsourced work. Look for synthesis, cloning, assays, modelling or hardware done by a host university lab, a company or instructors. Also look for an Attributions form with blank \"Specific Tasks\", vague wording like \"the team\", or claims that do not match what the students could plausibly have done (p.25-26, p.42). This lowers a6. If honesty is in doubt, seek clarification at the session or contact rcc@igem.org. Judges do not accuse (p.25).\n4. Content off the iGEM wiki. Google Drive links, external sites, YouTube, GitHub and similar cannot be judged (p.29). Score only what is on 2026.igem.wiki/<team>, the Registry and iGEM GitLab. Part documentation that lives only on the wiki does not meet the parts requirements (p.18).\n5. Academic integrity (p.94). Watch for citations that do not resolve or do not support the claim, gel, plot or microscopy images that look AI-generated or \"cleaned\", invented or \"representative\" stakeholder quotes, and text, figures or code copied from another team, the literature or an AI without attribution. Each of these must be reported to the RCC. They pull down w5, w2, a5 (quotes) and a6. When I suspect one, I write down the specific evidence instead of guessing.\n6. AI-authored substance. When the reasoning and project choices are not in the team's own voice (p.94-95), I treat it as an attribution question and do not invent a penalty. If the wiki discloses AI use for polish, that is acceptable.\n7. Human practices that is only outreach: events with no exchange between project and world (p.24), stakeholder lists with no design consequence, marketing iGEM or synthetic biology to communities (p.23), and surveys of minors with no mention of ethics oversight (p.23).\n8. Safety. Work outside the Whitelist, such as animals, BSL-2 organisms or human samples (p.25), is a serious flag and gets referred to safety@igem.org.\n9. Sprawl. Length is not quality. A long wiki with thin evidence ranks below a concise one with strong data (\"complete but not sprawling\", p.94).",
+    "not_observable": "Presentation (all four aspects, p.85): the videos are not public to us, so I record NOT ASSESSED and give no score, not even a neutral default. Q&A, Project aspect 9 (p.32): it is scored only at the Judging Session, and Quick Start Step 3 says not to pre-fill session-dependent items (p.11). I record NOT ASSESSED.\n\nHow I deal with the gap:\n(a) I rank on Project a1-a8 as the main determinant (p.31), with Wiki as the secondary input.\n(b) I do not let a guess about the video leak into Wiki or Project scores. \"Teams probably explain it better in the video\" never lifts a2.\n(c) I flag any finalist decision with a narrow margin (about 0.3 points or less on the Project average) as liable to change with Presentation and Q&A, and I name the runner-up.\n(d) I keep a short list of questions per team for the session, for example \"Who ran this assay?\", \"Is this figure measured or modelled?\" and \"Which stakeholder changed which design choice?\". These are things I would settle in Q&A, not penalise now.\n(e) Missing Attributions-form detail on the wiki is not itself penalised in 2026, because the form now lives on the team page (p.26, p.42). If I cannot see the form, I score a6 from the wiki's own attribution and captions and note that the form was not checked.",
+    "memo": "CALIBRATION MEMO: J3 (HP, bioethics and science education), iGEM 2026 High School section\n\nWhat I am deciding. Two high school finalists, chosen within the HS section by a weighted average of Project, Presentation and Wiki (p.12 Step 8; p.28). Project is \"the main determinant\" (p.31), so the Project aspects a1-a8 drive my ranking and Wiki w1-w5 refines it. Presentation and Q&A (a9) are NOT ASSESSED; I never invent a number for them. Where my top two are close, I say that the missing Presentation could reorder them.\n\nThe bar. My 5 is GreatBay_SZ 2019 or TAS Taipei 2017 on that aspect. GreatBay (p.32-35) climbed through harder and harder steps: silk, spinning, repeat-number variants, dyes, colour mixing. It reported failures (an insoluble blue dye, an unspinnable red fusion) and redesigned around them. HP \"informed every aspect\" (textile factories, technical experts, businesses), and a chart showed who did what. TAS (p.102-104) showed working parts with controls (absorbance falling against a control strain; csgD and ompR234 each raising biofilm, more so combined) and ran a proof of concept before building. It fitted kinetic parameters to its own data and turned them into a dosing calculator, then tested a wastewater-style setup and changed the design (a biofilm carrier) as a result. Its parts were not complicated, with only one new to the Registry, and it still won. That tells me to reward depth, evidence and honest iteration over novelty or ambition. \"It can be considered a substantial achievement for a high school team to make a functioning Part\" (p.101), so one well-characterised working part with controls is already 4-level work on a2. But the best HS teams are compared with each other, and with collegiate quality (p.101).\n\nMy lens and its limits. I look first at three things.\n(1) Whether stakeholder input really changed the design. For a5 I want a traceable chain: who was consulted, why that stakeholder, what they said, what changed, and how the team reflected on the trade-off (p.21-23; GreatBay-SCIE 2025 4A loop, p.67). A long contact list with no consequence is a 2-3. Outreach with no exchange between project and world is not HP at all (p.24). It belongs on Education or Inclusivity and does not count toward a5.\n(2) Honest attribution. a6 rewards clear accounts of student work, not modesty or bravado. Captions saying who ran each experiment, a who-did-what chart, and named external help are the GreatBay and TAS pattern (p.34, p.104). Vague \"the team did everything\" alongside sophisticated host-lab methods lowers a6 and becomes a session question, not an accusation (p.25).\n(3) Communication and citation (w1, w5). I check that references resolve and say what is claimed (Academic Integrity, p.94).\nMy background does not change the weights. A team with brilliant HP and no working biology cannot outrank a team with working parts. I deliberately score a2, a4, a7 and a8 as hard as a5, and I use the Engineering (p.15-18), Parts (p.18-19) and Measurement (p.20-21) guidance for them.\n\nEvidence discipline.\n- A claim only counts with a figure, gel, table or numbers, and with controls where function is claimed. Qualitative but honest beats flawed quantitative (p.20).\n- Modelled, expected or planned outcomes are labelled as such in my notes and never counted toward a2 or w2. A model scores in a4 only if it predicted, guided or explained the team's own system (p.17). TAS's calculator is the model to beat.\n- I cite the wiki page for every key piece of evidence. If I cannot find it from the standard pages, it does not exist for scoring (p.29). External links, Drive files and videos hosted elsewhere are ignored. Part documentation must be on the Registry (p.18): wiki-only part data caps a8 at 3.\n- Length is not quality. \"Complete but not sprawling\" (p.94) is the wiki ideal. I discount padding, generic background and repetition. A concise wiki with real data beats a long, glossy one.\n- Integrity flags I watch for: unresolvable or misattributed citations; evidentiary figures that look generated or cleaned; \"representative\" stakeholder quotes; copied text or figures with no credit; AI-authored reasoning presented as the team's voice (p.94-95). If I see one, I record the specific evidence and lower the affected aspects (w5, w2, a5, a6). Genuine violations are reported to the RCC rather than quietly penalised. Disclosed AI use for polish is acceptable.\n- Surveys and interviews with minors or the public should mention consent and ethics or oversight (p.23-24). Their absence is a reflective gap in a5, not an automatic zero.\n- Whitelist breaches (animals, BSL-2, human samples, p.25) go to safety@igem.org.\n\nScoring procedure per team.\n1. Read the Description, Engineering, Results/Proof of Concept, HP, Attributions/Team, Parts and Model pages, then follow links to Registry entries.\n2. List each claim and classify it as MEASURED (with figure), MODELLED, or PLANNED.\n3. Score a1-a8 against the anchors with half points. a1 is a holistic judgement of scale and scope, not a sum of the others (p.32).\n4. Score w1-w5.\n5. Write one strength and one constructive point per section. The writing must be mine, specific and kind, because these are high school students deciding on science careers (p.101, p.13-15).\n6. Record Presentation and a9 as NOT ASSESSED, plus two or three questions for the session.\n\nSeparating the top two. Among the strongest HS wikis, I rank by Project average, asking in order:\n- Does the core biology demonstrably work, with controls (a2)?\n- Did the team iterate on failure (a4)?\n- Did HP change the design (a5)?\n- Did students do it (a6)?\n- Can a future team reuse it from the Registry (a8)?\nWiki average breaks ties within about 0.3. Team fame, past results, polish and word count earn nothing. I judge only the 2026 wiki in front of me, with the same severity for every team.\n\nCalibration self-checks. A 5 should be rare: if more than one or two teams get a 5 on any aspect, I am too lenient. If a team has no measured functional data, a2 is 2.5 or below whatever the narrative says. If HP changed nothing in the design, a5 is 3 or below. If I cannot tell who did the bench work, a6 is 3 or below until the session clarifies. I re-read my two finalists' Results pages last to confirm the evidence I cited is really there."
+   },
+   "exam": {
+    "pass": true,
+    "errors": [
+     "Minor (not material): a1-a8 and w1-w5 are given as short labels (e.g. 'Impressive', 'Communicates goals', 'Design and navigation'), not the handbook's full question wording (p.31; digital Ch.4 p.94). Each label maps correctly to the right aspect, but the full handbook wording is not quoted anywhere in the memo.",
+     "Minor: process step 7 and the memo rank on the Project average and use the Wiki average only 'to separate close teams'. The handbook (p.28) specifies a weighted average of Project, Presentation and Wiki and publishes no weights. Using Wiki only as a tie-breaker is a working simplification for this exercise, not a handbook rule. The memo does admit the weights are unpublished.",
+     "Minor: the claim that Project 'carries the most weight, with Wiki and Presentation behind it' is an inference from 'main determinant' (p.31). The handbook gives no weights, so this should be labelled as an assumption (the brief makes the same assumption).",
+     "Minor: a7 says 'Software or hardware can count as standard components (p.31)'. P.31 says 'standard components (BioBricks, software, etc.)'. Hardware is not named there.",
+     "Minor: a3's anchor of 2 cites p.23 for warnings against generic 'save the world' framing. P.23 warns against teams proselytising or marketing iGEM and synthetic biology to the community as something that will 'save the world'. It is an HP/outreach warning, not an impact-rubric rule. Citing it here stretches the handbook.",
+     "Minor: the memo says 'the best HS teams are compared with each other, and with collegiate quality (p.101)'. P.101 says only that it can be hard to tell the best high school teams from many collegiate teams. 'Compared with each other' comes from the brief, not the handbook."
+    ],
+    "corrections": "I found no material errors. These items are all correct against the handbook:\n- Finalists come from the Project, Wiki and Presentation ballot sections (p.12 Step 8).\n- Finalists are chosen by a weighted average within each section, with 2 high school, 3 undergraduate and 2 overgraduate finalists (p.28).\n- Project is 'the main determinant for choosing finalists' (p.31).\n- Each team has six judges, and every award needs a minimum number of votes and a minimum score (p.27-28).\n- Judges vote as individuals (p.10, rule 7).\n- Aspect 9 can only be judged from the Judging Session (p.32), and the Quick Start says not to pre-fill session-dependent items (p.11).\n- The Presentation's four aspects are on p.85.\n- Only the wiki, Registry and GitLab count (p.29), and part documentation must be on the Registry (p.18).\n- High school teams must stay inside the Whitelist (p.25).\n- The 'substantial achievement for a high school team to make a functioning Part' quote is on Ch.5 p.101.\n- Every anchor is on the page the memo gives: GreatBay_SZ 2019 (p.32-35), TAS Taipei 2017 (p.102-104), GreatBay-SCIE 2025 (p.66-67, survey on p.67), Academic Integrity (p.94), Responsible AI (p.95), Patras_Medicine (p.95-96), Lambert_GA (p.97-98), and attribution (p.25-26, p.42). Their details are faithful to the text.\n- The Engineering (p.16-17), Measurement (p.20-21) and HP (p.21-24) citations also check out.\n\nSuggested fixes:\n(1) Quote the full handbook wording for each Project and Wiki aspect next to the short labels.\n(2) Call the 'Project first, Wiki as tie-breaker' rule this exercise's working proxy for the unpublished weighted average, and do the same for the 'Project weighs most' claim.\n(3) Drop 'hardware' from the p.31 citation, or cite it elsewhere.\n(4) Cite p.23 as an HP proselytising warning rather than an impact rule.\n(5) Credit 'compared with each other' to the brief rather than p.101."
+   }
+  }
+ ],
+ "shortlist": [
+  "gems-taiwan",
+  "labi-taiwan",
+  "shsid",
+  "cataverse-greatbay",
+  "mingdao",
+  "hangzhoufourteenap",
+  "hk-joint-school",
+  "squirrel-guangzhou",
+  "sms-shenzhen",
+  "greatbay-scie",
+  "lambert-ga",
+  "hongkong-jss",
+  "squirrel-beijing",
+  "gcgs",
+  "plklfc",
+  "keystone",
+  "hongwen-school",
+  "zqt-nanjing",
+  "hk-league",
+  "psi-korea",
+  "korea-hs",
+  "bist-china",
+  "basis-china",
+  "mammothedu-united"
+ ],
+ "cutLine": 3.5,
+ "table": [
+  {
+   "slug": "hongkong-jss",
+   "judges": {
+    "J1": {
+     "project": 4.25,
+     "wiki": 4.3,
+     "combined": 4.263
+    },
+    "J2": {
+     "project": 4.188,
+     "wiki": 4.2,
+     "combined": 4.191
+    },
+    "J3": {
+     "project": 4.25,
+     "wiki": 4.3,
+     "combined": 4.263
+    }
+   },
+   "project_mean": 4.229,
+   "wiki_mean": 4.267,
+   "combined": 4.239,
+   "spread": 0.072,
+   "rank": 1
+  },
+  {
+   "slug": "gems-taiwan",
+   "judges": {
+    "J1": {
+     "project": 4.125,
+     "wiki": 4.5,
+     "combined": 4.219
+    },
+    "J2": {
+     "project": 4.063,
+     "wiki": 4.2,
+     "combined": 4.097
+    },
+    "J3": {
+     "project": 4.188,
+     "wiki": 4.2,
+     "combined": 4.191
+    }
+   },
+   "project_mean": 4.125,
+   "wiki_mean": 4.3,
+   "combined": 4.169,
+   "spread": 0.122,
+   "rank": 2
+  },
+  {
+   "slug": "korea-hs",
+   "judges": {
+    "J1": {
+     "project": 4.125,
+     "wiki": 4.3,
+     "combined": 4.169
+    },
+    "J2": {
+     "project": 4.125,
+     "wiki": 4.3,
+     "combined": 4.169
+    },
+    "J3": {
+     "project": 4.125,
+     "wiki": 4.3,
+     "combined": 4.169
+    }
+   },
+   "project_mean": 4.125,
+   "wiki_mean": 4.3,
+   "combined": 4.169,
+   "spread": 0,
+   "rank": 3
+  },
+  {
+   "slug": "labi-taiwan",
+   "judges": {
+    "J1": {
+     "project": 4.313,
+     "wiki": 4.3,
+     "combined": 4.309
+    },
+    "J2": {
+     "project": 3.813,
+     "wiki": 3.8,
+     "combined": 3.809
+    },
+    "J3": {
+     "project": 4.25,
+     "wiki": 4.4,
+     "combined": 4.287
+    }
+   },
+   "project_mean": 4.125,
+   "wiki_mean": 4.167,
+   "combined": 4.135,
+   "spread": 0.5,
+   "rank": 4
+  },
+  {
+   "slug": "sms-shenzhen",
+   "judges": {
+    "J1": {
+     "project": 4.125,
+     "wiki": 4.1,
+     "combined": 4.119
+    },
+    "J2": {
+     "project": 4.063,
+     "wiki": 4.3,
+     "combined": 4.122
+    },
+    "J3": {
+     "project": 4.188,
+     "wiki": 3.9,
+     "combined": 4.116
+    }
+   },
+   "project_mean": 4.125,
+   "wiki_mean": 4.1,
+   "combined": 4.119,
+   "spread": 0.006,
+   "rank": 5
+  },
+  {
+   "slug": "basis-china",
+   "judges": {
+    "J1": {
+     "project": 4.125,
+     "wiki": 4.4,
+     "combined": 4.194
+    },
+    "J2": {
+     "project": 3.875,
+     "wiki": 3.9,
+     "combined": 3.881
+    },
+    "J3": {
+     "project": 3.938,
+     "wiki": 4.1,
+     "combined": 3.978
+    }
+   },
+   "project_mean": 3.979,
+   "wiki_mean": 4.133,
+   "combined": 4.018,
+   "spread": 0.313,
+   "rank": 6
+  },
+  {
+   "slug": "psi-korea",
+   "judges": {
+    "J1": {
+     "project": 4.063,
+     "wiki": 4.1,
+     "combined": 4.072
+    },
+    "J2": {
+     "project": 3.813,
+     "wiki": 3.9,
+     "combined": 3.834
+    },
+    "J3": {
+     "project": 4.125,
+     "wiki": 4.1,
+     "combined": 4.119
+    }
+   },
+   "project_mean": 4,
+   "wiki_mean": 4.033,
+   "combined": 4.008,
+   "spread": 0.285,
+   "rank": 7
+  },
+  {
+   "slug": "plklfc",
+   "judges": {
+    "J1": {
+     "project": 4.25,
+     "wiki": 3.8,
+     "combined": 4.138
+    },
+    "J2": {
+     "project": 4,
+     "wiki": 3.8,
+     "combined": 3.95
+    },
+    "J3": {
+     "project": 4,
+     "wiki": 3.7,
+     "combined": 3.925
+    }
+   },
+   "project_mean": 4.083,
+   "wiki_mean": 3.767,
+   "combined": 4.004,
+   "spread": 0.213,
+   "rank": 8
+  },
+  {
+   "slug": "hangzhoufourteenap",
+   "judges": {
+    "J1": {
+     "project": 4.063,
+     "wiki": 4.1,
+     "combined": 4.072
+    },
+    "J2": {
+     "project": 3.875,
+     "wiki": 3.7,
+     "combined": 3.831
+    },
+    "J3": {
+     "project": 4,
+     "wiki": 4.2,
+     "combined": 4.05
+    }
+   },
+   "project_mean": 3.979,
+   "wiki_mean": 4,
+   "combined": 3.984,
+   "spread": 0.241,
+   "rank": 9
+  },
+  {
+   "slug": "squirrel-beijing",
+   "judges": {
+    "J1": {
+     "project": 4,
+     "wiki": 4.1,
+     "combined": 4.025
+    },
+    "J2": {
+     "project": 3.813,
+     "wiki": 4,
+     "combined": 3.859
+    },
+    "J3": {
+     "project": 4.063,
+     "wiki": 4,
+     "combined": 4.047
+    }
+   },
+   "project_mean": 3.959,
+   "wiki_mean": 4.033,
+   "combined": 3.977,
+   "spread": 0.188,
+   "rank": 10
+  },
+  {
+   "slug": "gcgs",
+   "judges": {
+    "J1": {
+     "project": 4,
+     "wiki": 4.1,
+     "combined": 4.025
+    },
+    "J2": {
+     "project": 3.813,
+     "wiki": 3.8,
+     "combined": 3.809
+    },
+    "J3": {
+     "project": 4.125,
+     "wiki": 4,
+     "combined": 4.094
+    }
+   },
+   "project_mean": 3.979,
+   "wiki_mean": 3.967,
+   "combined": 3.976,
+   "spread": 0.285,
+   "rank": 11
+  },
+  {
+   "slug": "greatbay-scie",
+   "judges": {
+    "J1": {
+     "project": 4,
+     "wiki": 3.9,
+     "combined": 3.975
+    },
+    "J2": {
+     "project": 3.938,
+     "wiki": 3.9,
+     "combined": 3.928
+    },
+    "J3": {
+     "project": 4.063,
+     "wiki": 3.8,
+     "combined": 3.997
+    }
+   },
+   "project_mean": 4,
+   "wiki_mean": 3.867,
+   "combined": 3.967,
+   "spread": 0.069,
+   "rank": 12
+  },
+  {
+   "slug": "hongwen-school",
+   "judges": {
+    "J1": {
+     "project": 3.938,
+     "wiki": 4.2,
+     "combined": 4.003
+    },
+    "J2": {
+     "project": 3.75,
+     "wiki": 3.9,
+     "combined": 3.788
+    },
+    "J3": {
+     "project": 4.063,
+     "wiki": 4.2,
+     "combined": 4.097
+    }
+   },
+   "project_mean": 3.917,
+   "wiki_mean": 4.1,
+   "combined": 3.963,
+   "spread": 0.309,
+   "rank": 13
+  },
+  {
+   "slug": "hk-joint-school",
+   "judges": {
+    "J1": {
+     "project": 4.063,
+     "wiki": 3.8,
+     "combined": 3.997
+    },
+    "J2": {
+     "project": 3.875,
+     "wiki": 3.9,
+     "combined": 3.881
+    },
+    "J3": {
+     "project": 4.063,
+     "wiki": 3.5,
+     "combined": 3.922
+    }
+   },
+   "project_mean": 4,
+   "wiki_mean": 3.733,
+   "combined": 3.933,
+   "spread": 0.116,
+   "rank": 14
+  },
+  {
+   "slug": "mammothedu-united",
+   "judges": {
+    "J1": {
+     "project": 4,
+     "wiki": 4.2,
+     "combined": 4.05
+    },
+    "J2": {
+     "project": 3.563,
+     "wiki": 4.2,
+     "combined": 3.722
+    },
+    "J3": {
+     "project": 3.875,
+     "wiki": 4.3,
+     "combined": 3.981
+    }
+   },
+   "project_mean": 3.813,
+   "wiki_mean": 4.233,
+   "combined": 3.918,
+   "spread": 0.328,
+   "rank": 15
+  },
+  {
+   "slug": "mingdao",
+   "judges": {
+    "J1": {
+     "project": 3.875,
+     "wiki": 3.9,
+     "combined": 3.881
+    },
+    "J2": {
+     "project": 3.75,
+     "wiki": 3.9,
+     "combined": 3.788
+    },
+    "J3": {
+     "project": 3.938,
+     "wiki": 4.1,
+     "combined": 3.978
+    }
+   },
+   "project_mean": 3.854,
+   "wiki_mean": 3.967,
+   "combined": 3.882,
+   "spread": 0.19,
+   "rank": 16
+  },
+  {
+   "slug": "lambert-ga",
+   "judges": {
+    "J1": {
+     "project": 3.563,
+     "wiki": 4,
+     "combined": 3.672
+    },
+    "J2": {
+     "project": 4,
+     "wiki": 4.3,
+     "combined": 4.075
+    },
+    "J3": {
+     "project": 3.813,
+     "wiki": 4.1,
+     "combined": 3.884
+    }
+   },
+   "project_mean": 3.792,
+   "wiki_mean": 4.133,
+   "combined": 3.877,
+   "spread": 0.403,
+   "rank": 17
+  },
+  {
+   "slug": "hk-league",
+   "judges": {
+    "J1": {
+     "project": 3.938,
+     "wiki": 4.1,
+     "combined": 3.978
+    },
+    "J2": {
+     "project": 3.688,
+     "wiki": 4,
+     "combined": 3.766
+    },
+    "J3": {
+     "project": 3.75,
+     "wiki": 4.2,
+     "combined": 3.862
+    }
+   },
+   "project_mean": 3.792,
+   "wiki_mean": 4.1,
+   "combined": 3.869,
+   "spread": 0.212,
+   "rank": 18
+  },
+  {
+   "slug": "squirrel-guangzhou",
+   "judges": {
+    "J1": {
+     "project": 3.813,
+     "wiki": 4,
+     "combined": 3.859
+    },
+    "J2": {
+     "project": 3.625,
+     "wiki": 4,
+     "combined": 3.719
+    },
+    "J3": {
+     "project": 3.938,
+     "wiki": 3.9,
+     "combined": 3.928
+    }
+   },
+   "project_mean": 3.792,
+   "wiki_mean": 3.967,
+   "combined": 3.835,
+   "spread": 0.209,
+   "rank": 19
+  },
+  {
+   "slug": "bist-china",
+   "judges": {
+    "J1": {
+     "project": 3.75,
+     "wiki": 4,
+     "combined": 3.813
+    },
+    "J2": {
+     "project": 3.688,
+     "wiki": 4,
+     "combined": 3.766
+    },
+    "J3": {
+     "project": 3.75,
+     "wiki": 3.9,
+     "combined": 3.788
+    }
+   },
+   "project_mean": 3.729,
+   "wiki_mean": 3.967,
+   "combined": 3.789,
+   "spread": 0.047,
+   "rank": 20
+  },
+  {
+   "slug": "cataverse-greatbay",
+   "judges": {
+    "J1": {
+     "project": 3.813,
+     "wiki": 4,
+     "combined": 3.859
+    },
+    "J2": {
+     "project": 3.688,
+     "wiki": 3.8,
+     "combined": 3.716
+    },
+    "J3": {
+     "project": 3.813,
+     "wiki": 3.5,
+     "combined": 3.734
+    }
+   },
+   "project_mean": 3.771,
+   "wiki_mean": 3.767,
+   "combined": 3.77,
+   "spread": 0.143,
+   "rank": 21
+  },
+  {
+   "slug": "keystone",
+   "judges": {
+    "J1": {
+     "project": 3.875,
+     "wiki": 4,
+     "combined": 3.906
+    },
+    "J2": {
+     "project": 3.5,
+     "wiki": 3.5,
+     "combined": 3.5
+    },
+    "J3": {
+     "project": 3.875,
+     "wiki": 3.9,
+     "combined": 3.881
+    }
+   },
+   "project_mean": 3.75,
+   "wiki_mean": 3.8,
+   "combined": 3.762,
+   "spread": 0.406,
+   "rank": 22
+  },
+  {
+   "slug": "zqt-nanjing",
+   "judges": {
+    "J1": {
+     "project": 3.75,
+     "wiki": 3.6,
+     "combined": 3.712
+    },
+    "J2": {
+     "project": 3.75,
+     "wiki": 3.8,
+     "combined": 3.763
+    },
+    "J3": {
+     "project": 3.75,
+     "wiki": 3.8,
+     "combined": 3.763
+    }
+   },
+   "project_mean": 3.75,
+   "wiki_mean": 3.733,
+   "combined": 3.746,
+   "spread": 0.051,
+   "rank": 23
+  },
+  {
+   "slug": "shsid",
+   "judges": {
+    "J1": {
+     "project": 3.813,
+     "wiki": 3.4,
+     "combined": 3.709
+    },
+    "J2": {
+     "project": 3.813,
+     "wiki": 3.7,
+     "combined": 3.784
+    },
+    "J3": {
+     "project": 3.688,
+     "wiki": 3.3,
+     "combined": 3.591
+    }
+   },
+   "project_mean": 3.771,
+   "wiki_mean": 3.467,
+   "combined": 3.695,
+   "spread": 0.193,
+   "rank": 24
+  }
+ ],
+ "skeptic": {
+  "challenges": [
+   {
+    "slug": "hongkong-jss",
+    "direction": "overrated",
+    "argument": "OVERRATED CASE (survives, narrowly): the rank-1 team did none of its own construction. experiments.txt:184 states flatly 'No cloning was carried out in this project. Every construct was synthesised and supplied as a sequence-verified plasmid', engineering.txt:155 repeats it, competent cells came from the Amgen programme and the supervisor prepared every mercury solution. The Team page assigns no student to wet lab at all - every role is Human Practice, Product Design, Conceptualization or Wiki Coding - and attributions.txt is an empty iframe shell, so the wiki itself contains no evidence of who ran the assays, the ImageJ analysis or the hardware builds. J2 reports the external form credits a secondary PI with hardware design, software and wiki writing; that cannot be checked from the wiki, which is the judgeable source (p.29). a6 scores of 4.0/3.5/3.5 are therefore generous: this is 'key steps outsourced', and the outsourced steps include all of construction plus, possibly, the engineering that makes the project look impressive. Entrepreneurship prose ('highly accurate', 'exact mercury number') also contradicts the lab pages, and the stated aim of an equipment-free visual readout is not met (colour needs a centrifuge above ~0.5 uM).\n\nUNDERRATED CASE (fails to overturn): the project nonetheless has the single best-supported central claim in the field. Five matched independent runs, 51/51 treatments above matched controls in both pellet readouts, paired t-tests at the lowest tested concentration, selectivity against three metals in all eight matched comparisons, a calibration model fitted on four runs and tested on two withheld ones with RMSE in uM, and an independently built instrument reproducing the dose response at R2 = 0.9898. Nobody else in the top six replicated their headline result five times.\n\nVERDICT: the overrated case survives only as a 0.3-0.5 correction to a6, not to a2. Replication is the rarest commodity here and this team has it; outsourcing construction costs one aspect out of eight.",
+    "evidence_checked": "corpus/hongkong-jss/experiments.txt:184; engineering.txt:155; team.txt (role list, no wet-lab assignment); attributions.txt (nav + iframe only, 301 words); results.txt:101-175, 331 (five matched runs, empty-vector/wild-type comparison only qualitative and in separate preliminary experiments)",
+    "suggested_delta": -0.05
+   },
+   {
+    "slug": "gems-taiwan",
+    "direction": "overrated",
+    "argument": "OVERRATED CASE (survives): the project's defining mechanism is not demonstrated, and the wiki's own front matter says otherwise. results.txt:15 puts 'Light control - Green light switches ACCD on' in the Key results banner of the Results page; Figures 22 and 24 show ELISA flat at 2.6-3.2 and 12-13 ug/mL under green and red alike, Fig 25 shows DNPH inverting between 13 h and 16 h, and line 412 records red light BEATING green at 3 h in the pre-cultured set. The team's own closing paragraph (results.txt:258) concedes the data 'do not yet show a clean, graded response' and that the red LEDs are at 640 nm rather than the ~672 nm CcaSR needs. An abstract-level claim contradicted by the figures beneath it is exactly what w2 and a2 are meant to catch, and three judges gave w2 4.5 across the board. Add: attributions.txt is 141 words of navigation with no content, so with six instructors, four returning student advisors, a weekly NTU postdoc and three DNA vendors in play there is no attribution statement anywhere; several load-bearing numbers are n = 1 (secreted activity 7.25 mU/mL, both containment platings); the system is never joined end to end; and two of the team's own pages disagree on payback by 14x (68 years vs 4.9).\n\nUNDERRATED CASE (real, and partly survives): the pre-registered growth-rate prediction (written 1 October, scored against run 6 thirteen days later, secondary endpoints declared unscorable in advance) is better practice than most collegiate teams manage, and the membrane result is complete on its own terms - anti-His blot across lysate/lumen/shell, active enzyme at 6-8 U/mg in the cell-free permeate for 72 h, no shell-side colonies. Plant rescue is replicated at n = 9-40 with mock and plasmid-free controls and includes an inconvenient negative. The hardware DBTL record is the strongest on the ballot.\n\nVERDICT: both survive in part, but they do not cancel. The pre-registration is a growth-rate prediction, i.e. a prediction about a logistic fit, not about the project's function; the function itself is the thing that failed. A project whose headline mechanism is unshown should not out-rank one whose headline mechanism is replicated five times.",
+    "evidence_checked": "corpus/gems-taiwan/results.txt:5-50 (Key results banner, endpoint state table), :206-258 (LPA, Western, ELISA Figs 22/24, DNPH Figs 23/25, 640 nm caveat), :382-412 (inversion, red > green at 3 h), :47,77-79 (pre-registration); attributions.txt (141 words, navigation only)",
+    "suggested_delta": -0.08
+   },
+   {
+    "slug": "korea-hs",
+    "direction": "fair",
+    "argument": "OVERRATED CASE: the headline application claim is a null. results.txt:335 records that after Holm correction 'none of these comparisons reached significance', with the best figure, W9 against untreated oak, at adjusted p = 0.194 on n = 3; the char difference is Welch p = 0.038 but permutation p = 0.10; and the marketed comparator also fails to separate from bare wood in the same rig, which indicts the apparatus. The enzyme was never assayed - results.txt:446 concedes the Western 'shows that the tagged protein is present, which is not the same as showing that it is folded and catalytically active' - and the coating used crude lysate of unmeasured melanin content with the decisive empty-vector-extract control never run (results.txt:450). Scope is also the narrowest of the top six: no model, no hardware, no software. Against a1 anchors that reward scale, 4.125 project is at the top of what this supports.\n\nUNDERRATED CASE (stronger than it looks): the production half is the cleanest causal chain in the whole field - anti-His blot with both empty-vector and no-copper lanes, pigment index above empty vector at all four substrate levels with n = 3 independent cultures and Holm p = 0.0011-0.0118, and 4.19 +- 0.34 mg recovered against 0.03 +- 0.01 mg for empty vector with a spectral slope within 0.5% of an authentic Sepia standard carried through the entire procedure. The statistics are the only ones on the ballot that report raw and corrected p-values side by side, prefer CIs at n = 3, and run a permutation check against their own favourable result. Two failed Bradford curves and eleven of eighteen extrapolated values are published rather than buried. And unlike hongkong-jss and labi-taiwan, these students did their own bench work from a standing start.\n\nVERDICT: the two cases cancel almost exactly, which is why the zero-spread 4.169 looks right. The null result is reported so well that it is evidence of judgement rather than failure; but a null is still a null, and it caps a3/a2. Leave as scored. Note for the panel: J2 and J3 report that all five Registry entries name the instructor as sole designer with Conceptualization and Investigation roles and no student credited - I could not verify this (Registry unreachable), but if true it contradicts J1's a6 = 4.5 and is worth a Q&A question.",
+    "evidence_checked": "corpus/korea-hs/results.txt:55, 335, 339, 374, 403-407, 446, 450, 456; :142-198 (Welch/Holm/Kruskal-Wallis, Tables 4 and 6); :73 (none had handled a micropipette before); attributions.txt:124 (instructor role bounded); measurement.txt:412 (activity assay listed as not performed)",
+    "suggested_delta": 0
+   },
+   {
+    "slug": "labi-taiwan",
+    "direction": "overrated",
+    "argument": "OVERRATED CASE (survives): three separate dependencies sit under the rank-4 placing. (1) Construction was entirely external - parts.txt:140 states 'The complete plasmids were synthesized and cloned by Twist Bioscience', so like hongkong-jss this team did no cloning. (2) The ML tool that is the project's most distinctive asset was trained on someone else's data: parts.txt:50 says 'The TWJ model was trained using data from our previous wet-lab screening (last year team taipei-kcislk-v3)'. (3) J1 and J3 scored a6 from the external iGEM attribution form stating the PI designed the experimental workflow, wrote the protocols and ran most preliminary experiments before student implementation - but the wiki's own attributions page is empty (69 words, nav only), and p.29 limits judging to the wiki, Registry and GitLab. Two judges credited a disclosure a third could not read, and the disclosure itself is damaging. On top: the sensing chain is never closed (sfGFP never replaced by AciI, electrode never driven by the biology), the integration claim rests on one low-signal run at 1 nM that the team itself calls 'an initial proof of concept' (results.txt:308-309), nothing was tested in any matrix, and the Hardware page is aspirational - 'we aim to develop the BlueCatcher application' (hardware.txt:70) - with no measured data.\n\nUNDERRATED CASE: the Human Practices work is genuinely the best on the ballot (J3 gave it a 5 and I would not argue), with four AREA phases each closing on a reversal traceable to a named person, and the dry lab is real - GEO reprocessing, an ML model tested prospectively on designs absent from training, and an SWV calibration rebuilt after a failed first series.\n\nVERDICT: the overrated case survives. Strip the predecessor team's dataset, the vendor's cloning and the PI's protocol design, and what remains is excellent screening and excellent HP around a device that was never assembled. The 0.5 spread (J1 4.313 vs J2 3.813) is the table's largest and is explained precisely by whether a judge read the external form; it should be resolved toward J2.",
+    "evidence_checked": "corpus/labi-taiwan/parts.txt:50, 139-140; attributions.txt (69 words, nav + sponsor list only); team.txt (role tags only); hardware.txt:70; results.txt:308-312 (single 1 nM coupling experiment, 'relatively low' fluorescence); description.txt:104-105 (predecessor lineage)",
+    "suggested_delta": -0.1
+   },
+   {
+    "slug": "sms-shenzhen",
+    "direction": "fair",
+    "argument": "OVERRATED CASE: the headline functional assay has no non-engineered arm. The Cycle 4 ICP-OES panel compares engineered strains against the starting standard only, with no wild-type K. rhaeticus, no empty-vector biomass and no cellulose-only control, and no replicate count or error bars anywhere - while results.txt:139 and engineering.txt:293 claim the mass balance 'rigorously proves that captured metal ions are specifically immobilized onto the bacterial cellulose matrix'. A mass balance is an accounting identity; it is logically incapable of establishing specificity, and the team's own Contribution page says so ('It does not show that the peptide is the only thing binding it', contribution.txt:188) and Part Collection repeats it (x__part_collection.txt:224). Bare bacterial cellulose sorbs metal ions, so the capture may be the chassis, not the payload. Single-step Li removal of 12.75-19.14% is modest, nothing was tested in anything resembling a tail stream, and there is no model of any kind.\n\nUNDERRATED CASE (partly survives): the specificity objection is overstated by all three judges. The eight-strain panel is a within-scaffold, within-chassis head-to-head of paired peptide variants (e.g. MnBP1 35.50% vs MnBP2 41.10% single-step removal at 10 mg/L), and that comparison does control for native cellulose and cell-surface sorption - it is the peptide that differs. The defect is that these are single unreplicated values, so the difference is uninterpretable, not that the design is uncontrolled. Separately, this team has the best attribution record of the six (30 itemised entries, three AI tools scoped, the sponsor's laboratory declared) against two empty attribution pages and one unreadable iframe above it; a genuinely non-model chassis; a 27-part collection built for reuse and demonstrated by payload swap; and twelve industry interviews that moved the target user twice.\n\nVERDICT: fair where it sits. The a2/w2 penalty for the missing control is right, but a6 at 4.0-4.5 is if anything under-credited relative to the teams above it, and that offsets. The pages that contradict each other on 'rigorously proves' should be a Q&A question about which page the team stands behind.",
+    "evidence_checked": "corpus/sms-shenzhen/results.txt:117-139; engineering.txt:280-293; contribution.txt:187-188; x__part_collection.txt:224, 336-347, 505-506; attributions.txt (4 words in crawl - JS-rendered, so J2/J3's reading of the 30-entry form came from a live render)",
+    "suggested_delta": 0
+   },
+   {
+    "slug": "basis-china",
+    "direction": "overrated",
+    "argument": "OVERRATED CASE (survives clearly): this wiki is not finished, and the wiki mean of 4.133 does not reflect that. Uncleaned drafting or template instructions remain in the published Engineering page - 'Each map should identify the candidate coding sequence, promoter, relevant fusion or affinity tags, antibiotic-resistance marker, and plasmid size' (engineering.txt:127) and 'The final reporting unit must reflect the normalization actually used' (:225). These are instructions to the author, left in the text a judge is asked to read. The Safety page then makes three claims its own Results page refutes: that 'Our full set of candidate enzymes (p-Ker, Protease 1, Protease 2, MGY1820, and MGY4907) can be actively expressed and degrade keratin fibers' (:194) when P2 could not even be purified and keratin data exist for P1 only; that 'Our bile-acid suicide circuit functions reliably' (:198); and that the keratinases 'are completely safe' to gut mucosa (:244), argued from mucus composition with no experiment, for a product intended to be swallowed by a live animal. No replicate number or error-bar definition appears anywhere on the Results page although significance asterisks are used throughout - the only n = 3 on the whole site is in the model (model.txt:125). Construction was fully commercial and the SEM was run by Shenzhen University staff; the attributions page is an embedded form. The four modules were never run together, and hair degradation is an A280 proxy plus micrographs, never mass lost.\n\nUNDERRATED CASE (weak): the DBTL record is real - a flat first hair test led to quantitative assays, and a failed SDS-PAGE led to GST fusions at 0.1 mM IPTG/28 C - the kill switch is characterised across four promoter strengths and six TCA concentrations against published environmental bile-acid levels, and the model reports its own failure (ODE RMSE 25.41 vs 2.12 empirical). The 'Result Claim / Observation / Limitations' blocks are good practice.\n\nVERDICT: overrated. J1's wiki 4.4 is indefensible against template remnants and a Safety page that contradicts the Results page; J2 and J3 at 3.9/4.1 are closer. The project mean of 3.979 is about right; the wiki mean should come down.",
+    "evidence_checked": "corpus/basis-china/engineering.txt:127, 225; safety-and-security.txt:194, 198, 244; results.txt (no replicate statement found); model.txt:125 (only n = 3 on the site); attributions.txt (182 words, embedded form only)",
+    "suggested_delta": -0.1
+   },
+   {
+    "slug": "plklfc",
+    "direction": "fair",
+    "argument": "CHECKED AS THE STRONGEST 'UNDERRATED LOWER TEAM' CANDIDATE and rejected. plklfc has the highest project mean outside the top five (4.083, above basis-china's 3.979 at rank 6) and is held down almost entirely by a wiki mean of 3.767, so under the handbook's statement that Project 'is the main determinant for choosing finalists' (p.31) it has a prima facie case for promotion. The content is also broad: a yCD-M100H variant showing a 29.71% activity increase over wild-type with a native-host negative control, three hypoxia-inducible promoter composites against a 0.22 baseline, two kill-switch architectures benchmarked against BBa_K2120006, and nanobody adhesion modules screened on CT26 murine carcinoma cells.\n\nIt fails on two grounds. First, there is no attributions page at all - not empty, absent from the crawl entirely - while the work includes mammalian cancer cell culture, fluorescence microscopy and nanobody display whose laboratory provenance is stated nowhere. Under p.25-26 that is the lowest a6 position of any team considered here, and it cannot be scored upward on faith. Second, the experimental record gives no replicate counts, no error bars and no statistics; the adhesion result is explicitly 'a preliminary assessment' read off images, and the ClyA section concedes 'unexpected payload and control anomalies'. Scope is being mistaken for evidence.\n\nI also checked greatbay-scie (lowest spread in the table, 0.069, project 4.0): its Results page does not exist (results.txt is void, content scattered across engineering sub-pages), which is a straightforward w3/w2 problem and explains rank 12.\n\nVERDICT: no team below rank 6 belongs in the top 6. The ordering of the tail is not the weak point of this result.",
+    "evidence_checked": "corpus/plklfc/ (no attributions.txt present; design, education, entrepreneurship, implementation, inclusivity, measurement, proof-of-concept, protocols, sustainability all void); results.txt:53-59, 79, 219, 227-243, 279-289; corpus/greatbay-scie/ (results.txt.void)",
+    "suggested_delta": 0
+   }
+  ],
+  "verdict_on_top2": "The #1 placing survives; the #2 placing does not, and the panel should not treat it as settled.\\n\\nFirst place (hongkong-jss, 4.239) holds. Its margin over gems-taiwan is 0.070, which is smaller than its own inter-judge spread (0.072) and would normally be noise - but the two teams fail in asymmetric ways and the asymmetry favours hongkong-jss. Both have an attribution hole (hongkong-jss's page is an unreadable iframe with no student assigned to wet lab; gems-taiwan's is 141 words of navigation). Both outsourced heavily. The difference is at aspect 2. hongkong-jss's central claim is characterised in five matched independent runs with 51/51 treatments above matched controls, selectivity against three metals in all eight matched comparisons, a calibration model validated on two withheld runs, and an independently built instrument reproducing the dose response - the only properly replicated headline result among the finalists. gems-taiwan's central claim, light control of protectant production, is contradicted by its own figures while its Results banner asserts it plainly (results.txt:15 against Figs 22-25). A project that proves a smaller thing is worth more than a project that asserts a larger thing, and the handbook's evidence rule is explicit that a claim without supporting data does not count as having worked. I would apply roughly -0.05 to hongkong-jss (a6, for doing no cloning) and -0.08 to gems-taiwan (a2 and w2, for the unsupported headline), which widens rather than closes the gap.\\n\\nSecond place is unstable in three ways and should go to the Presentation and Q&A to break. (1) gems-taiwan and korea-hs are tied to three decimal places at 4.169, from completely different score profiles - gems on scale with an unproven mechanism, korea-hs on a narrow but rigorously evidenced production chain with a null application result. The tie is real, not a rounding artefact. (2) korea-hs's three judges returned identical ballots (spread 0.000), which is either unusual agreement or insufficient independence; gems-taiwan's spread is 0.122 and labi-taiwan's is 0.500, the table's largest. (3) My corrections move labi-taiwan down (-0.10, to about 4.04) and leave korea-hs where it is, so the second slot comes down to gems-taiwan versus korea-hs on judgement rather than arithmetic.\\n\\nOn that judgement I would put korea-hs second. gems-taiwan's advantages - twelve DBTL cycles, four instruments, a pre-registered prediction - are advantages in aspects 1 and 4, and its pre-registration scores a logistic growth fit rather than any project function. Its aspect 2, aspect 6 and w2 all rest on material that does not hold: a headline mechanism its own data contradict, containment on two unreplicated platings, several load-bearing n = 1 values, and no attribution statement at all. korea-hs proves less but proves it, reports its failures with raw and corrected p-values side by side, and is the only one of the three where the students demonstrably did their own bench work. If the panel disagrees and seats gems-taiwan second on scale, it should at minimum put the empty attribution page and the 'Green light switches ACCD on' banner to the team directly in Q&A.\\n\\nNo team below rank 6 belongs in the finalist conversation: plklfc, the best candidate on project mean, has no attributions page at all alongside mammalian cancer-cell work of unstated provenance, and greatbay-scie has no Results page."
+ },
+ "chair": {
+  "lede_en": "The two predicted finalists are HongKong-JSS (4.239) and GEMS-Taiwan (4.169). Only one team scores above GEMS-Taiwan, so it is in the top two — but it is tied to three decimal places with Korea-HS (4.169), and the adversarial reviewer would seat Korea-HS second instead. Treat the second slot as genuinely unsettled rather than won.",
+  "lede_zh": "預測進入決賽的兩隊是 HongKong-JSS（4.239）與 GEMS-Taiwan（4.169）。只有一隊分數高於 GEMS-Taiwan，所以它確實在前二名——但它與 Korea-HS（4.169）小數點後三位完全同分，而反方審查者主張第二名應由 Korea-HS 取得。第二個名額請視為尚未定案，而非已經到手。",
+  "verdict_en": "HongKong-JSS leads because its central claim is the only one in the field that was replicated. The mercury biosensor was characterised in five independent matched runs, every assessed treatment beat its matched control in both readouts, selectivity against lead, zinc and cadmium was quantified, a calibration model was fitted on four runs and tested on two withheld ones, and a self-built instrument reproduced the dose response independently. All three judges scored it within 0.072 of each other. That is a narrow project — one analyte, one readout — but what it claims, it shows.\n\nThe margin is 0.070, smaller than HongKong-JSS's own judge spread. On arithmetic alone this is a coin flip. It stops being a coin flip because the two teams fail asymmetrically. HongKong-JSS did no cloning at all: every construct was ordered as a sequence-verified plasmid, competent cells came from an outside programme, and the wiki assigns no student to wet lab. That costs one aspect out of eight. GEMS-Taiwan's failure is at the centre of the project rather than at its edge.\n\nWhere GEMS-Taiwan gains: scale and engineering depth beat every team here. Twelve-plus documented DBTL cycles where failures visibly changed the next build, four built instruments, plant rescue in three systems with mock and plasmid-free controls at n = 9–40, secreted ACC deaminase shown by three orthogonal assays and active in cell-free shell permeate at 6–8 U/mg through 72 h, and a pre-registered growth-rate prediction written down on 1 October and scored thirteen days later. The provenance ledger, the retained failures, the published disagreement between two of your own pages on payback — all three judges credited that honesty. Human Practices with dated design changes is at or above the leaders.\n\nWhere GEMS-Taiwan loses, aspect by aspect: on evidence for the headline claim (a2), the optogenetic switch is not demonstrated — ELISA is flat under green and red alike, DNPH inverts between 13 h and 16 h, red exceeded green at 8 h in the pre-cultured set — while the Results banner still says green light switches ACCD on. HongKong-JSS and Korea-HS both have headline claims their figures support; this is the single biggest gap. On attribution (a6), the Attribution page is empty on the live site, with six instructors, four student advisors and a weekly postdoc mentor undeclared; Korea-HS HAS per-member task attribution and an explicit AI-use statement, and scored a full point higher there with one judge. On replication, several load-bearing numbers are n = 1, including the secreted-activity figure that feeds the dose model and both containment platings. On integration, no forecast HAS driven a light and no light-driven culture HAS reached the reactor. On wiki craft (w3), four standard URLs 404 and the site is very long.\n\nThe skeptic changed the shape of the result without changing first place. It confirmed HongKong-JSS at the top (suggesting only a small attribution deduction) and argued GEMS-Taiwan down by roughly 0.08 for the unsupported headline. It moved Labi-Taiwan down hardest — construction outsourced to a vendor, the ML model trained on the predecessor team's data, the PI's declared role in protocol design — which explains that team's 0.5 spread, the table's largest. It failed to promote anyone from below rank 6: PLKLFC HAS the best project mean outside the top five but no attributions page at all beside mammalian cancer-cell work of unstated provenance. It did not dislodge Korea-HS, whose null coating result is reported so carefully that the judges read it as evidence of judgement.\n\nThe honest limits. The presentation video and the judging-session Q&A are not assessed here, and several of the open questions against your wiki — who did what, which page you stand behind on the light switch — are exactly the kind that Q&A resolves in a team's favour. The handbook does not publish aspect weights, so the combined figures are this panel's weighting, not iGEM's. Every score rests on reading public wikis; the Registry was unreachable for all three judges, so part documentation is scored from wiki tables throughout. This is a prediction, not a result.",
+  "verdict_zh": "HongKong-JSS 居首，是因為它的核心主張是全場唯一被重複驗證的。汞生物感測器做了五次獨立配對實驗，每一個受測條件在兩種讀數上都勝過其配對對照，對鉛、鋅、鎘的選擇性有量化數據，校正模型用四次實驗擬合、兩次保留實驗測試，自建儀器又獨立重現了劑量反應。三位評審給分差距只有 0.072。這是個範圍很窄的專案——一種分析物、一種讀數——但它宣稱什麼，就拿得出什麼。\n\n差距是 0.070，比 HongKong-JSS 自己的評審離散度還小。單看數字這是擲銅板。之所以不是，是因為兩隊的弱點性質不同。HongKong-JSS 完全沒有自己做選殖：所有構築都是訂購的定序驗證質體，勝任細胞來自外部計畫，wiki 上沒有任何學生被標示負責濕實驗。這只損失八個面向中的一個。GEMS-Taiwan 的弱點則落在專案的正中心。\n\nGEMS-Taiwan 的得分處：規模與工程深度勝過在場所有隊伍。十二個以上有記錄的 DBTL 循環，而且失敗確實改變了下一次設計；四台自建儀器；三種系統的植物救援實驗，含空白與無質體對照，n = 9–40；分泌型 ACC deaminase 以三種互相獨立的方法證實，並在無細胞殼側濾液中維持 6–8 U/mg 達 72 小時；還有 10 月 1 日寫下、十三天後驗分的預先登記生長速率預測。來源帳本、保留下來的失敗紀錄、自己頁面之間回收年限互相矛盾仍照實刊出——三位評審都給了這份誠實加分。人文實踐有具名、有日期的設計變更，與領先者同級或更好。\n\n逐面向來看失分處：在核心主張的證據（a2）上，光控開關沒有被證實——ELISA 在綠光與紅光下一樣平坦，DNPH 在 13 小時與 16 小時之間翻轉，預培養組 8 小時時紅光還高於綠光——而 Results 的標題欄仍寫著綠光開啟 ACCD。HongKong-JSS 與 Korea-HS 的頭條主張都有圖支撐，這是最大的一道落差。在貢獻歸屬（a6）上，Attribution 頁在線上是空的，六位指導老師、四位學長姐顧問與每週的博士後導師都未申報；Korea-HS 有逐人任務分工與明確的 AI 使用聲明，在某位評審處高出整整一分。在重複性上，多個關鍵數字是 n = 1，包括餵進劑量模型的分泌活性值與兩次圍阻平板。在整合上，沒有任何預報真的驅動過燈，也沒有任何光驅動的培養進過反應器。在 wiki 品質（w3）上，四個標準網址 404，而且篇幅過長。\n\n反方審查改變了結果的形狀，但沒有改變第一名。它確認 HongKong-JSS 居首（僅建議小幅扣歸屬分），並主張 GEMS-Taiwan 因頭條主張缺乏支撐應下調約 0.08。它對 Labi-Taiwan 下手最重——構築外包廠商、機器學習模型用前一屆隊伍的資料訓練、PI 自述設計了實驗流程——這正解釋了該隊 0.5 的全表最大離散度。它沒能把第六名以下的任何隊伍推上來：PLKLFC 的專案均分是前五名外最高的，但完全沒有 attributions 頁，同時又有來源未明的哺乳動物癌細胞工作。它也沒能撼動 Korea-HS，該隊的塗層無顯著結果寫得極為嚴謹，評審反而把它讀成判斷力的證據。\n\n誠實的限制。簡報影片與評審問答不在此次評估範圍內，而對貴隊 wiki 的幾項疑問——誰做了什麼、光控開關以哪一頁為準——恰恰是問答場合最可能對隊伍有利的那一類。手冊未公布各面向權重，所以綜合分數是本評審團的加權，不是 iGEM 的。所有評分都來自閱讀公開 wiki；三位評審都無法連上 Registry，因此零件文件一律以 wiki 表格計分。這是預測，不是結果。",
+  "teams": [
+   {
+    "slug": "hongkong-jss",
+    "one_line_en": "The field's only replicated headline result: a mercury biosensor characterised over five matched runs with paired statistics, a held-out calibration model and two iterated hardware platforms, with all construct building outsourced.",
+    "one_line_zh": "全場唯一被重複驗證的核心結果：汞生物感測器經五次配對實驗、配對統計、保留集校正模型與兩代自建硬體驗證，但所有構築建造都外包。",
+    "strengths": [
+     "Five independent matched runs with uninduced, empty-vector and untransformed controls; every assessed treatment beat its matched control in both readouts, with paired t-tests at the lowest tested concentration",
+     "Selectivity against lead, zinc and cadmium quantified in matched comparisons, with the largest non-target response stated as a percentage of the mercury response",
+     "Calibration model fitted on four runs and tested on two fully withheld ones, reporting error in concentration units including the predictions that failed",
+     "Nine DBTL cycles recording real conceptual errors and the redesigns they forced, plus an independent detection unit reproducing the dose response"
+    ],
+    "weaknesses": [
+     "No cloning was done by the team: every construct was ordered as a sequence-verified plasmid, and competent cells came from an outside programme",
+     "Attribution is role labels plus an embedded form; no student is assigned to wet lab and no figure names an experimenter",
+     "The stated goal of an equipment-free visual warning is not met — colour needs a centrifuge below about 0.5 uM",
+     "No real contaminated sample was measured end to end; soil mercury was added by the team and never measured, and entrepreneurship prose overstates what the lab pages claim"
+    ],
+    "red_flags": [
+     "Attributions page is only an iframe and did not render as text, so task-level ownership cannot be read from the wiki; one judge reports the external form credits a secondary PI with hardware, software and wiki writing",
+     "Registry part pages returned 403 to all three judges, so part characterisation is unverified",
+     "Internal inconsistency on sensitivity: a 6 ppb detection limit on one page against a refusal to call ~1 ppb a detection limit on another"
+    ]
+   },
+   {
+    "slug": "gems-taiwan",
+    "one_line_en": "The most complete engineered system in the field — real secretion, plant-rescue and reactor data, four instruments, twelve DBTL cycles and a pre-registered prediction — undercut by a light switch that is not shown to switch and a blank Attribution page.",
+    "one_line_zh": "全場最完整的工程系統——真實的分泌、植物救援與反應器數據，四台儀器，十二個 DBTL 循環，還有預先登記的預測——但光控開關未能證實會切換，Attribution 頁完全空白。",
+    "strengths": [
+     "Secreted ACC deaminase shown by three orthogonal assays with a plasmid-free control, and active in the cell-free shell permeate at 6-8 U/mg from 18 h to 72 h",
+     "Plant rescue in agar, hydroponics and soil under salt and heat, n = 9-40, with mock and WB800-only controls and an inconvenient negative finding retained",
+     "A pre-registered growth-rate prediction with a stated interval and pass criterion, scored against a later reactor run, with secondary endpoints declared unscorable in advance",
+     "Hardware and cloning iterations driven by test results, plus a provenance ledger, 24 protocol PDFs and a 684-entry notebook with failures retained"
+    ],
+    "weaknesses": [
+     "The optogenetic switch, the central mechanism, is not demonstrated: ELISA flat under green and red, DNPH inverting between 13 h and 16 h, red exceeding green at 8 h in one set",
+     "The Attribution page is empty on the live site, leaving six instructors, four student advisors and a postdoc mentor undeclared",
+     "Several load-bearing numbers are n = 1, including the secreted-activity figure behind the dose model and both containment platings, with no log reduction",
+     "The system is never joined end to end — no forecast HAS driven a light, no light-driven culture HAS reached the reactor, and both field sensors have only run on a bench"
+    ],
+    "red_flags": [
+     "Results banner states that green light switches ACCD on while the figures beneath it do not support that, and the team's own Engineering caveat is the more accurate statement",
+     "Attribution page published but blank, verified live by all three judges",
+     "Four standard URLs (proof-of-concept, implementation, protocols, design) return 404",
+     "Two of the team's own pages disagree on deployment payback by more than an order of magnitude with no resolution"
+    ]
+   },
+   {
+    "slug": "korea-hs",
+    "one_line_en": "A narrow but unusually clean chain from a cloneable tyrosinase to a bacterially made wood coating, with the best statistical honesty on the ballot and a headline coating result that does not survive its own correction.",
+    "one_line_zh": "從可選殖酪胺酸酶到細菌製木材塗層，鏈條雖窄但異常乾淨，統計誠實度全場最佳，但頭條塗層結果通不過自己的校正。",
+    "strengths": [
+     "Anti-His Western with two negative controls plus 4.19 mg recovered pigment against 0.03 mg for empty vector, and a spectral slope matching an authentic melanin standard carried through the whole procedure",
+     "Raw and corrected p-values reported side by side, confidence intervals preferred at n = 3, a permutation check run against the team's own favourable result, and failed calibration curves published",
+     "A real data-driven redesign: a failed single-layer screen drove the two-layer round with higher replication and a commercial benchmark",
+     "Task-level attribution for every student, instructor and external contributor, with an explicit statement that no data figure was AI-generated"
+    ],
+    "weaknesses": [
+     "No coating comparison survives Holm correction; the best result is adjusted p = 0.194 at n = 3 and the commercial benchmark also fails to separate from bare wood",
+     "Tyrosinase activity was never assayed, so the enzymatic claim rests on an indirect pigment index",
+     "Coatings used crude lysate of unmeasured melanin content and the empty-vector extract control was never run",
+     "Narrowest scope of the leaders — no model, hardware or software — and Engineering and Results duplicate tables at length"
+    ],
+    "red_flags": [
+     "Two judges report that all five Registry entries name the supervising professor as sole designer with no student credited, which sits oddly against an otherwise detailed student attribution page",
+     "Standard pages parts, model, proof-of-concept, implementation and protocols return 404",
+     "Safety page states no data about people was collected while Human Practices reports surveys and a session with children, with no consent statement anywhere"
+    ]
+   },
+   {
+    "slug": "labi-taiwan",
+    "one_line_en": "A technically deep modular miRNA biosensor with the best Human Practices on the ballot, carrying the table's largest judge spread because its construction, its training data and much of its protocol design came from outside the student team.",
+    "one_line_zh": "技術深厚的模組化 miRNA 生物感測器，人文實踐全場最佳，但評審離散度全表最大：構築、訓練資料與多數實驗流程設計都來自學生團隊以外。",
+    "strengths": [
+     "Purpose-built sensor-only and trigger-only controls, a no-ligase transformation control, blank plus four non-target miRNAs for specificity, with n = 3 and stated statistics on essentially every figure",
+     "Genuine data-driven redesign twice over: nine failed toehold candidates led to an ML-guided round that worked, and a failed SWV series led to an overhaul giving a log-linear calibration",
+     "Fourteen engagements with a Before-to-After per phase, including abandoning the red/green readout, moving the user from patient to clinician and excluding workplace deployment",
+     "Real dry lab: FASTQ reprocessing, differential expression and network analysis narrowing thousands of miRNAs to five targets, with models tested prospectively"
+    ],
+    "weaknesses": [
+     "The complete sensing chain was never demonstrated — the fluorescent output was never replaced by the nuclease and the electrode was never driven by the biology",
+     "All targets were synthetic DNA analogues in clean buffer; no RNA, no plasma or spiked matrix, which is the risk the team's own interviewee raised",
+     "The PI designed the experimental workflow, wrote the protocols and ran most preliminary experiments, and plasmids were synthesised commercially",
+     "The portable reader and companion app are renderings and mock-ups with no bench measurement, and the wiki is very long with heavy duplication"
+    ],
+    "red_flags": [
+     "Attributions page renders empty, so the disclosure two judges scored from is not readable on the wiki itself; this drives the 0.5 judge spread",
+     "The ML model's training set came from the predecessor team's screening data",
+     "Malformed Registry identifier in the composite parts table does not resolve",
+     "Five standard page URLs return no content"
+    ]
+   },
+   {
+    "slug": "sms-shenzhen",
+    "one_line_en": "A disciplined four-cycle biosorption platform on an unusual cellulose-producing chassis with exemplary attribution and handover, let down by a metal-capture assay with no non-engineered control.",
+    "one_line_zh": "在少見的產纖維素底盤上完成四個嚴謹循環的生物吸附平台，貢獻歸屬與交接文件堪稱典範，但金屬捕捉實驗缺少非工程化對照。",
+    "strengths": [
+     "Four DBTL cycles where each test visibly changed the next build, including an induction-temperature lock and a scaffold chosen by a 2x2 screen",
+     "Expression and secretion shown against empty-vector and sterile-medium controls with mean and SD stated",
+     "A 27-part collection built for reuse with one validated scaffold carrying eight interchangeable payloads, plus checksummed design files, 21 protocols and a 91-page notebook",
+     "Attribution of exemplary completeness: 30 itemised entries, three AI tools scoped, six external contributors including the sponsor who supplied the laboratory"
+    ],
+    "weaknesses": [
+     "The metal-capture panel HAS no wild-type, empty-vector or cellulose-only arm, so capture cannot be attributed to the peptide rather than to native biomass",
+     "No replicate count or error bars for any metal condition, unlike the reporter figures",
+     "Nothing was tested in a real or synthetic wastewater matrix, and single-step lithium removal is modest",
+     "Passphrase gate on the landing page, team members behind a game, and long verbatim duplication between Engineering and Results"
+    ],
+    "red_flags": [
+     "Engineering and Results claim the mass balance rigorously proves specific immobilisation while the team's own Limits page states the opposite; the pages contradict each other",
+     "Internal contradiction about whether an inclusion-body band was observed in Cycle 1",
+     "AI tools declared for drafting substantive prose, not just translation",
+     "Wet lab hosted in a sponsor's laboratory with the instructor guiding raw data collection"
+    ]
+   },
+   {
+    "slug": "basis-china",
+    "one_line_en": "A broad four-module project with real controls, honest negative results and a model fitted to its own data, published on a wiki that still carries drafting instructions and a safety page contradicting its own results.",
+    "one_line_zh": "四個模組、具備真實對照與誠實陰性結果的廣泛專案，模型以自家數據擬合，但 wiki 仍留有草稿指示，安全頁與結果頁自相矛盾。",
+    "strengths": [
+     "Controlled function data across all four modules, including deactivated-enzyme, empty-vector and no-signal-peptide controls",
+     "A real DBTL record where failures drove redesign, from unclear gels to fusion constructs and milder induction",
+     "The bile-acid kill switch characterised across four promoter variants and six concentrations, with a stated threshold compared against published environmental levels",
+     "A model fitted to the team's own measurements that reports its own failure plainly, plus 14 protocols and a very long notebook"
+    ],
+    "weaknesses": [
+     "No replicate number or error-bar definition on the Results page although significance markers are used throughout",
+     "Keratin degradation is assayed with crude rather than purified enzyme and never quantified as mass lost",
+     "The four modules were never operated together, so the system is a design",
+     "Constructs were synthesised and assembled commercially and imaging was done by university staff"
+    ],
+    "red_flags": [
+     "Uncleaned drafting or template instructions left in the published Engineering text",
+     "Safety page claims the full enzyme set expresses and degrades keratin, that the circuit functions reliably, and that the enzymes are completely safe to gut mucosa — all beyond the data",
+     "Part size and accession inconsistencies between pages",
+     "Attributions page is only an embedded form and did not render as readable text"
+    ]
+   },
+   {
+    "slug": "psi-korea",
+    "one_line_en": "A complete two-module project with five real DBTL cycles, a reusable graded part collection and a reader rebuilt by independent builders, held back by an empty attributions page and a one-cell capstone that was never built.",
+    "one_line_zh": "完整的雙模組專案，五個真實 DBTL 循環、可重用的分級零件集，讀取器還被獨立團隊依文件重建，但歸屬頁空白、單細胞共產目標從未建成。",
+    "strengths": [
+     "Controls and replicates throughout, including empty-vector and catalytic-null controls, with FTIR and confocal staining used together to confirm the polymer",
+     "A genuinely reusable parts collection: seven alleles as a graded tuning slot with a stated working window and host requirement",
+     "A purpose-built reader that was measured rather than asserted, with verified LED wavelengths and week-long repeatability, rebuilt from documentation alone by four outside students",
+     "Limits written beside the claims throughout, and a Contribution page recording two ways the team misread its own results"
+    ],
+    "weaknesses": [
+     "The Attributions page is empty, so the division of work between students, two PIs, three instructors and an advisor cannot be checked",
+     "The headline one-cell co-production was never run; tags were made by mixing separately produced material",
+     "Authentication performance is untested: the classifier was evaluated on synthetic data and only one imitation pair was tried",
+     "No mass spectrometry, so the pigment product is a tentatively assigned mixture, and many submitted parts are Registry stubs"
+    ],
+    "red_flags": [
+     "Attributions page renders empty on the live site despite named outside contributors elsewhere on the wiki",
+     "Source-organism inconsistency between the Description and Safety pages",
+     "Provenance of the indigo and indirubin used in the tag series is never stated",
+     "One Registry entry shows a biosafety screening status that iGEM reviewed and published; noted for the record"
+    ]
+   },
+   {
+    "slug": "plklfc",
+    "one_line_en": "The broadest project outside the top five — characterised promoters, kill switches and three printer generations with outstanding Human Practices — held down by no attributions page at all and an unproven targeting module.",
+    "one_line_zh": "前五名以外最廣的專案——已表徵的啟動子、自殺開關與三代列印機，人文實踐出色——但完全沒有歸屬頁，標靶模組也未獲證實。",
+    "strengths": [
+     "Controlled characterisation across several modules, including an enzyme variant against wild-type and native-strain controls and three new hypoxia promoters with ON/OFF ratios",
+     "Negative and failed results reported and used, including a null reporter assay traced to a mechanistic cause and a failed co-culture",
+     "Hardware engineering with quantified measures of success across three printer generations, feeding a measured filament width into the model",
+     "Seventeen Human Practices cycles each naming a stakeholder and a concrete design change, including abandoning a patented nanobody"
+    ],
+    "weaknesses": [
+     "The central targeting claim rests on qualitative microscope impressions in which the key constructs were similar to control",
+     "The therapeutic system was never shown to work end to end, and the prodrug route produced negative cytotoxicity values explained by hypothesis only",
+     "Statistics are asserted without replicate number, error-bar definition or stated test in most figures",
+     "All wet lab was in a laboratory strain while the proposed chassis is a probiotic; several standard pages are empty"
+    ],
+    "red_flags": [
+     "No Attributions page exists anywhere, while the work includes mammalian cancer cell culture and confocal imaging of unstated provenance",
+     "Six Engineering references carry an unresolved audit marker with no audit note; several do not resolve or point to different papers, which two judges verified independently",
+     "Mammalian cancer cell lines and references to BSL-2 protocols need a whitelist determination from the safety committee",
+     "Blanket AI-image disclosure in the footer that does not distinguish schematics from evidentiary figures"
+    ]
+   },
+   {
+    "slug": "hangzhoufourteenap",
+    "one_line_en": "A well-controlled enzyme project where the computational prediction was overturned by the team's own assay and said so, undermined by a missing attributions page and standard URLs that 404.",
+    "one_line_zh": "對照嚴謹的酵素專案，計算預測被自家實驗推翻並據實說明，但缺少歸屬頁且標準網址 404。",
+    "strengths": [
+     "Substrate specificity shown with substrate-swap, buffer and heat-inactivated controls at n = 3",
+     "A measurement page printing every replicate value, running ANOVA before planned tests and labelling small-n results as exploratory",
+     "A closed loop where the predicted top mutant lost to the measured top mutant and the ranking was revised with an explanation",
+     "Human Practices that repeatedly changed the science, including retargeting the intervention window and dropping a chimeric enzyme"
+    ],
+    "weaknesses": [
+     "No attributions page and no named owner for any experiment, with five instructors listed without tasks",
+     "Efficacy rests on a surrogate organism whose matrix is not the polymer the enzymes target, and no mineral-phase measurement was made",
+     "Activity reported from crude lysates with no specific activity or purified-enzyme kinetics",
+     "The formulation cycle HAS no test data, yet a formulation finding is asserted on the Contribution page"
+    ],
+    "red_flags": [
+     "All six Registry parts are credited to a designer name that appears nowhere among the listed students or mentors",
+     "Standard URLs for results, parts, description, team, experiments, protocols and notebook all return 404",
+     "Two surveys reported as headline percentages with no consent, sampling or ethics information",
+     "AI-generated imagery disclosed for illustrative figures"
+    ]
+   },
+   {
+    "slug": "squirrel-beijing",
+    "one_line_en": "A three-module project with model-guided mutant selection, HPLC-verified degradation against an empty-vector control and strong Human Practices, let down by a 404 attributions page and boilerplate standard pages.",
+    "one_line_zh": "三模組專案，模型導向的突變體選擇、以空載體對照驗證的 HPLC 降解數據與紮實的人文實踐，但歸屬頁 404、多個標準頁仍是範本文字。",
+    "strengths": [
+     "A closed computation-to-bench loop: docking plus simulation selected a mutant that then measurably outperformed wild type under identical conditions",
+     "Degradation quantified by HPLC against empty-vector and abiotic controls across five initial concentrations",
+     "Human Practices with named institutions at every stage and a containment module that exists because a field visit raised persistence",
+     "Complete protocols, a dated notebook with per-task student credits, and honest limitation statements"
+    ],
+    "weaknesses": [
+     "No attributions page and no statement of instructor, host-lab or mentor roles",
+     "The cold-inducible lysis claim rests on optical density with no lysis-gene-free control, no colony counts and no escape rate",
+     "No specificity, detection limit or recovery testing, so analytical performance is undefined",
+     "Model, Measurement, Software and Inclusivity pages are unedited template text"
+    ],
+    "red_flags": [
+     "Contribution page asserts an integrated sensing-and-degrading strain was built with no supporting data anywhere",
+     "Standard attributions, proof-of-concept, implementation, protocols and design URLs return 404",
+     "Caption copy-paste error on a key pathway figure, and one team bio describes a different project",
+     "Public questionnaire reported with no consent or ethics statement"
+    ]
+   },
+   {
+    "slug": "gcgs",
+    "one_line_en": "A disciplined AND-gate therapeutic with a genuine failure-driven redesign and characterised logic in the therapeutic chassis, badly let down by having no attributions anywhere.",
+    "one_line_zh": "嚴謹的 AND 閘治療設計，有真實因失敗而改版的過程，並在治療底盤中完成邏輯表徵，但完全沒有任何貢獻歸屬。",
+    "strengths": [
+     "A textbook redesign cycle: degradation tags abolished induction, the cause was diagnosed and a stronger promoter restored dose-stratified response",
+     "AND-gate logic demonstrated across all input combinations with growth controls and normalised fluorescence",
+     "Analytical characterisation beyond a yes/no result, with a detection limit, a dose fit and a cross-reactivity panel",
+     "Effector module taken from clone to purified protein to quantified activity against a negative control, with optima matched to the application"
+    ],
+    "weaknesses": [
+     "The therapeutic claim rests on purified substrate only; no biofilm and no target organism were ever tested",
+     "No attributions page and no task-level statement of who performed which experiment",
+     "Replicate number stated for one cycle only, with significance reported elsewhere without n",
+     "Notebook is embedded PDFs with almost no on-page text; several standard pages are 404"
+    ],
+    "red_flags": [
+     "No Attributions page exists on the wiki",
+     "Internal contradiction on the same Results page about whether circuit-triggered release in artificial lung fluid was demonstrated",
+     "A circuit-level simulation is cited as justification for a redesign while no model page or modelling data exists anywhere",
+     "Public survey including patients and caregivers reported with no consent or ethics statement"
+    ]
+   },
+   {
+    "slug": "greatbay-scie",
+    "one_line_en": "Three AI-designed interventions on one pathway, all built and tested against controls on a surrogate the team made itself, held back by an empty Attributions page, an empty Notebook and small indirect effects.",
+    "one_line_zh": "針對同一途徑的三種 AI 設計介入，全部建成並在自建替代系統上對照測試，但歸屬頁與實驗紀錄頁皆空白，效應量小且屬間接測量。",
+    "strengths": [
+     "The team built and validated its own test platform first with a dose-response against an empty-vector control, which makes the three downstream assays interpretable",
+     "Controls, statistics and units stated nearly everywhere, with named tests for each route",
+     "Honest reporting of failure, including a variant that turned out to be a different substitution and a wild-type enzyme outperforming the engineered ones",
+     "Safety work beyond a checklist, with computational immunogenicity and allergen screens of all candidates and one flagged for follow-up"
+    ],
+    "weaknesses": [
+     "The Attributions page renders empty, so there is no record of who ran the instruments or the simulations",
+     "The Notebook page is also empty, leaving no dated experimental record",
+     "The central readout measures total free thiol rather than the target molecule, with technical replicates only and small effect sizes",
+     "No direct evidence of the proposed mechanisms — no binding measurement and no mass-spec confirmation of the enzymatic step"
+    ],
+    "red_flags": [
+     "Attributions page published but empty, verified live",
+     "Notebook page empty",
+     "Regulatory parts supplied by an outside company and all constructs commercially synthesised, declared in text but not reconciled on any attribution page",
+     "Part descriptions are identical boilerplate repeated across each group"
+    ]
+   },
+   {
+    "slug": "hongwen-school",
+    "one_line_en": "A disciplined five-strain comparison with raw replicate data on both a model substrate and real spent grain, plus a built and user-tested fermenter, let down by an unidentified product and a missing attributions page.",
+    "one_line_zh": "五株菌的嚴謹比較，模型基質與真實酒糟都附原始重複數據，並有自建且經使用者測試的發酵槽，但產物未經鑑定、歸屬頁缺失。",
+    "strengths": [
+     "Raw per-replicate readings, a stated calibration curve, substrate blank, no-substrate control and parental control for every activity claim",
+     "A consistent strain comparison holding across two independent systems, with every intermediate construct informative",
+     "Hardware with its own iteration, external user testing with before/after task times, a full bill of materials and an operating decision driven by its own data",
+     "Exceptional calibration of language to evidence, including an explicit list of what the team still lacks"
+    ],
+    "weaknesses": [
+     "The named product was never identified — the chromatography standards used cannot show the substitution that defines it",
+     "The headline conversion figure depends on an assumed substrate composition from literature and on subtracting a negative parental baseline",
+     "Constructs were never sequence-verified; integration rests on PCR patterns only",
+     "No statistical testing and no protein-level evidence of secretion"
+    ],
+    "red_flags": [
+     "Attributions page returns 404 and the Team page gives bios, not roles",
+     "Six standard pages are empty or 404, pushing all evidence into three very long pages",
+     "Two figure captions read as unedited instructions to an illustrator",
+     "Survey with a large minority of minors reported with no consent or ethics statement"
+    ]
+   },
+   {
+    "slug": "hk-joint-school",
+    "one_line_en": "A rare project where biology, modelling and stakeholder work genuinely feed each other, ending in a measured fire-test result on the real substrate, with a completely empty attributions page.",
+    "one_line_zh": "生物、模擬與利害關係人工作真正互相餵養的少見專案，最終在真實基材上取得實測防火結果，但歸屬頁完全空白。",
+    "strengths": [
+     "Negative controls throughout the fire testing so each component's contribution is separable rather than asserted",
+     "Raw per-trial data published rather than only means, across two fire standards",
+     "A complete loop where a simulation prediction, a physical failure and a literature finding changed the protocol and improved the result",
+     "A benchmarked software tool with a data-leakage bug found, fixed and reported, plus code and weights archived with identifiers"
+    ],
+    "weaknesses": [
+     "The attributions page is empty and team members are divided only among schools, never among people or tasks",
+     "The secretion claim is not supported by the method used, since the extraction lyses whole cells",
+     "Protein yields rest on visual band intensity rather than densitometry, with no error bars or statistics anywhere in the lab results",
+     "The low-smoke, low-toxicity selling point was never measured, and the home page states nothing about the project"
+    ],
+    "red_flags": [
+     "Attributions page renders empty while advisor-performed simulation work is disclosed elsewhere",
+     "Human Practices states that instrument tests were performed and confirmed non-toxicity while the Measurement page states those results were never collected",
+     "Nine of ten library parts are labelled characterised but carry only computed scores",
+     "A safety question for the committee about work described as carried out under BSL-2 containment by a high school team"
+    ]
+   },
+   {
+    "slug": "mammothedu-united",
+    "one_line_en": "Exceptionally well-framed and honestly documented, with grand-prize-calibre human practices and record-keeping, but the central conversion is screened and built rather than demonstrated.",
+    "one_line_zh": "框架設定與文件誠實度極佳，人文實踐與紀錄保存達大獎水準，但核心轉化只做到篩選與建構，未獲實證。",
+    "strengths": [
+     "31 engagements in a consistent format, each with a traceable design change, plus a self-audit of the team's own survey wording",
+     "The problem is bounded by a real national standard and priced from named operators rather than pitched as saving the world",
+     "One clean quantitative dataset in the target chassis that then changed the next build",
+     "Unusual metrological honesty: the Measurement page separates correction from calibration, flags a contradictory record and refuses to call relative peak areas concentrations"
+    ],
+    "weaknesses": [
+     "No activity assay for the degradation branch; ranking rests on n = 2 relative peak areas with no abiotic control",
+     "No clone used in a functional assay HAS been sequence-confirmed",
+     "No polymer was identified — small recovered masses weighed at coarse precision with no purification procedure or biomass normalisation",
+     "No hardware was built, and Human Practices and Education together dwarf the Results page"
+    ],
+    "red_flags": [
+     "The team discloses that a lead plasmid design carries an internal stop codon early in the insert and that two cassette designs contain internal stop codons",
+     "An unresolved selection anomaly leaves open whether assayed cultures carried the plasmid",
+     "An instructor is declared as having independently conducted part of the experimental work",
+     "Extensive declared AI use in wiki, animation and illustration production"
+    ]
+   },
+   {
+    "slug": "mingdao",
+    "one_line_en": "A coherent waste-to-ethanol project with a genuinely new, well-documented Registry part and a model built on its own measured constants, let down by an uncontrolled final demonstration and seven missing standard pages.",
+    "one_line_zh": "從廢棄物到乙醇的連貫專案，有真正新穎且文件完整的 Registry 零件，模型全部建立在自家量測常數上，但最終示範缺對照、七個標準頁缺失。",
+    "strengths": [
+     "A new basic part registered with host, topology, source, sequence and five documentation records including an explicit limitations list",
+     "Enzyme activity tested against empty-vector lysate controls with replicates and standard-curve conversion rather than raw absorbance",
+     "A real loop where a combined stress test disproved the team's own reuse plan and redirected the hardware",
+     "Fully reproducible open hardware with a costed bill of materials, drawings, CAD files and a usability test whose low scores are reported honestly"
+    ],
+    "weaknesses": [
+     "The capstone demonstration HAS no negative control arms, so the result is not isolated to the enzyme cascade",
+     "Ethanol is quantified by a method that responds to any dissolved solute, and the derived yield is chained through an assumed literature conversion",
+     "Seven standard pages return 404, including results, parts, protocols, notebook and attributions",
+     "Kinetic constants underlying the model come from single measurements per condition, and hardware validation is entirely qualitative"
+    ],
+    "red_flags": [
+     "No attributions page and no description of the instructor's wet-lab role",
+     "No safety page at all for work involving hot alkali, ethanol vapour near a heat source and a recombinant host",
+     "Stakeholder quotations rendered in a single uniform register with no interview dates, recordings or translation notes",
+     "A citation's volume and page metadata do not match the record"
+    ]
+   },
+   {
+    "slug": "lambert-ga",
+    "one_line_en": "An ambitious two-arm project with an exemplary positive control, honest negative reporting and a cheap externally validated dryer, where the one confirmed binding number came from a commercial vendor.",
+    "one_line_zh": "企圖心強的雙線專案，陽性對照堪稱典範、陰性結果誠實呈報、乾燥器低成本且經外部驗證，但唯一確認的結合數據來自商業廠商。",
+    "strengths": [
+     "The positive control is the best bench work on the wiki: three conditions, two orthogonal readouts, quantification and a coherent interpretation",
+     "Unusually honest negative reporting, including that colony growth does not confirm assembly and that a reporter was uninterpretable",
+     "Human Practices genuinely drove design across five dated pivots traceable to named advisors",
+     "Hardware costed line by line, externally validated at two universities, with a build manual and a classroom trial"
+    ],
+    "weaknesses": [
+     "The only quantitative binding measurement was produced by a commercial screening partner, not the students",
+     "The RNA-interference arm produced no knockdown data at all, and the reporter was never sequence-verified",
+     "The attributions page is a bare link to the official form despite a vendor, two university labs and ten sponsors",
+     "No replicates or error bars for the quantified dot blot, and the experimental pull-down used a different schedule from its validated control"
+    ],
+    "red_flags": [
+     "Headline affinity generated by an external commercial partner rather than the team",
+     "Five standard page slugs return 404 and the notebook page is very short",
+     "Home page headline claims neutralisation, which inner pages explicitly disclaim",
+     "Shipped hardware carries a published default wireless password giving anyone in range control of a heater"
+    ]
+   },
+   {
+    "slug": "hk-league",
+    "one_line_en": "A wide six-school chain from de novo designed proteins to an operated cartridge, written with unusual honesty about its limits, but never showing that the designed protein rather than the gel does the binding.",
+    "one_line_zh": "六校合作、從全新設計蛋白到實際運行匣體的完整鏈條，對自身限制書寫異常誠實，但始終未證明結合來自設計蛋白而非膠體。",
+    "strengths": [
+     "A genuinely connected chain, each link evidenced: designed cargos, verified plasmids, beads and a printed cartridge that completed load, wash and elution",
+     "Three independent preparations per bead condition with every individual reading published and calibration fits stated",
+     "Three documented engineering loops where an observed failure changed the next build",
+     "Repeated discipline about what the data cannot support — elution called handling not selectivity, resistance called a plated phenotype, lithium called extrapolated"
+    ],
+    "weaknesses": [
+     "The only plasmid-free control exists for one bead grade while every lead result uses the other, so binding cannot be separated from the alginate",
+     "The immunoblot targets a native outer-membrane protein, so it cannot establish expression of the designed cargo",
+     "Lithium is read as bulk conductivity well above the top standard",
+     "The cartridge result is a single run with no mass balance, no cross-metal composition and no selectivity demonstrated"
+    ],
+    "red_flags": [
+     "Home-page summary cards state outcomes more strongly than the results pages they summarise",
+     "The immunoblot is described as contrast enhanced for display",
+     "Six standard page URLs return 404 and the notebook is a single short file",
+     "Software tools and printed-part sources live in external repositories that cannot be judged"
+    ]
+   },
+   {
+    "slug": "squirrel-guangzhou",
+    "one_line_en": "Four generations of metabolic engineering with real titres, controls and two tested containment circuits, undermined by a missing attributions page and a probiotic chassis that was never built.",
+    "one_line_zh": "四代代謝工程，具真實效價、對照與兩套經測試的圍阻電路，但缺少歸屬頁，且作為產品核心的益生菌底盤從未建成。",
+    "strengths": [
+     "Stepwise production data with a wild-type negative control and an external calibration curve, across three biological replicates",
+     "Both safety circuits characterised rather than drawn, with dose- and time-dependent reporter data and matched growth curves",
+     "Honest reporting of limits and failures, including a non-zero baseline explained rather than hidden and failed cloning rounds recorded",
+     "Human Practices tightly coupled to the bench, with a supplier conversation driving a redesign and peer comparison replacing one kill-switch design"
+    ],
+    "weaknesses": [
+     "No attributions anywhere and no acknowledgement of host laboratory, advisors or who operated the instruments",
+     "The probiotic chassis the whole product depends on never appears in an experiment",
+     "Kill switches are validated as growth inhibition rather than killing, with no viable counts and no circuit-free control",
+     "Several standard pages 404 and seven award pages are untouched template text"
+    ],
+    "red_flags": [
+     "Attributions page absent and no mentor or supervising institution named anywhere despite advanced instrumentation and simulation",
+     "Framing drift between a probiotic product claim and a laboratory-strain evidence base",
+     "One reference could not be verified and several citations are malformed or bare URLs",
+     "Public survey, park outreach and patient interviews with no consent or ethics statement"
+    ]
+   },
+   {
+    "slug": "bist-china",
+    "one_line_en": "Two allosteric biosensors built, screened and characterised with controls in buffer, artificial plasma and live cells, with outstanding human practices, let down by a missing attributions page and a reader never run with the team's own proteins.",
+    "one_line_zh": "兩款變構生物感測器建成、篩選並在緩衝液、人工血漿與活細胞中對照表徵，人文實踐出色，但缺歸屬頁，讀取器也從未搭配自家蛋白實測。",
+    "strengths": [
+     "Ten variants built, expressed, purified and compared with uninduced controls on every gel, with winners chosen on measured data",
+     "Characterisation well beyond a single curve: dose fits, kinetics, pH and temperature series, a six-metabolite specificity panel and live-cell imaging",
+     "A real cloning failure reported and fixed by a specific parameter change",
+     "Human Practices that changed the design, with a pathologist interview producing the dual-biomarker scheme"
+    ],
+    "weaknesses": [
+     "No attributions page and no who-did-what for lab, modelling or hardware work",
+     "The reader was validated with a commercial standard and water, never with the team's own sensors",
+     "The screening decision rule is validated only against invented scenarios; no real or spiked sample was measured",
+     "Conflicting goodness-of-fit values for the same fits on different pages, and no statistics on the artificial-plasma series"
+    ],
+    "red_flags": [
+     "Attributions standard page returns 404",
+     "Use of a human-derived immortalised cell line by a high school team needs a whitelist determination from the safety committee",
+     "Internally inconsistent fit statistics and a live-cell dose that differs between text and caption",
+     "Several Registry figure captions are mismatched, and firmware and print files sit outside iGEM servers"
+    ]
+   },
+   {
+    "slug": "cataverse-greatbay",
+    "one_line_en": "Four genuine DBTL cycles ending in a transfer into a probiotic chassis under gut-like conditions, let down by a missing attributions page, placeholder Registry status and three unfilled template pages.",
+    "one_line_zh": "四個真實 DBTL 循環，最終在類腸道條件下轉入益生菌底盤，但缺歸屬頁、Registry 狀態為暫定編號，三個頁面仍是未填範本。",
+    "strengths": [
+     "Four linked cycles that escalate in difficulty, from component characterisation to an integrated circuit in the target chassis",
+     "Real controls in most key figures, including vector and wild-type traces, an empty-vector reporter group and a growth curve ruling out substrate toxicity",
+     "Docking-guided design that was actually tested at the bench, improving an existing Registry part into a dual-substrate transporter",
+     "A reproducible record of 24 protocols with primer tables and catalogue numbers plus a day-indexed notebook"
+    ],
+    "weaknesses": [
+     "No attributions page and no description of advisor contributions",
+     "The headline degradation figure is a single curve with no control and no concentration axis",
+     "Headline fold-comparisons against commercial enzymes are given with no units, normalisation basis or sample size",
+     "Several Test and Learn sections are written in future tense, and Measurement, Hardware and Software are unfilled template pages"
+    ],
+    "red_flags": [
+     "Contribution page states part numbers are placeholders pending submission while the Improve page states the parts are submitted",
+     "Pre-existing Registry parts are tabulated as the team's new parts",
+     "Standard parts, attributions, proof-of-concept, implementation, protocols and design pages return 404",
+     "Text and figure disagree on wild-type transporter activity"
+    ]
+   },
+   {
+    "slug": "keystone",
+    "one_line_en": "A two-module yeast wastewater project with real comparative enzyme data and one genuine failure-driven redesign, let down by real-sample measurements that contradict the project's own premise.",
+    "one_line_zh": "雙模組酵母廢水專案，具真實的酵素比較數據與一次因失敗而改版的過程，但真實樣品的測值與專案自身前提互相矛盾。",
+    "strengths": [
+     "Quantitative head-to-head enzyme screen with blank and empty-yeast controls, reporting the enzyme that did not work",
+     "A genuine loop: a failed whole-cell assay was diagnosed as a transport problem, a signal peptide was added, and secreted activity was then measured",
+     "Human Practices with a published table separating adopted decisions from open questions, and named changes that removed design options",
+     "Controls in the application experiments too, including an empty-vector strain that exposed the chassis's own consumption"
+    ],
+    "weaknesses": [
+     "Real-sample oxygen-demand values are three orders of magnitude from the influent range the project is premised on, with no method detail or dilution factor",
+     "The engineered gain over the chassis is modest and reported without units at implausible precision",
+     "Kill-switch evidence is confounded because the wild type also failed to grow at the extreme temperatures",
+     "Stated project goals are not met or reconciled, and six standard pages return 404"
+    ],
+    "red_flags": [
+     "Attributions page returns 404 although an attributions form is said to exist",
+     "Headline removal percentages computed from the contradictory oxygen-demand values",
+     "Kill-switch claim goes beyond what the confounded data support",
+     "A disclosed AI-generated illustration sits among genuine field photographs"
+    ]
+   },
+   {
+    "slug": "zqt-nanjing",
+    "one_line_en": "A disciplined two-module project with same-batch controls, replicates and honest limits, let down by a missing attributions page, four template standard pages and an unbuilt final product.",
+    "one_line_zh": "嚴謹的雙模組專案，具同批次對照、重複與誠實的限制說明，但缺歸屬頁、四個標準頁仍是範本，最終產品從未製作。",
+    "strengths": [
+     "Every performance claim paired with a same-batch control, with the team refusing to subtract across batches",
+     "Figures meeting a real bench standard: units, replicates, individual data points and gels with a marked ladder and named lanes",
+     "A genuine two-step build where an export bottleneck was identified and then addressed, with the result correctly read as redistribution rather than extra synthesis",
+     "Human Practices that changed both the biology and the claims, including ending absolute environmental language"
+    ],
+    "weaknesses": [
+     "No attributions page and no task-level account of who designed, cloned, fermented or ran the analysis",
+     "The named final product was never made: no loading, no membrane characterisation, no prototype data",
+     "No analytical evidence for the quantification method — no chromatogram, standard curve or recovery result",
+     "Thin statistics on the headline improvement, and four standard pages are unedited template text"
+    ],
+    "red_flags": [
+     "Attributions page returns 404, as do proof-of-concept, implementation, protocols and design",
+     "A gel band annotation migrates inconsistently with the labelled ladder, and no no-template control lane is shown",
+     "The Parts page assigns medal labels to the team's own parts, which is not how iGEM medals work",
+     "Internal inconsistency on the hydrolysate result between a figure caption and every other page"
+    ]
+   },
+   {
+    "slug": "shsid",
+    "one_line_en": "A broad two-module yeast project with a working, well-controlled drought alarm and an honestly reported failed first design, let down by a missing attributions page, placeholder pages and no soil measurement of the retention it claims.",
+    "one_line_zh": "範圍寬廣的雙模組酵母專案，乾旱警示模組運作良好且對照嚴謹，第一版失敗也誠實呈報，但缺歸屬頁、有未完成頁面，且從未在土壤中量測其宣稱的保水效果。",
+    "strengths": [
+     "The first design failed and is reported as a failure, with causes analysed and the design replaced",
+     "The alarm module shown against the right controls — an osmolarity gradient versus a matched salt control and an uninduced control — in liquid, on solid medium and in beads",
+     "Human Practices running both ways, with a large survey plus site visits each tied to a named design change",
+     "Hardware iterated three times against field visits, with component tests, a cost list and a user manual"
+    ],
+    "weaknesses": [
+     "The central promise, improved soil water retention, is never measured in soil",
+     "The plant trial HAS no wild-type-yeast control, so the effect cannot be attributed to the engineered products",
+     "Replicate counts are undefined and one set of triplicates is far too tight to be biological, undercutting its significance claim",
+     "The two modules suppress each other when combined, which is written up as consistent with the design rather than as an open problem"
+    ],
+    "red_flags": [
+     "No attributions page; the Members page gives divisions but no task-level account",
+     "Measurement and Inclusivity are unfilled design templates still showing filler headings and specimen text",
+     "Parts and proof-of-concept return 404; Results and Engineering carry no reference lists",
+     "Public questionnaire with a third of respondents under 18 and no consent or ethics statement"
+    ]
+   }
+  ],
+  "robustness_en": "Partly. First place survives both tests: HongKong-JSS's 0.070 lead is smaller than its own 0.072 judge spread, but the skeptic's corrections widen rather than close the gap (about -0.05 to HongKong-JSS for outsourced construction, about -0.08 to GEMS-Taiwan for the unsupported headline claim), and its three judges agree closely. Second place does not survive. GEMS-Taiwan and Korea-HS are tied at 4.169 from opposite profiles, Korea-HS's zero spread means no judge disagreement to exploit, GEMS-Taiwan's 0.122 spread sits entirely on how much credit the unproven light switch gets, and the skeptic would seat Korea-HS second on the grounds that it proves less but proves it. Labi-Taiwan at rank 4 is the least stable row in the table (0.500 spread, driven by whether a judge read the off-wiki attribution form) and the skeptic moves it down, not up. No team below rank 6 was promoted on review. So: order is robust at rank 1, unresolved between ranks 2 and 3, and robust again from rank 4 down.",
+  "robustness_zh": "部分穩健。第一名通過兩項檢驗：HongKong-JSS 的 0.070 領先幅度雖小於自身 0.072 的評審離散度，但反方審查的修正是拉大而非縮小差距（HongKong-JSS 因構築外包約 -0.05，GEMS-Taiwan 因頭條主張缺乏支撐約 -0.08），且三位評審意見高度一致。第二名則不穩。GEMS-Taiwan 與 Korea-HS 同為 4.169，但分數結構完全相反；Korea-HS 離散度為零，沒有可供翻盤的評審分歧；GEMS-Taiwan 的 0.122 離散度完全取決於未獲證實的光控開關能拿多少分；反方審查主張 Korea-HS 應居第二，理由是它證明的事情較少，但確實證明了。第四名的 Labi-Taiwan 是全表最不穩的一列（離散度 0.500，取決於評審是否讀到 wiki 以外的歸屬表單），而審查是把它往下推而非往上。第六名以下沒有任何隊伍在複審後被提升。結論：第一名穩健，第二與第三名之間未定，第四名以下再度穩健。"
+ },
+ "calibration_notes": {
+  "J1": {
+   "notes": "Method. Ranking is the panel convention C1 (0.7 x Project mean over a1-a8, 0.3 x Wiki mean over w1-w5), with C2/C3 for near-ties. a9 is blank throughout (p.11 Step 3; p.32 puts it in the Judging Session). Presentation is not assessed - the videos are not visible in this exercise, which is a limit of the simulation and not handbook policy (digital p.85). Because the two most heavily weighted inputs to finalist selection are incomplete, I would treat this ordering as provisional until the videos and Q&A are seen, and I expect the top five to be separable only after that.\n\nWhat the side-by-side pass found. Eleven score changes across nine teams, all of them places where I had applied two different bars to the same kind of evidence, written one team at a time:\n\nAttribution (a6) was my least consistent aspect, because I wrote these ballots over several sittings and let the strength of the surrounding project colour the attribution score. I fixed the bar to the evidence actually on the pages: 4.0-4.5 for a task-level account of who did which experiment (Korea-HS, HK League, Mammothedu, SMS-Shenzhen, Basis-China, HongKong-JSS, Mingdao, and now GEMS Taiwan); 3.0-3.5 where attribution is absent at the standard URL but task-level evidence survives elsewhere - a notebook naming operators, Registry CRediT roles, per-member role descriptions (GCGS, Keystone, PLKLFC, Squirrel Beijing, PSI Korea, ZQT, Labi); 2.5 where no task-level statement exists anywhere (HK Joint School, BIST-China, Hongwen, and now Cataverse and GreatBay-SCIE). That moved GEMS up, Squirrel Beijing and PSI Korea up, and Cataverse and GreatBay-SCIE down. Eighteen of twenty-four teams have a missing, blank or form-only attributions page; since that is near-universal in this field, I made sure it depresses a6 in proportion to what is missing rather than functioning as a flat penalty.\n\nRegistry access. parts.igem.org returned 403 to me for most teams, which is my limitation, not theirs. I had been inconsistent about it: Mingdao's Registry entry was one of the few I could read in full, and it is excellent, yet I had capped a8 at 3.5 for wiki-side 404s that I was already penalising under w3. Raised to 4.0 and the w3 deduction left where it belongs. A judge with Registry access should re-check a7/a8 for every team flagged 403 before the panel settles those scores; several could move half a point either way.\n\nStatistics bar on a2. I had let two teams keep 4.5 without reported statistics while marking others down for the same gap. Squirrel Guangzhou drops to 4.0 on that basis. The bar I am now applying uniformly: 4.5 needs named controls, stated n, defined error bars and a test; 4.0 is controls and replicates without inferential statistics, or a controlled core with an uncontrolled headline figure; 3.5 is where the capstone claim has no negative control.\n\nFunctioning-part benchmark (C4). Used as calibration only. The teams below 3.5 on a2 - Mammothedu and Lambert - are there because the central claim rests on screening-grade data without controls, not because of the benchmark, and neither is removed from consideration by it.\n\nFinalists. On the composite, Labi Taiwan (4.31) and GEMS Taiwan (4.28) lead, with HongKong-JSS (4.27) within 0.05 of both - well inside C3's tie-break window. Applying C3 to that trio: a2 separates them first (Labi 4.5, HongKong-JSS 4.5, GEMS 3.5), which would put HongKong-JSS ahead of GEMS. I have kept GEMS second on the composite because the a2 gap reflects one unproven module (the optogenetic switch) inside an otherwise exceptionally complete project - four built instruments, twelve DBTL cycles, plant rescue with controls - whereas HongKong-JSS outsourced all construct building. That is a judgement I hold loosely and would expect to argue in the Judging Session; if the panel prefers the mechanical application of C3, HongKong-JSS takes the second finalist place. Basis-China (4.21) and Korea-HS (4.18) are the next pair and are not far behind.\n\nIntegrity. One matter goes to rcc@igem.org: the six Engineering-page references on PLKLFC that resolve to unrelated papers, plus two that do not resolve, with the specific coordinates I checked. I give the dependent claims no evidential credit, make no accusation and propose no penalty - the RCC decides (p.25). Nothing else on this ballot warrants a referral; AI disclosures (SMS-Shenzhen, HK Joint School, Korea-HS, Keystone, PLKLFC, Mammothedu) are declarations of decorative or drafting use, and I found no evidentiary figure presented as cleaned or AI-made.\n\nSafety questions for safety@igem.org, not for me to decide: HK Joint School (RG1 strains stated as handled under BSL-2 containment), BIST-China and PLKLFC (continuous animal cell lines - 293T, CT26, MC38 - against the High School Whitelist), and Squirrel Beijing's proposed drone release of live engineered bacteria, which has no release risk assessment on the Safety page.\n\nFeedback to teams stays specific and kind, in my own words. The single most common and most fixable fault across this field is the missing or empty attributions page together with 404s on the standard URLs; that costs teams real marks on a6, a8 and w3 for work they have plainly done.",
+   "ranking": [
+    "labi-taiwan",
+    "gems-taiwan",
+    "hongkong-jss",
+    "basis-china",
+    "korea-hs",
+    "sms-shenzhen",
+    "plklfc",
+    "hangzhoufourteenap",
+    "psi-korea",
+    "mammothedu-united",
+    "gcgs",
+    "squirrel-beijing",
+    "hongwen-school",
+    "hk-league",
+    "hk-joint-school",
+    "greatbay-scie",
+    "keystone",
+    "mingdao",
+    "cataverse-greatbay",
+    "squirrel-guangzhou",
+    "bist-china",
+    "zqt-nanjing",
+    "lambert-ga",
+    "shsid"
+   ]
+  },
+  "J2": {
+   "notes": "Method: ranked on the Project mean (a1-a8) as the primary key and the Wiki mean (w1-w5) as the second key and tie-breaker, per the handbook's finalist rule (p.12 Step 8; p.31). Presentation is not assessed because the videos are not visible to me, so the official rank will differ and close calls can flip. Aspect 9 is blank throughout.\n\nTen scores moved, all for cross-team consistency rather than new evidence. The main systematic problem was a6. Twenty-one of twenty-four teams have no readable attribution form, and I had been scoring the same situation anywhere from 1.5 to 3.0 depending on how irritated the page made me. I settled on three bands: 2.0 for an absent or empty form with only bios or school-level roles (labi-taiwan, cataverse, hangzhoufourteenap, hk-joint-school, squirrel-guangzhou, psi-korea); 2.5 where the team page gives a real per-member role line (shsid, greatbay-scie, hongwen-school, zqt-nanjing, gcgs, bist-china); 3.0 where a notebook or task matrix credits named students with specific dated work (gems-taiwan, squirrel-beijing, plklfc, keystone, mingdao). Only sms-shenzhen, hongkong-jss and hk-league have a complete form, and only sms and hk-league pair it with student-attributed execution. This moved gems-taiwan up, psi-korea down and keystone up.\n\nSecond systematic problem was w3. I had been inconsistent about how hard to penalise missing standard pages. The bar I settled on: four or more standard pages returning 404, with otherwise sound internal navigation, caps w3 at 3.5; seven or more, or missing pages plus a naming split or heavy sprawl, lands at 3.0; every standard URL dead (hangzhoufourteenap) is 2.5. That lowered basis-china, hk-league, squirrel-beijing and bist-china, which I had let off lightly.\n\nThird, a8. Nineteen teams could not have their Registry entries checked (parts.igem.org returned 403, CloudFront bot pages or CAPTCHAs, which I did not attempt to work around). Where the Registry was unverified AND the team's own tables show thin or pending characterisation, the aspect should sit at 3.5 regardless of how good the wiki is, since parts are judged on the Registry (p.18). I applied that to gems-taiwan and lambert-ga, which I had placed at 4.0 for wiki quality that did not earn others the same. The three teams I did reach (mingdao, hangzhoufourteenap, korea-hs, plus partial reads for greatbay-scie, keystone and psi-korea) keep scores based on what I actually saw. A judge with Registry access should re-check a7 and a8 across the whole section before the panel settles them.\n\nFinalists on this working rank: hongkong-jss (4.19 project / 4.2 wiki) and korea-hs (4.13 / 4.3). Both carry one idea end to end with measured, controlled data and real redesign driven by test results. Immediately behind them sit sms-shenzhen and gems-taiwan, both at 4.06, separated from the leaders by a single aspect each: sms-shenzhen's metal-capture panel has no non-engineered biomass control, so its headline claim is not attributable to the engineered peptide; gems-taiwan has the strongest engineering record in the section (the only a4 of 5 I awarded, with a pre-registered growth-rate prediction scored against a later run) but its light switch is built and never shown to switch, and its attribution page is empty. If Presentation is strong for either, they are live for a finalist slot and the panel should expect movement.\n\nTwo caveats on the leaders that the panel should weigh. hongkong-jss ordered every plasmid as a sequence-verified construct and did no cloning, and a secondary PI is credited with hardware design, engineering, software and wiki writing; all of it is declared, so there is no integrity question, but the student-executed share is smaller than the project's size suggests. korea-hs lists the instructor as sole designer with Conceptualisation and Supervision roles on all five Registry entries with no student credited, which is my first Q&A question for them.\n\nQuestions I would carry into Q&A, asked as questions and not as findings: who executed gene synthesis, instrument work and simulation where no host lab is named (squirrel-guangzhou, squirrel-beijing, plklfc, bist-china); the \"Devon Larkin\" designer name on all six hangzhoufourteenap Registry parts, which appears nowhere on their team page; the Cycle 1 inclusion-body contradiction in sms-shenzhen; the Results-page self-contradiction in gcgs about whether circuit-triggered release was demonstrated; and the COD units in keystone that cannot be reconciled with their own stated influent load. Two routine safety confirmations for the committee rather than referrals: HEK-293T use by bist-china and mammalian cell culture by plklfc against the high school whitelist, and Komagataeibacter rhaeticus (sms-shenzhen), Zymomonas mobilis (mingdao) and Halomonas sp. LA5 (mammothedu-united) against the whitelist or check-in records. I found no evidence of fabricated citations or AI-generated evidence figures anywhere in the section; the AI disclosures I saw (sms-shenzhen, hongkong-jss, hk-league, mammothedu-united, korea-hs, plklfc, keystone, bist-china) were voluntary and cover illustrations, prose or code, not data.",
+   "ranking": [
+    "hongkong-jss",
+    "korea-hs",
+    "sms-shenzhen",
+    "gems-taiwan",
+    "lambert-ga",
+    "plklfc",
+    "greatbay-scie",
+    "hk-joint-school",
+    "basis-china",
+    "hangzhoufourteenap",
+    "squirrel-beijing",
+    "psi-korea",
+    "labi-taiwan",
+    "gcgs",
+    "shsid",
+    "hongwen-school",
+    "mingdao",
+    "zqt-nanjing",
+    "bist-china",
+    "hk-league",
+    "cataverse-greatbay",
+    "squirrel-guangzhou",
+    "mammothedu-united",
+    "keystone"
+   ]
+  },
+  "J3": {
+   "notes": "Five score changes across four teams, all for inconsistency I could name rather than second thoughts about a project: GEMS a2 up (best-documented controls in the section had been scored below teams reporting no replicates at all); SHSID a8 up (the wiki-only cap applied to one team while eleven others with the same unreachable Registry were scored 3.5-4.0); HK Joint School a5 down (I wrote the missing-consent finding into the justification and then ignored it, unlike eleven other teams) and a6 up (an empty page put it below teams disclosing less outside help); PLKLFC a6 up (per-student roles plus named outsourcing is the 3.0 band, not the 2.5 band). Two cross-cutting biases I found and corrected in principle: I was treating the inability to reach parts.igem.org as a team's fault unevenly, and I was double-counting a project's headline failure in both the aspect and the summary. Three structural notes on the whole slate. First, the Registry was unreachable from my environment for every team that submitted parts, so a8 is a wiki-side judgement except for Mingdao, Hangzhou and PSI Korea, whose entries I could read; if the section can verify Registry depth before the ballot, that is the single check most likely to move scores. Second, the Attributions page is missing, empty or a bare form on sixteen of these twenty-four wikis, which is why a6 is the most compressed aspect on my ballot and why almost every one of my a6 scores carries a session question rather than a finding. Third, consent and ethics oversight for surveys and interviews, many involving minors, goes unmentioned on the great majority of these wikis; I have treated it uniformly as a reflective gap in a5 worth half a point and nothing more. Ranking: the top of the order is led by whether the core biology works with controls, then iteration on failure, then whether human practices changed the design, which puts Hong Kong JSS and LaBi Taiwan as my two finalists, with PSI Korea and GCGS close enough that the unassessed Presentation and Q&A could reorder all four. MammothEdu ranks last on my list despite a respectable Project average because its own rule applies: outstanding practice, attribution and engineering records cannot outrank teams whose biology is shown to work. Presentation and a9 remain NOT ASSESSED; I have invented no number for them.",
+   "ranking": [
+    "hongkong-jss",
+    "labi-taiwan",
+    "psi-korea",
+    "gcgs",
+    "gems-taiwan",
+    "korea-hs",
+    "sms-shenzhen",
+    "hangzhoufourteenap",
+    "hongwen-school",
+    "squirrel-beijing",
+    "greatbay-scie",
+    "hk-joint-school",
+    "plklfc",
+    "mingdao",
+    "basis-china",
+    "squirrel-guangzhou",
+    "keystone",
+    "cataverse-greatbay",
+    "bist-china",
+    "lambert-ga",
+    "zqt-nanjing",
+    "shsid",
+    "hk-league",
+    "mammothedu-united"
+   ]
+  }
+ }
+}

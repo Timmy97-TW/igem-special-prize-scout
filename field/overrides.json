@@ -1,0 +1,18 @@
+{
+ "lede": {
+  "en": "On the panel's numbers, Hong Kong-JSS (4.24) takes the first finalist slot and GEMS-Taiwan ties Korea-HS for the second (4.17 each). Only one team scores above us, but the tie is real, and the skeptic's evidence checks break it against us: with its corrections applied, Korea-HS and SMS-Shenzhen both pass us and we drop to fourth. A finalist place is possible, not the likely outcome.",
+  "zh": "依評審團分數，Hong Kong-JSS（4.24）拿下第一個決賽名額，GEMS-Taiwan 與 Korea-HS 並列第二（各 4.17）。分數高於我們的只有一隊，但這個平手是真的；唱反調審查員回到 wiki 查證後的修正對我們不利：套用修正後，Korea-HS 與 SMS-Shenzhen 都超過我們，我們掉到第四。進決賽有可能，但不是最可能的結果。"
+ },
+ "extra": [
+  {
+   "en": "One correction to the panel, which cuts in our favour. From 2026 the attribution form is shown on each team's iGEM team page, not on the wiki (handbook p.26), and the judges read only the wiki's attribution page. An empty wiki page therefore cost several teams on aspect 6, us included (also Hong Kong-JSS and Labi-Taiwan). If our team-page form is complete, our aspect 6 is understated by up to half a point per judge, about +0.05 combined. That would break the tie with Korea-HS in our favour on the panel numbers. With the skeptic's correction also applied we land third (about 4.14), behind Korea-HS (4.17) and ahead of SMS-Shenzhen (4.12). Either way, at least one team, and on the stricter reading two, finish above us. The single biggest lever is aspect 2: the Results banner claims green light switches ACCD on, and our own figures do not show it.",
+   "zh": "評審團有一處需要修正，而且對我們有利。2026 年起，貢獻歸屬表顯示在各隊的 iGEM 團隊頁面，而不是 wiki 上（手冊第 26 頁），但評審只讀了 wiki 的 Attributions 頁。因此 wiki 頁面空白讓好幾隊在第 6 項被扣分，包括我們（也包括 Hong Kong-JSS 與 Labi-Taiwan）。如果我們團隊頁面上的表單是完整的，我們第 6 項每位評審最多少給了 0.5 分，綜合分數約 +0.05。只看評審團分數，這足以打破與 Korea-HS 的平手、讓我們領先。若同時套用唱反調審查員的修正，我們排第三（約 4.14），落後 Korea-HS（4.17）、領先 SMS-Shenzhen（4.12）。無論哪種讀法，至少有一隊、較嚴格的讀法下有兩隊排在我們前面。最大的單一槓桿是第 2 項：Results 頁開頭宣稱「綠光開啟 ACCD」，但我們自己的圖並沒有顯示這件事。"
+  }
+ ],
+ "method_extra": [
+  {
+   "en": "Known limits of this run. The screening scores were compressed (many teams between 3.9 and 4.25), so the cut-off fell inside a cluster near 3.9; a few teams just below it (for example UCS-B, Beijing-HS, NACIS Shanghai, Institut Le Rosey) were not read in full. The judges could not open the Registry, so part documentation was scored from wiki tables. The attribution form on iGEM team pages was not read (see the verdict).",
+   "zh": "本次評估的已知限制。篩選分數偏集中（許多隊落在 3.9–4.25），因此門檻落在 3.9 附近的一群隊伍中間；略低於門檻的幾隊（例如 UCS-B、Beijing-HS、NACIS Shanghai、Institut Le Rosey）沒有被完整閱讀。評審無法開啟 Registry，元件文件是依 wiki 上的表格評分。iGEM 團隊頁面上的貢獻歸屬表沒有讀到（見結論）。"
+  }
+ ]
+}

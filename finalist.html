@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Finalist Ranking</title>
+<meta name="description" content="GEMS-Taiwan 2026: where the team stands for the two high-school finalist slots, judged on project and wiki against the whole field.">
+<link rel="stylesheet" href="assets/site.css?v=20261023">
+</head>
+<body data-lang="en">
+<nav><div class="wrap">
+  <div class="brand"><span class="en">GEMS-Taiwan · Special prize scout</span><span class="zh">GEMS-Taiwan · 特別獎評估</span></div>
+  <div class="seg" role="group" aria-label="Language">
+    <button type="button" data-set="en" aria-pressed="true">EN</button>
+    <button type="button" data-set="zh" aria-pressed="false">中文</button>
+  </div>
+</div>
+<div class="tabs" aria-label="Pages"><div class="wrap">
+    <a href="index.html"><span class="en">GEMS Taiwan overview</span><span class="zh">GEMS Taiwan 總覽</span></a>
+    <a href="hardware.html"><span class="en">Hardware</span><span class="zh">硬體</span></a>
+    <a href="measurement.html"><span class="en">Measurement</span><span class="zh">量測</span></a>
+    <a href="ihp.html"><span class="en">Integrated Human Practices</span><span class="zh">整合人類實踐 IHP</span></a>
+    <a href="finalist.html" aria-current="page"><span class="en">Finalist</span><span class="zh">決賽入圍</span></a>
+</div></div></nav>
+<header class="hero"><div class="wrap">
+  <p class="kicker"><span class="en">iGEM 2026 · High School · Finalist · <span id="fsnap"></span></span><span class="zh">iGEM 2026 · 高中組 · 決賽入圍 · <span id="fsnap2"></span></span></p>
+  <h1><span class="en">Do we make the final?</span><span class="zh">我們能進決賽嗎？</span></h1>
+  <div id="fbanner"></div>
+  <div class="verdict" id="fverdict"></div>
+</div></header>
+<section id="gems" style="padding-top:24px"><div class="wrap">
+  <div class="callout" id="callout"></div>
+</div></section>
+<section id="ranking"><div class="wrap">
+  <h2 class="sec"><span class="en">Deep-judged teams</span><span class="zh">深度評審隊伍</span></h2>
+  <p class="sub" id="rsub"></p>
+  <div class="board fboard" id="fboard"></div>
+  <h3 class="h3s"><span class="en">Aspect scores</span><span class="zh">各面向分數</span></h3>
+  <p class="sub" style="font-size:16px;margin-bottom:8px"><span class="en">Panel means, 0–5. Hover a column header for the aspect. Q&amp;A (aspect 9) is not scored from public pages.</span><span class="zh">評審平均，0–5 分。滑過欄位標題可看面向名稱。問答（第 9 面向）無法從公開頁面評分。</span></p>
+  <div class="tscroll"><table class="mx" id="matrix"></table></div>
+</div></section>
+<section id="sensitivity"><div class="wrap">
+  <h2 class="sec"><span class="en">Sensitivity</span><span class="zh">敏感度分析</span></h2>
+  <p class="sub"><span class="en">The top three under other reasonable weightings and judge mixes.</span><span class="zh">換成其他合理權重或評審組合時的前三名。</span></p>
+  <div class="sens" id="sens"></div>
+</div></section>
+<section id="method"><div class="wrap">
+  <h2 class="sec" style="font-size:28px"><span class="en">How this was judged</span><span class="zh">評審方法</span></h2>
+  <p class="sub" style="font-size:17px" id="weights"></p>
+  <ol class="steps" id="steps"></ol>
+  <h3 class="h3s"><span class="en">Gates</span><span class="zh">篩選關卡</span></h3>
+  <div class="gates" id="gates"></div>
+  <h3 class="h3s"><span class="en">Judges</span><span class="zh">評審</span></h3>
+  <div class="judges" id="judges"></div>
+</div></section>
+<section id="field"><div class="wrap">
+  <h2 class="sec"><span class="en">Whole field</span><span class="zh">全部隊伍</span></h2>
+  <p class="sub" id="fieldsub"></p>
+  <div class="filters">
+    <input type="search" id="q" placeholder="Search · 搜尋" aria-label="Search teams">
+    <div class="seg" role="group" aria-label="Gate" id="gatef">
+      <button type="button" data-g="" aria-pressed="true"><span class="en">All</span><span class="zh">全部</span></button>
+      <button type="button" data-g="deep" aria-pressed="false"><span class="en">Deep</span><span class="zh">深度</span></button>
+      <button type="button" data-g="B" aria-pressed="false"><span class="en">Gate B</span><span class="zh">關卡 B</span></button>
+      <button type="button" data-g="A" aria-pressed="false"><span class="en">Gate A</span><span class="zh">關卡 A</span></button>
+    </div>
+    <span class="cnt" id="cnt"></span>
+  </div>
+  <div class="tscroll" style="margin-top:0;border-top:0"><table class="field" id="fieldt"></table></div>
+</div></section>
+<footer><div class="wrap">
+  <span class="en">Prepared for GEMS-Taiwan's internal nomination decision. Scores are our own reading of public pages against the handbook, not iGEM's.</span>
+  <span class="zh">供 GEMS-Taiwan 內部決定提名使用。分數是我們依評審手冊閱讀公開頁面後的判斷，並非 iGEM 官方評分。</span>
+</div></footer>
+<script src="data/finalist.js?v=20261023"></script>
+<script src="assets/site.js?v=20261023"></script>
+<script src="assets/finalist.js?v=20261023"></script>
+<script>Scout.page(Finalist.render)</script>
+</body>
+</html>
