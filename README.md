@@ -1,23 +1,30 @@
 # Special prize scout — GEMS-Taiwan 2026
 
-Which iGEM 2026 high-school special prize should GEMS-Taiwan nominate for:
-**Measurement** or **Part Collection**?
+Where GEMS-Taiwan stands on its three iGEM 2026 high-school special prize
+nominations, **Measurement**, **Hardware** and **Integrated Human Practices**,
+after the wiki freeze.
 
-Every high-school team's `/measurement` wiki page and every high-school Registry
-part collection was scored against the 2026 Judging Handbook — four criteria per
-award, 0–5 each.
+Every high-school team with real content on `/measurement`, `/hardware` or
+`/human-practices` (and their sub-pages) was scored against the 2026 Judging
+Handbook, 0–5 per aspect. The leading Hardware and IHP entries were then
+re-judged side by side in a finals pass.
 
-- **Measurement:** GEMS-Taiwan ranks **1st of 35** scored entries (**19.0 / 20** after the 21 Oct revision).
-- **Part Collection:** GEMS-Taiwan ranks **22nd of 36** (10.0 / 20).
+| Prize | Our rank | Score | Leader |
+|---|---|---|---|
+| Measurement | **1st of 38** | 18.5 / 20 | us; Korea-HS 17.0 |
+| Hardware | **2nd of 44** (tied on points) | 17.5 / 20 | Lambert-GA 17.5 |
+| Integrated HP | **9th of 104** | 26.5 / 30 | MammothEdu-United 28.5 |
 
-**Recommendation: nominate for Measurement.**
+- **Measurement** is the strongest card: 1.5 points clear. The half point lost
+  since 21 October (19.0 → 18.5) is the single-well biology, not the photometer.
+- **Hardware** is a coin flip. The tie-break goes to Lambert-GA on user testing:
+  two outside labs ran its device; ours was rebuilt by classmates.
+- **IHP** is a top-ten finish in a field where ten teams sit within two points.
+  The page promises three downloadable resource packages and links none.
 
-The collection's deficit is clerical, not scientific: about 12 hours of writing —
-no new experiments — would take it from 10.0 to roughly **14.5 and 4th place**,
-with an absolute ceiling of 15.5. It cannot reach first, because our own blots
-show green and red light read the same, which caps the "finished functional
-system" criterion. The page carries the per-criterion projection, the material we
-already hold but never put on the Registry, and a work order costed in hours.
+14 teams with Human Practices pages were not scored because one judge pass ended
+early; they are listed on the page. Part Collection was ruled out on 21 October
+(22nd of 36) and lives in this repository's history.
 
 The page is bilingual (English / 繁體中文). Scores are our own reading of public
-pages against the handbook, not iGEM's, and are a snapshot taken 21 October 2026.
+pages against the handbook, not iGEM's, taken 22 October 2026.
