@@ -29,6 +29,7 @@ Run from a scratch directory `S` that holds `hs.json` (all scripts take `S` as t
 5. `packs.py S` builds the capped screening packs (`S/packs/<slug>.md`).
 6. `hs-finalist-panel.workflow.js` is the multi-agent run: train three judges and examine their memos, screen every team from its pack (Gate B), deep-judge the shortlist three times independently, let each judge calibrate its own ballots, skeptic, chair. It needs the Claude Code Workflow tool.
 7. `build_finalist.py S result.json <repo> memo_i18n.json overrides.json` writes `data/finalist.js`, `field/teams.json` and `field/panel.json`.
+8. `build_traditional.py` (run from the repo root, no arguments) writes `data/traditional.js` for the Traditional powers tab from `field/teams.json` plus the prose in `field/traditional_prose.json`. Every score, weighted gap and what-if ranking in that page is computed, so editing a score in `teams.json` or a paragraph in the prose file and re-running keeps the page consistent.
 
 ## Gates
 

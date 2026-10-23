@@ -1,0 +1,170 @@
+{
+ "snapshot": "2026-10-23",
+ "lede": {
+  "en": "Neither team was held back by weak science. GreatBay-SCIE (12th, 3.97) and Lambert-GA (17th, 3.88) both screened at 4.13, level with the eventual leaders, and both lost ground on the same two aspects once the judges read the whole wiki: who did the work, and whether the team's own bench data support the headline claim.",
+  "zh": "兩隊都不是輸在科學內容。GreatBay-SCIE（第 12 名，3.97）與 Lambert-GA（第 17 名，3.88）篩選階段都是 4.13，與最後的領先群同級；三位評審讀完整個 wiki 後，兩隊都在同樣兩個面向失分：工作是誰做的，以及團隊自己的實驗數據能不能支撐核心主張。"
+ },
+ "intro": {
+  "en": "Both teams passed Gate B near the top of the field, so each was read in full by all three judges. The tables below show where the points actually went, aspect by aspect, against the three teams that finished above them. The weighted gap column is in combined-score points: the whole field sits inside one point, so a single aspect worth 0.09 moves a team several places.",
+  "zh": "兩隊在關卡 B 都以接近全場最高分晉級，因此三位評審都完整讀過。下面的表格逐項顯示分數究竟差在哪裡，對照排在他們前面的三支隊伍。加權差距欄位的單位是綜合分數：全場差距在 1 分以內，所以一個值 0.09 的面向就能讓排名移動好幾位。"
+ },
+ "labels": {
+  "a1": {
+   "en": "Impressive",
+   "zh": "專案份量"
+  },
+  "a2": {
+   "en": "Worked",
+   "zh": "是否成功"
+  },
+  "a3": {
+   "en": "Impact",
+   "zh": "影響力"
+  },
+  "a4": {
+   "en": "Engineering",
+   "zh": "工程方法"
+  },
+  "a5": {
+   "en": "Human practices",
+   "zh": "人文實踐"
+  },
+  "a6": {
+   "en": "Own work",
+   "zh": "自主完成"
+  },
+  "a7": {
+   "en": "SynBio & standards",
+   "zh": "合成生物學與標準"
+  },
+  "a8": {
+   "en": "Documentation",
+   "zh": "元件文件"
+  },
+  "w1": {
+   "en": "Communicates goals",
+   "zh": "溝通目標"
+  },
+  "w2": {
+   "en": "Evidence",
+   "zh": "證據"
+  },
+  "w3": {
+   "en": "Design & navigation",
+   "zh": "設計與導覽"
+  },
+  "w4": {
+   "en": "Record for future teams",
+   "zh": "供後續隊伍參考"
+  },
+  "w5": {
+   "en": "Citations",
+   "zh": "引用"
+  }
+ },
+ "closing": {
+  "en": "The pattern is the same for both, and it is the pattern that decided the top of this field: the judges score what the wiki shows. Reputation does not enter the ballot, and neither does work a judge cannot attribute or check. GreatBay-SCIE lost about three quarters of its gap to first place on pages that are empty rather than on experiments that failed. Lambert-GA lost most of its gap on one aspect, whether the project worked, because its one hard number came from a commercial vendor and its second arm produced none.\n\nThe same rule is why GEMS-Taiwan sits where it does. Our empty Attributions page costs us on the same aspect as GreatBay-SCIE's, and our Results banner claims a light switch our own figures do not show, which is the same kind of gap between claim and evidence that the judges penalised in Lambert-GA's home page.",
+  "zh": "兩隊的模式一樣，而且正是決定這次名次的那個模式：評審只評 wiki 上看得到的東西。名聲不會進評分表，無法歸屬或無法查證的工作也不會。GreatBay-SCIE 與第一名的差距約四分之三來自空白頁面，不是失敗的實驗。Lambert-GA 的差距大多集中在「是否成功」一項，因為唯一的硬數據來自商業廠商，另一條主軸則完全沒有數據。\n\n同一條規則也解釋了 GEMS-Taiwan 的名次。我們空白的 Attributions 頁，扣分的面向和 GreatBay-SCIE 一樣；我們的 Results 頁宣稱的光開關，自己的圖並沒有顯示，這和評審扣 Lambert-GA 首頁的理由是同一種「主張超出證據」。"
+ },
+ "teams": {
+  "greatbay-scie": {
+   "built": {
+    "en": "Expelliodor: three protein routes against the body-odour precursor Cys-Gly-3M3SH (AI-designed precursor binders, binders that lock the Staphylococcus hominis transporter PepTSh, and an engineered CGTase that glycosylates the precursor), all tested on a PepTSh-expressing E. coli surrogate the team built and validated first, plus two-strain co-cultures making fragrance esters confirmed by GC-MS.",
+    "zh": "Expelliodor：用三條蛋白質路線對付體味前驅物 Cys-Gly-3M3SH（AI 設計的前驅物結合蛋白、鎖住人葡萄球菌轉運蛋白 PepTSh 的結合蛋白，以及把前驅物醣基化的工程化 CGTase），全部在團隊先自行建構並驗證的 PepTSh 表現大腸桿菌替代系統上測試；另外用雙菌株共培養生產香氛酯，並以 GC-MS 確認。"
+   },
+   "short": {
+    "en": "The science is at the leaders' level; the documentation is not. About three quarters of the 0.27 gap to first place comes from pages that are empty or thin, not from the biology.",
+    "zh": "科學內容與領先隊伍同級，文件不是。與第一名差的 0.27 分裡，約四分之三來自空白或單薄的頁面，而不是生物實驗本身。"
+   },
+   "why": [
+    {
+     "en": "Attribution is its single biggest loss: 2.5, the second lowest of the 24 teams read in full. The wiki Attributions page renders a heading and nothing else, and the Members page lists 29 students inside a whack-a-mole game with no roles given. That one aspect accounts for 0.11 of the gap to Hong Kong-JSS and 0.16 of the gap to Korea-HS.",
+     "zh": "貢獻歸屬是最大的單一失分：2.5 分，在 24 支完整評審的隊伍中倒數第二。wiki 的 Attributions 頁只有標題沒有內容，Members 頁把 29 位學生放在打地鼠小遊戲裡、沒有列出分工。光這一項就佔了與 Hong Kong-JSS 差距的 0.11 分、與 Korea-HS 差距的 0.16 分。"
+    },
+    {
+     "en": "The record is thin exactly where judges look first. The Notebook page is empty, giving the lowest record-for-future-teams score in the deep pool (3.67). The homepage is a short teaser that never states what was built or found (3.67 on communicating goals). Several standard URLs return 404, so the evidence has to be hunted for under Engineering and Measurement (3.5 on navigation).",
+     "zh": "評審第一眼會看的地方正好最單薄。Notebook 頁是空的，因此「供後續隊伍參考」拿到深度評審隊伍中的最低分 3.67。首頁只是一段簡短引子，沒說做了什麼、發現什麼（溝通目標 3.67）。好幾個標準網址是 404，證據得自己到 Engineering 和 Measurement 底下翻找（導覽 3.5）。"
+    },
+    {
+     "en": "The data are real but small and indirect. Every functional claim rests on Ellman's assay, which reads total free thiol rather than the odour molecule itself, and the team's own Measurement page notes batch-to-batch variation and says biological replicates are needed. The best transporter binder cut thiol by 26.7% and the best precursor binders by roughly 8%, with no direct binding measurement and no mass-spec confirmation of the enzymatic step. That is 4.0 on whether the project worked, against 4.5 for Hong Kong-JSS.",
+     "zh": "數據是真的，但效果小而且是間接量測。所有功能主張都靠 Ellman 試驗，它量的是總游離硫醇，不是體味分子本身；團隊自己的 Measurement 頁也寫到批次間差異、需要生物重複。最好的轉運蛋白結合蛋白讓硫醇下降 26.7%，前驅物結合蛋白約 8%，而且沒有直接的結合量測，酵素步驟也沒有質譜確認。「是否成功」因此是 4.0，Hong Kong-JSS 是 4.5。"
+    },
+    {
+     "en": "Where it is strong, it is very strong. Human practices scored 4.83, the joint best in the field with Labi-Taiwan: 46 stakeholder interactions with design changes that can be traced to specific people, including periplasmic export added on an expert's advice, a whole extra thermostability cycle after a deodorant brand raised warehouse temperature, and the slogan rewritten after sociologists flagged stigma. Project scale and synthetic-biology design both score 4.5, level with the top three, on 30 registered parts.",
+     "zh": "強項非常強。人文實踐 4.83 分，與 Labi-Taiwan 並列全場最高：46 次利害關係人互動，設計改變都能追溯到具體的人，包括依專家建議改為周質表現、體香劑品牌提到倉儲溫度後多做了一整輪熱穩定性、社會學者指出污名問題後改寫口號。專案份量與合成生物學設計都是 4.5，與前三名同級，並登錄了 30 個元件。"
+    }
+   ],
+   "what_if": [
+    {
+     "set": {
+      "a6": 3.5
+     },
+     "en": "Count the attribution form on the iGEM team page, at the level GEMS-Taiwan was given: {s}, about {p}th.",
+     "zh": "把 iGEM 團隊頁上的貢獻歸屬表算進來，拉到 GEMS-Taiwan 的水準：{s}，約第 {p} 名。"
+    },
+    {
+     "set": {
+      "a6": 3.5,
+      "w4": 4.67,
+      "w1": 4.5
+     },
+     "en": "Also fill the notebook and put a project summary on the homepage: {s}, about {p}th, still behind the tied second place on 4.17.",
+     "zh": "再補上 notebook、首頁寫出專案摘要：{s}，約第 {p} 名，仍落後並列第二的 4.17。"
+    }
+   ],
+   "verdict": {
+    "en": "On substance this is the strongest team outside the top five. With its documentation fixed it would be in the finalist conversation. As published, the judges cannot credit work they cannot see, and even with the pages filled the indirect readout and small effect sizes would keep it just short of the top two.",
+    "zh": "以實質內容來說，這是前五名以外最強的隊伍。如果文件補齊，它會進入決賽討論。但以目前公開的版本，評審無法給看不到的工作加分；就算頁面補齊，間接的量測方式與偏小的效果仍會讓它離前兩名差一點。"
+   }
+  },
+  "lambert-ga": {
+   "built": {
+    "en": "SWARM: a two-arm honeybee-health project. Computationally designed de novo minibinders against the Deformed Wing Virus capsid protein VP3, and siRNAs against three Varroa mite salivary genes, supported by PRINCE (a binding-site ranking tool released as open source), four models, and Vapor-X, an 80-dollar vacuum dryer validated by two university labs.",
+    "zh": "SWARM：雙主軸的蜜蜂健康專案。以計算設計的全新小型結合蛋白對付殘翅病毒衣殼蛋白 VP3，並以 siRNA 對付瓦蟎三個唾液腺基因；另有開源釋出的結合位點排序工具 PRINCE、四個模型，以及經兩所大學實驗室驗證、成本約 80 美元的真空乾燥機 Vapor-X。"
+   },
+   "short": {
+    "en": "Engineering, human practices and communication are finalist-grade. The biology did not deliver in the team's own hands: the one hard binding number came from a commercial vendor, and the second arm produced no data at all.",
+    "zh": "工程方法、人文實踐與溝通都是決賽等級。但生物實驗沒有在團隊自己手上做出來：唯一的硬結合數據來自商業廠商，另一條主軸則完全沒有數據。"
+   },
+   "why": [
+    {
+     "en": "Whether the project worked is its weakest aspect at 3.33, the largest single loss against Hong Kong-JSS (0.11 of the gap). The one quantitative binding result, an affinity of about 604 nM over two replicates, was produced by Adaptyv Bio's screening service, not at the team's bench. The in-house pull-down is a single run, and the team's own Parts page states that signal appearing before the minibinder was added means the result does not establish binding by the registered candidate.",
+     "zh": "「是否成功」是最弱的一項，3.33 分，也是與 Hong Kong-JSS 差距中最大的單項（佔 0.11 分）。唯一的定量結合結果、約 604 nM 的親和力（兩次重複），是由 Adaptyv Bio 的篩選服務做出來的，不是團隊自己做的。團隊自己的 pull-down 只做了一次，而且他們的 Parts 頁自己寫明：訊號在加入結合蛋白之前就出現，代表這個結果無法證明所登錄的候選物確實結合。"
+    },
+    {
+     "en": "The RNA interference arm produced no knockdown data. The reporter plasmid was never verified by diagnostic digest or sequencing, and background luminescence swamped the readout, so all six siRNAs remain candidates. Half the project ends with an honest null.",
+     "zh": "RNA 干擾那條主軸完全沒有抑制數據。報導質體從未用酶切或定序確認，背景冷光又蓋過訊號，因此六個 siRNA 全都停在候選階段。等於有一半的專案以誠實的空結果收尾。"
+    },
+    {
+     "en": "Attribution again. The wiki Attributions page is a single link to the official form with no breakdown of who did what, while a vendor ran the binding screen, a synthesis company made the constructs, and two university labs ran the hardware validation. Roles exist on the Team page, which is why this scores 3.17 rather than GreatBay-SCIE's 2.5, but the judges still cannot see which student did which step.",
+     "zh": "又是貢獻歸屬。wiki 的 Attributions 頁只有一個連到官方表單的連結，沒有任何分工說明；而結合篩選是廠商做的、構築由合成公司做、硬體驗證由兩所大學實驗室做。Team 頁上有角色，所以這項是 3.17、而不是 GreatBay-SCIE 的 2.5，但評審仍然看不出哪位學生做了哪一步。"
+    },
+    {
+     "en": "What it does best is engineering and judgement. The minibinder arm is a complete design-build-test-learn cycle: 15 designs produced zero binders, the team benchmarked confidence metrics over 5,721 published designs, built PRINCE, moved to a different epitope, and got one confirmed binder from the next 20. The wiki repeatedly states what its own data cannot establish. Human practices scored 4.33 with five dated pivots traceable to named advisors, and the wiki is the best-communicated of the two at 4.5 on both goals and citations.",
+     "zh": "它最好的地方是工程方法與判斷力。小型結合蛋白那條主軸是完整的設計-建構-測試-學習循環：15 個設計全部沒有結合，團隊便用 5,721 個已發表設計檢驗信心指標、做出 PRINCE、改換抗原表位，接下來的 20 個裡拿到 1 個確認結合。wiki 一再主動說明自己的數據不能證明什麼。人文實踐 4.33 分，有五個標註日期、可追溯到具名顧問的轉折；wiki 溝通也是兩隊中最好的，溝通目標與引用都是 4.5。"
+    }
+   ],
+   "what_if": [
+    {
+     "set": {
+      "a6": 3.67
+     },
+     "en": "Give it the attribution score of the top three: {s}, about {p}th. Not enough on its own.",
+     "zh": "把貢獻歸屬拉到前三名的水準：{s}，約第 {p} 名。光這樣不夠。"
+    },
+    {
+     "set": {
+      "a6": 3.67,
+      "a2": 4.0
+     },
+     "en": "Add an in-house replicated binding result at Korea-HS's level: {s}, about {p}th, inside the top five but still short of the two slots.",
+     "zh": "再加上團隊自己做出、有重複的結合結果，達到 Korea-HS 的水準：{s}，約第 {p} 名，進得了前五，但仍搶不到兩個名額。"
+    }
+   ],
+   "verdict": {
+    "en": "The judges split more on this team than on any other in the top twenty: one ranked it 5th, another 24th. The disagreement is about how much credit a vendor-generated number deserves. The wiki, the hardware and the reasoning are finalist material; the wet lab is not there yet, and the handbook asks first whether the project worked.",
+    "zh": "這一隊是前二十名中評審分歧最大的：一位把它排第 5，另一位排第 24。分歧點在於廠商做出來的數據該給多少分。它的 wiki、硬體與推理都是決賽等級；但濕實驗還沒到位，而手冊第一個問的就是專案是否成功。"
+   }
+  }
+ }
+}
