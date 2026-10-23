@@ -2,18 +2,18 @@
 window.SCOUT_FINALIST = {
  "snapshot": "2026-10-23",
  "lede": {
-  "en": "On the panel's numbers, Hong Kong-JSS (4.24) takes the first finalist slot and GEMS-Taiwan ties Korea-HS for the second (4.17 each). Only one team scores above us, but the tie is real, and the skeptic's evidence checks break it against us: with its corrections applied, Korea-HS and SMS-Shenzhen both pass us and we drop to fourth. A finalist place is possible, not the likely outcome.",
-  "zh": "依評審團分數，Hong Kong-JSS（4.24）拿下第一個決賽名額，GEMS-Taiwan 與 Korea-HS 並列第二（各 4.17）。分數高於我們的只有一隊，但這個平手是真的；唱反調審查員回到 wiki 查證後的修正對我們不利：套用修正後，Korea-HS 與 SMS-Shenzhen 都超過我們，我們掉到第四。進決賽有可能，但不是最可能的結果。"
+  "en": "Scored without the two aspects this crawl could not read fairly, GEMS-Taiwan takes the second finalist slot at 4.21, behind Hong Kong-JSS (4.28) and 0.06 clear of Korea-HS. Only one team scores above us. But the lead is thinner than it looks: the skeptic's evidence corrections, which are not about documentation, drop us to sixth, and the single reason is that our Results banner claims a light switch our own figures do not show.",
+  "zh": "排除本次爬蟲無法公平評分的兩個面向後，GEMS-Taiwan 以 4.21 拿下第二個決賽名額，落後 Hong Kong-JSS（4.28），領先 Korea-HS 0.06 分。分數高於我們的只有一隊。但這個領先比看起來脆弱：唱反調審查員的證據修正（與文件無關）會讓我們掉到第六，唯一的原因就是我們 Results 頁宣稱的光開關，自己的圖並沒有顯示。"
  },
  "verdict": {
-  "en": "HongKong-JSS leads because its central claim is the only one in the field that was replicated. The mercury biosensor was characterised in five independent matched runs, every assessed treatment beat its matched control in both readouts, selectivity against lead, zinc and cadmium was quantified, a calibration model was fitted on four runs and tested on two withheld ones, and a self-built instrument reproduced the dose response independently. All three judges scored it within 0.072 of each other. That is a narrow project — one analyte, one readout — but what it claims, it shows.\n\nThe margin is 0.070, smaller than HongKong-JSS's own judge spread. On arithmetic alone this is a coin flip. It stops being a coin flip because the two teams fail asymmetrically. HongKong-JSS did no cloning at all: every construct was ordered as a sequence-verified plasmid, competent cells came from an outside programme, and the wiki assigns no student to wet lab. That costs one aspect out of eight. GEMS-Taiwan's failure is at the centre of the project rather than at its edge.\n\nWhere GEMS-Taiwan gains: scale and engineering depth beat every team here. Twelve-plus documented DBTL cycles where failures visibly changed the next build, four built instruments, plant rescue in three systems with mock and plasmid-free controls at n = 9–40, secreted ACC deaminase shown by three orthogonal assays and active in cell-free shell permeate at 6–8 U/mg through 72 h, and a pre-registered growth-rate prediction written down on 1 October and scored thirteen days later. The provenance ledger, the retained failures, the published disagreement between two of your own pages on payback — all three judges credited that honesty. Human Practices with dated design changes is at or above the leaders.\n\nWhere GEMS-Taiwan loses, aspect by aspect: on evidence for the headline claim (a2), the optogenetic switch is not demonstrated — ELISA is flat under green and red alike, DNPH inverts between 13 h and 16 h, red exceeded green at 8 h in the pre-cultured set — while the Results banner still says green light switches ACCD on. HongKong-JSS and Korea-HS both have headline claims their figures support; this is the single biggest gap. On attribution (a6), the Attribution page is empty on the live site, with six instructors, four student advisors and a weekly postdoc mentor undeclared; Korea-HS HAS per-member task attribution and an explicit AI-use statement, and scored a full point higher there with one judge. On replication, several load-bearing numbers are n = 1, including the secreted-activity figure that feeds the dose model and both containment platings. On integration, no forecast HAS driven a light and no light-driven culture HAS reached the reactor. On wiki craft (w3), four standard URLs 404 and the site is very long.\n\nThe skeptic changed the shape of the result without changing first place. It confirmed HongKong-JSS at the top (suggesting only a small attribution deduction) and argued GEMS-Taiwan down by roughly 0.08 for the unsupported headline. It moved Labi-Taiwan down hardest — construction outsourced to a vendor, the ML model trained on the predecessor team's data, the PI's declared role in protocol design — which explains that team's 0.5 spread, the table's largest. It failed to promote anyone from below rank 6: PLKLFC HAS the best project mean outside the top five but no attributions page at all beside mammalian cancer-cell work of unstated provenance. It did not dislodge Korea-HS, whose null coating result is reported so carefully that the judges read it as evidence of judgement.\n\nThe honest limits. The presentation video and the judging-session Q&A are not assessed here, and several of the open questions against your wiki — who did what, which page you stand behind on the light switch — are exactly the kind that Q&A resolves in a team's favour. The handbook does not publish aspect weights, so the combined figures are this panel's weighting, not iGEM's. Every score rests on reading public wikis; the Registry was unreachable for all three judges, so part documentation is scored from wiki tables throughout. This is a prediction, not a result.\n\nPartly. First place survives both tests: HongKong-JSS's 0.070 lead is smaller than its own 0.072 judge spread, but the skeptic's corrections widen rather than close the gap (about -0.05 to HongKong-JSS for outsourced construction, about -0.08 to GEMS-Taiwan for the unsupported headline claim), and its three judges agree closely. Second place does not survive. GEMS-Taiwan and Korea-HS are tied at 4.169 from opposite profiles, Korea-HS's zero spread means no judge disagreement to exploit, GEMS-Taiwan's 0.122 spread sits entirely on how much credit the unproven light switch gets, and the skeptic would seat Korea-HS second on the grounds that it proves less but proves it. Labi-Taiwan at rank 4 is the least stable row in the table (0.500 spread, driven by whether a judge read the off-wiki attribution form) and the skeptic moves it down, not up. No team below rank 6 was promoted on review. So: order is robust at rank 1, unresolved between ranks 2 and 3, and robust again from rank 4 down.\n\nOne correction to the panel, which cuts in our favour. From 2026 the attribution form is shown on each team's iGEM team page, not on the wiki (handbook p.26), and the judges read only the wiki's attribution page. An empty wiki page therefore cost several teams on aspect 6, us included (also Hong Kong-JSS and Labi-Taiwan). If our team-page form is complete, our aspect 6 is understated by up to half a point per judge, about +0.05 combined. That would break the tie with Korea-HS in our favour on the panel numbers. With the skeptic's correction also applied we land third (about 4.14), behind Korea-HS (4.17) and ahead of SMS-Shenzhen (4.12). Either way, at least one team, and on the stricter reading two, finish above us. The single biggest lever is aspect 2: the Results banner claims green light switches ACCD on, and our own figures do not show it.",
-  "zh": "HongKong-JSS 居首，是因為它的核心主張是全場唯一被重複驗證的。汞生物感測器做了五次獨立配對實驗，每一個受測條件在兩種讀數上都勝過其配對對照，對鉛、鋅、鎘的選擇性有量化數據，校正模型用四次實驗擬合、兩次保留實驗測試，自建儀器又獨立重現了劑量反應。三位評審給分差距只有 0.072。這是個範圍很窄的專案——一種分析物、一種讀數——但它宣稱什麼，就拿得出什麼。\n\n差距是 0.070，比 HongKong-JSS 自己的評審離散度還小。單看數字這是擲銅板。之所以不是，是因為兩隊的弱點性質不同。HongKong-JSS 完全沒有自己做選殖：所有構築都是訂購的定序驗證質體，勝任細胞來自外部計畫，wiki 上沒有任何學生被標示負責濕實驗。這只損失八個面向中的一個。GEMS-Taiwan 的弱點則落在專案的正中心。\n\nGEMS-Taiwan 的得分處：規模與工程深度勝過在場所有隊伍。十二個以上有記錄的 DBTL 循環，而且失敗確實改變了下一次設計；四台自建儀器；三種系統的植物救援實驗，含空白與無質體對照，n = 9–40；分泌型 ACC deaminase 以三種互相獨立的方法證實，並在無細胞殼側濾液中維持 6–8 U/mg 達 72 小時；還有 10 月 1 日寫下、十三天後驗分的預先登記生長速率預測。來源帳本、保留下來的失敗紀錄、自己頁面之間回收年限互相矛盾仍照實刊出——三位評審都給了這份誠實加分。人文實踐有具名、有日期的設計變更，與領先者同級或更好。\n\n逐面向來看失分處：在核心主張的證據（a2）上，光控開關沒有被證實——ELISA 在綠光與紅光下一樣平坦，DNPH 在 13 小時與 16 小時之間翻轉，預培養組 8 小時時紅光還高於綠光——而 Results 的標題欄仍寫著綠光開啟 ACCD。HongKong-JSS 與 Korea-HS 的頭條主張都有圖支撐，這是最大的一道落差。在貢獻歸屬（a6）上，Attribution 頁在線上是空的，六位指導老師、四位學長姐顧問與每週的博士後導師都未申報；Korea-HS 有逐人任務分工與明確的 AI 使用聲明，在某位評審處高出整整一分。在重複性上，多個關鍵數字是 n = 1，包括餵進劑量模型的分泌活性值與兩次圍阻平板。在整合上，沒有任何預報真的驅動過燈，也沒有任何光驅動的培養進過反應器。在 wiki 品質（w3）上，四個標準網址 404，而且篇幅過長。\n\n反方審查改變了結果的形狀，但沒有改變第一名。它確認 HongKong-JSS 居首（僅建議小幅扣歸屬分），並主張 GEMS-Taiwan 因頭條主張缺乏支撐應下調約 0.08。它對 Labi-Taiwan 下手最重——構築外包廠商、機器學習模型用前一屆隊伍的資料訓練、PI 自述設計了實驗流程——這正解釋了該隊 0.5 的全表最大離散度。它沒能把第六名以下的任何隊伍推上來：PLKLFC 的專案均分是前五名外最高的，但完全沒有 attributions 頁，同時又有來源未明的哺乳動物癌細胞工作。它也沒能撼動 Korea-HS，該隊的塗層無顯著結果寫得極為嚴謹，評審反而把它讀成判斷力的證據。\n\n誠實的限制。簡報影片與評審問答不在此次評估範圍內，而對貴隊 wiki 的幾項疑問——誰做了什麼、光控開關以哪一頁為準——恰恰是問答場合最可能對隊伍有利的那一類。手冊未公布各面向權重，所以綜合分數是本評審團的加權，不是 iGEM 的。所有評分都來自閱讀公開 wiki；三位評審都無法連上 Registry，因此零件文件一律以 wiki 表格計分。這是預測，不是結果。\n\n部分穩健。第一名通過兩項檢驗：HongKong-JSS 的 0.070 領先幅度雖小於自身 0.072 的評審離散度，但反方審查的修正是拉大而非縮小差距（HongKong-JSS 因構築外包約 -0.05，GEMS-Taiwan 因頭條主張缺乏支撐約 -0.08），且三位評審意見高度一致。第二名則不穩。GEMS-Taiwan 與 Korea-HS 同為 4.169，但分數結構完全相反；Korea-HS 離散度為零，沒有可供翻盤的評審分歧；GEMS-Taiwan 的 0.122 離散度完全取決於未獲證實的光控開關能拿多少分；反方審查主張 Korea-HS 應居第二，理由是它證明的事情較少，但確實證明了。第四名的 Labi-Taiwan 是全表最不穩的一列（離散度 0.500，取決於評審是否讀到 wiki 以外的歸屬表單），而審查是把它往下推而非往上。第六名以下沒有任何隊伍在複審後被提升。結論：第一名穩健，第二與第三名之間未定，第四名以下再度穩健。\n\n評審團有一處需要修正，而且對我們有利。2026 年起，貢獻歸屬表顯示在各隊的 iGEM 團隊頁面，而不是 wiki 上（手冊第 26 頁），但評審只讀了 wiki 的 Attributions 頁。因此 wiki 頁面空白讓好幾隊在第 6 項被扣分，包括我們（也包括 Hong Kong-JSS 與 Labi-Taiwan）。如果我們團隊頁面上的表單是完整的，我們第 6 項每位評審最多少給了 0.5 分，綜合分數約 +0.05。只看評審團分數，這足以打破與 Korea-HS 的平手、讓我們領先。若同時套用唱反調審查員的修正，我們排第三（約 4.14），落後 Korea-HS（4.17）、領先 SMS-Shenzhen（4.12）。無論哪種讀法，至少有一隊、較嚴格的讀法下有兩隊排在我們前面。最大的單一槓桿是第 2 項：Results 頁開頭宣稱「綠光開啟 ACCD」，但我們自己的圖並沒有顯示這件事。"
+  "en": "HongKong-JSS leads because its central claim is the only one in the field that was replicated. The mercury biosensor was characterised in five independent matched runs, every assessed treatment beat its matched control in both readouts, selectivity against lead, zinc and cadmium was quantified, a calibration model was fitted on four runs and tested on two withheld ones, and a self-built instrument reproduced the dose response independently. All three judges placed it first. That is a narrow project, one analyte and one readout, but what it claims, it shows.\n\nOur second place is now clear rather than tied, and it is worth being honest about why. Dropping aspect 6 and wiki aspect 4 removed two deductions that were artifacts of what a text crawl can read, and we were among the teams they hurt. But the same change removed credit from the teams we were tied with. Korea-HS published per-member task attribution and an explicit AI-use statement on its wiki, and SMS-Shenzhen did the same; both now lose that. Korea-HS was also the only team in the top six whose notebook was readable HTML rather than an embedded PDF, so it was effectively being rewarded for file format. Our 0.06 lead over it rests partly on no longer counting things it did better than us.\n\nWhere we gain: scale and engineering depth beat every team here. Twelve-plus documented DBTL cycles where failures visibly changed the next build, four built instruments, plant rescue in three systems with mock and plasmid-free controls at n = 9-40, secreted ACC deaminase shown by three orthogonal assays and active in cell-free shell permeate at 6-8 U/mg through 72 h, and a pre-registered growth-rate prediction written down on 1 October and scored thirteen days later. The provenance ledger, the retained failures and the published disagreement between two of our own pages on payback were all credited by three judges as honesty.\n\nWhere we lose, and this is the part no documentation fix touches: on whether the project worked we score 3.83, behind HongKong-JSS at 4.5 and Korea-HS at 4.0. The optogenetic switch is not demonstrated. ELISA is flat under green and red alike, DNPH inverts between 13 h and 16 h, and red exceeded green at 8 h in the pre-cultured set, while the Results banner still says green light switches ACCD on. Several load-bearing numbers are n = 1, including the secreted-activity figure that feeds the dose model and both containment platings. No forecast has driven a light and no light-driven culture has reached the reactor.\n\nThe skeptic is where our second place actually fails. Its corrections are about evidence, not paperwork, so they survive this re-scoring: roughly -0.08 against us for the unsupported headline claim. Applying them drops us to sixth, behind Korea-HS, PSI Korea, GreatBay-SCIE and HangzhouFourteenAP, while HongKong-JSS stays first and in fact gains, because the deduction against it was for having done no cloning at all, which is exactly the kind of judgement aspect 6 carried.\n\nTwo teams to watch that the first read buried. GreatBay-SCIE moves from twelfth to fifth on this correction, with a project mean identical to ours, and PSI Korea from seventh to fourth. Neither was weak; both were documented in ways the crawl could not read. If real judges open the attribution form and the notebook PDFs, which they will, the field above and around us is more crowded than the first read suggested.\n\nThe honest limits. The presentation video and the judging-session Q&A are not assessed here, and several of the open questions against our wiki, including which page we stand behind on the light switch, are exactly the kind Q&A resolves in a team's favour. The handbook does not publish aspect weights, so the combined figures are this panel's weighting, not iGEM's. The Registry was unreachable for all three judges, so part documentation is scored from wiki tables throughout. This is a prediction, not a result.\n\nSo: first place is robust, our second place is real on these numbers but rests on a correction that cuts both ways, and it does not survive the skeptic. One aspect decides it, and it is not the paperwork. Fix the Results banner so it matches the figures, replicate the n = 1 results that carry the dose model, and the second slot is genuinely in play.",
+  "zh": "HongKong-JSS 居首，是因為它的核心主張是全場唯一做過重複驗證的。那個汞生物感測器做了五次獨立的配對實驗，每個受測處理在兩種讀值上都勝過自己的配對對照，對鉛、鋅、鎘的選擇性都有量化，校正模型用四次實驗建立、再用另外兩次保留實驗測試，還有一台自製儀器獨立重現了劑量反應曲線。三位評審都把它排第一。這是個範圍很窄的專案，一個分析物、一種讀值，但它宣稱什麼，就拿得出什麼。\n\n我們的第二名現在是單獨第二、不再是並列，但要誠實說明原因。移除第 6 項與 Wiki 第 4 項，拿掉了兩個因文字爬蟲讀不到而產生的扣分，我們確實是被這兩項扣到的隊伍之一。但同一個改動也拿掉了原本與我們同分那些隊伍的加分。Korea-HS 在 wiki 上逐一列出每位成員的分工，還有明確的 AI 使用聲明，SMS-Shenzhen 也是，這些現在都不算了。而且 Korea-HS 是前六名中唯一 notebook 是可讀 HTML、而非嵌入式 PDF 的隊伍，等於先前是因為檔案格式而被加分。我們領先它的 0.06 分，有一部分建立在「不再計入它做得比我們好的地方」。\n\n我們的強項：專案份量與工程深度勝過這裡任何一隊。十二輪以上有記錄的 DBTL 循環，而且失敗確實改變了下一次的建構；四台自製儀器；三個系統的植物救援實驗，有 mock 與無質體對照，n = 9–40；分泌型 ACC deaminase 以三種互相獨立的方法證實，並在無細胞的殼側濾液中維持 6–8 U/mg 達 72 小時；還有一個 10 月 1 日寫下、13 天後才比對的預先登記生長率預測。來源追溯表、保留下來的失敗紀錄，以及我們自己兩個頁面對回收年限的公開分歧，三位評審都把這些算成誠實加分。\n\n我們的弱項，而且這部分補文件完全沒用：「是否成功」我們是 3.83，落後 HongKong-JSS 的 4.5 與 Korea-HS 的 4.0。光控開關沒有被證明。ELISA 在綠光與紅光下一樣平；DNPH 在 13 到 16 小時之間反轉；預培養那組在第 8 小時紅光還高於綠光，但 Results 頁開頭仍然寫著「綠光開啟 ACCD」。好幾個關鍵數字是 n = 1，包括餵進劑量模型的分泌活性數值，以及兩次圍堵性平盤實驗。而且沒有任何一次預測真的驅動過光源，也沒有任何光驅動的培養進到反應器。\n\n真正讓我們的第二名站不住的是唱反調審查員。它的修正針對的是證據、不是文件，所以在這次重新計分後依然成立：對我們大約 −0.08，理由是那個沒有證據支持的核心主張。套用之後我們掉到第六，落後 Korea-HS、PSI Korea、GreatBay-SCIE 與 HangzhouFourteenAP；而 HongKong-JSS 不但維持第一，分數還上升，因為原本對它的扣分是「完全沒有自己做選殖」，那正是第 6 項在承擔的判斷。\n\n有兩隊是第一次評估埋掉、現在要盯住的。GreatBay-SCIE 經這次修正後從第 12 名升到第 5 名，專題平均與我們完全相同；PSI Korea 從第 7 升到第 4。這兩隊都不弱，只是文件的發布方式讓爬蟲讀不到。如果真正的評審打開貢獻歸屬表與 notebook PDF（他們會打開），我們上方與周圍的競爭，比第一次評估看起來的還要擁擠。\n\n誠實的限制。簡報影片與評審場的問答沒有納入評分，而針對我們 wiki 的幾個未解問題，包括光開關那件事我們到底以哪一頁為準，正好是問答最可能幫隊伍扳回來的那一類。手冊沒有公布各面向的權重，所以這裡的綜合分數是本評審團的權重，不是 iGEM 的。三位評審都連不上 Registry，所以元件文件全程是依 wiki 上的表格評分。這是預測，不是結果。\n\n結論：第一名很穩；我們的第二名在這組數字下是真的，但建立在一個雙面刃的修正上，而且撐不過唱反調審查員。決定勝負的是同一個面向，而那個面向不是文件。把 Results 頁的說法改成與圖一致，把撐住劑量模型的那些 n = 1 結果補上重複，第二個名額才真的有機會。"
  },
  "gems": {
   "rank": 2,
   "of": 147,
-  "combined": 4.169,
-  "gap_to_second": 0.0
+  "combined": 4.213,
+  "gap_to_second": 0.061
  },
  "weights": {
   "en": "The handbook says finalists come from a weighted average of the Project, Wiki and Presentation ballot sections and that Project is the main determinant (p.28, p.31), but it does not publish the weights. Presentation videos and the Q&A (Project aspect 9) cannot be seen from public pages, so this read scores Project aspects 1-8 and Wiki aspects 1-5 only and combines them as 0.75 x Project + 0.25 x Wiki. The sensitivity cards show the order under other weights and under each judge alone.",
@@ -41,8 +41,8 @@ window.SCOUT_FINALIST = {
    "zh": "一位「唱反調」審查員針對前六名與 GEMS-Taiwan 分別提出「被高估」與「被低估」的最強論點，並回到 wiki 查證關鍵主張；最後由主席綜合三位評審與審查員寫出結論。評分的代理人不知道是哪一隊委託這份評估。"
   },
   {
-   "en": "Known limits of this run. The screening scores were compressed (many teams between 3.9 and 4.25), so the cut-off fell inside a cluster near 3.9; a few teams just below it (for example UCS-B, Beijing-HS, NACIS Shanghai, Institut Le Rosey) were not read in full. The judges could not open the Registry, so part documentation was scored from wiki tables. The attribution form on iGEM team pages was not read (see the verdict).",
-   "zh": "本次評估的已知限制。篩選分數偏集中（許多隊落在 3.9–4.25），因此門檻落在 3.9 附近的一群隊伍中間；略低於門檻的幾隊（例如 UCS-B、Beijing-HS、NACIS Shanghai、Institut Le Rosey）沒有被完整閱讀。評審無法開啟 Registry，元件文件是依 wiki 上的表格評分。iGEM 團隊頁面上的貢獻歸屬表沒有讀到（見結論）。"
+   "en": "Known limits of this run. The screening scores were compressed (many teams between 3.9 and 4.25), so the cut-off fell inside a cluster near 3.9; a few teams just below it (for example UCS-B, Beijing-HS, NACIS Shanghai, Institut Le Rosey) were not read in full. The judges could not open the Registry, so part documentation was scored from wiki tables. Two aspects were dropped from the combined score after judging, for the reasons given above; the per-aspect tables still show them so the original reading stays visible.",
+   "zh": "本次評估的已知限制。篩選分數偏集中（許多隊落在 3.9–4.25），因此門檻落在 3.9 附近的一群隊伍中間；略低於門檻的幾隊（例如 UCS-B、Beijing-HS、NACIS Shanghai、Institut Le Rosey）沒有被完整閱讀。評審無法開啟 Registry，元件文件是依 wiki 上的表格評分。評分後有兩個面向因上述原因從綜合分數中移除；各面向表格仍然顯示它們，以保留原始評分。"
   }
  ],
  "gates": [
@@ -133,30 +133,34 @@ window.SCOUT_FINALIST = {
     "w4": 4.5,
     "w5": 4.0
    },
-   "project_mean": 4.229,
-   "wiki_mean": 4.267,
-   "combined": 4.239,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.31,
+   "wiki_mean": 4.208,
+   "combined": 4.284,
    "judges": {
     "J1": {
-     "project": 4.25,
-     "wiki": 4.3,
-     "combined": 4.263,
-     "rank": 2
+     "project": 4.286,
+     "wiki": 4.25,
+     "combined": 4.277,
+     "rank": 1
     },
     "J2": {
-     "project": 4.188,
-     "wiki": 4.2,
-     "combined": 4.191,
+     "project": 4.286,
+     "wiki": 4.125,
+     "combined": 4.246,
      "rank": 1
     },
     "J3": {
-     "project": 4.25,
-     "wiki": 4.3,
-     "combined": 4.263,
-     "rank": 2
+     "project": 4.357,
+     "wiki": 4.25,
+     "combined": 4.33,
+     "rank": 1
     }
    },
-   "spread": 0.072,
+   "spread": 0.084,
    "one_line": {
     "en": "The field's only replicated headline result: a mercury biosensor characterised over five matched runs with paired statistics, a held-out calibration model and two iterated hardware platforms, with all construct building outsourced.",
     "zh": "全場唯一被重複驗證的核心結果：汞生物感測器經五次配對實驗、配對統計、保留集校正模型與兩代自建硬體驗證，但所有構築建造都外包。"
@@ -204,30 +208,34 @@ window.SCOUT_FINALIST = {
     "w4": 4.67,
     "w5": 4.17
    },
-   "project_mean": 4.125,
-   "wiki_mean": 4.3,
-   "combined": 4.169,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 4.208,
+   "combined": 4.213,
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.5,
-     "combined": 4.219,
-     "rank": 3
-    },
-    "J2": {
-     "project": 4.063,
-     "wiki": 4.2,
-     "combined": 4.097,
+     "project": 4.143,
+     "wiki": 4.375,
+     "combined": 4.201,
      "rank": 4
     },
-    "J3": {
-     "project": 4.188,
-     "wiki": 4.2,
-     "combined": 4.191,
+    "J2": {
+     "project": 4.214,
+     "wiki": 4.125,
+     "combined": 4.192,
      "rank": 3
+    },
+    "J3": {
+     "project": 4.286,
+     "wiki": 4.125,
+     "combined": 4.246,
+     "rank": 4
     }
    },
-   "spread": 0.122,
+   "spread": 0.054,
    "one_line": {
     "en": "The most complete engineered system in the field — real secretion, plant-rescue and reactor data, four instruments, twelve DBTL cycles and a pre-registered prediction — undercut by a light switch that is not shown to switch and a blank Attribution page.",
     "zh": "全場最完整的工程系統——真實的分泌、植物救援與反應器數據，四台儀器，十二個 DBTL 循環，還有預先登記的預測——但光控開關未能證實會切換，Attribution 頁完全空白。"
@@ -276,30 +284,34 @@ window.SCOUT_FINALIST = {
     "w4": 4.5,
     "w5": 4.5
    },
-   "project_mean": 4.125,
-   "wiki_mean": 4.3,
-   "combined": 4.169,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.119,
+   "wiki_mean": 4.25,
+   "combined": 4.152,
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169,
-     "rank": 5
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116,
+     "rank": 10
     },
     "J2": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169,
+     "project": 4.214,
+     "wiki": 4.25,
+     "combined": 4.223,
      "rank": 2
     },
     "J3": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169,
-     "rank": 4
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116,
+     "rank": 9
     }
    },
-   "spread": 0,
+   "spread": 0.107,
    "one_line": {
     "en": "A narrow but unusually clean chain from a cloneable tyrosinase to a bacterially made wood coating, with the best statistical honesty on the ballot and a headline coating result that does not survive its own correction.",
     "zh": "從可選殖酪胺酸酶到細菌製木材塗層，鏈條雖窄但異常乾淨，統計誠實度全場最佳，但頭條塗層結果通不過自己的校正。"
@@ -325,222 +337,6 @@ window.SCOUT_FINALIST = {
   },
   {
    "rank": 4,
-   "slug": "labi-taiwan",
-   "team": "Labi-Taiwan",
-   "village": "Diagnostics",
-   "country": "TWN",
-   "url": "https://2026.igem.wiki/labi-taiwan/",
-   "project": {
-    "a1": 4.5,
-    "a2": 4.17,
-    "a3": 3.83,
-    "a4": 4.5,
-    "a5": 4.83,
-    "a6": 3.0,
-    "a7": 4.33,
-    "a8": 3.83
-   },
-   "wiki": {
-    "w1": 4.33,
-    "w2": 4.5,
-    "w3": 3.5,
-    "w4": 4.17,
-    "w5": 4.33
-   },
-   "project_mean": 4.125,
-   "wiki_mean": 4.167,
-   "combined": 4.135,
-   "judges": {
-    "J1": {
-     "project": 4.313,
-     "wiki": 4.3,
-     "combined": 4.309,
-     "rank": 1
-    },
-    "J2": {
-     "project": 3.813,
-     "wiki": 3.8,
-     "combined": 3.809,
-     "rank": 13
-    },
-    "J3": {
-     "project": 4.25,
-     "wiki": 4.4,
-     "combined": 4.287,
-     "rank": 1
-    }
-   },
-   "spread": 0.5,
-   "one_line": {
-    "en": "A technically deep modular miRNA biosensor with the best Human Practices on the ballot, carrying the table's largest judge spread because its construction, its training data and much of its protocol design came from outside the student team.",
-    "zh": "技術深厚的模組化 miRNA 生物感測器，人文實踐全場最佳，但評審離散度全表最大：構築、訓練資料與多數實驗流程設計都來自學生團隊以外。"
-   },
-   "strengths": [
-    "Purpose-built sensor-only and trigger-only controls, a no-ligase transformation control, blank plus four non-target miRNAs for specificity, with n = 3 and stated statistics on essentially every figure",
-    "Genuine data-driven redesign twice over: nine failed toehold candidates led to an ML-guided round that worked, and a failed SWV series led to an overhaul giving a log-linear calibration",
-    "Fourteen engagements with a Before-to-After per phase, including abandoning the red/green readout, moving the user from patient to clinician and excluding workplace deployment",
-    "Real dry lab: FASTQ reprocessing, differential expression and network analysis narrowing thousands of miRNAs to five targets, with models tested prospectively"
-   ],
-   "weaknesses": [
-    "The complete sensing chain was never demonstrated — the fluorescent output was never replaced by the nuclease and the electrode was never driven by the biology",
-    "All targets were synthetic DNA analogues in clean buffer; no RNA, no plasma or spiked matrix, which is the risk the team's own interviewee raised",
-    "The PI designed the experimental workflow, wrote the protocols and ran most preliminary experiments, and plasmids were synthesised commercially",
-    "The portable reader and companion app are renderings and mock-ups with no bench measurement, and the wiki is very long with heavy duplication"
-   ],
-   "red_flags": [
-    "Attributions page renders empty, so the disclosure two judges scored from is not readable on the wiki itself; this drives the 0.5 judge spread",
-    "The ML model's training set came from the predecessor team's screening data",
-    "Malformed Registry identifier in the composite parts table does not resolve",
-    "Five standard page URLs return no content"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 5,
-   "slug": "sms-shenzhen",
-   "team": "SMS-Shenzhen",
-   "village": "Bioremediation",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/sms-shenzhen/",
-   "project": {
-    "a1": 4.33,
-    "a2": 3.5,
-    "a3": 3.67,
-    "a4": 4.17,
-    "a5": 4.5,
-    "a6": 4.17,
-    "a7": 4.5,
-    "a8": 4.17
-   },
-   "wiki": {
-    "w1": 3.83,
-    "w2": 3.83,
-    "w3": 3.83,
-    "w4": 4.5,
-    "w5": 4.5
-   },
-   "project_mean": 4.125,
-   "wiki_mean": 4.1,
-   "combined": 4.119,
-   "judges": {
-    "J1": {
-     "project": 4.125,
-     "wiki": 4.1,
-     "combined": 4.119,
-     "rank": 7
-    },
-    "J2": {
-     "project": 4.063,
-     "wiki": 4.3,
-     "combined": 4.122,
-     "rank": 3
-    },
-    "J3": {
-     "project": 4.188,
-     "wiki": 3.9,
-     "combined": 4.116,
-     "rank": 6
-    }
-   },
-   "spread": 0.006,
-   "one_line": {
-    "en": "A disciplined four-cycle biosorption platform on an unusual cellulose-producing chassis with exemplary attribution and handover, let down by a metal-capture assay with no non-engineered control.",
-    "zh": "在少見的產纖維素底盤上完成四個嚴謹循環的生物吸附平台，貢獻歸屬與交接文件堪稱典範，但金屬捕捉實驗缺少非工程化對照。"
-   },
-   "strengths": [
-    "Four DBTL cycles where each test visibly changed the next build, including an induction-temperature lock and a scaffold chosen by a 2x2 screen",
-    "Expression and secretion shown against empty-vector and sterile-medium controls with mean and SD stated",
-    "A 27-part collection built for reuse with one validated scaffold carrying eight interchangeable payloads, plus checksummed design files, 21 protocols and a 91-page notebook",
-    "Attribution of exemplary completeness: 30 itemised entries, three AI tools scoped, six external contributors including the sponsor who supplied the laboratory"
-   ],
-   "weaknesses": [
-    "The metal-capture panel HAS no wild-type, empty-vector or cellulose-only arm, so capture cannot be attributed to the peptide rather than to native biomass",
-    "No replicate count or error bars for any metal condition, unlike the reporter figures",
-    "Nothing was tested in a real or synthetic wastewater matrix, and single-step lithium removal is modest",
-    "Passphrase gate on the landing page, team members behind a game, and long verbatim duplication between Engineering and Results"
-   ],
-   "red_flags": [
-    "Engineering and Results claim the mass balance rigorously proves specific immobilisation while the team's own Limits page states the opposite; the pages contradict each other",
-    "Internal contradiction about whether an inclusion-body band was observed in Cycle 1",
-    "AI tools declared for drafting substantive prose, not just translation",
-    "Wet lab hosted in a sponsor's laboratory with the instructor guiding raw data collection"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 6,
-   "slug": "basis-china",
-   "team": "BASIS-China",
-   "village": "Therapeutics",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/basis-china/",
-   "project": {
-    "a1": 4.33,
-    "a2": 3.83,
-    "a3": 3.5,
-    "a4": 4.33,
-    "a5": 4.5,
-    "a6": 3.5,
-    "a7": 4.17,
-    "a8": 3.67
-   },
-   "wiki": {
-    "w1": 4.33,
-    "w2": 4.0,
-    "w3": 4.0,
-    "w4": 4.17,
-    "w5": 4.17
-   },
-   "project_mean": 3.979,
-   "wiki_mean": 4.133,
-   "combined": 4.018,
-   "judges": {
-    "J1": {
-     "project": 4.125,
-     "wiki": 4.4,
-     "combined": 4.194,
-     "rank": 4
-    },
-    "J2": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 8
-    },
-    "J3": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978,
-     "rank": 13
-    }
-   },
-   "spread": 0.313,
-   "one_line": {
-    "en": "A broad four-module project with real controls, honest negative results and a model fitted to its own data, published on a wiki that still carries drafting instructions and a safety page contradicting its own results.",
-    "zh": "四個模組、具備真實對照與誠實陰性結果的廣泛專案，模型以自家數據擬合，但 wiki 仍留有草稿指示，安全頁與結果頁自相矛盾。"
-   },
-   "strengths": [
-    "Controlled function data across all four modules, including deactivated-enzyme, empty-vector and no-signal-peptide controls",
-    "A real DBTL record where failures drove redesign, from unclear gels to fusion constructs and milder induction",
-    "The bile-acid kill switch characterised across four promoter variants and six concentrations, with a stated threshold compared against published environmental levels",
-    "A model fitted to the team's own measurements that reports its own failure plainly, plus 14 protocols and a very long notebook"
-   ],
-   "weaknesses": [
-    "No replicate number or error-bar definition on the Results page although significance markers are used throughout",
-    "Keratin degradation is assayed with crude rather than purified enzyme and never quantified as mass lost",
-    "The four modules were never operated together, so the system is a design",
-    "Constructs were synthesised and assembled commercially and imaging was done by university staff"
-   ],
-   "red_flags": [
-    "Uncleaned drafting or template instructions left in the published Engineering text",
-    "Safety page claims the full enzyme set expresses and degrades keratin, that the circuit functions reliably, and that the enzymes are completely safe to gut mucosa — all beyond the data",
-    "Part size and accession inconsistencies between pages",
-    "Attributions page is only an embedded form and did not render as readable text"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 7,
    "slug": "psi-korea",
    "team": "PSI Korea",
    "village": "Biomanufacturing",
@@ -563,30 +359,34 @@ window.SCOUT_FINALIST = {
     "w4": 4.33,
     "w5": 4.0
    },
-   "project_mean": 4,
-   "wiki_mean": 4.033,
-   "combined": 4.008,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.958,
+   "combined": 4.15,
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 4.1,
-     "combined": 4.072,
-     "rank": 8
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 7
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 3.9,
-     "combined": 3.834,
-     "rank": 11
+     "project": 4.071,
+     "wiki": 3.875,
+     "combined": 4.022,
+     "rank": 9
     },
     "J3": {
-     "project": 4.125,
-     "wiki": 4.1,
-     "combined": 4.119,
-     "rank": 5
+     "project": 4.357,
+     "wiki": 4.0,
+     "combined": 4.268,
+     "rank": 3
     }
    },
-   "spread": 0.285,
+   "spread": 0.246,
    "one_line": {
     "en": "A complete two-module project with five real DBTL cycles, a reusable graded part collection and a reader rebuilt by independent builders, held back by an empty attributions page and a one-cell capstone that was never built.",
     "zh": "完整的雙模組專案，五個真實 DBTL 循環、可重用的分級零件集，讀取器還被獨立團隊依文件重建，但歸屬頁空白、單細胞共產目標從未建成。"
@@ -608,6 +408,234 @@ window.SCOUT_FINALIST = {
     "Source-organism inconsistency between the Description and Safety pages",
     "Provenance of the indigo and indirubin used in the tag series is never stated",
     "One Registry entry shows a biosafety screening status that iGEM reviewed and published; noted for the record"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 5,
+   "slug": "greatbay-scie",
+   "team": "GreatBay-SCIE",
+   "village": "Fashion & Cosmetics",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/greatbay-scie/",
+   "project": {
+    "a1": 4.5,
+    "a2": 4.0,
+    "a3": 3.83,
+    "a4": 4.17,
+    "a5": 4.83,
+    "a6": 2.5,
+    "a7": 4.5,
+    "a8": 3.67
+   },
+   "wiki": {
+    "w1": 3.67,
+    "w2": 4.17,
+    "w3": 3.5,
+    "w4": 3.67,
+    "w5": 4.33
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.917,
+   "combined": 4.14,
+   "judges": {
+    "J1": {
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 5
+    },
+    "J2": {
+     "project": 4.143,
+     "wiki": 3.875,
+     "combined": 4.076,
+     "rank": 6
+    },
+    "J3": {
+     "project": 4.286,
+     "wiki": 3.875,
+     "combined": 4.183,
+     "rank": 7
+    }
+   },
+   "spread": 0.107,
+   "one_line": {
+    "en": "Three AI-designed interventions on one pathway, all built and tested against controls on a surrogate the team made itself, held back by an empty Attributions page, an empty Notebook and small indirect effects.",
+    "zh": "針對同一途徑的三種 AI 設計介入，全部建成並在自建替代系統上對照測試，但歸屬頁與實驗紀錄頁皆空白，效應量小且屬間接測量。"
+   },
+   "strengths": [
+    "The team built and validated its own test platform first with a dose-response against an empty-vector control, which makes the three downstream assays interpretable",
+    "Controls, statistics and units stated nearly everywhere, with named tests for each route",
+    "Honest reporting of failure, including a variant that turned out to be a different substitution and a wild-type enzyme outperforming the engineered ones",
+    "Safety work beyond a checklist, with computational immunogenicity and allergen screens of all candidates and one flagged for follow-up"
+   ],
+   "weaknesses": [
+    "The Attributions page renders empty, so there is no record of who ran the instruments or the simulations",
+    "The Notebook page is also empty, leaving no dated experimental record",
+    "The central readout measures total free thiol rather than the target molecule, with technical replicates only and small effect sizes",
+    "No direct evidence of the proposed mechanisms — no binding measurement and no mass-spec confirmation of the enzymatic step"
+   ],
+   "red_flags": [
+    "Attributions page published but empty, verified live",
+    "Notebook page empty",
+    "Regulatory parts supplied by an outside company and all constructs commercially synthesised, declared in text but not reconciled on any attribution page",
+    "Part descriptions are identical boilerplate repeated across each group"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 6,
+   "slug": "hangzhoufourteenap",
+   "team": "HangzhouFourteenAP",
+   "village": "Biomanufacturing",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/hangzhoufourteenap/",
+   "project": {
+    "a1": 4.5,
+    "a2": 4.17,
+    "a3": 3.5,
+    "a4": 4.5,
+    "a5": 4.5,
+    "a6": 2.5,
+    "a7": 4.17,
+    "a8": 4.0
+   },
+   "wiki": {
+    "w1": 4.0,
+    "w2": 4.5,
+    "w3": 3.0,
+    "w4": 4.17,
+    "w5": 4.33
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.19,
+   "wiki_mean": 3.958,
+   "combined": 4.132,
+   "judges": {
+    "J1": {
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 6
+    },
+    "J2": {
+     "project": 4.143,
+     "wiki": 3.625,
+     "combined": 4.013,
+     "rank": 10
+    },
+    "J3": {
+     "project": 4.214,
+     "wiki": 4.25,
+     "combined": 4.223,
+     "rank": 5
+    }
+   },
+   "spread": 0.21,
+   "one_line": {
+    "en": "A well-controlled enzyme project where the computational prediction was overturned by the team's own assay and said so, undermined by a missing attributions page and standard URLs that 404.",
+    "zh": "對照嚴謹的酵素專案，計算預測被自家實驗推翻並據實說明，但缺少歸屬頁且標準網址 404。"
+   },
+   "strengths": [
+    "Substrate specificity shown with substrate-swap, buffer and heat-inactivated controls at n = 3",
+    "A measurement page printing every replicate value, running ANOVA before planned tests and labelling small-n results as exploratory",
+    "A closed loop where the predicted top mutant lost to the measured top mutant and the ranking was revised with an explanation",
+    "Human Practices that repeatedly changed the science, including retargeting the intervention window and dropping a chimeric enzyme"
+   ],
+   "weaknesses": [
+    "No attributions page and no named owner for any experiment, with five instructors listed without tasks",
+    "Efficacy rests on a surrogate organism whose matrix is not the polymer the enzymes target, and no mineral-phase measurement was made",
+    "Activity reported from crude lysates with no specific activity or purified-enzyme kinetics",
+    "The formulation cycle HAS no test data, yet a formulation finding is asserted on the Contribution page"
+   ],
+   "red_flags": [
+    "All six Registry parts are credited to a designer name that appears nowhere among the listed students or mentors",
+    "Standard URLs for results, parts, description, team, experiments, protocols and notebook all return 404",
+    "Two surveys reported as headline percentages with no consent, sampling or ethics information",
+    "AI-generated imagery disclosed for illustrative figures"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 7,
+   "slug": "gcgs",
+   "team": "GCGS",
+   "village": "Diagnostics",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/gcgs/",
+   "project": {
+    "a1": 4.5,
+    "a2": 4.17,
+    "a3": 3.67,
+    "a4": 4.5,
+    "a5": 4.17,
+    "a6": 2.83,
+    "a7": 4.33,
+    "a8": 3.67
+   },
+   "wiki": {
+    "w1": 4.33,
+    "w2": 4.0,
+    "w3": 3.5,
+    "w4": 3.83,
+    "w5": 4.17
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.143,
+   "wiki_mean": 4.0,
+   "combined": 4.107,
+   "judges": {
+    "J1": {
+     "project": 4.071,
+     "wiki": 4.125,
+     "combined": 4.085,
+     "rank": 13
+    },
+    "J2": {
+     "project": 4.0,
+     "wiki": 3.75,
+     "combined": 3.938,
+     "rank": 13
+    },
+    "J3": {
+     "project": 4.357,
+     "wiki": 4.125,
+     "combined": 4.299,
+     "rank": 2
+    }
+   },
+   "spread": 0.361,
+   "one_line": {
+    "en": "A disciplined AND-gate therapeutic with a genuine failure-driven redesign and characterised logic in the therapeutic chassis, badly let down by having no attributions anywhere.",
+    "zh": "嚴謹的 AND 閘治療設計，有真實因失敗而改版的過程，並在治療底盤中完成邏輯表徵，但完全沒有任何貢獻歸屬。"
+   },
+   "strengths": [
+    "A textbook redesign cycle: degradation tags abolished induction, the cause was diagnosed and a stronger promoter restored dose-stratified response",
+    "AND-gate logic demonstrated across all input combinations with growth controls and normalised fluorescence",
+    "Analytical characterisation beyond a yes/no result, with a detection limit, a dose fit and a cross-reactivity panel",
+    "Effector module taken from clone to purified protein to quantified activity against a negative control, with optima matched to the application"
+   ],
+   "weaknesses": [
+    "The therapeutic claim rests on purified substrate only; no biofilm and no target organism were ever tested",
+    "No attributions page and no task-level statement of who performed which experiment",
+    "Replicate number stated for one cycle only, with significance reported elsewhere without n",
+    "Notebook is embedded PDFs with almost no on-page text; several standard pages are 404"
+   ],
+   "red_flags": [
+    "No Attributions page exists on the wiki",
+    "Internal contradiction on the same Results page about whether circuit-triggered release in artificial lung fluid was demonstrated",
+    "A circuit-level simulation is cited as justification for a redesign while no model page or modelling data exists anywhere",
+    "Public survey including patients and caregivers reported with no consent or ethics statement"
    ],
    "ours": false
   },
@@ -635,30 +663,34 @@ window.SCOUT_FINALIST = {
     "w4": 3.83,
     "w5": 3.0
    },
-   "project_mean": 4.083,
-   "wiki_mean": 3.767,
-   "combined": 4.004,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.75,
+   "combined": 4.098,
    "judges": {
     "J1": {
-     "project": 4.25,
-     "wiki": 3.8,
-     "combined": 4.138,
-     "rank": 6
+     "project": 4.357,
+     "wiki": 3.75,
+     "combined": 4.205,
+     "rank": 2
     },
     "J2": {
-     "project": 4,
-     "wiki": 3.8,
-     "combined": 3.95,
-     "rank": 6
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045,
+     "rank": 8
     },
     "J3": {
-     "project": 4,
-     "wiki": 3.7,
-     "combined": 3.925,
-     "rank": 16
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045,
+     "rank": 11
     }
    },
-   "spread": 0.213,
+   "spread": 0.16,
    "one_line": {
     "en": "The broadest project outside the top five — characterised promoters, kill switches and three printer generations with outstanding Human Practices — held down by no attributions page at all and an unproven targeting module.",
     "zh": "前五名以外最廣的專案——已表徵的啟動子、自殺開關與三代列印機，人文實踐出色——但完全沒有歸屬頁，標靶模組也未獲證實。"
@@ -685,366 +717,82 @@ window.SCOUT_FINALIST = {
   },
   {
    "rank": 9,
-   "slug": "hangzhoufourteenap",
-   "team": "HangzhouFourteenAP",
-   "village": "Biomanufacturing",
+   "slug": "sms-shenzhen",
+   "team": "SMS-Shenzhen",
+   "village": "Bioremediation",
    "country": "CHN",
-   "url": "https://2026.igem.wiki/hangzhoufourteenap/",
+   "url": "https://2026.igem.wiki/sms-shenzhen/",
    "project": {
-    "a1": 4.5,
-    "a2": 4.17,
-    "a3": 3.5,
-    "a4": 4.5,
+    "a1": 4.33,
+    "a2": 3.5,
+    "a3": 3.67,
+    "a4": 4.17,
     "a5": 4.5,
-    "a6": 2.5,
-    "a7": 4.17,
-    "a8": 4.0
+    "a6": 4.17,
+    "a7": 4.5,
+    "a8": 4.17
    },
    "wiki": {
-    "w1": 4.0,
-    "w2": 4.5,
-    "w3": 3.0,
-    "w4": 4.17,
-    "w5": 4.33
+    "w1": 3.83,
+    "w2": 3.83,
+    "w3": 3.83,
+    "w4": 4.5,
+    "w5": 4.5
    },
-   "project_mean": 3.979,
-   "wiki_mean": 4,
-   "combined": 3.984,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.119,
+   "wiki_mean": 4.0,
+   "combined": 4.089,
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 4.1,
-     "combined": 4.072,
-     "rank": 9
+     "project": 4.143,
+     "wiki": 4.0,
+     "combined": 4.107,
+     "rank": 11
     },
     "J2": {
-     "project": 3.875,
-     "wiki": 3.7,
-     "combined": 3.831,
-     "rank": 12
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116,
+     "rank": 5
     },
     "J3": {
-     "project": 4,
-     "wiki": 4.2,
-     "combined": 4.05,
-     "rank": 9
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045,
+     "rank": 12
     }
    },
-   "spread": 0.241,
+   "spread": 0.071,
    "one_line": {
-    "en": "A well-controlled enzyme project where the computational prediction was overturned by the team's own assay and said so, undermined by a missing attributions page and standard URLs that 404.",
-    "zh": "對照嚴謹的酵素專案，計算預測被自家實驗推翻並據實說明，但缺少歸屬頁且標準網址 404。"
+    "en": "A disciplined four-cycle biosorption platform on an unusual cellulose-producing chassis with exemplary attribution and handover, let down by a metal-capture assay with no non-engineered control.",
+    "zh": "在少見的產纖維素底盤上完成四個嚴謹循環的生物吸附平台，貢獻歸屬與交接文件堪稱典範，但金屬捕捉實驗缺少非工程化對照。"
    },
    "strengths": [
-    "Substrate specificity shown with substrate-swap, buffer and heat-inactivated controls at n = 3",
-    "A measurement page printing every replicate value, running ANOVA before planned tests and labelling small-n results as exploratory",
-    "A closed loop where the predicted top mutant lost to the measured top mutant and the ranking was revised with an explanation",
-    "Human Practices that repeatedly changed the science, including retargeting the intervention window and dropping a chimeric enzyme"
+    "Four DBTL cycles where each test visibly changed the next build, including an induction-temperature lock and a scaffold chosen by a 2x2 screen",
+    "Expression and secretion shown against empty-vector and sterile-medium controls with mean and SD stated",
+    "A 27-part collection built for reuse with one validated scaffold carrying eight interchangeable payloads, plus checksummed design files, 21 protocols and a 91-page notebook",
+    "Attribution of exemplary completeness: 30 itemised entries, three AI tools scoped, six external contributors including the sponsor who supplied the laboratory"
    ],
    "weaknesses": [
-    "No attributions page and no named owner for any experiment, with five instructors listed without tasks",
-    "Efficacy rests on a surrogate organism whose matrix is not the polymer the enzymes target, and no mineral-phase measurement was made",
-    "Activity reported from crude lysates with no specific activity or purified-enzyme kinetics",
-    "The formulation cycle HAS no test data, yet a formulation finding is asserted on the Contribution page"
+    "The metal-capture panel HAS no wild-type, empty-vector or cellulose-only arm, so capture cannot be attributed to the peptide rather than to native biomass",
+    "No replicate count or error bars for any metal condition, unlike the reporter figures",
+    "Nothing was tested in a real or synthetic wastewater matrix, and single-step lithium removal is modest",
+    "Passphrase gate on the landing page, team members behind a game, and long verbatim duplication between Engineering and Results"
    ],
    "red_flags": [
-    "All six Registry parts are credited to a designer name that appears nowhere among the listed students or mentors",
-    "Standard URLs for results, parts, description, team, experiments, protocols and notebook all return 404",
-    "Two surveys reported as headline percentages with no consent, sampling or ethics information",
-    "AI-generated imagery disclosed for illustrative figures"
+    "Engineering and Results claim the mass balance rigorously proves specific immobilisation while the team's own Limits page states the opposite; the pages contradict each other",
+    "Internal contradiction about whether an inclusion-body band was observed in Cycle 1",
+    "AI tools declared for drafting substantive prose, not just translation",
+    "Wet lab hosted in a sponsor's laboratory with the instructor guiding raw data collection"
    ],
    "ours": false
   },
   {
    "rank": 10,
-   "slug": "squirrel-beijing",
-   "team": "Squirrel-Beijing",
-   "village": "Bioremediation",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/squirrel-beijing/",
-   "project": {
-    "a1": 4.33,
-    "a2": 4.0,
-    "a3": 3.67,
-    "a4": 4.33,
-    "a5": 4.5,
-    "a6": 3.0,
-    "a7": 4.33,
-    "a8": 3.5
-   },
-   "wiki": {
-    "w1": 4.5,
-    "w2": 4.0,
-    "w3": 3.5,
-    "w4": 4.17,
-    "w5": 4.0
-   },
-   "project_mean": 3.959,
-   "wiki_mean": 4.033,
-   "combined": 3.977,
-   "judges": {
-    "J1": {
-     "project": 4,
-     "wiki": 4.1,
-     "combined": 4.025,
-     "rank": 11
-    },
-    "J2": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859,
-     "rank": 10
-    },
-    "J3": {
-     "project": 4.063,
-     "wiki": 4,
-     "combined": 4.047,
-     "rank": 10
-    }
-   },
-   "spread": 0.188,
-   "one_line": {
-    "en": "A three-module project with model-guided mutant selection, HPLC-verified degradation against an empty-vector control and strong Human Practices, let down by a 404 attributions page and boilerplate standard pages.",
-    "zh": "三模組專案，模型導向的突變體選擇、以空載體對照驗證的 HPLC 降解數據與紮實的人文實踐，但歸屬頁 404、多個標準頁仍是範本文字。"
-   },
-   "strengths": [
-    "A closed computation-to-bench loop: docking plus simulation selected a mutant that then measurably outperformed wild type under identical conditions",
-    "Degradation quantified by HPLC against empty-vector and abiotic controls across five initial concentrations",
-    "Human Practices with named institutions at every stage and a containment module that exists because a field visit raised persistence",
-    "Complete protocols, a dated notebook with per-task student credits, and honest limitation statements"
-   ],
-   "weaknesses": [
-    "No attributions page and no statement of instructor, host-lab or mentor roles",
-    "The cold-inducible lysis claim rests on optical density with no lysis-gene-free control, no colony counts and no escape rate",
-    "No specificity, detection limit or recovery testing, so analytical performance is undefined",
-    "Model, Measurement, Software and Inclusivity pages are unedited template text"
-   ],
-   "red_flags": [
-    "Contribution page asserts an integrated sensing-and-degrading strain was built with no supporting data anywhere",
-    "Standard attributions, proof-of-concept, implementation, protocols and design URLs return 404",
-    "Caption copy-paste error on a key pathway figure, and one team bio describes a different project",
-    "Public questionnaire reported with no consent or ethics statement"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 11,
-   "slug": "gcgs",
-   "team": "GCGS",
-   "village": "Diagnostics",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/gcgs/",
-   "project": {
-    "a1": 4.5,
-    "a2": 4.17,
-    "a3": 3.67,
-    "a4": 4.5,
-    "a5": 4.17,
-    "a6": 2.83,
-    "a7": 4.33,
-    "a8": 3.67
-   },
-   "wiki": {
-    "w1": 4.33,
-    "w2": 4.0,
-    "w3": 3.5,
-    "w4": 3.83,
-    "w5": 4.17
-   },
-   "project_mean": 3.979,
-   "wiki_mean": 3.967,
-   "combined": 3.976,
-   "judges": {
-    "J1": {
-     "project": 4,
-     "wiki": 4.1,
-     "combined": 4.025,
-     "rank": 12
-    },
-    "J2": {
-     "project": 3.813,
-     "wiki": 3.8,
-     "combined": 3.809,
-     "rank": 14
-    },
-    "J3": {
-     "project": 4.125,
-     "wiki": 4,
-     "combined": 4.094,
-     "rank": 8
-    }
-   },
-   "spread": 0.285,
-   "one_line": {
-    "en": "A disciplined AND-gate therapeutic with a genuine failure-driven redesign and characterised logic in the therapeutic chassis, badly let down by having no attributions anywhere.",
-    "zh": "嚴謹的 AND 閘治療設計，有真實因失敗而改版的過程，並在治療底盤中完成邏輯表徵，但完全沒有任何貢獻歸屬。"
-   },
-   "strengths": [
-    "A textbook redesign cycle: degradation tags abolished induction, the cause was diagnosed and a stronger promoter restored dose-stratified response",
-    "AND-gate logic demonstrated across all input combinations with growth controls and normalised fluorescence",
-    "Analytical characterisation beyond a yes/no result, with a detection limit, a dose fit and a cross-reactivity panel",
-    "Effector module taken from clone to purified protein to quantified activity against a negative control, with optima matched to the application"
-   ],
-   "weaknesses": [
-    "The therapeutic claim rests on purified substrate only; no biofilm and no target organism were ever tested",
-    "No attributions page and no task-level statement of who performed which experiment",
-    "Replicate number stated for one cycle only, with significance reported elsewhere without n",
-    "Notebook is embedded PDFs with almost no on-page text; several standard pages are 404"
-   ],
-   "red_flags": [
-    "No Attributions page exists on the wiki",
-    "Internal contradiction on the same Results page about whether circuit-triggered release in artificial lung fluid was demonstrated",
-    "A circuit-level simulation is cited as justification for a redesign while no model page or modelling data exists anywhere",
-    "Public survey including patients and caregivers reported with no consent or ethics statement"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 12,
-   "slug": "greatbay-scie",
-   "team": "GreatBay-SCIE",
-   "village": "Fashion & Cosmetics",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/greatbay-scie/",
-   "project": {
-    "a1": 4.5,
-    "a2": 4.0,
-    "a3": 3.83,
-    "a4": 4.17,
-    "a5": 4.83,
-    "a6": 2.5,
-    "a7": 4.5,
-    "a8": 3.67
-   },
-   "wiki": {
-    "w1": 3.67,
-    "w2": 4.17,
-    "w3": 3.5,
-    "w4": 3.67,
-    "w5": 4.33
-   },
-   "project_mean": 4,
-   "wiki_mean": 3.867,
-   "combined": 3.967,
-   "judges": {
-    "J1": {
-     "project": 4,
-     "wiki": 3.9,
-     "combined": 3.975,
-     "rank": 16
-    },
-    "J2": {
-     "project": 3.938,
-     "wiki": 3.9,
-     "combined": 3.928,
-     "rank": 7
-    },
-    "J3": {
-     "project": 4.063,
-     "wiki": 3.8,
-     "combined": 3.997,
-     "rank": 11
-    }
-   },
-   "spread": 0.069,
-   "one_line": {
-    "en": "Three AI-designed interventions on one pathway, all built and tested against controls on a surrogate the team made itself, held back by an empty Attributions page, an empty Notebook and small indirect effects.",
-    "zh": "針對同一途徑的三種 AI 設計介入，全部建成並在自建替代系統上對照測試，但歸屬頁與實驗紀錄頁皆空白，效應量小且屬間接測量。"
-   },
-   "strengths": [
-    "The team built and validated its own test platform first with a dose-response against an empty-vector control, which makes the three downstream assays interpretable",
-    "Controls, statistics and units stated nearly everywhere, with named tests for each route",
-    "Honest reporting of failure, including a variant that turned out to be a different substitution and a wild-type enzyme outperforming the engineered ones",
-    "Safety work beyond a checklist, with computational immunogenicity and allergen screens of all candidates and one flagged for follow-up"
-   ],
-   "weaknesses": [
-    "The Attributions page renders empty, so there is no record of who ran the instruments or the simulations",
-    "The Notebook page is also empty, leaving no dated experimental record",
-    "The central readout measures total free thiol rather than the target molecule, with technical replicates only and small effect sizes",
-    "No direct evidence of the proposed mechanisms — no binding measurement and no mass-spec confirmation of the enzymatic step"
-   ],
-   "red_flags": [
-    "Attributions page published but empty, verified live",
-    "Notebook page empty",
-    "Regulatory parts supplied by an outside company and all constructs commercially synthesised, declared in text but not reconciled on any attribution page",
-    "Part descriptions are identical boilerplate repeated across each group"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 13,
-   "slug": "hongwen-school",
-   "team": "Hongwen School",
-   "village": "Food & Nutrition",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/hongwen-school/",
-   "project": {
-    "a1": 4.33,
-    "a2": 3.83,
-    "a3": 3.5,
-    "a4": 4.5,
-    "a5": 4.5,
-    "a6": 2.67,
-    "a7": 4.33,
-    "a8": 3.67
-   },
-   "wiki": {
-    "w1": 4.0,
-    "w2": 4.33,
-    "w3": 3.33,
-    "w4": 4.33,
-    "w5": 4.5
-   },
-   "project_mean": 3.917,
-   "wiki_mean": 4.1,
-   "combined": 3.963,
-   "judges": {
-    "J1": {
-     "project": 3.938,
-     "wiki": 4.2,
-     "combined": 4.003,
-     "rank": 13
-    },
-    "J2": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788,
-     "rank": 15
-    },
-    "J3": {
-     "project": 4.063,
-     "wiki": 4.2,
-     "combined": 4.097,
-     "rank": 7
-    }
-   },
-   "spread": 0.309,
-   "one_line": {
-    "en": "A disciplined five-strain comparison with raw replicate data on both a model substrate and real spent grain, plus a built and user-tested fermenter, let down by an unidentified product and a missing attributions page.",
-    "zh": "五株菌的嚴謹比較，模型基質與真實酒糟都附原始重複數據，並有自建且經使用者測試的發酵槽，但產物未經鑑定、歸屬頁缺失。"
-   },
-   "strengths": [
-    "Raw per-replicate readings, a stated calibration curve, substrate blank, no-substrate control and parental control for every activity claim",
-    "A consistent strain comparison holding across two independent systems, with every intermediate construct informative",
-    "Hardware with its own iteration, external user testing with before/after task times, a full bill of materials and an operating decision driven by its own data",
-    "Exceptional calibration of language to evidence, including an explicit list of what the team still lacks"
-   ],
-   "weaknesses": [
-    "The named product was never identified — the chromatography standards used cannot show the substitution that defines it",
-    "The headline conversion figure depends on an assumed substrate composition from literature and on subtracting a negative parental baseline",
-    "Constructs were never sequence-verified; integration rests on PCR patterns only",
-    "No statistical testing and no protein-level evidence of secretion"
-   ],
-   "red_flags": [
-    "Attributions page returns 404 and the Team page gives bios, not roles",
-    "Six standard pages are empty or 404, pushing all evidence into three very long pages",
-    "Two figure captions read as unedited instructions to an illustrator",
-    "Survey with a large minority of minors reported with no consent or ethics statement"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 14,
    "slug": "hk-joint-school",
    "team": "HK-Joint-School",
    "village": "Biomanufacturing",
@@ -1067,27 +815,31 @@ window.SCOUT_FINALIST = {
     "w4": 3.83,
     "w5": 3.83
    },
-   "project_mean": 4,
-   "wiki_mean": 3.733,
-   "combined": 3.933,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.708,
+   "combined": 4.088,
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 3.8,
-     "combined": 3.997,
-     "rank": 14
+     "project": 4.286,
+     "wiki": 3.75,
+     "combined": 4.152,
+     "rank": 8
     },
     "J2": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 9
+     "project": 4.143,
+     "wiki": 3.875,
+     "combined": 4.076,
+     "rank": 7
     },
     "J3": {
-     "project": 4.063,
+     "project": 4.214,
      "wiki": 3.5,
-     "combined": 3.922,
-     "rank": 17
+     "combined": 4.036,
+     "rank": 13
     }
    },
    "spread": 0.116,
@@ -1116,74 +868,382 @@ window.SCOUT_FINALIST = {
    "ours": false
   },
   {
-   "rank": 15,
-   "slug": "mammothedu-united",
-   "team": "MammothEdu-United",
-   "village": "Biomanufacturing",
+   "rank": 11,
+   "slug": "hongwen-school",
+   "team": "Hongwen School",
+   "village": "Food & Nutrition",
    "country": "CHN",
-   "url": "https://2026.igem.wiki/mammothedu-united/",
+   "url": "https://2026.igem.wiki/hongwen-school/",
    "project": {
-    "a1": 3.5,
-    "a2": 2.67,
-    "a3": 4.0,
-    "a4": 4.0,
-    "a5": 4.67,
-    "a6": 4.0,
-    "a7": 4.0,
+    "a1": 4.33,
+    "a2": 3.83,
+    "a3": 3.5,
+    "a4": 4.5,
+    "a5": 4.5,
+    "a6": 2.67,
+    "a7": 4.33,
+    "a8": 3.67
+   },
+   "wiki": {
+    "w1": 4.0,
+    "w2": 4.33,
+    "w3": 3.33,
+    "w4": 4.33,
+    "w5": 4.5
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.095,
+   "wiki_mean": 4.042,
+   "combined": 4.082,
+   "judges": {
+    "J1": {
+     "project": 4.143,
+     "wiki": 4.125,
+     "combined": 4.138,
+     "rank": 9
+    },
+    "J2": {
+     "project": 3.929,
+     "wiki": 3.875,
+     "combined": 3.915,
+     "rank": 14
+    },
+    "J3": {
+     "project": 4.214,
+     "wiki": 4.125,
+     "combined": 4.192,
+     "rank": 6
+    }
+   },
+   "spread": 0.277,
+   "one_line": {
+    "en": "A disciplined five-strain comparison with raw replicate data on both a model substrate and real spent grain, plus a built and user-tested fermenter, let down by an unidentified product and a missing attributions page.",
+    "zh": "五株菌的嚴謹比較，模型基質與真實酒糟都附原始重複數據，並有自建且經使用者測試的發酵槽，但產物未經鑑定、歸屬頁缺失。"
+   },
+   "strengths": [
+    "Raw per-replicate readings, a stated calibration curve, substrate blank, no-substrate control and parental control for every activity claim",
+    "A consistent strain comparison holding across two independent systems, with every intermediate construct informative",
+    "Hardware with its own iteration, external user testing with before/after task times, a full bill of materials and an operating decision driven by its own data",
+    "Exceptional calibration of language to evidence, including an explicit list of what the team still lacks"
+   ],
+   "weaknesses": [
+    "The named product was never identified — the chromatography standards used cannot show the substitution that defines it",
+    "The headline conversion figure depends on an assumed substrate composition from literature and on subtracting a negative parental baseline",
+    "Constructs were never sequence-verified; integration rests on PCR patterns only",
+    "No statistical testing and no protein-level evidence of secretion"
+   ],
+   "red_flags": [
+    "Attributions page returns 404 and the Team page gives bios, not roles",
+    "Six standard pages are empty or 404, pushing all evidence into three very long pages",
+    "Two figure captions read as unedited instructions to an illustrator",
+    "Survey with a large minority of minors reported with no consent or ethics statement"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 12,
+   "slug": "squirrel-beijing",
+   "team": "Squirrel-Beijing",
+   "village": "Bioremediation",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/squirrel-beijing/",
+   "project": {
+    "a1": 4.33,
+    "a2": 4.0,
+    "a3": 3.67,
+    "a4": 4.33,
+    "a5": 4.5,
+    "a6": 3.0,
+    "a7": 4.33,
+    "a8": 3.5
+   },
+   "wiki": {
+    "w1": 4.5,
+    "w2": 4.0,
+    "w3": 3.5,
+    "w4": 4.17,
+    "w5": 4.0
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.095,
+   "wiki_mean": 4.0,
+   "combined": 4.071,
+   "judges": {
+    "J1": {
+     "project": 4.143,
+     "wiki": 4.0,
+     "combined": 4.107,
+     "rank": 12
+    },
+    "J2": {
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 12
+    },
+    "J3": {
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 8
+    }
+   },
+   "spread": 0.215,
+   "one_line": {
+    "en": "A three-module project with model-guided mutant selection, HPLC-verified degradation against an empty-vector control and strong Human Practices, let down by a 404 attributions page and boilerplate standard pages.",
+    "zh": "三模組專案，模型導向的突變體選擇、以空載體對照驗證的 HPLC 降解數據與紮實的人文實踐，但歸屬頁 404、多個標準頁仍是範本文字。"
+   },
+   "strengths": [
+    "A closed computation-to-bench loop: docking plus simulation selected a mutant that then measurably outperformed wild type under identical conditions",
+    "Degradation quantified by HPLC against empty-vector and abiotic controls across five initial concentrations",
+    "Human Practices with named institutions at every stage and a containment module that exists because a field visit raised persistence",
+    "Complete protocols, a dated notebook with per-task student credits, and honest limitation statements"
+   ],
+   "weaknesses": [
+    "No attributions page and no statement of instructor, host-lab or mentor roles",
+    "The cold-inducible lysis claim rests on optical density with no lysis-gene-free control, no colony counts and no escape rate",
+    "No specificity, detection limit or recovery testing, so analytical performance is undefined",
+    "Model, Measurement, Software and Inclusivity pages are unedited template text"
+   ],
+   "red_flags": [
+    "Contribution page asserts an integrated sensing-and-degrading strain was built with no supporting data anywhere",
+    "Standard attributions, proof-of-concept, implementation, protocols and design URLs return 404",
+    "Caption copy-paste error on a key pathway figure, and one team bio describes a different project",
+    "Public questionnaire reported with no consent or ethics statement"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 13,
+   "slug": "basis-china",
+   "team": "BASIS-China",
+   "village": "Therapeutics",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/basis-china/",
+   "project": {
+    "a1": 4.33,
+    "a2": 3.83,
+    "a3": 3.5,
+    "a4": 4.33,
+    "a5": 4.5,
+    "a6": 3.5,
+    "a7": 4.17,
     "a8": 3.67
    },
    "wiki": {
     "w1": 4.33,
-    "w2": 3.83,
-    "w3": 4.17,
-    "w4": 4.33,
-    "w5": 4.5
+    "w2": 4.0,
+    "w3": 4.0,
+    "w4": 4.17,
+    "w5": 4.17
    },
-   "project_mean": 3.813,
-   "wiki_mean": 4.233,
-   "combined": 3.918,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.048,
+   "wiki_mean": 4.125,
+   "combined": 4.067,
    "judges": {
     "J1": {
-     "project": 4,
-     "wiki": 4.2,
-     "combined": 4.05,
-     "rank": 10
+     "project": 4.143,
+     "wiki": 4.375,
+     "combined": 4.201,
+     "rank": 3
     },
     "J2": {
-     "project": 3.563,
-     "wiki": 4.2,
-     "combined": 3.722,
-     "rank": 21
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969,
+     "rank": 11
     },
     "J3": {
-     "project": 3.875,
-     "wiki": 4.3,
-     "combined": 3.981,
-     "rank": 12
+     "project": 4.0,
+     "wiki": 4.125,
+     "combined": 4.031,
+     "rank": 14
     }
    },
-   "spread": 0.328,
+   "spread": 0.232,
    "one_line": {
-    "en": "Exceptionally well-framed and honestly documented, with grand-prize-calibre human practices and record-keeping, but the central conversion is screened and built rather than demonstrated.",
-    "zh": "框架設定與文件誠實度極佳，人文實踐與紀錄保存達大獎水準，但核心轉化只做到篩選與建構，未獲實證。"
+    "en": "A broad four-module project with real controls, honest negative results and a model fitted to its own data, published on a wiki that still carries drafting instructions and a safety page contradicting its own results.",
+    "zh": "四個模組、具備真實對照與誠實陰性結果的廣泛專案，模型以自家數據擬合，但 wiki 仍留有草稿指示，安全頁與結果頁自相矛盾。"
    },
    "strengths": [
-    "31 engagements in a consistent format, each with a traceable design change, plus a self-audit of the team's own survey wording",
-    "The problem is bounded by a real national standard and priced from named operators rather than pitched as saving the world",
-    "One clean quantitative dataset in the target chassis that then changed the next build",
-    "Unusual metrological honesty: the Measurement page separates correction from calibration, flags a contradictory record and refuses to call relative peak areas concentrations"
+    "Controlled function data across all four modules, including deactivated-enzyme, empty-vector and no-signal-peptide controls",
+    "A real DBTL record where failures drove redesign, from unclear gels to fusion constructs and milder induction",
+    "The bile-acid kill switch characterised across four promoter variants and six concentrations, with a stated threshold compared against published environmental levels",
+    "A model fitted to the team's own measurements that reports its own failure plainly, plus 14 protocols and a very long notebook"
    ],
    "weaknesses": [
-    "No activity assay for the degradation branch; ranking rests on n = 2 relative peak areas with no abiotic control",
-    "No clone used in a functional assay HAS been sequence-confirmed",
-    "No polymer was identified — small recovered masses weighed at coarse precision with no purification procedure or biomass normalisation",
-    "No hardware was built, and Human Practices and Education together dwarf the Results page"
+    "No replicate number or error-bar definition on the Results page although significance markers are used throughout",
+    "Keratin degradation is assayed with crude rather than purified enzyme and never quantified as mass lost",
+    "The four modules were never operated together, so the system is a design",
+    "Constructs were synthesised and assembled commercially and imaging was done by university staff"
    ],
    "red_flags": [
-    "The team discloses that a lead plasmid design carries an internal stop codon early in the insert and that two cassette designs contain internal stop codons",
-    "An unresolved selection anomaly leaves open whether assayed cultures carried the plasmid",
-    "An instructor is declared as having independently conducted part of the experimental work",
-    "Extensive declared AI use in wiki, animation and illustration production"
+    "Uncleaned drafting or template instructions left in the published Engineering text",
+    "Safety page claims the full enzyme set expresses and degrades keratin, that the circuit functions reliably, and that the enzymes are completely safe to gut mucosa — all beyond the data",
+    "Part size and accession inconsistencies between pages",
+    "Attributions page is only an embedded form and did not render as readable text"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 14,
+   "slug": "squirrel-guangzhou",
+   "team": "Squirrel-Guangzhou",
+   "village": "Biomanufacturing",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/squirrel-guangzhou/",
+   "project": {
+    "a1": 4.33,
+    "a2": 4.0,
+    "a3": 3.17,
+    "a4": 4.0,
+    "a5": 4.5,
+    "a6": 2.5,
+    "a7": 4.33,
+    "a8": 3.5
+   },
+   "wiki": {
+    "w1": 4.33,
+    "w2": 4.0,
+    "w3": 3.33,
+    "w4": 4.0,
+    "w5": 4.17
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.976,
+   "wiki_mean": 3.958,
+   "combined": 3.972,
+   "judges": {
+    "J1": {
+     "project": 4.0,
+     "wiki": 4.0,
+     "combined": 4.0,
+     "rank": 15
+    },
+    "J2": {
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893,
+     "rank": 17
+    },
+    "J3": {
+     "project": 4.071,
+     "wiki": 3.875,
+     "combined": 4.022,
+     "rank": 15
+    }
+   },
+   "spread": 0.129,
+   "one_line": {
+    "en": "Four generations of metabolic engineering with real titres, controls and two tested containment circuits, undermined by a missing attributions page and a probiotic chassis that was never built.",
+    "zh": "四代代謝工程，具真實效價、對照與兩套經測試的圍阻電路，但缺少歸屬頁，且作為產品核心的益生菌底盤從未建成。"
+   },
+   "strengths": [
+    "Stepwise production data with a wild-type negative control and an external calibration curve, across three biological replicates",
+    "Both safety circuits characterised rather than drawn, with dose- and time-dependent reporter data and matched growth curves",
+    "Honest reporting of limits and failures, including a non-zero baseline explained rather than hidden and failed cloning rounds recorded",
+    "Human Practices tightly coupled to the bench, with a supplier conversation driving a redesign and peer comparison replacing one kill-switch design"
+   ],
+   "weaknesses": [
+    "No attributions anywhere and no acknowledgement of host laboratory, advisors or who operated the instruments",
+    "The probiotic chassis the whole product depends on never appears in an experiment",
+    "Kill switches are validated as growth inhibition rather than killing, with no viable counts and no circuit-free control",
+    "Several standard pages 404 and seven award pages are untouched template text"
+   ],
+   "red_flags": [
+    "Attributions page absent and no mentor or supervising institution named anywhere despite advanced instrumentation and simulation",
+    "Framing drift between a probiotic product claim and a laboratory-strain evidence base",
+    "One reference could not be verified and several citations are malformed or bare URLs",
+    "Public survey, park outreach and patient interviews with no consent or ethics statement"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 15,
+   "slug": "lambert-ga",
+   "team": "Lambert-GA",
+   "village": "Conservation",
+   "country": "USA",
+   "url": "https://2026.igem.wiki/lambert-ga/",
+   "project": {
+    "a1": 4.17,
+    "a2": 3.33,
+    "a3": 3.67,
+    "a4": 4.17,
+    "a5": 4.33,
+    "a6": 3.17,
+    "a7": 4.0,
+    "a8": 3.5
+   },
+   "wiki": {
+    "w1": 4.5,
+    "w2": 3.83,
+    "w3": 4.0,
+    "w4": 3.83,
+    "w5": 4.5
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.881,
+   "wiki_mean": 4.208,
+   "combined": 3.963,
+   "judges": {
+    "J1": {
+     "project": 3.643,
+     "wiki": 4.125,
+     "combined": 3.763,
+     "rank": 23
+    },
+    "J2": {
+     "project": 4.071,
+     "wiki": 4.375,
+     "combined": 4.147,
+     "rank": 4
+    },
+    "J3": {
+     "project": 3.929,
+     "wiki": 4.125,
+     "combined": 3.978,
+     "rank": 16
+    }
+   },
+   "spread": 0.384,
+   "one_line": {
+    "en": "An ambitious two-arm project with an exemplary positive control, honest negative reporting and a cheap externally validated dryer, where the one confirmed binding number came from a commercial vendor.",
+    "zh": "企圖心強的雙線專案，陽性對照堪稱典範、陰性結果誠實呈報、乾燥器低成本且經外部驗證，但唯一確認的結合數據來自商業廠商。"
+   },
+   "strengths": [
+    "The positive control is the best bench work on the wiki: three conditions, two orthogonal readouts, quantification and a coherent interpretation",
+    "Unusually honest negative reporting, including that colony growth does not confirm assembly and that a reporter was uninterpretable",
+    "Human Practices genuinely drove design across five dated pivots traceable to named advisors",
+    "Hardware costed line by line, externally validated at two universities, with a build manual and a classroom trial"
+   ],
+   "weaknesses": [
+    "The only quantitative binding measurement was produced by a commercial screening partner, not the students",
+    "The RNA-interference arm produced no knockdown data at all, and the reporter was never sequence-verified",
+    "The attributions page is a bare link to the official form despite a vendor, two university labs and ten sponsors",
+    "No replicates or error bars for the quantified dot blot, and the experimental pull-down used a different schedule from its validated control"
+   ],
+   "red_flags": [
+    "Headline affinity generated by an external commercial partner rather than the team",
+    "Five standard page slugs return 404 and the notebook page is very short",
+    "Home page headline claims neutralisation, which inner pages explicitly disclaim",
+    "Shipped hardware carries a published default wireless password giving anyone in range control of a heater"
    ],
    "ours": false
   },
@@ -1211,30 +1271,34 @@ window.SCOUT_FINALIST = {
     "w4": 3.83,
     "w5": 4.33
    },
-   "project_mean": 3.854,
-   "wiki_mean": 3.967,
-   "combined": 3.882,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.928,
+   "wiki_mean": 4.0,
+   "combined": 3.947,
    "judges": {
     "J1": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 18
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893,
+     "rank": 20
     },
     "J2": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788,
-     "rank": 16
+     "project": 3.857,
+     "wiki": 3.875,
+     "combined": 3.862,
+     "rank": 20
     },
     "J3": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978,
-     "rank": 14
+     "project": 4.071,
+     "wiki": 4.125,
+     "combined": 4.085,
+     "rank": 10
     }
    },
-   "spread": 0.19,
+   "spread": 0.223,
    "one_line": {
     "en": "A coherent waste-to-ethanol project with a genuinely new, well-documented Registry part and a model built on its own measured constants, let down by an uncontrolled final demonstration and seven missing standard pages.",
     "zh": "從廢棄物到乙醇的連貫專案，有真正新穎且文件完整的 Registry 零件，模型全部建立在自家量測常數上，但最終示範缺對照、七個標準頁缺失。"
@@ -1261,222 +1325,6 @@ window.SCOUT_FINALIST = {
   },
   {
    "rank": 17,
-   "slug": "lambert-ga",
-   "team": "Lambert-GA",
-   "village": "Conservation",
-   "country": "USA",
-   "url": "https://2026.igem.wiki/lambert-ga/",
-   "project": {
-    "a1": 4.17,
-    "a2": 3.33,
-    "a3": 3.67,
-    "a4": 4.17,
-    "a5": 4.33,
-    "a6": 3.17,
-    "a7": 4.0,
-    "a8": 3.5
-   },
-   "wiki": {
-    "w1": 4.5,
-    "w2": 3.83,
-    "w3": 4.0,
-    "w4": 3.83,
-    "w5": 4.5
-   },
-   "project_mean": 3.792,
-   "wiki_mean": 4.133,
-   "combined": 3.877,
-   "judges": {
-    "J1": {
-     "project": 3.563,
-     "wiki": 4,
-     "combined": 3.672,
-     "rank": 24
-    },
-    "J2": {
-     "project": 4,
-     "wiki": 4.3,
-     "combined": 4.075,
-     "rank": 5
-    },
-    "J3": {
-     "project": 3.813,
-     "wiki": 4.1,
-     "combined": 3.884,
-     "rank": 18
-    }
-   },
-   "spread": 0.403,
-   "one_line": {
-    "en": "An ambitious two-arm project with an exemplary positive control, honest negative reporting and a cheap externally validated dryer, where the one confirmed binding number came from a commercial vendor.",
-    "zh": "企圖心強的雙線專案，陽性對照堪稱典範、陰性結果誠實呈報、乾燥器低成本且經外部驗證，但唯一確認的結合數據來自商業廠商。"
-   },
-   "strengths": [
-    "The positive control is the best bench work on the wiki: three conditions, two orthogonal readouts, quantification and a coherent interpretation",
-    "Unusually honest negative reporting, including that colony growth does not confirm assembly and that a reporter was uninterpretable",
-    "Human Practices genuinely drove design across five dated pivots traceable to named advisors",
-    "Hardware costed line by line, externally validated at two universities, with a build manual and a classroom trial"
-   ],
-   "weaknesses": [
-    "The only quantitative binding measurement was produced by a commercial screening partner, not the students",
-    "The RNA-interference arm produced no knockdown data at all, and the reporter was never sequence-verified",
-    "The attributions page is a bare link to the official form despite a vendor, two university labs and ten sponsors",
-    "No replicates or error bars for the quantified dot blot, and the experimental pull-down used a different schedule from its validated control"
-   ],
-   "red_flags": [
-    "Headline affinity generated by an external commercial partner rather than the team",
-    "Five standard page slugs return 404 and the notebook page is very short",
-    "Home page headline claims neutralisation, which inner pages explicitly disclaim",
-    "Shipped hardware carries a published default wireless password giving anyone in range control of a heater"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 18,
-   "slug": "hk-league",
-   "team": "HK League",
-   "village": "Bioremediation",
-   "country": "HKG",
-   "url": "https://2026.igem.wiki/hk-league/",
-   "project": {
-    "a1": 4.0,
-    "a2": 3.33,
-    "a3": 3.17,
-    "a4": 4.17,
-    "a5": 3.83,
-    "a6": 4.17,
-    "a7": 4.0,
-    "a8": 3.67
-   },
-   "wiki": {
-    "w1": 4.5,
-    "w2": 4.0,
-    "w3": 4.0,
-    "w4": 4.0,
-    "w5": 4.0
-   },
-   "project_mean": 3.792,
-   "wiki_mean": 4.1,
-   "combined": 3.869,
-   "judges": {
-    "J1": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978,
-     "rank": 15
-    },
-    "J2": {
-     "project": 3.688,
-     "wiki": 4,
-     "combined": 3.766,
-     "rank": 18
-    },
-    "J3": {
-     "project": 3.75,
-     "wiki": 4.2,
-     "combined": 3.862,
-     "rank": 20
-    }
-   },
-   "spread": 0.212,
-   "one_line": {
-    "en": "A wide six-school chain from de novo designed proteins to an operated cartridge, written with unusual honesty about its limits, but never showing that the designed protein rather than the gel does the binding.",
-    "zh": "六校合作、從全新設計蛋白到實際運行匣體的完整鏈條，對自身限制書寫異常誠實，但始終未證明結合來自設計蛋白而非膠體。"
-   },
-   "strengths": [
-    "A genuinely connected chain, each link evidenced: designed cargos, verified plasmids, beads and a printed cartridge that completed load, wash and elution",
-    "Three independent preparations per bead condition with every individual reading published and calibration fits stated",
-    "Three documented engineering loops where an observed failure changed the next build",
-    "Repeated discipline about what the data cannot support — elution called handling not selectivity, resistance called a plated phenotype, lithium called extrapolated"
-   ],
-   "weaknesses": [
-    "The only plasmid-free control exists for one bead grade while every lead result uses the other, so binding cannot be separated from the alginate",
-    "The immunoblot targets a native outer-membrane protein, so it cannot establish expression of the designed cargo",
-    "Lithium is read as bulk conductivity well above the top standard",
-    "The cartridge result is a single run with no mass balance, no cross-metal composition and no selectivity demonstrated"
-   ],
-   "red_flags": [
-    "Home-page summary cards state outcomes more strongly than the results pages they summarise",
-    "The immunoblot is described as contrast enhanced for display",
-    "Six standard page URLs return 404 and the notebook is a single short file",
-    "Software tools and printed-part sources live in external repositories that cannot be judged"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 19,
-   "slug": "squirrel-guangzhou",
-   "team": "Squirrel-Guangzhou",
-   "village": "Biomanufacturing",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/squirrel-guangzhou/",
-   "project": {
-    "a1": 4.33,
-    "a2": 4.0,
-    "a3": 3.17,
-    "a4": 4.0,
-    "a5": 4.5,
-    "a6": 2.5,
-    "a7": 4.33,
-    "a8": 3.5
-   },
-   "wiki": {
-    "w1": 4.33,
-    "w2": 4.0,
-    "w3": 3.33,
-    "w4": 4.0,
-    "w5": 4.17
-   },
-   "project_mean": 3.792,
-   "wiki_mean": 3.967,
-   "combined": 3.835,
-   "judges": {
-    "J1": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859,
-     "rank": 19
-    },
-    "J2": {
-     "project": 3.625,
-     "wiki": 4,
-     "combined": 3.719,
-     "rank": 22
-    },
-    "J3": {
-     "project": 3.938,
-     "wiki": 3.9,
-     "combined": 3.928,
-     "rank": 15
-    }
-   },
-   "spread": 0.209,
-   "one_line": {
-    "en": "Four generations of metabolic engineering with real titres, controls and two tested containment circuits, undermined by a missing attributions page and a probiotic chassis that was never built.",
-    "zh": "四代代謝工程，具真實效價、對照與兩套經測試的圍阻電路，但缺少歸屬頁，且作為產品核心的益生菌底盤從未建成。"
-   },
-   "strengths": [
-    "Stepwise production data with a wild-type negative control and an external calibration curve, across three biological replicates",
-    "Both safety circuits characterised rather than drawn, with dose- and time-dependent reporter data and matched growth curves",
-    "Honest reporting of limits and failures, including a non-zero baseline explained rather than hidden and failed cloning rounds recorded",
-    "Human Practices tightly coupled to the bench, with a supplier conversation driving a redesign and peer comparison replacing one kill-switch design"
-   ],
-   "weaknesses": [
-    "No attributions anywhere and no acknowledgement of host laboratory, advisors or who operated the instruments",
-    "The probiotic chassis the whole product depends on never appears in an experiment",
-    "Kill switches are validated as growth inhibition rather than killing, with no viable counts and no circuit-free control",
-    "Several standard pages 404 and seven award pages are untouched template text"
-   ],
-   "red_flags": [
-    "Attributions page absent and no mentor or supervising institution named anywhere despite advanced instrumentation and simulation",
-    "Framing drift between a probiotic product claim and a laboratory-strain evidence base",
-    "One reference could not be verified and several citations are malformed or bare URLs",
-    "Public survey, park outreach and patient interviews with no consent or ethics statement"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 20,
    "slug": "bist-china",
    "team": "Bist-China",
    "village": "Oncology",
@@ -1499,30 +1347,34 @@ window.SCOUT_FINALIST = {
     "w4": 3.83,
     "w5": 3.83
    },
-   "project_mean": 3.729,
-   "wiki_mean": 3.967,
-   "combined": 3.789,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.905,
+   "wiki_mean": 4.0,
+   "combined": 3.928,
    "judges": {
     "J1": {
-     "project": 3.75,
-     "wiki": 4,
-     "combined": 3.813,
-     "rank": 21
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 17
     },
     "J2": {
-     "project": 3.688,
-     "wiki": 4,
-     "combined": 3.766,
-     "rank": 19
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893,
+     "rank": 16
     },
     "J3": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788,
-     "rank": 21
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 18
     }
    },
-   "spread": 0.047,
+   "spread": 0.053,
    "one_line": {
     "en": "Two allosteric biosensors built, screened and characterised with controls in buffer, artificial plasma and live cells, with outstanding human practices, let down by a missing attributions page and a reader never run with the team's own proteins.",
     "zh": "兩款變構生物感測器建成、篩選並在緩衝液、人工血漿與活細胞中對照表徵，人文實踐出色，但缺歸屬頁，讀取器也從未搭配自家蛋白實測。"
@@ -1548,7 +1400,7 @@ window.SCOUT_FINALIST = {
    "ours": false
   },
   {
-   "rank": 21,
+   "rank": 18,
    "slug": "cataverse-greatbay",
    "team": "Cataverse-GreatBay",
    "village": "Therapeutics",
@@ -1571,30 +1423,34 @@ window.SCOUT_FINALIST = {
     "w4": 4.0,
     "w5": 3.83
    },
-   "project_mean": 3.771,
-   "wiki_mean": 3.767,
-   "combined": 3.77,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.976,
+   "wiki_mean": 3.708,
+   "combined": 3.909,
    "judges": {
     "J1": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859,
-     "rank": 20
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969,
+     "rank": 16
     },
     "J2": {
-     "project": 3.688,
-     "wiki": 3.8,
-     "combined": 3.716,
-     "rank": 23
+     "project": 3.929,
+     "wiki": 3.75,
+     "combined": 3.884,
+     "rank": 18
     },
     "J3": {
-     "project": 3.813,
+     "project": 4.0,
      "wiki": 3.5,
-     "combined": 3.734,
-     "rank": 23
+     "combined": 3.875,
+     "rank": 20
     }
    },
-   "spread": 0.143,
+   "spread": 0.094,
    "one_line": {
     "en": "Four genuine DBTL cycles ending in a transfer into a probiotic chassis under gut-like conditions, let down by a missing attributions page, placeholder Registry status and three unfilled template pages.",
     "zh": "四個真實 DBTL 循環，最終在類腸道條件下轉入益生菌底盤，但缺歸屬頁、Registry 狀態為暫定編號，三個頁面仍是未填範本。"
@@ -1616,6 +1472,234 @@ window.SCOUT_FINALIST = {
     "Pre-existing Registry parts are tabulated as the team's new parts",
     "Standard parts, attributions, proof-of-concept, implementation, protocols and design pages return 404",
     "Text and figure disagree on wild-type transporter activity"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 19,
+   "slug": "mammothedu-united",
+   "team": "MammothEdu-United",
+   "village": "Biomanufacturing",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/mammothedu-united/",
+   "project": {
+    "a1": 3.5,
+    "a2": 2.67,
+    "a3": 4.0,
+    "a4": 4.0,
+    "a5": 4.67,
+    "a6": 4.0,
+    "a7": 4.0,
+    "a8": 3.67
+   },
+   "wiki": {
+    "w1": 4.33,
+    "w2": 3.83,
+    "w3": 4.17,
+    "w4": 4.33,
+    "w5": 4.5
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.786,
+   "wiki_mean": 4.208,
+   "combined": 3.891,
+   "judges": {
+    "J1": {
+     "project": 4.0,
+     "wiki": 4.125,
+     "combined": 4.031,
+     "rank": 14
+    },
+    "J2": {
+     "project": 3.571,
+     "wiki": 4.25,
+     "combined": 3.741,
+     "rank": 21
+    },
+    "J3": {
+     "project": 3.786,
+     "wiki": 4.25,
+     "combined": 3.902,
+     "rank": 19
+    }
+   },
+   "spread": 0.29,
+   "one_line": {
+    "en": "Exceptionally well-framed and honestly documented, with grand-prize-calibre human practices and record-keeping, but the central conversion is screened and built rather than demonstrated.",
+    "zh": "框架設定與文件誠實度極佳，人文實踐與紀錄保存達大獎水準，但核心轉化只做到篩選與建構，未獲實證。"
+   },
+   "strengths": [
+    "31 engagements in a consistent format, each with a traceable design change, plus a self-audit of the team's own survey wording",
+    "The problem is bounded by a real national standard and priced from named operators rather than pitched as saving the world",
+    "One clean quantitative dataset in the target chassis that then changed the next build",
+    "Unusual metrological honesty: the Measurement page separates correction from calibration, flags a contradictory record and refuses to call relative peak areas concentrations"
+   ],
+   "weaknesses": [
+    "No activity assay for the degradation branch; ranking rests on n = 2 relative peak areas with no abiotic control",
+    "No clone used in a functional assay HAS been sequence-confirmed",
+    "No polymer was identified — small recovered masses weighed at coarse precision with no purification procedure or biomass normalisation",
+    "No hardware was built, and Human Practices and Education together dwarf the Results page"
+   ],
+   "red_flags": [
+    "The team discloses that a lead plasmid design carries an internal stop codon early in the insert and that two cassette designs contain internal stop codons",
+    "An unresolved selection anomaly leaves open whether assayed cultures carried the plasmid",
+    "An instructor is declared as having independently conducted part of the experimental work",
+    "Extensive declared AI use in wiki, animation and illustration production"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 20,
+   "slug": "hk-league",
+   "team": "HK League",
+   "village": "Bioremediation",
+   "country": "HKG",
+   "url": "https://2026.igem.wiki/hk-league/",
+   "project": {
+    "a1": 4.0,
+    "a2": 3.33,
+    "a3": 3.17,
+    "a4": 4.17,
+    "a5": 3.83,
+    "a6": 4.17,
+    "a7": 4.0,
+    "a8": 3.67
+   },
+   "wiki": {
+    "w1": 4.5,
+    "w2": 4.0,
+    "w3": 4.0,
+    "w4": 4.0,
+    "w5": 4.0
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.738,
+   "wiki_mean": 4.125,
+   "combined": 3.835,
+   "judges": {
+    "J1": {
+     "project": 3.857,
+     "wiki": 4.125,
+     "combined": 3.924,
+     "rank": 19
+    },
+    "J2": {
+     "project": 3.643,
+     "wiki": 4.0,
+     "combined": 3.732,
+     "rank": 22
+    },
+    "J3": {
+     "project": 3.714,
+     "wiki": 4.25,
+     "combined": 3.848,
+     "rank": 21
+    }
+   },
+   "spread": 0.192,
+   "one_line": {
+    "en": "A wide six-school chain from de novo designed proteins to an operated cartridge, written with unusual honesty about its limits, but never showing that the designed protein rather than the gel does the binding.",
+    "zh": "六校合作、從全新設計蛋白到實際運行匣體的完整鏈條，對自身限制書寫異常誠實，但始終未證明結合來自設計蛋白而非膠體。"
+   },
+   "strengths": [
+    "A genuinely connected chain, each link evidenced: designed cargos, verified plasmids, beads and a printed cartridge that completed load, wash and elution",
+    "Three independent preparations per bead condition with every individual reading published and calibration fits stated",
+    "Three documented engineering loops where an observed failure changed the next build",
+    "Repeated discipline about what the data cannot support — elution called handling not selectivity, resistance called a plated phenotype, lithium called extrapolated"
+   ],
+   "weaknesses": [
+    "The only plasmid-free control exists for one bead grade while every lead result uses the other, so binding cannot be separated from the alginate",
+    "The immunoblot targets a native outer-membrane protein, so it cannot establish expression of the designed cargo",
+    "Lithium is read as bulk conductivity well above the top standard",
+    "The cartridge result is a single run with no mass balance, no cross-metal composition and no selectivity demonstrated"
+   ],
+   "red_flags": [
+    "Home-page summary cards state outcomes more strongly than the results pages they summarise",
+    "The immunoblot is described as contrast enhanced for display",
+    "Six standard page URLs return 404 and the notebook is a single short file",
+    "Software tools and printed-part sources live in external repositories that cannot be judged"
+   ],
+   "ours": false
+  },
+  {
+   "rank": 21,
+   "slug": "zqt-nanjing",
+   "team": "ZQT-Nanjing",
+   "village": "Fashion & Cosmetics",
+   "country": "CHN",
+   "url": "https://2026.igem.wiki/zqt-nanjing/",
+   "project": {
+    "a1": 4.0,
+    "a2": 4.0,
+    "a3": 3.5,
+    "a4": 4.0,
+    "a5": 4.33,
+    "a6": 2.83,
+    "a7": 4.0,
+    "a8": 3.33
+   },
+   "wiki": {
+    "w1": 4.17,
+    "w2": 4.0,
+    "w3": 3.33,
+    "w4": 4.0,
+    "w5": 3.17
+   },
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.881,
+   "wiki_mean": 3.667,
+   "combined": 3.827,
+   "judges": {
+    "J1": {
+     "project": 3.857,
+     "wiki": 3.5,
+     "combined": 3.768,
+     "rank": 22
+    },
+    "J2": {
+     "project": 3.929,
+     "wiki": 3.75,
+     "combined": 3.884,
+     "rank": 19
+    },
+    "J3": {
+     "project": 3.857,
+     "wiki": 3.75,
+     "combined": 3.83,
+     "rank": 22
+    }
+   },
+   "spread": 0.116,
+   "one_line": {
+    "en": "A disciplined two-module project with same-batch controls, replicates and honest limits, let down by a missing attributions page, four template standard pages and an unbuilt final product.",
+    "zh": "嚴謹的雙模組專案，具同批次對照、重複與誠實的限制說明，但缺歸屬頁、四個標準頁仍是範本，最終產品從未製作。"
+   },
+   "strengths": [
+    "Every performance claim paired with a same-batch control, with the team refusing to subtract across batches",
+    "Figures meeting a real bench standard: units, replicates, individual data points and gels with a marked ladder and named lanes",
+    "A genuine two-step build where an export bottleneck was identified and then addressed, with the result correctly read as redistribution rather than extra synthesis",
+    "Human Practices that changed both the biology and the claims, including ending absolute environmental language"
+   ],
+   "weaknesses": [
+    "No attributions page and no task-level account of who designed, cloned, fermented or ran the analysis",
+    "The named final product was never made: no loading, no membrane characterisation, no prototype data",
+    "No analytical evidence for the quantification method — no chromatogram, standard curve or recovery result",
+    "Thin statistics on the headline improvement, and four standard pages are unedited template text"
+   ],
+   "red_flags": [
+    "Attributions page returns 404, as do proof-of-concept, implementation, protocols and design",
+    "A gel band annotation migrates inconsistently with the labelled ladder, and no no-template control lane is shown",
+    "The Parts page assigns medal labels to the team's own parts, which is not how iGEM medals work",
+    "Internal inconsistency on the hydrolysate result between a figure caption and every other page"
    ],
    "ours": false
   },
@@ -1643,30 +1727,34 @@ window.SCOUT_FINALIST = {
     "w4": 3.83,
     "w5": 3.83
    },
-   "project_mean": 3.75,
-   "wiki_mean": 3.8,
-   "combined": 3.762,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.833,
+   "wiki_mean": 3.792,
+   "combined": 3.823,
    "judges": {
     "J1": {
-     "project": 3.875,
-     "wiki": 4,
-     "combined": 3.906,
-     "rank": 17
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 18
     },
     "J2": {
-     "project": 3.5,
+     "project": 3.571,
      "wiki": 3.5,
-     "combined": 3.5,
-     "rank": 24
+     "combined": 3.554,
+     "rank": 23
     },
     "J3": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 19
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969,
+     "rank": 17
     }
    },
-   "spread": 0.406,
+   "spread": 0.415,
    "one_line": {
     "en": "A two-module yeast wastewater project with real comparative enzyme data and one genuine failure-driven redesign, let down by real-sample measurements that contradict the project's own premise.",
     "zh": "雙模組酵母廢水專案，具真實的酵素比較數據與一次因失敗而改版的過程，但真實樣品的測值與專案自身前提互相矛盾。"
@@ -1693,78 +1781,6 @@ window.SCOUT_FINALIST = {
   },
   {
    "rank": 23,
-   "slug": "zqt-nanjing",
-   "team": "ZQT-Nanjing",
-   "village": "Fashion & Cosmetics",
-   "country": "CHN",
-   "url": "https://2026.igem.wiki/zqt-nanjing/",
-   "project": {
-    "a1": 4.0,
-    "a2": 4.0,
-    "a3": 3.5,
-    "a4": 4.0,
-    "a5": 4.33,
-    "a6": 2.83,
-    "a7": 4.0,
-    "a8": 3.33
-   },
-   "wiki": {
-    "w1": 4.17,
-    "w2": 4.0,
-    "w3": 3.33,
-    "w4": 4.0,
-    "w5": 3.17
-   },
-   "project_mean": 3.75,
-   "wiki_mean": 3.733,
-   "combined": 3.746,
-   "judges": {
-    "J1": {
-     "project": 3.75,
-     "wiki": 3.6,
-     "combined": 3.712,
-     "rank": 22
-    },
-    "J2": {
-     "project": 3.75,
-     "wiki": 3.8,
-     "combined": 3.763,
-     "rank": 20
-    },
-    "J3": {
-     "project": 3.75,
-     "wiki": 3.8,
-     "combined": 3.763,
-     "rank": 22
-    }
-   },
-   "spread": 0.051,
-   "one_line": {
-    "en": "A disciplined two-module project with same-batch controls, replicates and honest limits, let down by a missing attributions page, four template standard pages and an unbuilt final product.",
-    "zh": "嚴謹的雙模組專案，具同批次對照、重複與誠實的限制說明，但缺歸屬頁、四個標準頁仍是範本，最終產品從未製作。"
-   },
-   "strengths": [
-    "Every performance claim paired with a same-batch control, with the team refusing to subtract across batches",
-    "Figures meeting a real bench standard: units, replicates, individual data points and gels with a marked ladder and named lanes",
-    "A genuine two-step build where an export bottleneck was identified and then addressed, with the result correctly read as redistribution rather than extra synthesis",
-    "Human Practices that changed both the biology and the claims, including ending absolute environmental language"
-   ],
-   "weaknesses": [
-    "No attributions page and no task-level account of who designed, cloned, fermented or ran the analysis",
-    "The named final product was never made: no loading, no membrane characterisation, no prototype data",
-    "No analytical evidence for the quantification method — no chromatogram, standard curve or recovery result",
-    "Thin statistics on the headline improvement, and four standard pages are unedited template text"
-   ],
-   "red_flags": [
-    "Attributions page returns 404, as do proof-of-concept, implementation, protocols and design",
-    "A gel band annotation migrates inconsistently with the labelled ladder, and no no-template control lane is shown",
-    "The Parts page assigns medal labels to the team's own parts, which is not how iGEM medals work",
-    "Internal inconsistency on the hydrolysate result between a figure caption and every other page"
-   ],
-   "ours": false
-  },
-  {
-   "rank": 24,
    "slug": "shsid",
    "team": "SHSID",
    "village": "Agriculture",
@@ -1787,30 +1803,34 @@ window.SCOUT_FINALIST = {
     "w4": 3.67,
     "w5": 2.83
    },
-   "project_mean": 3.771,
-   "wiki_mean": 3.467,
-   "combined": 3.695,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.929,
+   "wiki_mean": 3.417,
+   "combined": 3.8,
    "judges": {
     "J1": {
-     "project": 3.813,
-     "wiki": 3.4,
-     "combined": 3.709,
-     "rank": 23
+     "project": 3.929,
+     "wiki": 3.375,
+     "combined": 3.79,
+     "rank": 21
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 3.7,
-     "combined": 3.784,
-     "rank": 17
+     "project": 4.0,
+     "wiki": 3.625,
+     "combined": 3.906,
+     "rank": 15
     },
     "J3": {
-     "project": 3.688,
-     "wiki": 3.3,
-     "combined": 3.591,
-     "rank": 24
+     "project": 3.857,
+     "wiki": 3.25,
+     "combined": 3.705,
+     "rank": 23
     }
    },
-   "spread": 0.193,
+   "spread": 0.201,
    "one_line": {
     "en": "A broad two-module yeast project with a working, well-controlled drought alarm and an honestly reported failed first design, let down by a missing attributions page, placeholder pages and no soil measurement of the retention it claims.",
     "zh": "範圍寬廣的雙模組酵母專案，乾旱警示模組運作良好且對照嚴謹，第一版失敗也誠實呈報，但缺歸屬頁、有未完成頁面，且從未在土壤中量測其宣稱的保水效果。"
@@ -1846,8 +1866,8 @@ window.SCOUT_FINALIST = {
     "HongKong-JSS",
     "GEMS-Taiwan",
     "Korea-HS",
-    "Labi-Taiwan",
-    "SMS-Shenzhen"
+    "PSI Korea",
+    "GreatBay-SCIE"
    ]
   },
   {
@@ -1858,9 +1878,22 @@ window.SCOUT_FINALIST = {
    "top": [
     "HongKong-JSS",
     "Korea-HS",
-    "SMS-Shenzhen",
+    "PSI Korea",
+    "GreatBay-SCIE",
+    "GEMS-Taiwan"
+   ]
+  },
+  {
+   "label": {
+    "en": "If the unreadable pages were counted as judged",
+    "zh": "若把讀不到的頁面照原評分計入"
+   },
+   "top": [
+    "HongKong-JSS",
     "GEMS-Taiwan",
-    "Labi-Taiwan"
+    "Korea-HS",
+    "SMS-Shenzhen",
+    "BASIS-China"
    ]
   },
   {
@@ -1870,10 +1903,10 @@ window.SCOUT_FINALIST = {
    },
    "top": [
     "HongKong-JSS",
-    "Korea-HS",
     "GEMS-Taiwan",
-    "Labi-Taiwan",
-    "SMS-Shenzhen"
+    "Korea-HS",
+    "BASIS-China",
+    "PSI Korea"
    ]
   },
   {
@@ -1884,9 +1917,9 @@ window.SCOUT_FINALIST = {
    "top": [
     "HongKong-JSS",
     "GEMS-Taiwan",
-    "Korea-HS",
-    "Labi-Taiwan",
-    "SMS-Shenzhen"
+    "GreatBay-SCIE",
+    "HK-Joint-School",
+    "PLKLFC"
    ]
   },
   {
@@ -1895,11 +1928,11 @@ window.SCOUT_FINALIST = {
     "zh": "只看 J1"
    },
    "top": [
-    "Labi-Taiwan",
     "HongKong-JSS",
-    "GEMS-Taiwan",
+    "PLKLFC",
     "BASIS-China",
-    "Korea-HS"
+    "GEMS-Taiwan",
+    "GreatBay-SCIE"
    ]
   },
   {
@@ -1910,9 +1943,9 @@ window.SCOUT_FINALIST = {
    "top": [
     "HongKong-JSS",
     "Korea-HS",
-    "SMS-Shenzhen",
     "GEMS-Taiwan",
-    "Lambert-GA"
+    "Lambert-GA",
+    "SMS-Shenzhen"
    ]
   },
   {
@@ -1921,11 +1954,11 @@ window.SCOUT_FINALIST = {
     "zh": "只看 J3"
    },
    "top": [
-    "Labi-Taiwan",
     "HongKong-JSS",
+    "GCGS",
+    "PSI Korea",
     "GEMS-Taiwan",
-    "Korea-HS",
-    "PSI Korea"
+    "HangzhouFourteenAP"
    ]
   }
  ],
@@ -1939,7 +1972,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 136980,
    "screen": 2.6875,
-   "note": "Expressed and purified a dockerin-tagged PETase (ICCG-DoT), a dockerin-tagged MHET-hydrolysing esterase (TfCa-DoG) and a trimeric cohesin scaffold (ScafGVT) in E. coli, then measured APET film breakdown by HPLC. A clinostat for microgravity testing was designed but never achieved driven motion."
+   "note": "Expressed and purified a dockerin-tagged PETase (ICCG-DoT), a dockerin-tagged MHET-hydrolysing esterase (TfCa-DoG) and a trimeric cohesin scaffold (ScafGVT) in E. coli, then measured APET film breakdown by HPLC. A clinostat for microgravity testing was designed but never achieved driven motion.",
+   "excluded": false
   },
   {
    "slug": "aiglon-college",
@@ -1950,7 +1984,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 11173,
    "screen": 2.375,
-   "note": "Three fusion proteins sharing an sfGFP core with (GGGGS)2 linkers, a 6xHis tag and TEV site, a MacHis plant-wax-binding domain at one end and one of three silica/kaolin-binding peptides (Car9, SB7, R5) at the other, designed to make kaolin rainfast on vines. The work reached transformation only."
+   "note": "Three fusion proteins sharing an sfGFP core with (GGGGS)2 linkers, a 6xHis tag and TEV site, a MacHis plant-wax-binding domain at one end and one of three silica/kaolin-binding peptides (Car9, SB7, R5) at the other, designed to make kaolin rainfast on vines. The work reached transformation only.",
+   "excluded": false
   },
   {
    "slug": "ais-china",
@@ -1961,7 +1996,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 81830,
    "screen": 3.75,
-   "note": "A genetic toolkit for the skin commensal C. acnes: a methylation-matched E. coli intermediate host (EC24), an E. coli/C. acnes shuttle vector, a characterised reporter and promoter library, functional modules (glycerol uptake, oxidative stress) and layered kill switches, plus two in-house software tools, aimed at rebalancing the skin microbiome in acne rather than killing it."
+   "note": "A genetic toolkit for the skin commensal C. acnes: a methylation-matched E. coli intermediate host (EC24), an E. coli/C. acnes shuttle vector, a characterised reporter and promoter library, functional modules (glycerol uptake, oxidative stress) and layered kill switches, plus two in-house software tools, aimed at rebalancing the skin microbiome in acne rather than killing it.",
+   "excluded": false
   },
   {
    "slug": "anatolia-college-gr",
@@ -1972,7 +2008,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 17209,
    "screen": 1.5625,
-   "note": "A proposed, unbuilt design: a GGP expression cassette for Chlorella vulgaris intended to raise vitamin C and so improve non-heme iron absorption. The only work done is computational iron-speciation modelling in Visual MINTEQ plus a literature 4PL ferritin dose-response curve."
+   "note": "A proposed, unbuilt design: a GGP expression cassette for Chlorella vulgaris intended to raise vitamin C and so improve non-heme iron absorption. The only work done is computational iron-speciation modelling in Visual MINTEQ plus a literature 4PL ferritin dose-response curve.",
+   "excluded": false
   },
   {
    "slug": "asij-tokyo",
@@ -1983,7 +2020,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 36718,
    "screen": 3.56,
-   "note": "Twelve plasmids giving six S. cerevisiae strains and five modules that split flavonoid pathways across cocultured strains (upstream naringenin producer feeding downstream converters), plus a DIY Arduino 2 L bioreactor. Four DBTL iterations across two seasons, 34 parts submitted."
+   "note": "Twelve plasmids giving six S. cerevisiae strains and five modules that split flavonoid pathways across cocultured strains (upstream naringenin producer feeding downstream converters), plus a DIY Arduino 2 L bioreactor. Four DBTL iterations across two seasons, 34 parts submitted.",
+   "excluded": false
   },
   {
    "slug": "baid-china",
@@ -1994,7 +2032,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 64815,
    "screen": 3.38,
-   "note": "A sandwich ELISA for neurofilament light chain (NfL), an early blood biomarker of neurodegeneration, in which the antibodies were generated computationally with RFantibody against a modelled NfL fragment, then expressed and tested experimentally against commercial antibodies. Nanobody conversion is virtual only."
+   "note": "A sandwich ELISA for neurofilament light chain (NfL), an early blood biomarker of neurodegeneration, in which the antibodies were generated computationally with RFantibody against a modelled NfL fragment, then expressed and tested experimentally against commercial antibodies. Nanobody conversion is virtual only.",
+   "excluded": false
   },
   {
    "slug": "baltimore",
@@ -2005,7 +2044,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 22593,
    "screen": 2.75,
-   "note": "Fusion proteins joining a keratin-binding peptide (KBP) to seven chromoproteins/fluorescent proteins (aeBlue, amilCP, anm2CP, mScarlet-i, mKate, amilGFP, sfGFP), intended as a non-damaging hair dye that also strengthens hair, plus two sub-$50 open-source test rigs for wash-fastness and hair tensile strength."
+   "note": "Fusion proteins joining a keratin-binding peptide (KBP) to seven chromoproteins/fluorescent proteins (aeBlue, amilCP, anm2CP, mScarlet-i, mKate, amilGFP, sfGFP), intended as a non-damaging hair dye that also strengthens hair, plus two sub-$50 open-source test rigs for wash-fastness and hair tensile strength.",
+   "excluded": false
   },
   {
    "slug": "basis-china",
@@ -2016,7 +2056,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 59930,
    "screen": 3.88,
-   "note": "A four-module system in E. coli: a tri-enzyme hair-degradation module (protease P1 plus thioredoxin/thioredoxin reductase to break keratin disulfides), an AKG-producing heal module (LGOX with KatG to clear peroxide), a bile-acid-sensing suicide switch biosafety module, and a pH-responsive microcapsule delivery module for gastric transit."
+   "note": "A four-module system in E. coli: a tri-enzyme hair-degradation module (protease P1 plus thioredoxin/thioredoxin reductase to break keratin disulfides), an AKG-producing heal module (LGOX with KatG to clear peroxide), a bile-acid-sensing suicide switch biosafety module, and a pH-responsive microcapsule delivery module for gastric transit.",
+   "excluded": false
   },
   {
    "slug": "beijing-hs",
@@ -2027,7 +2068,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 43054,
    "screen": 3.94,
-   "note": "A four-module system: a HucR/HucO uric-acid-responsive mCherry sensor with four promoter architectures, a structure-guided PucLM urate-oxidase variant library, a CRISPR fimH knockout chassis for reduced adhesion, and alginate-bead immobilisation for a fluidised-bed reactor converting uric acid to allantoin."
+   "note": "A four-module system: a HucR/HucO uric-acid-responsive mCherry sensor with four promoter architectures, a structure-guided PucLM urate-oxidase variant library, a CRISPR fimH knockout chassis for reduced adhesion, and alginate-bead immobilisation for a fluidised-bed reactor converting uric acid to allantoin.",
+   "excluded": false
   },
   {
    "slug": "benenden",
@@ -2038,7 +2080,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 41252,
    "screen": 3.19,
-   "note": "Two dual-plasmid E. coli whole-cell biosensors - MerR/PmerT driving GFP for Hg2+ and PbrR/PpbrA driving mCherry for Pb2+ - plus a 3D-printed drone water-sampling rig developed after an unsafe manual sampling attempt."
+   "note": "Two dual-plasmid E. coli whole-cell biosensors - MerR/PmerT driving GFP for Hg2+ and PbrR/PpbrA driving mCherry for Pb2+ - plus a 3D-printed drone water-sampling rig developed after an unsafe manual sampling attempt.",
+   "excluded": false
   },
   {
    "slug": "bgcfullerton",
@@ -2049,7 +2092,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 51629,
    "screen": 2.94,
-   "note": "A proposed calcium-alginate xerogel bead carrying pyomelanin, catalase and trehalose to shield arbuscular mycorrhizal fungi from regolith-generated oxidative stress. Completed work is limited to expressing two bacterial HPPD enzymes (the pyomelanin-precursor step) in E. coli, plus an extensive computational programme."
+   "note": "A proposed calcium-alginate xerogel bead carrying pyomelanin, catalase and trehalose to shield arbuscular mycorrhizal fungi from regolith-generated oxidative stress. Completed work is limited to expressing two bacterial HPPD enzymes (the pyomelanin-precursor step) in E. coli, plus an extensive computational programme.",
+   "excluded": false
   },
   {
    "slug": "bgi-college",
@@ -2060,7 +2104,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 25622,
    "screen": 3.44,
-   "note": "Established an electroporation transformation system for a non-model, environmentally isolated C. beijerinckii strain S63, overexpressed HydA and PFOR candidates in it, attempted a CRISPR thl knockout, and added a spent-broth-to-Bacillus biofertiliser loop after industry feedback."
+   "note": "Established an electroporation transformation system for a non-model, environmentally isolated C. beijerinckii strain S63, overexpressed HydA and PFOR candidates in it, attempted a CRISPR thl knockout, and added a spent-broth-to-Bacillus biofertiliser loop after industry feedback.",
+   "excluded": false
   },
   {
    "slug": "bist-china",
@@ -2071,7 +2116,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 54900,
    "screen": 3.94,
-   "note": "Two ratiometric biosensors made by inserting YFP into the E. coli transcription regulators LldR (L-lactate) and PdhR (pyruvate), screened as 5+5 insertion-site variants, plus a portable fluorescence reader prototype. The readout is the F485/F420 ratio, with the lactate/pyruvate pair used to separate tumour metabolism from benign lactate rises."
+   "note": "Two ratiometric biosensors made by inserting YFP into the E. coli transcription regulators LldR (L-lactate) and PdhR (pyruvate), screened as 5+5 insertion-site variants, plus a portable fluorescence reader prototype. The readout is the F485/F420 ratio, with the lactate/pyruvate pair used to separate tumour metabolism from benign lactate rises.",
+   "excluded": false
   },
   {
    "slug": "bjwz-china",
@@ -2082,7 +2128,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 11608,
    "screen": 2.56,
-   "note": "An engineered B. subtilis WB600 carrying a dual-inducible (H2O2 / xylose OR-gate) cassette that secretes a 3xLysM-ChiA chitinase fusion and expresses shRNA/siRNA against the pathogen's LysM effector gene BdLM1, intended as a sprayed or painted orchard biocontrol replacing chemical fungicides."
+   "note": "An engineered B. subtilis WB600 carrying a dual-inducible (H2O2 / xylose OR-gate) cassette that secretes a 3xLysM-ChiA chitinase fusion and expresses shRNA/siRNA against the pathogen's LysM effector gene BdLM1, intended as a sprayed or painted orchard biocontrol replacing chemical fungicides.",
+   "excluded": false
   },
   {
    "slug": "bk-denmark",
@@ -2093,7 +2140,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 33174,
    "screen": 3.31,
-   "note": "A cell-free colorimetric methanol detector for travellers: engineered alcohol oxidase from Phanerochaete chrysosporium (PcAOX) variants selected in silico for methanol-over-ethanol selectivity, plus a hardware pipette cartridge and an ultrafiltration step to strip beverage colour."
+   "note": "A cell-free colorimetric methanol detector for travellers: engineered alcohol oxidase from Phanerochaete chrysosporium (PcAOX) variants selected in silico for methanol-over-ethanol selectivity, plus a hardware pipette cartridge and an ultrafiltration step to strip beverage colour.",
+   "excluded": false
   },
   {
    "slug": "bnds-china",
@@ -2104,7 +2152,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 37137,
    "screen": 2.75,
-   "note": "Two input modules for a planned AND-gated probiotic: a CadC-TcpP/TcpH bile-acid receptor sensing food intake via GCDCA, and H2O2-responsive PgrxA / PfhuF reporters sensing oxidative stress. Plus a part-characterisation software layer that fits datasheets to feed the team's 2024 circuit calculator."
+   "note": "Two input modules for a planned AND-gated probiotic: a CadC-TcpP/TcpH bile-acid receptor sensing food intake via GCDCA, and H2O2-responsive PgrxA / PfhuF reporters sensing oxidative stress. Plus a part-characterisation software layer that fits datasheets to feed the team's 2024 circuit calculator.",
+   "excluded": false
   },
   {
    "slug": "boston-boslab",
@@ -2115,7 +2164,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 55465,
    "screen": 3.38,
-   "note": "Two approaches on a skin commensal: secretion of de novo binders against the tick enzyme Dae2 so ingested skin microbes survive and kill the feeding tick, and surface display of OspA/Asp14 antigen fragments as a topical vaccine, screened with bacterial and cell-free two-hybrid assays plus a HiBiT secretion assay."
+   "note": "Two approaches on a skin commensal: secretion of de novo binders against the tick enzyme Dae2 so ingested skin microbes survive and kill the feeding tick, and surface display of OspA/Asp14 antigen fragments as a topical vaccine, screened with bacterial and cell-free two-hybrid assays plus a HiBiT secretion assay.",
+   "excluded": false
   },
   {
    "slug": "bwya",
@@ -2126,7 +2176,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 52765,
    "screen": 3.56,
-   "note": "An E. coli cell factory converting tryptophan to melatonin (nine-gene Version 2.0 with BH4 cofactor synthesis/recycling in a BL21 triple-knockout host), whose fermentation supernatant is formulated with citric acid as a cut-flower vase preservative. The aim is to skip purification so the molecule is affordable as a flower-care ingredient."
+   "note": "An E. coli cell factory converting tryptophan to melatonin (nine-gene Version 2.0 with BH4 cofactor synthesis/recycling in a BL21 triple-knockout host), whose fermentation supernatant is formulated with citric acid as a cut-flower vase preservative. The aim is to skip purification so the molecule is affordable as a flower-care ingredient.",
+   "excluded": false
   },
   {
    "slug": "byhs-chn",
@@ -2137,7 +2188,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 32327,
    "screen": 3.31,
-   "note": "Three separately tested modules: an ObcAB-FpOAR oxalic-acid route, a metal-handling pair (PpMT-AtPCS plus a new CsoR/Pcso copper-responsive ZupT circuit) and a candidate MgFP/VsTyr protein 'bio glue' coating, aimed at a future cartridge for asbestos surface treatment."
+   "note": "Three separately tested modules: an ObcAB-FpOAR oxalic-acid route, a metal-handling pair (PpMT-AtPCS plus a new CsoR/Pcso copper-responsive ZupT circuit) and a candidate MgFP/VsTyr protein 'bio glue' coating, aimed at a future cartridge for asbestos surface treatment.",
+   "excluded": false
   },
   {
    "slug": "cataverse-beijing",
@@ -2148,7 +2200,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 55132,
    "screen": 3.69,
-   "note": "They expressed phage receptor-binding proteins (BSCBD-1, BSCBD-2 for B. subtilis; T7Mtfp, 04922Btfp for E. coli) in E. coli BL21, coupled them to magnetic beads for capture and to a cerium-doped UiO-66 nanozyme for colour development. The result is a 30-minute instrument-free colorimetric assay for whole bacteria."
+   "note": "They expressed phage receptor-binding proteins (BSCBD-1, BSCBD-2 for B. subtilis; T7Mtfp, 04922Btfp for E. coli) in E. coli BL21, coupled them to magnetic beads for capture and to a cerium-doped UiO-66 nanozyme for colour development. The result is a 30-minute instrument-free colorimetric assay for whole bacteria.",
+   "excluded": false
   },
   {
    "slug": "cataverse-greatbay",
@@ -2159,7 +2212,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 59582,
    "screen": 4.25,
-   "note": "A four-module system in E. coli Nissle 1917 for gut uric acid management: engineered YgfU transporter variants, localisation-optimised urate oxidase (UOX), catalase CatA for peroxide clearance, and a HucR-HucO uric-acid-responsive promoter with a CAP enhancer driving the degradation enzymes."
+   "note": "A four-module system in E. coli Nissle 1917 for gut uric acid management: engineered YgfU transporter variants, localisation-optimised urate oxidase (UOX), catalase CatA for peroxide clearance, and a HucR-HucO uric-acid-responsive promoter with a CAP enhancer driving the degradation enzymes.",
+   "excluded": false
   },
   {
    "slug": "cataverse-shanghai",
@@ -2170,7 +2224,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 42856,
    "screen": 3,
-   "note": "Three plant storage proteins - patatin-02 isoform X2 from Andean potato, Edestin1 from hemp and the 11S globulin Me11s from cassava - expressed and secreted from Pichia pastoris GS115, purified, and tested as gelling/water-holding ingredients in actual plant-based patties."
+   "note": "Three plant storage proteins - patatin-02 isoform X2 from Andean potato, Edestin1 from hemp and the 11S globulin Me11s from cassava - expressed and secreted from Pichia pastoris GS115, purified, and tested as gelling/water-holding ingredients in actual plant-based patties.",
+   "excluded": false
   },
   {
    "slug": "cataverse-union",
@@ -2181,7 +2236,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 63723,
    "screen": 3.375,
-   "note": "Four pigment-synthesizing enzymes (CtPOD2, CrtZ, melA, IndC) expressed and purified from E. coli, characterized for pH, temperature and substrate dependence, plus CBM3 fusion versions intended to anchor the pigment onto cellulose surfaces in situ."
+   "note": "Four pigment-synthesizing enzymes (CtPOD2, CrtZ, melA, IndC) expressed and purified from E. coli, characterized for pH, temperature and substrate dependence, plus CBM3 fusion versions intended to anchor the pigment onto cellulose surfaces in situ.",
+   "excluded": false
   },
   {
    "slug": "cca-sandiego",
@@ -2192,7 +2248,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 11618,
    "screen": 2.75,
-   "note": "A fluorophore-quencher aptamer assay: FAM-labelled DNA aptamers paired with short complementary quencher strands, so that pesticide binding should displace the quencher and restore fluorescence. Two aptamers (AX for rotenone, MalR for malathion) were generated computationally rather than by SELEX."
+   "note": "A fluorophore-quencher aptamer assay: FAM-labelled DNA aptamers paired with short complementary quencher strands, so that pesticide binding should displace the quencher and restore fluorescence. Two aptamers (AX for rotenone, MalR for malathion) were generated computationally rather than by SELEX.",
+   "excluded": false
   },
   {
    "slug": "charlotte-hs",
@@ -2203,7 +2260,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 47580,
    "screen": 3.38,
-   "note": "A LwaCas13a collateral-cleavage assay with fluorophore-quencher reporter, designed around a five-miRNA salivary panel for pancreatic ductal adenocarcinoma, with one channel (miR-216a-5p) taken through to a working readout, plus a low-cost fluorescence reader."
+   "note": "A LwaCas13a collateral-cleavage assay with fluorophore-quencher reporter, designed around a five-miRNA salivary panel for pancreatic ductal adenocarcinoma, with one channel (miR-216a-5p) taken through to a working readout, plus a low-cost fluorescence reader.",
+   "excluded": false
   },
   {
    "slug": "china-suis-gb",
@@ -2214,7 +2272,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 15270,
    "screen": 2.63,
-   "note": "They designed a two-strain Shewanella oneidensis MR-1 co-culture in which a cold-induced periplasmic trimethylamine monooxygenase converts spoilage gas TMA to TMAO, and a second strain reports TMAO via the native tor promoter driving the blue chromoprotein amilCP. Work reached verified clones but no colour output."
+   "note": "They designed a two-strain Shewanella oneidensis MR-1 co-culture in which a cold-induced periplasmic trimethylamine monooxygenase converts spoilage gas TMA to TMAO, and a second strain reports TMAO via the native tor promoter driving the blue chromoprotein amilCP. Work reached verified clones but no colour output.",
+   "excluded": false
   },
   {
    "slug": "chinaguangdongshimen",
@@ -2225,7 +2284,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 16261,
    "screen": 3.75,
-   "note": "Engineered E. coli Nissle 1917 carrying the PcrSR-Pcmh two-component p-cresol sensor from Aromatoleum aromaticum EbN1, driving GFP and then a secreted PelB-E3-FLAG anti-TcdB nanobody, as a gut sensor-therapeutic for post-treatment CDI recurrence."
+   "note": "Engineered E. coli Nissle 1917 carrying the PcrSR-Pcmh two-component p-cresol sensor from Aromatoleum aromaticum EbN1, driving GFP and then a secreted PelB-E3-FLAG anti-TcdB nanobody, as a gut sensor-therapeutic for post-treatment CDI recurrence.",
+   "excluded": false
   },
   {
    "slug": "city-of-london-uk",
@@ -2236,7 +2296,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 69028,
    "screen": 3,
-   "note": "A field kit to detect guaiacol and syringol in smoke-exposed grapes, using guaiacol-binding aptamer riboswitches driving sfGFP in E. coli and a DesX transcription factor/promoter pair read in a cell-free system, with a 3D-printed heated, stirred fluorescence reader."
+   "note": "A field kit to detect guaiacol and syringol in smoke-exposed grapes, using guaiacol-binding aptamer riboswitches driving sfGFP in E. coli and a DesX transcription factor/promoter pair read in a cell-free system, with a 3D-printed heated, stirred fluorescence reader.",
+   "excluded": false
   },
   {
    "slug": "concordia-shanghai",
@@ -2247,7 +2308,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 46264,
    "screen": 2.875,
-   "note": "A dual-plasmid attempt to make bacterial cellulose in E. coli C41(DE3): a pgm/galU (UGPase) precursor-supply device characterised under three promoters, plus a proposed BcsABCD operon and in-silico constitutively active BcsAB mutants. Alongside it, a comparative life-cycle analysis of bacterial cellulose versus four mask substrates and HALO, a wheelchair-mounted modular lab organiser."
+   "note": "A dual-plasmid attempt to make bacterial cellulose in E. coli C41(DE3): a pgm/galU (UGPase) precursor-supply device characterised under three promoters, plus a proposed BcsABCD operon and in-silico constitutively active BcsAB mutants. Alongside it, a comparative life-cycle analysis of bacterial cellulose versus four mask substrates and HALO, a wheelchair-mounted modular lab organiser.",
+   "excluded": false
   },
   {
    "slug": "csw-ud",
@@ -2258,7 +2320,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 37975,
    "screen": 3.375,
-   "note": "BSMV VLP rods expressed in E. coli with engineered inner-channel cysteines for site-selective thiol-Michael conjugation of doxorubicin, a SpyTag/SnoopTag-Catcher surface display of iRGD and Peptide 22 plus endosomal-escape peptides, and a single-plasmid orthogonal pTet/pRha dual expression cassette (second iteration adds a constitutive RhaS activator)."
+   "note": "BSMV VLP rods expressed in E. coli with engineered inner-channel cysteines for site-selective thiol-Michael conjugation of doxorubicin, a SpyTag/SnoopTag-Catcher surface display of iRGD and Peptide 22 plus endosomal-escape peptides, and a single-plasmid orthogonal pTet/pRha dual expression cassette (second iteration adds a constitutive RhaS activator).",
+   "excluded": false
   },
   {
    "slug": "dbhs-ca",
@@ -2269,7 +2332,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 41482,
    "screen": 2.44,
-   "note": "A planned E. coli genetic switch in which the PhoR/PhoB low-phosphate pathway drives the glycosyltransferase YjiC to glycosylate fisetin, a flavonoid proposed as an anti-inflammatory for recurrent UTIs."
+   "note": "A planned E. coli genetic switch in which the PhoR/PhoB low-phosphate pathway drives the glycosyltransferase YjiC to glycosylate fisetin, a flavonoid proposed as an anti-inflammatory for recurrent UTIs.",
+   "excluded": false
   },
   {
    "slug": "delnorte-sd",
@@ -2280,7 +2344,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 21646,
    "screen": 2.63,
-   "note": "An enzyme-free nucleic-acid biosensor: two kinetically trapped hairpins carrying halves of the Broccoli aptamer that should reconstitute a DFHBI-1T pocket only when a specific exon-exon junction is present, designed with ViennaRNA and tested in HEK293 cells against a luciferase/chimeric-intron reporter."
+   "note": "An enzyme-free nucleic-acid biosensor: two kinetically trapped hairpins carrying halves of the Broccoli aptamer that should reconstitute a DFHBI-1T pocket only when a specific exon-exon junction is present, designed with ViennaRNA and tested in HEK293 cells against a luciferase/chimeric-intron reporter.",
+   "excluded": false
   },
   {
    "slug": "denmark-ga",
@@ -2291,7 +2356,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 118234,
    "screen": 2.94,
-   "note": "Two CPU-friendly protein-design tools (HybriDock-Pep for peptide docking/scoring, LATTE for grafting binders into the LOCKR latch and optimising charge), used to design PfLDH binders grafted into LucCage, plus a coffee-ring droplet model and a custom temperature/humidity chamber."
+   "note": "Two CPU-friendly protein-design tools (HybriDock-Pep for peptide docking/scoring, LATTE for grafting binders into the LOCKR latch and optimising charge), used to design PfLDH binders grafted into LucCage, plus a coffee-ring droplet model and a custom temperature/humidity chamber.",
+   "excluded": false
   },
   {
    "slug": "depu",
@@ -2302,7 +2368,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 50372,
    "screen": 3.75,
-   "note": "An LEA-peptide-stabilised, immobilised dual-enzyme preparation (L-asparaginase plus glucose oxidase) applied to potato slices before frying to remove both acrylamide precursors, asparagine and reducing sugars."
+   "note": "An LEA-peptide-stabilised, immobilised dual-enzyme preparation (L-asparaginase plus glucose oxidase) applied to potato slices before frying to remove both acrylamide precursors, asparagine and reducing sugars.",
+   "excluded": false
   },
   {
    "slug": "dnhs-sandiego-ca",
@@ -2313,7 +2380,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 32919,
    "screen": 3.3125,
-   "note": "B. subtilis carrying a plasmid that puts the phage-derived endolysin Lysqdvp001 (with sfGFP and an amyE signal peptide) behind an oxidative-stress-responsive, perR-regulated promoter, so the antimicrobial switches on only when heat-stressed coral releases hydrogen peroxide. Plus two dry-lab tools (Reef Codon, Plasmid Builder) and two conceptual devices."
+   "note": "B. subtilis carrying a plasmid that puts the phage-derived endolysin Lysqdvp001 (with sfGFP and an amyE signal peptide) behind an oxidative-stress-responsive, perR-regulated promoter, so the antimicrobial switches on only when heat-stressed coral releases hydrogen peroxide. Plus two dry-lab tools (Reef Codon, Plasmid Builder) and two conceptual devices.",
+   "excluded": false
   },
   {
    "slug": "epiphany-nyc",
@@ -2324,7 +2392,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 52987,
    "screen": 3.19,
-   "note": "Six plasmid constructs in E. coli: a pNorVbeta nitric-oxide-responsive promoter driving an shTNF hairpin with MS2/MC2 loops, plus four MCP-ClyA-FLAG-nanobody/fluorophore OMV display fusions (one candidate, three controls), and a separate pNorVbeta-TES4 butyrate arm. Intended as an orally delivered IBD therapy."
+   "note": "Six plasmid constructs in E. coli: a pNorVbeta nitric-oxide-responsive promoter driving an shTNF hairpin with MS2/MC2 loops, plus four MCP-ClyA-FLAG-nanobody/fluorophore OMV display fusions (one candidate, three controls), and a separate pNorVbeta-TES4 butyrate arm. Intended as an orally delivered IBD therapy.",
+   "excluded": false
   },
   {
    "slug": "essential-korea",
@@ -2335,7 +2404,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 37773,
    "screen": 2.81,
-   "note": "An alginate-polyacrylamide double-network hydrogel patch for chronic wounds that carries a ROS-reducing extract from the invasive weed water hyacinth and an embedded silver-nanowire strain sensor whose resistance change is read in real time through a voltage divider and an nRF52840 microcontroller."
+   "note": "An alginate-polyacrylamide double-network hydrogel patch for chronic wounds that carries a ROS-reducing extract from the invasive weed water hyacinth and an embedded silver-nanowire strain sensor whose resistance change is read in real time through a voltage divider and an nRF52840 microcontroller.",
+   "excluded": false
   },
   {
    "slug": "eton-college-uk",
@@ -2346,7 +2416,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 69772,
    "screen": 2.5,
-   "note": "A disposable gold-electrode cartridge that measures MMP-9 and neutrophil serine protease activity in wound exudate using methylene-blue-labelled cleavable peptide probes read by square-wave voltammetry, supported by sfGFP-based protein biosensors (pES-01 His/FLAG depletion, pDUAL split-GFP turn-on) to validate per-enzyme substrate specificity."
+   "note": "A disposable gold-electrode cartridge that measures MMP-9 and neutrophil serine protease activity in wound exudate using methylene-blue-labelled cleavable peptide probes read by square-wave voltammetry, supported by sfGFP-based protein biosensors (pES-01 His/FLAG depletion, pDUAL split-GFP turn-on) to validate per-enzyme substrate specificity.",
+   "excluded": false
   },
   {
    "slug": "fhs-china",
@@ -2357,7 +2428,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 29777,
    "screen": 2.625,
-   "note": "An in-silico design (COBRApy single-gene-deletion scan of iLca334_548) nominating a glucose-PTS knockout (peg2612/manM) in Lacticaseibacillus paracasei CICC 6109, plus bench characterization of the purchased wild-type strain (16S ID, growth/CFU, Nanopore plasmid sequencing) and a prototype bench fluorescence reader. No engineered strain was built; construction is explicitly deferred to next year."
+   "note": "An in-silico design (COBRApy single-gene-deletion scan of iLca334_548) nominating a glucose-PTS knockout (peg2612/manM) in Lacticaseibacillus paracasei CICC 6109, plus bench characterization of the purchased wild-type strain (16S ID, growth/CFU, Nanopore plasmid sequencing) and a prototype bench fluorescence reader. No engineered strain was built; construction is explicitly deferred to next year.",
+   "excluded": false
   },
   {
    "slug": "gcgs",
@@ -2368,7 +2440,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 43566,
    "screen": 4.13,
-   "note": "An E. coli Nissle 1917 circuit that fires only when iron is low (CF airway) AND C4-HSL from P. aeruginosa is present, then expresses PL5-family alginate lyase with a Lysis E release element. Three modules characterised separately and then assembled."
+   "note": "An E. coli Nissle 1917 circuit that fires only when iron is low (CF airway) AND C4-HSL from P. aeruginosa is present, then expresses PL5-family alginate lyase with a Lysis E release element. Three modules characterised separately and then assembled.",
+   "excluded": false
   },
   {
    "slug": "gems-taiwan",
@@ -2379,7 +2452,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 246778,
    "screen": 4.25,
-   "note": "An end-to-end agricultural system: field sensors and a weather-fitted stress model decide when a crop needs help, green light switches CcaSR-controlled Bacillus subtilis WB800 to secrete ACC deaminase, a hollow-fiber perfusion bioreactor with an in-line home-built photometer and digital twin releases the protein while retaining cells, and the protectant is tested on Arabidopsis and in a hydroponics box."
+   "note": "An end-to-end agricultural system: field sensors and a weather-fitted stress model decide when a crop needs help, green light switches CcaSR-controlled Bacillus subtilis WB800 to secrete ACC deaminase, a hollow-fiber perfusion bioreactor with an in-line home-built photometer and digital twin releases the protein while retaining cells, and the protectant is tested on Arabidopsis and in a hydroponics box.",
+   "excluded": false
   },
   {
    "slug": "georgetownprep",
@@ -2390,7 +2464,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 18151,
    "screen": 2.13,
-   "note": "A designed three-layer prototype: PbrR and CadR whole-cell biosensors for lead and cadmium, Lpp-OmpA surface display of PbBD and EC20 peptides for removal, and square-wave anodic stripping voltammetry on a bismuth-film screen-printed electrode as an orthogonal check. Six modules were planned; the integrated loop was never attempted."
+   "note": "A designed three-layer prototype: PbrR and CadR whole-cell biosensors for lead and cadmium, Lpp-OmpA surface display of PbBD and EC20 peptides for removal, and square-wave anodic stripping voltammetry on a bismuth-film screen-printed electrode as an orthogonal check. Six modules were planned; the integrated loop was never attempted.",
+   "excluded": false
   },
   {
    "slug": "ghcis",
@@ -2401,7 +2476,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 57609,
    "screen": 3.75,
-   "note": "A cell-free, paper-based screening platform for the resistance genes mcr-1, blaNDM-1 and blaKPC-2: NUPACK-designed toehold switches driving GFP first, then the colorimetric enzymes GusA, XylE and LacZ, read in the ARGUS 3D-printed device with image-analysis software and a surveillance database."
+   "note": "A cell-free, paper-based screening platform for the resistance genes mcr-1, blaNDM-1 and blaKPC-2: NUPACK-designed toehold switches driving GFP first, then the colorimetric enzymes GusA, XylE and LacZ, read in the ARGUS 3D-printed device with image-analysis software and a surveillance database.",
+   "excluded": false
   },
   {
    "slug": "gikal",
@@ -2412,7 +2488,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 125913,
    "screen": 3.06,
-   "note": "A descriptor-based screen of the 8-residue peptide space ranked against larazotide, yielding three candidate peptides (ZT-1 to ZT-3) tested for reversal of gliadin-induced zonulin release in Caco-2 cells."
+   "note": "A descriptor-based screen of the 8-residue peptide space ranked against larazotide, yielding three candidate peptides (ZT-1 to ZT-3) tested for reversal of gliadin-induced zonulin release in Caco-2 cells.",
+   "excluded": false
   },
   {
    "slug": "greatbay-scie",
@@ -2423,7 +2500,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 110716,
    "screen": 4.13,
-   "note": "Three protein strategies against the body-odour precursor Cys-Gly-3M3SH: AI de novo precursor binders, de novo binders that lock the S. hominis peptide transporter PepTSh, and an engineered CGTase that glycosylates the precursor, plus two-strain E. coli co-cultures making terpenoid ester fragrances, all tested on a PepTSh-expressing E. coli surrogate with an Ellman thiol readout."
+   "note": "Three protein strategies against the body-odour precursor Cys-Gly-3M3SH: AI de novo precursor binders, de novo binders that lock the S. hominis peptide transporter PepTSh, and an engineered CGTase that glycosylates the precursor, plus two-strain E. coli co-cultures making terpenoid ester fragrances, all tested on a PepTSh-expressing E. coli surrogate with an Ellman thiol readout.",
+   "excluded": false
   },
   {
    "slug": "gyhs",
@@ -2434,7 +2512,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 29582,
    "screen": 3.125,
-   "note": "Eight SUMO-Mfp3-acidic peptide fusion proteins expressed in E. coli, screened down to SUMO-Mfp3-v12-Asp8, tested for glass retention after agitation and for cell-free mineral deposition, plus two iterations of an underwater material-testing rig with wave settings and environmental logging."
+   "note": "Eight SUMO-Mfp3-acidic peptide fusion proteins expressed in E. coli, screened down to SUMO-Mfp3-v12-Asp8, tested for glass retention after agitation and for cell-free mineral deposition, plus two iterations of an underwater material-testing rig with wave settings and environmental logging.",
+   "excluded": false
   },
   {
    "slug": "gymnasium-leiden",
@@ -2445,7 +2524,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 21276,
    "screen": 2,
-   "note": "A proposed modular vault carrier - MVP scaffold with an N-terminal adenoviral pVI endosomal-escape peptide and a C-terminal Z domain for antibody targeting, plus a PABPC1-INT adaptor to hold poly(A) mRNA - intended to let mRNA be stored at -18 C. Lab work reached Golden Gate assembly and transformation; nothing was sequenced."
+   "note": "A proposed modular vault carrier - MVP scaffold with an N-terminal adenoviral pVI endosomal-escape peptide and a C-terminal Z domain for antibody targeting, plus a PABPC1-INT adaptor to hold poly(A) mRNA - intended to let mRNA be stored at -18 C. Lab work reached Golden Gate assembly and transformation; nothing was sequenced.",
+   "excluded": false
   },
   {
    "slug": "hangzhoufourteenap",
@@ -2456,7 +2536,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 52291,
    "screen": 4.19,
-   "note": "Recombinant production of two complementary glucanases (PmGH87 α-1,3, CoGH66 α-1,6) plus a hydroxyapatite-binding antimicrobial peptide, combined with commercial papain and DNase I into a cocktail tested on an artificial dental calculus model and formulated into a staged-release toothpaste."
+   "note": "Recombinant production of two complementary glucanases (PmGH87 α-1,3, CoGH66 α-1,6) plus a hydroxyapatite-binding antimicrobial peptide, combined with commercial papain and DNase I into a cocktail tested on an artificial dental calculus model and formulated into a staged-release toothpaste.",
+   "excluded": false
   },
   {
    "slug": "has",
@@ -2467,7 +2548,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 54804,
    "screen": 3,
-   "note": "Two independent E. coli systems — a PYR1-GST-HAB1 ABA response module and a pBAD-IAMT1 IAA degradation module — intended as plant probiotics for space agriculture, tested alongside Floraspin, a home-built clinostat-style microgravity simulator used for Arabidopsis germination."
+   "note": "Two independent E. coli systems — a PYR1-GST-HAB1 ABA response module and a pBAD-IAMT1 IAA degradation module — intended as plant probiotics for space agriculture, tested alongside Floraspin, a home-built clinostat-style microgravity simulator used for Arabidopsis germination.",
+   "excluded": false
   },
   {
    "slug": "hfi",
@@ -2478,7 +2560,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 60500,
    "screen": 3.75,
-   "note": "Two engineered E. coli Nissle strains that split the human saccharopine lysine-degradation pathway between them (LKR+SDH upstream, ALDH+AASDHPPT downstream) and are physically coupled by SpyTag/SpyCatcher surface display, with an ldcC knockout chassis and an oxygen/arabinose-responsive kill switch, intended as a gut-resident therapy for an ultra-rare metabolic disease."
+   "note": "Two engineered E. coli Nissle strains that split the human saccharopine lysine-degradation pathway between them (LKR+SDH upstream, ALDH+AASDHPPT downstream) and are physically coupled by SpyTag/SpyCatcher surface display, with an ldcC knockout chassis and an oxygen/arabinose-responsive kill switch, intended as a gut-resident therapy for an ultra-rare metabolic disease.",
+   "excluded": false
   },
   {
    "slug": "hg-tokyo",
@@ -2489,7 +2572,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 23182,
    "screen": 2.63,
-   "note": "An in-silico designed recombinant fusion of the bacteriophage endolysin PlyPl23 and the bee defensin royalisin joined by a (GGGGS)3 linker, codon-optimised for E. coli BL21 and ordered as a gBlock with tac promoter, RBS, His tag and rrnB terminator, intended for delivery in bee feed against Paenibacillus larvae."
+   "note": "An in-silico designed recombinant fusion of the bacteriophage endolysin PlyPl23 and the bee defensin royalisin joined by a (GGGGS)3 linker, codon-optimised for E. coli BL21 and ordered as a gBlock with tac promoter, RBS, His tag and rrnB terminator, intended for delivery in bee feed against Paenibacillus larvae.",
+   "excluded": false
   },
   {
    "slug": "hia-taiwan",
@@ -2500,7 +2584,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 51156,
    "screen": 2.625,
-   "note": "A two-plasmid colour biosensor: methanol dehydrogenase converts ripening-associated methanol to formaldehyde, and a formaldehyde-responsive promoter then drives the AmilCP chromoprotein for a visible readout of Aiyu harvest readiness."
+   "note": "A two-plasmid colour biosensor: methanol dehydrogenase converts ripening-associated methanol to formaldehyde, and a formaldehyde-responsive promoter then drives the AmilCP chromoprotein for a visible readout of Aiyu harvest readiness.",
+   "excluded": false
   },
   {
    "slug": "hk-league",
@@ -2511,7 +2596,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 46425,
    "screen": 4,
-   "note": "Six de novo metal-binding proteins (Ni, Co, Li; RFdiffusion3 + ProteinMPNN) encoded as 6 CDS parts and 12 plasmids in E. coli, immobilised in alginate beads, packed into a 3D-printed six-stage detachable cartridge run on a peristaltic pump. They also converted a filament 3D printer into a room-temperature syringe bioprinter and wrote BioPrintCAD toolpath software."
+   "note": "Six de novo metal-binding proteins (Ni, Co, Li; RFdiffusion3 + ProteinMPNN) encoded as 6 CDS parts and 12 plasmids in E. coli, immobilised in alginate beads, packed into a 3D-printed six-stage detachable cartridge run on a peristaltic pump. They also converted a filament 3D printer into a room-temperature syringe bioprinter and wrote BioPrintCAD toolpath software.",
+   "excluded": false
   },
   {
    "slug": "hk-joint-school",
@@ -2522,7 +2608,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 65436,
    "screen": 4.19,
-   "note": "A modular CsgA amyloid scaffold fused to BslA (hydrophobicity), polyethylene-binding peptide (adhesion) and AI-designed retardant peptides, applied as a two-layer coating with ammonium polyphosphate and expandable graphite to polyethylene scaffolding netting, plus PyroForge, an ESM-2-based ML tool that designed the better retardant peptide."
+   "note": "A modular CsgA amyloid scaffold fused to BslA (hydrophobicity), polyethylene-binding peptide (adhesion) and AI-designed retardant peptides, applied as a two-layer coating with ammonium polyphosphate and expandable graphite to polyethylene scaffolding netting, plus PyroForge, an ESM-2-based ML tool that designed the better retardant peptide.",
+   "excluded": false
   },
   {
    "slug": "hk-plknplc",
@@ -2533,7 +2620,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 18456,
    "screen": 2.63,
-   "note": "Rationally designed and MD-ranked lanmodulin (LanM) point mutants intended to bind terbium more tightly than wild type, plus CBDcex-fused versions for anchoring onto cellulose so the protein behaves as a reusable column rather than a consumable reagent."
+   "note": "Rationally designed and MD-ranked lanmodulin (LanM) point mutants intended to bind terbium more tightly than wild type, plus CBDcex-fused versions for anchoring onto cellulose so the protein behaves as a reusable column rather than a consumable reagent.",
+   "excluded": false
   },
   {
    "slug": "hkssc",
@@ -2544,7 +2632,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 41689,
    "screen": 3.44,
-   "note": "E. coli BL21(DE3) expressing prbA, a paraben-hydrolysing esterase, as a pre-treatment step so preservatives in food waste stop inhibiting the microbes used in anaerobic digestion at facilities like Hong Kong's O-PARK."
+   "note": "E. coli BL21(DE3) expressing prbA, a paraben-hydrolysing esterase, as a pre-treatment step so preservatives in food waste stop inhibiting the microbes used in anaerobic digestion at facilities like Hong Kong's O-PARK.",
+   "excluded": false
   },
   {
    "slug": "hongkong-hs",
@@ -2555,7 +2644,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 39807,
    "screen": 2.94,
-   "note": "A home test-kit concept for chronic kidney disease that detects urinary miR-21-5p and miR-192-5p, first with cell-free toehold switches driving EGFP and then, after that failed to give usable signal, with enzyme-free hybridisation chain reaction producing G-quadruplexes read by ThT fluorescence or hemin/TMB colour."
+   "note": "A home test-kit concept for chronic kidney disease that detects urinary miR-21-5p and miR-192-5p, first with cell-free toehold switches driving EGFP and then, after that failed to give usable signal, with enzyme-free hybridisation chain reaction producing G-quadruplexes read by ThT fluorescence or hemin/TMB colour.",
+   "excluded": false
   },
   {
    "slug": "hongkong-jss",
@@ -2566,7 +2656,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 62467,
    "screen": 4.13,
-   "note": "A MerR/pMer mercury-responsive E. coli biosensor with the mRFP1e reporter giving two readouts from one protein - visible pellet colour and red fluorescence - plus a 3D-printed phone-camera fluorescence box, an integrated fluorometer and a sample extraction unit."
+   "note": "A MerR/pMer mercury-responsive E. coli biosensor with the mRFP1e reporter giving two readouts from one protein - visible pellet colour and red fluorescence - plus a 3D-printed phone-camera fluorescence box, an integrated fluorometer and a sample extraction unit.",
+   "excluded": false
   },
   {
    "slug": "hongkong-puiching",
@@ -2577,7 +2668,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 99780,
    "screen": 3.25,
-   "note": "A modular CTPR-repeat protein scaffold carrying M13, LgBiT and SpyCatcher docking sites, so that a chosen signal (calcium via calmodulin in the proof of concept) recruits a SpyTag/SmBiT-tagged payload, reports via NanoBiT luminescence and is then locked irreversibly by SpyTag-SpyCatcher; supported by ORIGAMI, a modelling tool that combines CTPR helical geometry, worm-like-chain linker dynamics and mass-action kinetics with a Gaussian process to pick repeat lengths."
+   "note": "A modular CTPR-repeat protein scaffold carrying M13, LgBiT and SpyCatcher docking sites, so that a chosen signal (calcium via calmodulin in the proof of concept) recruits a SpyTag/SmBiT-tagged payload, reports via NanoBiT luminescence and is then locked irreversibly by SpyTag-SpyCatcher; supported by ORIGAMI, a modelling tool that combines CTPR helical geometry, worm-like-chain linker dynamics and mass-action kinetics with a Gaussian process to pick repeat lengths.",
+   "excluded": false
   },
   {
    "slug": "hongkong-uccke",
@@ -2588,7 +2680,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 31316,
    "screen": 2.88,
-   "note": "A two-stage E. coli scheme in which one culture overproduces sedoheptulose-7-phosphate (S7P) via transketolase overexpression and a second takes it up through uhpT (uhpA-activated) to make mycosporine-like amino acids, which would then be encapsulated in chitosan nanoparticles sprayed onto the outer gauze layer."
+   "note": "A two-stage E. coli scheme in which one culture overproduces sedoheptulose-7-phosphate (S7P) via transketolase overexpression and a second takes it up through uhpT (uhpA-activated) to make mycosporine-like amino acids, which would then be encapsulated in chitosan nanoparticles sprayed onto the outer gauze layer.",
+   "excluded": false
   },
   {
    "slug": "hongwen-school",
@@ -2599,7 +2692,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 45186,
    "screen": 4,
-   "note": "Engineered Bacillus subtilis WB600 strains secreting xylanases (Xyn2, Xyn11A) and the arabinofuranosidase Abf62A, singly and in dual and triple combinations integrated at amyE, and ran them directly on brewer's spent grain. Also built a compact fermentation-monitoring prototype."
+   "note": "Engineered Bacillus subtilis WB600 strains secreting xylanases (Xyn2, Xyn11A) and the arabinofuranosidase Abf62A, singly and in dual and triple combinations integrated at amyE, and ran them directly on brewer's spent grain. Also built a compact fermentation-monitoring prototype.",
+   "excluded": false
   },
   {
    "slug": "hs-kentucky",
@@ -2610,7 +2704,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 23744,
    "screen": 2.88,
-   "note": "Two parallel branches toward a PFAS/PFOA water biosensor: an RNA-seq screen in E. coli BL21 to find PFOA-responsive promoters, and an in-silico redesign of maltose-binding protein into a FRET sensor for PFOA."
+   "note": "Two parallel branches toward a PFAS/PFOA water biosensor: an RNA-seq screen in E. coli BL21 to find PFOA-responsive promoters, and an in-silico redesign of maltose-binding protein into a FRET sensor for PFOA.",
+   "excluded": false
   },
   {
    "slug": "hsas-china",
@@ -2621,7 +2716,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 57508,
    "screen": 3.625,
-   "note": "AHL lactonases (AiiA, AidC, plus AhlX and the metagenomic QQ-2) expressed in E. coli, adsorbed onto alkali-pretreated spent coffee grounds, encapsulated in calcium alginate and packed into a replaceable tea-bag pouch for grease-trap placement; characterized with a purpose-built dual sfGFP/lacZ AHL reporter."
+   "note": "AHL lactonases (AiiA, AidC, plus AhlX and the metagenomic QQ-2) expressed in E. coli, adsorbed onto alkali-pretreated spent coffee grounds, encapsulated in calcium alginate and packed into a replaceable tea-bag pouch for grease-trap placement; characterized with a purpose-built dual sfGFP/lacZ AHL reporter.",
+   "excluded": false
   },
   {
    "slug": "hset-china",
@@ -2632,7 +2728,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 67798,
    "screen": 3.88,
-   "note": "They transferred the rice silicic acid influx and efflux transporters OsLsi1 and OsLsi2 into Nicotiana benthamiana under constitutive, root-specific and salt-inducible promoters, including single-vector dual-gene modules, and generated stable transgenic lines. They then measured silicon accumulation, growth and stress physiology under salt stress with and without silicon supplementation."
+   "note": "They transferred the rice silicic acid influx and efflux transporters OsLsi1 and OsLsi2 into Nicotiana benthamiana under constitutive, root-specific and salt-inducible promoters, including single-vector dual-gene modules, and generated stable transgenic lines. They then measured silicon accumulation, growth and stress physiology under salt stress with and without silicon supplementation.",
+   "excluded": false
   },
   {
    "slug": "icjfls",
@@ -2643,7 +2740,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 20868,
    "screen": 2.56,
-   "note": "Sox multi-enzyme complex and methanethiol oxidase (MTO) expressed in E. coli and intended for CRISPR-Cas9 genomic integration into Streptococcus salivarius K12, plus a four-layer biosafety stack (GRAS chassis, D-Ala auxotrophy, PcspA/RNA-thermometer CcdB kill switch, marker removal). Enzymes are meant to scavenge H2S, CH3SH and dimethyl sulfide from saliva."
+   "note": "Sox multi-enzyme complex and methanethiol oxidase (MTO) expressed in E. coli and intended for CRISPR-Cas9 genomic integration into Streptococcus salivarius K12, plus a four-layer biosafety stack (GRAS chassis, D-Ala auxotrophy, PcspA/RNA-thermometer CcdB kill switch, marker removal). Enzymes are meant to scavenge H2S, CH3SH and dimethyl sulfide from saliva.",
+   "excluded": false
   },
   {
    "slug": "institut-le-rosey-ch",
@@ -2654,7 +2752,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 26698,
    "screen": 3.94,
-   "note": "A DNA 'catapult' hairpin probe re-targeted from miR-21 to miR-223 (a mastitis inflammation marker in milk), read out by 6-FAM/BHQ-1 fluorescence, plus a proposed FET sensing chamber, CAD hardware and the UdderNet software platform. The molecular sensing module was built and tested; the integrated inline device was not."
+   "note": "A DNA 'catapult' hairpin probe re-targeted from miR-21 to miR-223 (a mastitis inflammation marker in milk), read out by 6-FAM/BHQ-1 fluorescence, plus a proposed FET sensing chamber, CAD hardware and the UdderNet software platform. The molecular sensing module was built and tested; the integrated inline device was not.",
+   "excluded": false
   },
   {
    "slug": "jzib-qdhs",
@@ -2665,7 +2764,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 43988,
    "screen": 2.88,
-   "note": "Heterologous expression of three human cytosolic sulfotransferases (SULT2A1, SULT2B1, SULT1E1) in E. coli for in vitro inhibitor screening, plus a pETDuet UGT88D4 + UGD dual-enzyme system for biosynthesis of flavonoid glycosides."
+   "note": "Heterologous expression of three human cytosolic sulfotransferases (SULT2A1, SULT2B1, SULT1E1) in E. coli for in vitro inhibitor screening, plus a pETDuet UGT88D4 + UGD dual-enzyme system for biosynthesis of flavonoid glycosides.",
+   "excluded": false
   },
   {
    "slug": "kcis",
@@ -2676,7 +2776,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 45296,
    "screen": 3.69,
-   "note": "A 7alpha-HSDH / 7beta-HSDH cascade in E. coli BL21(DE3) converting waste-derived chenodeoxycholic acid to ursodeoxycholic acid, improved by semi-rational cofactor-switching mutagenesis of 7beta-HSDH and by rigid/flexible linker fusion of the two enzymes."
+   "note": "A 7alpha-HSDH / 7beta-HSDH cascade in E. coli BL21(DE3) converting waste-derived chenodeoxycholic acid to ursodeoxycholic acid, improved by semi-rational cofactor-switching mutagenesis of 7beta-HSDH and by rigid/flexible linker fusion of the two enzymes.",
+   "excluded": false
   },
   {
    "slug": "kcis-xiugang-taipei",
@@ -2687,7 +2788,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 71445,
    "screen": 3.19,
-   "note": "Engineered S. cerevisiae carrying MFalpha1 prepro-leader fusions to PEP4 (Proteinase A) and TGL1 (sterol esterase) under pGAL1,10 or ADH1 promoters, intended to secrete hydrolases that pre-digest household food waste. Proposed products are a household two-chamber reactor and an enzyme drain unblocker."
+   "note": "Engineered S. cerevisiae carrying MFalpha1 prepro-leader fusions to PEP4 (Proteinase A) and TGL1 (sterol esterase) under pGAL1,10 or ADH1 promoters, intended to secrete hydrolases that pre-digest household food waste. Proposed products are a household two-chamber reactor and an enzyme drain unblocker.",
+   "excluded": false
   },
   {
    "slug": "kcscd",
@@ -2698,7 +2800,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 18335,
    "screen": 2.9375,
-   "note": "A two-barrier system for feline infectious peritonitis: recombinant GDSL lipases (CbAE-1, CbAE-2) as the active ingredient of an environmental spray that strips the viral lipid envelope, and engineered E. coli Nissle 1917 carrying anti-N shRNA, a V4-ELP-EEP13 self-assembling nanoparticle monomer, a quorum-sensing-coupled oscillatory lysis circuit for release, and a cold-inducible Doc/Phd kill switch."
+   "note": "A two-barrier system for feline infectious peritonitis: recombinant GDSL lipases (CbAE-1, CbAE-2) as the active ingredient of an environmental spray that strips the viral lipid envelope, and engineered E. coli Nissle 1917 carrying anti-N shRNA, a V4-ELP-EEP13 self-assembling nanoparticle monomer, a quorum-sensing-coupled oscillatory lysis circuit for release, and a cold-inducible Doc/Phd kill switch.",
+   "excluded": false
   },
   {
    "slug": "keystone",
@@ -2709,7 +2812,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 77225,
    "screen": 4.06,
-   "note": "Two immobilised yeast strains: one secreting polygalacturonase PgaA to break down pectin, one expressing JEN1/CYB2/DLD1 to consume L- and D-lactate, both carrying a MazEF temperature kill switch, encapsulated in sodium alginate beads and tested in simulated coffee wastewater."
+   "note": "Two immobilised yeast strains: one secreting polygalacturonase PgaA to break down pectin, one expressing JEN1/CYB2/DLD1 to consume L- and D-lactate, both carrying a MazEF temperature kill switch, encapsulated in sodium alginate beads and tested in simulated coffee wastewater.",
+   "excluded": false
   },
   {
    "slug": "khanlab-bayarea",
@@ -2720,7 +2824,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 32001,
    "screen": 3.69,
-   "note": "An E. coli biosensor using the native CadC regulator to convert cadaverine (a meat-spoilage amine) into amilCP blue chromoprotein output, plus a smartphone image-processing model that turns the colour into a predicted expiration date and a packaging-insert hardware concept."
+   "note": "An E. coli biosensor using the native CadC regulator to convert cadaverine (a meat-spoilage amine) into amilCP blue chromoprotein output, plus a smartphone image-processing model that turns the colour into a predicted expiration date and a packaging-insert hardware concept.",
+   "excluded": false
   },
   {
    "slug": "korea-hs",
@@ -2731,7 +2836,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 59040,
    "screen": 4,
-   "note": "An E. coli strain carrying a copper-inducible Priestia megaterium tyrosinase that produces melanin, and a two-layer melanin/chitosan coating applied to oak and tested for flame resistance."
+   "note": "An E. coli strain carrying a copper-inducible Priestia megaterium tyrosinase that produces melanin, and a two-layer melanin/chitosan coating applied to oak and tested for flame resistance.",
+   "excluded": false
   },
   {
    "slug": "labi-taiwan",
@@ -2742,7 +2848,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 91327,
    "screen": 4.25,
-   "note": "A four-stage biosensor: three-way-junction DNA probes that recognize miR-124-3p and release a trigger, a toehold switch that converts the trigger into sfGFP/reporter expression, nuclease-mediated cleavage of an MB-labelled reporter, and an Au@SPCE square-wave-voltammetry readout — with a machine-learning design loop and a bioinformatics pipeline choosing the target."
+   "note": "A four-stage biosensor: three-way-junction DNA probes that recognize miR-124-3p and release a trigger, a toehold switch that converts the trigger into sfGFP/reporter expression, nuclease-mediated cleavage of an MB-labelled reporter, and an Au@SPCE square-wave-voltammetry readout — with a machine-learning design loop and a bioinformatics pipeline choosing the target.",
+   "excluded": true
   },
   {
    "slug": "lambert-ga",
@@ -2753,7 +2860,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 92714,
    "screen": 4.13,
-   "note": "A two-arm honeybee-health platform: computationally designed de novo minibinders targeting the DWV VP3 capsid protein, and dsRNA targeting three Varroa salivary genes, supported by the PRINCE binding-site prioritisation tool and the Vapor-X low-cost drying hardware."
+   "note": "A two-arm honeybee-health platform: computationally designed de novo minibinders targeting the DWV VP3 capsid protein, and dsRNA targeting three Varroa salivary genes, supported by the PRINCE binding-site prioritisation tool and the Vapor-X low-cost drying hardware.",
+   "excluded": false
   },
   {
    "slug": "lethbridgehs",
@@ -2764,7 +2872,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 16509,
    "screen": 2.3125,
-   "note": "Cellulose extracted from Alberta oat-husk waste and formed into bandage material over three prototype iterations (organosolv and a modified Tencel/NMMO route), plus His-tagged SpaS (subtilin) and GFP-SpaS fusion expressed in E. coli for purification and loading into the dressing."
+   "note": "Cellulose extracted from Alberta oat-husk waste and formed into bandage material over three prototype iterations (organosolv and a modified Tencel/NMMO route), plus His-tagged SpaS (subtilin) and GFP-SpaS fusion expressed in E. coli for purification and loading into the dressing.",
+   "excluded": false
   },
   {
    "slug": "lhwhs-missouri",
@@ -2775,7 +2884,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 17508,
    "screen": 2.69,
-   "note": "A pooled single-cell screening platform: 40 siRNA duplexes against 10 lipid-metabolism genes loaded onto fluorescently barcoded photoporation beads, delivered to HepG2 cells, with an imaging pipeline that segments cells, decodes 6-bit barcodes and links siRNA identity to per-cell lipid dye intensity."
+   "note": "A pooled single-cell screening platform: 40 siRNA duplexes against 10 lipid-metabolism genes loaded onto fluorescently barcoded photoporation beads, delivered to HepG2 cells, with an imaging pipeline that segments cells, decodes 6-bit barcodes and links siRNA identity to per-cell lipid dye intensity.",
+   "excluded": false
   },
   {
    "slug": "links-union",
@@ -2786,7 +2896,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 29966,
    "screen": 3.5,
-   "note": "A calcium-alginate hydrogel coating for braces combining three modules: alkaline phosphatase (PhoK, CBM106-anchored) that mineralises calcium glycerophosphate into nano-hydroxyapatite, an LL-37 antimicrobial peptide released by an MtuI intein that self-cleaves below pH 6.5, and a dual mineral/hydrogel barrier for sustained release."
+   "note": "A calcium-alginate hydrogel coating for braces combining three modules: alkaline phosphatase (PhoK, CBM106-anchored) that mineralises calcium glycerophosphate into nano-hydroxyapatite, an LL-37 antimicrobial peptide released by an MtuI intein that self-cleaves below pH 6.5, and a dual mineral/hydrogel barrier for sustained release.",
+   "excluded": false
   },
   {
    "slug": "mammothedu-east",
@@ -2797,7 +2908,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 57210,
    "screen": 3.69,
-   "note": "Engineered Saccharomyces cerevisiae modules to make the aphid-predator volatiles methyl salicylate, beta-caryophyllene and (E)-beta-farnesene (plus limonene and linalool candidates), with a nine-promoter panel to tune EbF output, aimed at reducing aphid honeydew on Shanghai street trees."
+   "note": "Engineered Saccharomyces cerevisiae modules to make the aphid-predator volatiles methyl salicylate, beta-caryophyllene and (E)-beta-farnesene (plus limonene and linalool candidates), with a nine-promoter panel to tune EbF output, aimed at reducing aphid honeydew on Shanghai street trees.",
+   "excluded": false
   },
   {
    "slug": "mammothedu-united",
@@ -2808,7 +2920,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 98828,
    "screen": 3.5,
-   "note": "A two-part biological route in salt-tolerant Halomonas sp. LA5 - engineered PETase variants to hydrolyse PET/BHET, and an RBS-optimised phaCAB pathway to make PHB - aimed at replacing the expanded polystyrene shell of weather-balloon radiosondes, which are released ~600,000-950,000 times a year and almost never recovered."
+   "note": "A two-part biological route in salt-tolerant Halomonas sp. LA5 - engineered PETase variants to hydrolyse PET/BHET, and an RBS-optimised phaCAB pathway to make PHB - aimed at replacing the expanded polystyrene shell of weather-balloon radiosondes, which are released ~600,000-950,000 times a year and almost never recovered.",
+   "excluded": false
   },
   {
    "slug": "mca-swis",
@@ -2819,7 +2932,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 34316,
    "screen": 3.44,
-   "note": "They built two independent whole-cell colour sensors (ChpR-P_chpA driving eforRed for chlorpyrifos, PhnF-P_phnG driving amilCP for glyphosate) and two detoxification strains expressing organophosphate hydrolase OPD and glyphosate N-acetyltransferase GAT. The sensing and biotransformation modules were coupled and tested against pesticide and phosphate gradients."
+   "note": "They built two independent whole-cell colour sensors (ChpR-P_chpA driving eforRed for chlorpyrifos, PhnF-P_phnG driving amilCP for glyphosate) and two detoxification strains expressing organophosphate hydrolase OPD and glyphosate N-acetyltransferase GAT. The sensing and biotransformation modules were coupled and tested against pesticide and phosphate gradients.",
+   "excluded": false
   },
   {
    "slug": "mingdao",
@@ -2830,7 +2944,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 33953,
    "screen": 4.25,
-   "note": "A one-pot simultaneous saccharification and fermentation system: cenA cellulase plus a newly cloned thermophilic β-glucosidase (TmBglA) release glucose from laminated paper-container fibre while Zymomonas mobilis ferments it to ethanol, with a coupled ODE model and a benchtop integrated fermentor-distiller."
+   "note": "A one-pot simultaneous saccharification and fermentation system: cenA cellulase plus a newly cloned thermophilic β-glucosidase (TmBglA) release glucose from laminated paper-container fibre while Zymomonas mobilis ferments it to ethanol, with a coupled ODE model and a benchtop integrated fermentor-distiller.",
+   "excluded": false
   },
   {
    "slug": "mpayf-usa",
@@ -2841,7 +2956,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 57641,
    "screen": 3.625,
-   "note": "A two-strain E. coli system for 2,4-DNT: a YhaJ-PyqjF-GFP whole-cell biosensor and a BL21(DE3) strain carrying an eight-gene Burkholderia dnt degradation operon, both fitted with a pCspA-MazF cold-inducible kill switch and silicate-gel immobilisation. They also built three generations of a 3D-printed portable fluorescence spectrometer to read the sensor in the field."
+   "note": "A two-strain E. coli system for 2,4-DNT: a YhaJ-PyqjF-GFP whole-cell biosensor and a BL21(DE3) strain carrying an eight-gene Burkholderia dnt degradation operon, both fitted with a pCspA-MazF cold-inducible kill switch and silicate-gel immobilisation. They also built three generations of a 3D-printed portable fluorescence spectrometer to read the sensor in the field.",
+   "excluded": false
   },
   {
    "slug": "nacis-shanghai",
@@ -2852,7 +2968,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 42280,
    "screen": 3.94,
-   "note": "An engineered E. coli that co-produces the Bt insecticidal protein Cry1A(c) and UV-absorbing melanin from glucose in a single chassis, so the pigment shields the toxin from sunlight, plus a model-guided MelA tyrosinase variant, a chitinase-Cry fusion to breach the insect peritrophic matrix, and two hardware devices."
+   "note": "An engineered E. coli that co-produces the Bt insecticidal protein Cry1A(c) and UV-absorbing melanin from glucose in a single chassis, so the pigment shields the toxin from sunlight, plus a model-guided MelA tyrosinase variant, a chitinase-Cry fusion to breach the insect peritrophic matrix, and two hardware devices.",
+   "excluded": false
   },
   {
    "slug": "nbjf",
@@ -2863,7 +2980,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 48343,
    "screen": 3.94,
-   "note": "A de novo protein design pipeline that rebuilt the flexible DNA-binding region of TdT to improve thermostability and accommodate bulky oxyamino-modified nucleotides, aimed at enzymatic DNA writing for DNA data storage."
+   "note": "A de novo protein design pipeline that rebuilt the flexible DNA-binding region of TdT to improve thermostability and accommodate bulky oxyamino-modified nucleotides, aimed at enzymatic DNA writing for DNA data storage.",
+   "excluded": false
   },
   {
    "slug": "nebs-vca",
@@ -2874,7 +2992,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 57932,
    "screen": 3.56,
-   "note": "Two mutation-discovery routes into FAST-PETase (a GVP-GNN structure-aware screen giving Y87Q and docking-based active-site design giving S187Y), validated on PET films, plus a deep-learning model (EnzAdapt) predicting Tm, Topt and pHopt, plus synthesis of pyrrolidone-aromatic copolyesters for UV/blue-light shielding."
+   "note": "Two mutation-discovery routes into FAST-PETase (a GVP-GNN structure-aware screen giving Y87Q and docking-based active-site design giving S187Y), validated on PET films, plus a deep-learning model (EnzAdapt) predicting Tm, Topt and pHopt, plus synthesis of pyrrolidone-aromatic copolyesters for UV/blue-light shielding.",
+   "excluded": false
   },
   {
    "slug": "nflshs-china",
@@ -2885,7 +3004,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 30529,
    "screen": 3,
-   "note": "An eight-gene crocetin pathway (idi, CrtE, CrtB, CrtI, CrtY, CrtZ, CCD, ALD) reconstructed in E. coli BL21(DE3), first as two plasmids and then consolidated onto one pETDuet backbone, followed by three point mutants of the rate-limiting cleavage dioxygenase CsCCD2."
+   "note": "An eight-gene crocetin pathway (idi, CrtE, CrtB, CrtI, CrtY, CrtZ, CCD, ALD) reconstructed in E. coli BL21(DE3), first as two plasmids and then consolidated onto one pETDuet backbone, followed by three point mutants of the rate-limiting cleavage dioxygenase CsCCD2.",
+   "excluded": false
   },
   {
    "slug": "nis-almaty-medeu",
@@ -2896,7 +3016,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 51238,
    "screen": 2.625,
-   "note": "A cell-free toehold-switch assay for a microRNA lung-cancer biomarker (retargeted to C. elegans cel-miR-39-3p for whitelist reasons) with sfGFP readout, plus an exploratory low-cost MOS-sensor electronic nose for breath VOCs. Seven synthetic oligos registered as parts and a Python stem-loop RT-PCR primer designer."
+   "note": "A cell-free toehold-switch assay for a microRNA lung-cancer biomarker (retargeted to C. elegans cel-miR-39-3p for whitelist reasons) with sfGFP readout, plus an exploratory low-cost MOS-sensor electronic nose for breath VOCs. Seven synthetic oligos registered as parts and a Python stem-loop RT-PCR primer designer.",
+   "excluded": false
   },
   {
    "slug": "nis-kazakhstan",
@@ -2907,7 +3028,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 40209,
    "screen": 3.19,
-   "note": "A modular TaqMan qPCR panel covering the seven Tier 1 DPYD loci (rs75017182, rs3918290, rs55886062, rs67376798, rs115232898, rs146356975, rs112766203), with 14 primers and 22 allele-specific probes, intended as a pre-chemotherapy pharmacogenetic test in Kazakhstan."
+   "note": "A modular TaqMan qPCR panel covering the seven Tier 1 DPYD loci (rs75017182, rs3918290, rs55886062, rs67376798, rs115232898, rs146356975, rs112766203), with 14 primers and 22 allele-specific probes, intended as a pre-chemotherapy pharmacogenetic test in Kazakhstan.",
+   "excluded": false
   },
   {
    "slug": "npsi-singapore",
@@ -2918,7 +3040,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 32966,
    "screen": 2.81,
-   "note": "A design for Lactobacillus paracasei (validated first in E. coli) secreting a modified 18-residue mcIRBP-19 insulin-receptor-binding peptide from bitter gourd via a Usp45 signal, intended as a probiotic drink for early-stage type 2 diabetes."
+   "note": "A design for Lactobacillus paracasei (validated first in E. coli) secreting a modified 18-residue mcIRBP-19 insulin-receptor-binding peptide from bitter gourd via a Usp45 signal, intended as a probiotic drink for early-stage type 2 diabetes.",
+   "excluded": false
   },
   {
    "slug": "oakridge-hyd",
@@ -2929,7 +3052,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 59942,
    "screen": 2.94,
-   "note": "A planned two-module recording biosensor: a CueR copper-responsive promoter driving sfGFP (M1) and a Bxb1 integrase cassette that latches by inverting DNA (M2U untagged, M2L with LVA tag); the module joining the copper sensor to the integrase was designed but never built."
+   "note": "A planned two-module recording biosensor: a CueR copper-responsive promoter driving sfGFP (M1) and a Bxb1 integrase cassette that latches by inverting DNA (M2U untagged, M2L with LVA tag); the module joining the copper sensor to the integrase was designed but never built.",
+   "excluded": false
   },
   {
    "slug": "otia-hangzhou",
@@ -2940,7 +3064,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 35847,
    "screen": 3.75,
-   "note": "Four E. coli whole-cell biosensors in which VOC-responsive promoters (hipB, dkgB, evgA, elfA) drive the luxCDABE autoluminescence operon, immobilised in calcium-alginate microbeads and read out by a smartphone long-exposure dark box, giving staged warnings for early infection versus toxigenic stage in maize and peanuts."
+   "note": "Four E. coli whole-cell biosensors in which VOC-responsive promoters (hipB, dkgB, evgA, elfA) drive the luxCDABE autoluminescence operon, immobilised in calcium-alginate microbeads and read out by a smartphone long-exposure dark box, giving staged warnings for early infection versus toxigenic stage in maize and peanuts.",
+   "excluded": false
   },
   {
    "slug": "plklfc",
@@ -2951,7 +3076,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 40514,
    "screen": 4.125,
-   "note": "An E. coli Nissle-targeted three-module system (hypoxia/formate-gated therapeutic payloads, Lpp-OmpA nanobody adhesion, essential-gene kill switch plus barcoded reporters), characterized in DH5a, alongside COLOPrinter — a low-cost open-source four-material bioprinter with an aseptic isolator and G-code translator — and an erosion/release simulation of the printed pill."
+   "note": "An E. coli Nissle-targeted three-module system (hypoxia/formate-gated therapeutic payloads, Lpp-OmpA nanobody adhesion, essential-gene kill switch plus barcoded reporters), characterized in DH5a, alongside COLOPrinter — a low-cost open-source four-material bioprinter with an aseptic isolator and G-code translator — and an erosion/release simulation of the printed pill.",
+   "excluded": false
   },
   {
    "slug": "profuture-china",
@@ -2962,7 +3088,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 62045,
    "screen": 3.56,
-   "note": "Three engineered E. coli BL21 platforms: de novo allantoin from glucose via xdhABC + pucLM, heterologous vanillin via quiC-BsSfp-SrOMT-NiCAR, and a decapeptide-thrombin site-hEGF fusion for hair repair, all aimed at a pet-grooming product line."
+   "note": "Three engineered E. coli BL21 platforms: de novo allantoin from glucose via xdhABC + pucLM, heterologous vanillin via quiC-BsSfp-SrOMT-NiCAR, and a decapeptide-thrombin site-hEGF fusion for hair repair, all aimed at a pet-grooming product line.",
+   "excluded": false
   },
   {
    "slug": "psi-korea",
@@ -2973,7 +3100,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 67995,
    "screen": 4,
-   "note": "One engineered E. coli making both a bioplastic (PHB from a phaCAB operon) and a halogenated indigoid pigment, cast together into small tags whose optical response under five LEDs and four backgrounds acts as an authentication fingerprint, read by a purpose-built 60-component Bio Color ID Reader."
+   "note": "One engineered E. coli making both a bioplastic (PHB from a phaCAB operon) and a halogenated indigoid pigment, cast together into small tags whose optical response under five LEDs and four backgrounds acts as an authentication fingerprint, read by a purpose-built 60-component Bio Color ID Reader.",
+   "excluded": false
   },
   {
    "slug": "puiching-macau",
@@ -2984,7 +3112,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 77339,
    "screen": 3.6875,
-   "note": "EcN carrying a five-enzyme butyrate pathway (HBD-CRT-TER on one plasmid, PTB-BUK on another) plus a PpchA-LacI-Ptac negative-feedback circuit to cap butyrate, and pNorVb/PpchA-PLEE1 EGFP biosensors for nitric oxide and butyrate. Supported by a two-part gut-to-blood DDE model, a capsule-dispensing device and a cognitive-screening app."
+   "note": "EcN carrying a five-enzyme butyrate pathway (HBD-CRT-TER on one plasmid, PTB-BUK on another) plus a PpchA-LacI-Ptac negative-feedback circuit to cap butyrate, and pNorVb/PpchA-PLEE1 EGFP biosensors for nitric oxide and butyrate. Supported by a two-part gut-to-blood DDE model, a capsule-dispensing device and a cognitive-screening app.",
+   "excluded": false
   },
   {
    "slug": "qingdao-china",
@@ -2995,7 +3124,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 28488,
    "screen": 3.81,
-   "note": "Built an HA biosynthesis pathway in Pichia/Komagataella pastoris by heterologous UGD and HAS expression, screened three HAS sources, then balanced UDP-GlcA and UDP-GlcNAc precursor supply with a P2A-linked UGD-UAP cassette, and scaled to a 5 L fermenter with an automated methanol-feeding device."
+   "note": "Built an HA biosynthesis pathway in Pichia/Komagataella pastoris by heterologous UGD and HAS expression, screened three HAS sources, then balanced UDP-GlcA and UDP-GlcNAc precursor supply with a P2A-linked UGD-UAP cassette, and scaled to a 5 L fermenter with an automated methanol-feeding device.",
+   "excluded": false
   },
   {
    "slug": "qingdaoacademy",
@@ -3006,7 +3136,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 73822,
    "screen": 3.63,
-   "note": "A two-part enzymatic process: a free (non-cell-anchored) cellulosome built from screened cellulase modules plus scaffoldin to open the Ulva cell wall, and an INPNC-Uly1040 surface-display fusion for ulvan depolymerisation, with an iron-responsive safety switch and cosmetic functional testing of the resulting oligosaccharides."
+   "note": "A two-part enzymatic process: a free (non-cell-anchored) cellulosome built from screened cellulase modules plus scaffoldin to open the Ulva cell wall, and an INPNC-Uly1040 surface-display fusion for ulvan depolymerisation, with an iron-responsive safety switch and cosmetic functional testing of the resulting oligosaccharides.",
+   "excluded": false
   },
   {
    "slug": "rdfz-china",
@@ -3017,7 +3148,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 50844,
    "screen": 3.75,
-   "note": "A biodegradable bacterial cellulose membrane to replace synthetic geotextiles on glaciers, built from three engineered systems: heterologous bcsABCD cellulose production in E. coli with a pgm-galU precursor boost, UreABC urease-driven CaCO3 biomineralization for whitening and reflectance, and CspA cold-shock expression for low-temperature fermentation. Membranes were then tested as a material."
+   "note": "A biodegradable bacterial cellulose membrane to replace synthetic geotextiles on glaciers, built from three engineered systems: heterologous bcsABCD cellulose production in E. coli with a pgm-galU precursor boost, UreABC urease-driven CaCO3 biomineralization for whitening and reflectance, and CspA cold-shock expression for low-temperature fermentation. Membranes were then tested as a material.",
+   "excluded": false
   },
   {
    "slug": "rooseveltsatx",
@@ -3028,7 +3160,8 @@ window.SCOUT_FINALIST = {
    "gate": "A",
    "core_words": 9617,
    "screen": null,
-   "note": "Under 10,000 words of project documentation on the wiki."
+   "note": "Under 10,000 words of project documentation on the wiki.",
+   "excluded": false
   },
   {
    "slug": "sehs",
@@ -3039,7 +3172,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 31225,
    "screen": 3.5,
-   "note": "A full-length anti-TIGIT antibody fused via a (G4S)4 linker to an engineered IL-2 variant (lowα/highβ: F42A/Y45A/L72G + L80F/R81D/L85V/I86V/I92F), expressed in CHO cells. Three molecular formats (antibody, WT-IL-2 fusion, IL-2v fusion) were built and compared."
+   "note": "A full-length anti-TIGIT antibody fused via a (G4S)4 linker to an engineered IL-2 variant (lowα/highβ: F42A/Y45A/L72G + L80F/R81D/L85V/I86V/I92F), expressed in CHO cells. Three molecular formats (antibody, WT-IL-2 fusion, IL-2v fusion) were built and compared.",
+   "excluded": false
   },
   {
    "slug": "shanghai-city",
@@ -3050,7 +3184,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 44715,
    "screen": 3.69,
-   "note": "Three light-sensing reporter circuits in E. coli - red (PhyA/FHY1 split RNAP with HO1-PcyA chromophore synthesis), green (CcaS/CcaR) and blue (AsLOV2) - all reporting through firefly luciferase, intended as a low-cost biological front-end screen for artificial light at night translated into bird risk levels."
+   "note": "Three light-sensing reporter circuits in E. coli - red (PhyA/FHY1 split RNAP with HO1-PcyA chromophore synthesis), green (CcaS/CcaR) and blue (AsLOV2) - all reporting through firefly luciferase, intended as a low-cost biological front-end screen for artificial light at night translated into bird risk levels.",
+   "excluded": false
   },
   {
    "slug": "shsbnu-china",
@@ -3061,7 +3196,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 32222,
    "screen": 3.4375,
-   "note": "A self-assembling-peptide active inclusion body platform (L6KD-PEP-MtuI) that lets brazzein be recovered by centrifugation and acid-triggered intein cleavage without a column, plus plasmid-based and genome-integrated brazzein expression in S. cerevisiae and computationally designed variants."
+   "note": "A self-assembling-peptide active inclusion body platform (L6KD-PEP-MtuI) that lets brazzein be recovered by centrifugation and acid-triggered intein cleavage without a column, plus plasmid-based and genome-integrated brazzein expression in S. cerevisiae and computationally designed variants.",
+   "excluded": false
   },
   {
    "slug": "shsd",
@@ -3072,7 +3208,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 35794,
    "screen": 3.31,
-   "note": "They cloned the Brassica napus transcription factor BnDREB1C into pCAMBIA1300 under CaMV 35S and introduced it into Arabidopsis thaliana by Agrobacterium GV3101 floral dip. They then screened, molecularly confirmed and phenotyped transgenic plants for a shortened growth period."
+   "note": "They cloned the Brassica napus transcription factor BnDREB1C into pCAMBIA1300 under CaMV 35S and introduced it into Arabidopsis thaliana by Agrobacterium GV3101 floral dip. They then screened, molecularly confirmed and phenotyped transgenic plants for a shortened growth period.",
+   "excluded": false
   },
   {
    "slug": "shsid",
@@ -3083,7 +3220,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 108748,
    "screen": 4.25,
-   "note": "Two yeast modules in gel beads: a drought-alert bead where an osmotic-stress promoter drives the blue chromoprotein Y amilCP, and a soil-improvement bead where GPD1 drives secreted cellulose synthase (α-factor–dcsA) and hyaluronic acid synthesis (hasA–hasB). Paired with a three-level hardware system (ADRS) that reads bead colour, logs environmental data and triggers watering via an app."
+   "note": "Two yeast modules in gel beads: a drought-alert bead where an osmotic-stress promoter drives the blue chromoprotein Y amilCP, and a soil-improvement bead where GPD1 drives secreted cellulose synthase (α-factor–dcsA) and hyaluronic acid synthesis (hasA–hasB). Paired with a three-level hardware system (ADRS) that reads bead colour, logs environmental data and triggers watering via an app.",
+   "excluded": false
   },
   {
    "slug": "sms-shenzhen",
@@ -3094,7 +3232,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 62702,
    "screen": 4.13,
-   "note": "Komagataeibacter rhaeticus engineered to secrete an SP-CBM-HiBiT-IBP fusion protein that anchors to its own bacterial cellulose, turning the pellicle into a biosorbent that captures Li+, Ni2+, Co2+ and Mn2+ from dilute battery-recycling wastewater and releases them by mild cellulase digestion."
+   "note": "Komagataeibacter rhaeticus engineered to secrete an SP-CBM-HiBiT-IBP fusion protein that anchors to its own bacterial cellulose, turning the pellicle into a biosorbent that captures Li+, Ni2+, Co2+ and Mn2+ from dilute battery-recycling wastewater and releases them by mild cellulase digestion.",
+   "excluded": false
   },
   {
    "slug": "spc",
@@ -3105,7 +3244,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 67569,
    "screen": 3,
-   "note": "Heterologous transfer of the Nostoc punctiforme scytonemin pathway into E. coli, split into a cytoplasmic monomer arm (ScyA/B/C plus AroG-tyrA precursor boost) and a periplasmic arm (ScyE with pelB/ssdsbA signal peptides for oxidative dimerisation). Supported by a large in-silico redesign pipeline, a DNA/primer design suite, and an unusually deep iHP programme."
+   "note": "Heterologous transfer of the Nostoc punctiforme scytonemin pathway into E. coli, split into a cytoplasmic monomer arm (ScyA/B/C plus AroG-tyrA precursor boost) and a periplasmic arm (ScyE with pelB/ssdsbA signal peptides for oxidative dimerisation). Supported by a large in-silico redesign pipeline, a DNA/primer design suite, and an unusually deep iHP programme.",
+   "excluded": false
   },
   {
    "slug": "squirrel-beijing",
@@ -3116,7 +3256,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 84135,
    "screen": 4.13,
-   "note": "A three-part E. coli system - a PobR/PpobA/RFP whole-cell biosensor for p-nitrophenol improved by a computationally selected S120T mutation, a five-gene hydroquinone-pathway degradation strain (pnpA-pnpB-pnpC-pnpE-pnpD), and a cold-inducible lysis kill switch - plus three generations each of field sampling hardware and spraying hardware, ending in a retrofitted consumer drone."
+   "note": "A three-part E. coli system - a PobR/PpobA/RFP whole-cell biosensor for p-nitrophenol improved by a computationally selected S120T mutation, a five-gene hydroquinone-pathway degradation strain (pnpA-pnpB-pnpC-pnpE-pnpD), and a cold-inducible lysis kill switch - plus three generations each of field sampling hardware and spraying hardware, ending in a retrofitted consumer drone.",
+   "excluded": false
   },
   {
    "slug": "squirrel-guangzhou",
@@ -3127,7 +3268,8 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 48735,
    "screen": 4.19,
-   "note": "A three-generation metabolically engineered E. coli BL21 producing salvianic acid A (SAA, the Danshen cardiovascular compound) from endogenous 4HPP, plus two independent containment circuits: an arabinose-inducible pBAD-MazF and an oxygen-responsive phyB-MazE/MazF."
+   "note": "A three-generation metabolically engineered E. coli BL21 producing salvianic acid A (SAA, the Danshen cardiovascular compound) from endogenous 4HPP, plus two independent containment circuits: an arabinose-inducible pBAD-MazF and an oxygen-responsive phyB-MazE/MazF.",
+   "excluded": false
   },
   {
    "slug": "squirrel-shanghai",
@@ -3138,7 +3280,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 35062,
    "screen": 3.38,
-   "note": "Two independent terpenoid modules in E. coli BL21(DE3): a cis-abienol pathway (IDI, Erg20, GGPPS, CAS) boosted by an isopentenol utilisation pathway (ScCK, SfPhoN, MjIPK) fed with exogenous DMAOH, and a linalool pathway (IDI, Erg20, LIS) optimised by engineering Erg20 to shift GPP/FPP flux."
+   "note": "Two independent terpenoid modules in E. coli BL21(DE3): a cis-abienol pathway (IDI, Erg20, GGPPS, CAS) boosted by an isopentenol utilisation pathway (ScCK, SfPhoN, MjIPK) fed with exogenous DMAOH, and a linalool pathway (IDI, Erg20, LIS) optimised by engineering Erg20 to shift GPP/FPP flux.",
+   "excluded": false
   },
   {
    "slug": "sre-china",
@@ -3149,7 +3292,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 16230,
    "screen": 3.38,
-   "note": "A single-tube, extraction-free microRNA assay that runs exponential rolling-circle amplification at 30 C and then ignites CRISPR-Cas12a readout at 60 C, using a temperature-responsive ssRNA blocker as a molecular safety valve and a Zn2+-dependent DNAzyme embedded in the padlock probe as a kinetic accelerator."
+   "note": "A single-tube, extraction-free microRNA assay that runs exponential rolling-circle amplification at 30 C and then ignites CRISPR-Cas12a readout at 60 C, using a temperature-responsive ssRNA blocker as a molecular safety valve and a Zn2+-dependent DNAzyme embedded in the padlock probe as a kinetic accelerator.",
+   "excluded": false
   },
   {
    "slug": "sre-shanghai",
@@ -3160,7 +3304,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 25999,
    "screen": 3.44,
-   "note": "S. cerevisiae BY4741 engineered with a progressively expanded single plasmid (pHS1 → pHS3 → pHS4) carrying the fungal cineole synthase Hyp3 plus tHMG1 and an IDI1–GGGS–ERG20(F96W/N127W) fusion, to divert mevalonate flux to GPP and produce 1,8-cineole for pathogen control in fish ponds."
+   "note": "S. cerevisiae BY4741 engineered with a progressively expanded single plasmid (pHS1 → pHS3 → pHS4) carrying the fungal cineole synthase Hyp3 plus tHMG1 and an IDI1–GGGS–ERG20(F96W/N127W) fusion, to divert mevalonate flux to GPP and produce 1,8-cineole for pathogen control in fish ponds.",
+   "excluded": false
   },
   {
    "slug": "ssbs",
@@ -3171,7 +3316,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 62999,
    "screen": 3.0625,
-   "note": "Cloned, expressed and purified alpha-amylase, 4-alpha-glucanotransferase and pullulanase in E. coli, determined each enzyme's optimal reaction conditions, then treated gelatinized and non-gelatinized corn starch with single, double and triple enzyme combinations and measured resistant starch content."
+   "note": "Cloned, expressed and purified alpha-amylase, 4-alpha-glucanotransferase and pullulanase in E. coli, determined each enzyme's optimal reaction conditions, then treated gelatinized and non-gelatinized corn starch with single, double and triple enzyme combinations and measured resistant starch content.",
+   "excluded": false
   },
   {
    "slug": "sses",
@@ -3182,7 +3328,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 32634,
    "screen": 3.25,
-   "note": "Engineered E. coli carrying an isovaleric-acid degradation module (fadD, fadL, aidB, mccAB) plus a pTRIP temperature/AHL-regulated suicide module, combined into one co-transformed strain. A conceptual deodorising appliance (6 design versions) wraps the biology."
+   "note": "Engineered E. coli carrying an isovaleric-acid degradation module (fadD, fadL, aidB, mccAB) plus a pTRIP temperature/AHL-regulated suicide module, combined into one co-transformed strain. A conceptual deodorising appliance (6 design versions) wraps the biology.",
+   "excluded": false
   },
   {
    "slug": "suis-sfls",
@@ -3193,7 +3340,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 40458,
    "screen": 3.1875,
-   "note": "Three recombinant tyrosinases screened and the best (BmTyr) immobilized on carboxyl magnetic beads as a recoverable 'Tyrofix' platform, used to hydroxylate engineered Mfp3-Mfp6 fusion proteins with varied domain order and linker length, then evaluated on NIH/3T3 fibroblasts."
+   "note": "Three recombinant tyrosinases screened and the best (BmTyr) immobilized on carboxyl magnetic beads as a recoverable 'Tyrofix' platform, used to hydroxylate engineered Mfp3-Mfp6 fusion proteins with varied domain order and linker length, then evaluated on NIH/3T3 fibroblasts.",
+   "excluded": false
   },
   {
    "slug": "sz-shd",
@@ -3204,7 +3352,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 13744,
    "screen": 3.13,
-   "note": "Bacillus subtilis 168Δ4 engineered to secrete three antifreeze/ice-binding proteins (DcAFP, ScGlu, ffIBP) under a cold-responsive AND-gate circuit, with a T4 holin/lysozyme kill switch, applied to plants as a protective endophyte."
+   "note": "Bacillus subtilis 168Δ4 engineered to secrete three antifreeze/ice-binding proteins (DcAFP, ScGlu, ffIBP) under a cold-responsive AND-gate circuit, with a T4 holin/lysozyme kill switch, applied to plants as a protective endophyte.",
+   "excluded": false
   },
   {
    "slug": "sza-union",
@@ -3215,7 +3364,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 48373,
    "screen": 3.13,
-   "note": "Six pET28a constructs expressing four single enzymes (dextranase, mutanase, lysozyme G, Dispersin B) and two bifunctional fusions (DEX-MUT, LYS-DSB) intended to dismantle the glucan matrix of cariogenic biofilm while lysing embedded bacteria."
+   "note": "Six pET28a constructs expressing four single enzymes (dextranase, mutanase, lysozyme G, Dispersin B) and two bifunctional fusions (DEX-MUT, LYS-DSB) intended to dismantle the glucan matrix of cariogenic biofilm while lysing embedded bacteria.",
+   "excluded": false
   },
   {
    "slug": "szsais-baoan",
@@ -3226,7 +3376,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 30273,
    "screen": 3.625,
-   "note": "The fungal Trichoderma reesei Egt1/Egt2 ergothioneine pathway rebuilt in E. coli BW25113, boosted by screening four SAM/methyl-cycle genes, then by six literature- and AI-predicted single-point Egt1 variants, with an FBA model choosing the pathway and naming the bottleneck first."
+   "note": "The fungal Trichoderma reesei Egt1/Egt2 ergothioneine pathway rebuilt in E. coli BW25113, boosted by screening four SAM/methyl-cycle genes, then by six literature- and AI-predicted single-point Egt1 variants, with an FBA model choosing the pathway and naming the bottleneck first.",
+   "excluded": false
   },
   {
    "slug": "texas",
@@ -3237,7 +3388,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 50453,
    "screen": 3.19,
-   "note": "A six-construct localisation panel expressing Faecalibacterium prausnitzii fatty acid amide hydrolase in E. coli, asking where the enzyme must sit to reach gut-lumen oleoylethanolamide, plus a from-scratch reanalysis of a published MDCF-2 microbiome trial."
+   "note": "A six-construct localisation panel expressing Faecalibacterium prausnitzii fatty acid amide hydrolase in E. coli, asking where the enzyme must sit to reach gut-lumen oleoylethanolamide, plus a from-scratch reanalysis of a published MDCF-2 microbiome trial.",
+   "excluded": false
   },
   {
    "slug": "thailand-ris",
@@ -3248,7 +3400,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 52243,
    "screen": 3.06,
-   "note": "They designed a six-enzyme mogroside V biosynthetic pathway from Siraitia grosvenorii in pCAMBIA1302 using P2A self-cleaving linkers, and used Tobacco Rattle Virus virus-induced gene silencing to knock down the native squalene brake NbHISE1. Silencing was achieved in part; downstream mogroside production was not demonstrated."
+   "note": "They designed a six-enzyme mogroside V biosynthetic pathway from Siraitia grosvenorii in pCAMBIA1302 using P2A self-cleaving linkers, and used Tobacco Rattle Virus virus-induced gene silencing to knock down the native squalene brake NbHISE1. Silencing was achieved in part; downstream mogroside production was not demonstrated.",
+   "excluded": false
   },
   {
    "slug": "thailand-xclasb",
@@ -3259,7 +3412,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 27826,
    "screen": 3.81,
-   "note": "A two-host enzymatic cascade taking PET to allomelanin: Pichia pastoris secretes glycosylated HotPETase to depolymerise PET, and E. coli surface-displays MHETase and carries the TphA1/A2/A3/B and AroY/EcdB/EcdD operons to route terephthalic acid through protocatechuate to catechol."
+   "note": "A two-host enzymatic cascade taking PET to allomelanin: Pichia pastoris secretes glycosylated HotPETase to depolymerise PET, and E. coli surface-displays MHETase and carries the TphA1/A2/A3/B and AroY/EcdB/EcdD operons to route terephthalic acid through protocatechuate to catechol.",
+   "excluded": false
   },
   {
    "slug": "this-china",
@@ -3270,7 +3424,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 22359,
    "screen": 3.06,
-   "note": "Six siRNAs against ArtV1 screened in a Nicotiana benthamiana transient-expression system, then the best two loaded onto amino-functionalised mesoporous silica nanoparticles and applied by infiltration or foliar spray."
+   "note": "Six siRNAs against ArtV1 screened in a Nicotiana benthamiana transient-expression system, then the best two loaded onto amino-functionalised mesoporous silica nanoparticles and applied by infiltration or foliar spray.",
+   "excluded": false
   },
   {
    "slug": "tji-seoul",
@@ -3281,7 +3436,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 49772,
    "screen": 3.1875,
-   "note": "A three-part system: citrus processing waste washed and milled into a plant-compatible soil component, Bacillus subtilis CotA laccase produced recombinantly in E. coli as a crude copper-loaded lysate, and the two combined into a dried CPS material tested against a burned-biomass phenolic model and lettuce growth."
+   "note": "A three-part system: citrus processing waste washed and milled into a plant-compatible soil component, Bacillus subtilis CotA laccase produced recombinantly in E. coli as a crude copper-loaded lysate, and the two combined into a dried CPS material tested against a burned-biomass phenolic model and lettuce growth.",
+   "excluded": false
   },
   {
    "slug": "tsinglan",
@@ -3292,7 +3448,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 47487,
    "screen": 3.25,
-   "note": "A press-on nail material made from colour proteins (gfasPurple variants, fluorescent proteins, LvWSCP-chlorophyll a and smURFP-biliverdin) fused to hydroxyapatite-binding peptide and spider-silk NT/2Rep modules, cast with sodium alginate and hydroxyapatite by calcium crosslinking, plus a mussel-foot-protein adhesive (Mfp5-NT-2Rep-CT-Mfp5)."
+   "note": "A press-on nail material made from colour proteins (gfasPurple variants, fluorescent proteins, LvWSCP-chlorophyll a and smURFP-biliverdin) fused to hydroxyapatite-binding peptide and spider-silk NT/2Rep modules, cast with sodium alginate and hydroxyapatite by calcium crosslinking, plus a mussel-foot-protein adhesive (Mfp5-NT-2Rep-CT-Mfp5).",
+   "excluded": false
   },
   {
    "slug": "ucs-a",
@@ -3303,7 +3460,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 43798,
    "screen": 3.44,
-   "note": "A two-part biomanufacturing route: a physical-chemical-biological pretreatment that converts milk-tea shop tea residue into a fermentable hydrolysate, and three generations of engineered E. coli (phaABC, +pntAB, +acs) that make PHB from it."
+   "note": "A two-part biomanufacturing route: a physical-chemical-biological pretreatment that converts milk-tea shop tea residue into a fermentable hydrolysate, and three generations of engineered E. coli (phaABC, +pntAB, +acs) that make PHB from it.",
+   "excluded": false
   },
   {
    "slug": "ucs-b",
@@ -3314,7 +3472,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 60935,
    "screen": 3.94,
-   "note": "A rationally mutated type II L-asparaginase (BsAII) from B. subtilis: ten single-point mutants plus wild type, all purified and characterised, followed by a three-way signal-peptide screen (PelB, OmpA, FedA) and fermentation optimisation of the best variant."
+   "note": "A rationally mutated type II L-asparaginase (BsAII) from B. subtilis: ten single-point mutants plus wild type, all purified and characterised, followed by a three-way signal-peptide screen (PelB, OmpA, FedA) and fermentation optimisation of the best variant.",
+   "excluded": false
   },
   {
    "slug": "ulink-sz",
@@ -3325,7 +3484,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 31486,
    "screen": 3.25,
-   "note": "Expression engineering and directed/ancestral redesign of a marine LPMO (LPMO3706) in E. coli BL21(DE3), combined with chitinases to raise GlcNAc yield from crustacean shell waste, supported by docking, molecular dynamics and ancestral sequence reconstruction."
+   "note": "Expression engineering and directed/ancestral redesign of a marine LPMO (LPMO3706) in E. coli BL21(DE3), combined with chitinases to raise GlcNAc yield from crustacean shell waste, supported by docking, molecular dynamics and ancestral sequence reconstruction.",
+   "excluded": false
   },
   {
    "slug": "ulp-ca",
@@ -3336,7 +3496,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 17107,
    "screen": 1.94,
-   "note": "A computationally redesigned Bacteroides sulfotransferase (BtSULT variants F147S and F147S/E144D) expressed from pET-28a(+) in E. coli BL21, intended as a probiotic that sulfates lithocholic acid in the gut."
+   "note": "A computationally redesigned Bacteroides sulfotransferase (BtSULT variants F147S and F147S/E144D) expressed from pET-28a(+) in E. coli BL21, intended as a probiotic that sulfates lithocholic acid in the gut.",
+   "excluded": false
   },
   {
    "slug": "vga-pinion",
@@ -3347,7 +3508,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 50237,
    "screen": 3,
-   "note": "Plant exosome-like vesicles isolated from Astragalus membranaceus root, loaded with quercetin, paired with an shRNA/siRNA arm targeting Keap1 to de-repress NRF2. Tested in HaCaT keratinocytes (H2O2 challenge) and NIH/3T3 fibroblasts (knockdown)."
+   "note": "Plant exosome-like vesicles isolated from Astragalus membranaceus root, loaded with quercetin, paired with an shRNA/siRNA arm targeting Keap1 to de-repress NRF2. Tested in HaCaT keratinocytes (H2O2 challenge) and NIH/3T3 fibroblasts (knockdown).",
+   "excluded": false
   },
   {
    "slug": "vis",
@@ -3358,7 +3520,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 25509,
    "screen": 3.06,
-   "note": "Eight constructs built on the existing pMH45 CadR.10 cadmium-responsive GFP biosensor, adding four metallothioneins either surface-displayed via Lpp-OmpA (pVIS1-4) or expressed cytoplasmically (pVIS5-8), on the hypothesis that MT binding lowers free Cd2+ and therefore lowers GFP output."
+   "note": "Eight constructs built on the existing pMH45 CadR.10 cadmium-responsive GFP biosensor, adding four metallothioneins either surface-displayed via Lpp-OmpA (pVIS1-4) or expressed cytoplasmically (pVIS5-8), on the hypothesis that MT binding lowers free Cd2+ and therefore lowers GFP output.",
+   "excluded": false
   },
   {
    "slug": "westviewhs-sandiego",
@@ -3369,7 +3532,8 @@ window.SCOUT_FINALIST = {
    "gate": "A",
    "core_words": 9294,
    "screen": null,
-   "note": "Under 10,000 words of project documentation on the wiki."
+   "note": "Under 10,000 words of project documentation on the wiki.",
+   "excluded": false
   },
   {
    "slug": "wist",
@@ -3380,7 +3544,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 73481,
    "screen": 3.8125,
-   "note": "An engineered E. coli designed to express acoustic reporter gas vesicles only when it senses both lactate (tumour metabolism) and nitrate (host inflammation), via a sigma-54 hrpR/hrpS to PhrpL AND gate, so a tumour becomes visible on a clinical ultrasound scan. Everything built and tested this year is in vitro."
+   "note": "An engineered E. coli designed to express acoustic reporter gas vesicles only when it senses both lactate (tumour metabolism) and nitrate (host inflammation), via a sigma-54 hrpR/hrpS to PhrpL AND gate, so a tumour becomes visible on a clinical ultrasound scan. Everything built and tested this year is in vitro.",
+   "excluded": false
   },
   {
    "slug": "wlsa-shanghaiacademy",
@@ -3391,7 +3556,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 37095,
    "screen": 2.81,
-   "note": "Secreted five lignocellulose enzymes (laccase LccPo1, endoglucanase Cel5A, cellobiohydrolase CBH2, beta-glucosidase Bgl1, xylanase Xyn10A) from Pichia pastoris GS115, with a his4 auxotrophy strategy, plus a solar-powered Arduino fermentation monitor logging temperature, humidity, specific gravity and pH."
+   "note": "Secreted five lignocellulose enzymes (laccase LccPo1, endoglucanase Cel5A, cellobiohydrolase CBH2, beta-glucosidase Bgl1, xylanase Xyn10A) from Pichia pastoris GS115, with a his4 auxotrophy strategy, plus a solar-powered Arduino fermentation monitor logging temperature, humidity, specific gravity and pH.",
+   "excluded": false
   },
   {
    "slug": "worldshaper-hangzhou",
@@ -3402,7 +3568,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 26987,
    "screen": 3.44,
-   "note": "E. coli-expressed enzyme cocktail (carboxylesterase BioH, laccase CotA, manganese catalase MCat) formulated at pH 7.2 as a cell-free spray that degrades malodour molecules on textiles, paired with an ESP32-S3 sensor-driven atomiser."
+   "note": "E. coli-expressed enzyme cocktail (carboxylesterase BioH, laccase CotA, manganese catalase MCat) formulated at pH 7.2 as a cell-free spray that degrades malodour molecules on textiles, paired with an ESP32-S3 sensor-driven atomiser.",
+   "excluded": false
   },
   {
    "slug": "worldshaper-hz",
@@ -3413,7 +3580,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 19784,
    "screen": 3.69,
-   "note": "Engineered E. coli producing dopamine from L-DOPA (and attempted from L-tyrosine), with a designed keratin-binding peptide PepACS and laccase-driven in situ polymerisation of polydopamine on hair, formulated as a three-part zero-live-organism dye kit."
+   "note": "Engineered E. coli producing dopamine from L-DOPA (and attempted from L-tyrosine), with a designed keratin-binding peptide PepACS and laccase-driven in situ polymerisation of polydopamine on hair, formulated as a three-part zero-live-organism dye kit.",
+   "excluded": false
   },
   {
    "slug": "worldshaper-nanjing",
@@ -3424,7 +3592,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 32351,
    "screen": 3.1,
-   "note": "An engineered E. coli BL21(DE3) whole-cell catalyst converting beta-alanine and L-histidine to L-carnosine, improved through marine-enzyme homology mining, ancestral sequence reconstruction, structure-guided double mutation, a yeaS efflux knockout, and vector swap — plus a pharmacokinetic model of a four-layer oral nanocarrier."
+   "note": "An engineered E. coli BL21(DE3) whole-cell catalyst converting beta-alanine and L-histidine to L-carnosine, improved through marine-enzyme homology mining, ancestral sequence reconstruction, structure-guided double mutation, a yeaS efflux knockout, and vector swap — plus a pharmacokinetic model of a four-layer oral nanocarrier.",
+   "excluded": false
   },
   {
    "slug": "worldshaper-shanghai",
@@ -3435,7 +3604,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 54082,
    "screen": 3.63,
-   "note": "Rationally designed variants of the Stevia glycosyltransferases SrUGT76G1 and SrUGT91D2 (AlphaFold3/Boltz-2 ternary complexes, LigandMPNN redesign, chalcogen-bond screen), expressed first transiently in Nicotiana benthamiana and then in Stevia rebaudiana hairy roots, scored by HPLC for Reb M content."
+   "note": "Rationally designed variants of the Stevia glycosyltransferases SrUGT76G1 and SrUGT91D2 (AlphaFold3/Boltz-2 ternary complexes, LigandMPNN redesign, chalcogen-bond screen), expressed first transiently in Nicotiana benthamiana and then in Stevia rebaudiana hairy roots, scored by HPLC for Reb M content.",
+   "excluded": false
   },
   {
    "slug": "worldshaper-shmed",
@@ -3446,7 +3616,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 25917,
    "screen": 3.13,
-   "note": "An E. coli Nissle 1917 circuit that senses gut succinate (PcaR/PcaO) and butyrate (HpdR/pHpdH inverted through a cI-LVA NOT gate) and fires an AND gate driving GFP and the Arabidopsis acyltransferase At1g78690p intended to make NAPE-related lipids."
+   "note": "An E. coli Nissle 1917 circuit that senses gut succinate (PcaR/PcaO) and butyrate (HpdR/pHpdH inverted through a cI-LVA NOT gate) and fires an AND gate driving GFP and the Arabidopsis acyltransferase At1g78690p intended to make NAPE-related lipids.",
+   "excluded": false
   },
   {
    "slug": "wuxi-dsas",
@@ -3457,7 +3628,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 59026,
    "screen": 3.88,
-   "note": "A gentisic-acid-responsive E. coli biosensor based on the Cupriavidus necator gtd system (GtdR regulator, GtdA dioxygenase, PgtdA promoter) driving mCherry, paired with a colorimetric Jaffe creatinine assay for dilution normalisation, and a single-use microfluidic chip plus reusable optical enclosure to run both assays outside a lab."
+   "note": "A gentisic-acid-responsive E. coli biosensor based on the Cupriavidus necator gtd system (GtdR regulator, GtdA dioxygenase, PgtdA promoter) driving mCherry, paired with a colorimetric Jaffe creatinine assay for dilution normalisation, and a single-use microfluidic chip plus reusable optical enclosure to run both assays outside a lab.",
+   "excluded": false
   },
   {
    "slug": "ycyw-china",
@@ -3468,7 +3640,8 @@ window.SCOUT_FINALIST = {
    "gate": "A",
    "core_words": 5159,
    "screen": null,
-   "note": "Under 10,000 words of project documentation on the wiki."
+   "note": "Under 10,000 words of project documentation on the wiki.",
+   "excluded": false
   },
   {
    "slug": "yha-hwfla",
@@ -3479,7 +3652,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 65511,
    "screen": 3.94,
-   "note": "An optogenetically gated protease: subtilisin E engineered for better Fel d 1 cleavage and caged with an AsLOV2 domain plus an inhibitory pseudo-substrate peptide, so the enzyme stays off in the dark and switches on under 450 nm blue light, delivered as a spray with an LED reaction kit."
+   "note": "An optogenetically gated protease: subtilisin E engineered for better Fel d 1 cleavage and caged with an AsLOV2 domain plus an inhibitory pseudo-substrate peptide, so the enzyme stays off in the dark and switches on under 450 nm blue light, delivered as a spray with an LED reaction kit.",
+   "excluded": false
   },
   {
    "slug": "yiye",
@@ -3490,7 +3664,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 50929,
    "screen": 3.25,
-   "note": "Toehold-switch RNA biosensors (one-, two- and three-input cascaded AND gates) driving EGFP, triggered by miR-21-5p, miR-146a-5p and miR-205-5p, validated in E. coli and in a cell-free TXTL reaction as a step toward a paper strip."
+   "note": "Toehold-switch RNA biosensors (one-, two- and three-input cascaded AND gates) driving EGFP, triggered by miR-21-5p, miR-146a-5p and miR-205-5p, validated in E. coli and in a cell-free TXTL reaction as a step toward a paper strip.",
+   "excluded": false
   },
   {
    "slug": "yk-pao",
@@ -3501,7 +3676,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 48269,
    "screen": 3.69,
-   "note": "E. coli carrying a zinc-responsive surface-display/auto-aggregation plasmid (Pznt-smtA-LPP-OmpA-Ag43-zntR) and a Pznt-driven gas-vesicle plasmid, so metal-loaded cells clump and float for collection; plus a two-chamber electrolysis reactor that strips the bound metals back out as separate deposits."
+   "note": "E. coli carrying a zinc-responsive surface-display/auto-aggregation plasmid (Pznt-smtA-LPP-OmpA-Ag43-zntR) and a Pznt-driven gas-vesicle plasmid, so metal-loaded cells clump and float for collection; plus a two-chamber electrolysis reactor that strips the bound metals back out as separate deposits.",
+   "excluded": false
   },
   {
    "slug": "yucai-sz",
@@ -3512,7 +3688,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 81787,
    "screen": 3.63,
-   "note": "De novo capsanthin-binding proteins (RFdiffusion3 backbones, LigandMPNN sequences, RoseTTAFold3 scoring, AutoDock Vina docking) fused to a cellulose-binding module, plus a triolein-binding-domain–lipase fusion, intended for a dry xerogel patch that is rehydrated with 1–2 drops of water to treat fresh chili-oil stains."
+   "note": "De novo capsanthin-binding proteins (RFdiffusion3 backbones, LigandMPNN sequences, RoseTTAFold3 scoring, AutoDock Vina docking) fused to a cellulose-binding module, plus a triolein-binding-domain–lipase fusion, intended for a dry xerogel patch that is rehydrated with 1–2 drops of water to treat fresh chili-oil stains.",
+   "excluded": false
   },
   {
    "slug": "zhulu-china",
@@ -3523,7 +3700,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 61616,
    "screen": 3.375,
-   "note": "A family of fusion proteins joining a multivalent RGD integrin-targeting module to 2-24 elastin-like ES repeats, designed to bind A549 lung-cancer cells and then phase-assemble into a physical layer in the mildly acidic tumour microenvironment. Five connected DBTL cycles from scaffold choice through stability to cell effects and normal-cell selectivity."
+   "note": "A family of fusion proteins joining a multivalent RGD integrin-targeting module to 2-24 elastin-like ES repeats, designed to bind A549 lung-cancer cells and then phase-assemble into a physical layer in the mildly acidic tumour microenvironment. Five connected DBTL cycles from scaffold choice through stability to cell effects and normal-cell selectivity.",
+   "excluded": false
   },
   {
    "slug": "zhulu-union",
@@ -3534,7 +3712,8 @@ window.SCOUT_FINALIST = {
    "gate": "B",
    "core_words": 45155,
    "screen": 3.63,
-   "note": "Four functional modules in one chitosan-based spray: ACC deaminase (cuts ethylene biosynthesis), designed ethylene-receptor inhibitory peptides (block ethylene signalling), MnSOD (scavenges ROS) and chitinase (antifungal), each fused where useful to the cell-penetrating peptide BP100 and applied to real fruit."
+   "note": "Four functional modules in one chitosan-based spray: ACC deaminase (cuts ethylene biosynthesis), designed ethylene-receptor inhibitory peptides (block ethylene signalling), MnSOD (scavenges ROS) and chitinase (antifungal), each fused where useful to the cell-penetrating peptide BP100 and applied to real fruit.",
+   "excluded": false
   },
   {
    "slug": "zqt-nanjing",
@@ -3545,7 +3724,25 @@ window.SCOUT_FINALIST = {
    "gate": "deep",
    "core_words": 60810,
    "screen": 4,
-   "note": "Engineered E. coli BL21(DE3) carrying the halophile ectABC operon to make ectoine without high-salt fermentation, plus a LysC T352I feedback-desensitized aspartokinase and an acsAB/acsCD bacterial cellulose module so the same chassis makes the mask membrane. Product concept is a BC-silk-ectoine facial mask."
+   "note": "Engineered E. coli BL21(DE3) carrying the halophile ectABC operon to make ectoine without high-salt fermentation, plus a LysC T352I feedback-desensitized aspartokinase and an acsAB/acsCD bacterial cellulose module so the same chassis makes the mask membrane. Product concept is a BC-silk-ectoine facial mask.",
+   "excluded": false
   }
- ]
+ ],
+ "scoring": {
+  "dropped": [
+   "a6",
+   "w4"
+  ],
+  "excluded": [
+   "labi-taiwan"
+  ],
+  "note": {
+   "en": "Two aspects are excluded from the combined score because they turn mainly on documents this crawl could not read, not on anything the teams failed to do. Aspect 6 (how much of the work the team did itself) was scored from each wiki's Attributions page; from 2026 the attribution form lives on the iGEM team page instead (handbook p.26), so an empty wiki page meant an unreadable form, not a missing one. Wiki aspect 4 (record for future teams) turned on the Notebook page for nearly every team, and many teams publish their notebooks as embedded PDFs, which the text extraction did not read: GreatBay-SCIE's notebook, scored as empty, is a PDF embed. Dropping both re-weights the remaining seven project aspects and four wiki aspects. Labi-Taiwan is excluded from the ranking at the instructor's instruction, its construction having been outsourced.",
+   "zh": "綜合分數排除了兩個面向，因為它們主要取決於本次爬蟲讀不到的文件，而不是隊伍沒做的事。第 6 項（有多少工作是隊伍自己完成的）原本是依各隊 wiki 的 Attributions 頁評分；但 2026 年起貢獻歸屬表改放在 iGEM 團隊頁（手冊第 26 頁），所以 wiki 頁空白代表表單讀不到，而不是沒有。Wiki 第 4 項（供後續隊伍參考）幾乎每一隊都取決於 Notebook 頁，而許多隊伍的 notebook 是以嵌入式 PDF 發布，文字擷取讀不到：GreatBay-SCIE 被評為空白的 notebook，其實是一個 PDF 嵌入。排除這兩項後，其餘七個專題面向與四個 wiki 面向重新分配權重。Labi-Taiwan 依指導老師指示排除在排名之外，因為其構築為外包。"
+  },
+  "caveat": {
+   "en": "What this costs. Aspect 6 is not only a documentation question: the judges also used it to record genuine outsourcing, and removing it drops the skeptic's deduction against Hong Kong-JSS for having done no cloning at all, which widens its lead. It also removes credit Korea-HS and SMS-Shenzhen earned for per-member task attribution that was visible on the wiki. Wiki aspect 4 likewise rewarded protocols and honest failure reporting, not only the notebook. The ranking below therefore favours teams whose documentation was unreadable and penalises teams whose was complete.",
+   "zh": "這樣做的代價。第 6 項不只是文件問題：評審也用它記錄真正的外包，排除後，唱反調審查員對 Hong Kong-JSS「完全沒有自己做選殖」的扣分也一併消失，使其領先擴大；同時也拿掉了 Korea-HS 與 SMS-Shenzhen 因在 wiki 上逐人列出分工而得到的加分。Wiki 第 4 項同樣不只看 notebook，也獎勵了實驗流程與誠實記錄失敗。因此以下排名對文件讀不到的隊伍有利，對文件完整的隊伍不利。"
+  }
+ }
 };

@@ -1,0 +1,12 @@
+{
+ "drop_aspects": ["a6", "w4"],
+ "exclude_teams": ["labi-taiwan"],
+ "note": {
+  "en": "Two aspects are excluded from the combined score because they turn mainly on documents this crawl could not read, not on anything the teams failed to do. Aspect 6 (how much of the work the team did itself) was scored from each wiki's Attributions page; from 2026 the attribution form lives on the iGEM team page instead (handbook p.26), so an empty wiki page meant an unreadable form, not a missing one. Wiki aspect 4 (record for future teams) turned on the Notebook page for nearly every team, and many teams publish their notebooks as embedded PDFs, which the text extraction did not read: GreatBay-SCIE's notebook, scored as empty, is a PDF embed. Dropping both re-weights the remaining seven project aspects and four wiki aspects. Labi-Taiwan is excluded from the ranking at the instructor's instruction, its construction having been outsourced.",
+  "zh": "綜合分數排除了兩個面向，因為它們主要取決於本次爬蟲讀不到的文件，而不是隊伍沒做的事。第 6 項（有多少工作是隊伍自己完成的）原本是依各隊 wiki 的 Attributions 頁評分；但 2026 年起貢獻歸屬表改放在 iGEM 團隊頁（手冊第 26 頁），所以 wiki 頁空白代表表單讀不到，而不是沒有。Wiki 第 4 項（供後續隊伍參考）幾乎每一隊都取決於 Notebook 頁，而許多隊伍的 notebook 是以嵌入式 PDF 發布，文字擷取讀不到：GreatBay-SCIE 被評為空白的 notebook，其實是一個 PDF 嵌入。排除這兩項後，其餘七個專題面向與四個 wiki 面向重新分配權重。Labi-Taiwan 依指導老師指示排除在排名之外，因為其構築為外包。"
+ },
+ "caveat": {
+  "en": "What this costs. Aspect 6 is not only a documentation question: the judges also used it to record genuine outsourcing, and removing it drops the skeptic's deduction against Hong Kong-JSS for having done no cloning at all, which widens its lead. It also removes credit Korea-HS and SMS-Shenzhen earned for per-member task attribution that was visible on the wiki. Wiki aspect 4 likewise rewarded protocols and honest failure reporting, not only the notebook. The ranking below therefore favours teams whose documentation was unreadable and penalises teams whose was complete.",
+  "zh": "這樣做的代價。第 6 項不只是文件問題：評審也用它記錄真正的外包，排除後，唱反調審查員對 Hong Kong-JSS「完全沒有自己做選殖」的扣分也一併消失，使其領先擴大；同時也拿掉了 Korea-HS 與 SMS-Shenzhen 因在 wiki 上逐人列出分工而得到的加分。Wiki 第 4 項同樣不只看 notebook，也獎勵了實驗流程與誠實記錄失敗。因此以下排名對文件讀不到的隊伍有利，對文件完整的隊伍不利。"
+ }
+}

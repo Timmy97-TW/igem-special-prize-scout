@@ -1313,7 +1313,7 @@
    }
   },
   "final": {
-   "rank": 6,
+   "rank": 13,
    "slug": "basis-china",
    "team": "BASIS-China",
    "village": "Therapeutics",
@@ -1336,30 +1336,34 @@
     "w4": 4.17,
     "w5": 4.17
    },
-   "project_mean": 3.979,
-   "wiki_mean": 4.133,
-   "combined": 4.018,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.048,
+   "wiki_mean": 4.125,
+   "combined": 4.067,
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.4,
-     "combined": 4.194,
-     "rank": 4
+     "project": 4.143,
+     "wiki": 4.375,
+     "combined": 4.201,
+     "rank": 3
     },
     "J2": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 8
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969,
+     "rank": 11
     },
     "J3": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978,
-     "rank": 13
+     "project": 4.0,
+     "wiki": 4.125,
+     "combined": 4.031,
+     "rank": 14
     }
    },
-   "spread": 0.313,
+   "spread": 0.232,
    "one_line": {
     "en": "A broad four-module project with real controls, honest negative results and a model fitted to its own data, published on a wiki that still carries drafting instructions and a safety page contradicting its own results.",
     "zh": "四個模組、具備真實對照與誠實陰性結果的廣泛專案，模型以自家數據擬合，但 wiki 仍留有草稿指示，安全頁與結果頁自相矛盾。"
@@ -2367,7 +2371,7 @@
    }
   },
   "final": {
-   "rank": 20,
+   "rank": 17,
    "slug": "bist-china",
    "team": "Bist-China",
    "village": "Oncology",
@@ -2390,30 +2394,34 @@
     "w4": 3.83,
     "w5": 3.83
    },
-   "project_mean": 3.729,
-   "wiki_mean": 3.967,
-   "combined": 3.789,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.905,
+   "wiki_mean": 4.0,
+   "combined": 3.928,
    "judges": {
     "J1": {
-     "project": 3.75,
-     "wiki": 4,
-     "combined": 3.813,
-     "rank": 21
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 17
     },
     "J2": {
-     "project": 3.688,
-     "wiki": 4,
-     "combined": 3.766,
-     "rank": 19
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893,
+     "rank": 16
     },
     "J3": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788,
-     "rank": 21
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 18
     }
    },
-   "spread": 0.047,
+   "spread": 0.053,
    "one_line": {
     "en": "Two allosteric biosensors built, screened and characterised with controls in buffer, artificial plasma and live cells, with outstanding human practices, let down by a missing attributions page and a reader never run with the team's own proteins.",
     "zh": "兩款變構生物感測器建成、篩選並在緩衝液、人工血漿與活細胞中對照表徵，人文實踐出色，但缺歸屬頁，讀取器也從未搭配自家蛋白實測。"
@@ -3845,7 +3853,7 @@
    }
   },
   "final": {
-   "rank": 21,
+   "rank": 18,
    "slug": "cataverse-greatbay",
    "team": "Cataverse-GreatBay",
    "village": "Therapeutics",
@@ -3868,30 +3876,34 @@
     "w4": 4.0,
     "w5": 3.83
    },
-   "project_mean": 3.771,
-   "wiki_mean": 3.767,
-   "combined": 3.77,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.976,
+   "wiki_mean": 3.708,
+   "combined": 3.909,
    "judges": {
     "J1": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859,
-     "rank": 20
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969,
+     "rank": 16
     },
     "J2": {
-     "project": 3.688,
-     "wiki": 3.8,
-     "combined": 3.716,
-     "rank": 23
+     "project": 3.929,
+     "wiki": 3.75,
+     "combined": 3.884,
+     "rank": 18
     },
     "J3": {
-     "project": 3.813,
+     "project": 4.0,
      "wiki": 3.5,
-     "combined": 3.734,
-     "rank": 23
+     "combined": 3.875,
+     "rank": 20
     }
    },
-   "spread": 0.143,
+   "spread": 0.094,
    "one_line": {
     "en": "Four genuine DBTL cycles ending in a transfer into a probiotic chassis under gut-like conditions, let down by a missing attributions page, placeholder Registry status and three unfilled template pages.",
     "zh": "四個真實 DBTL 循環，最終在類腸道條件下轉入益生菌底盤，但缺歸屬頁、Registry 狀態為暫定編號，三個頁面仍是未填範本。"
@@ -6690,7 +6702,7 @@
    }
   },
   "final": {
-   "rank": 11,
+   "rank": 7,
    "slug": "gcgs",
    "team": "GCGS",
    "village": "Diagnostics",
@@ -6713,30 +6725,34 @@
     "w4": 3.83,
     "w5": 4.17
    },
-   "project_mean": 3.979,
-   "wiki_mean": 3.967,
-   "combined": 3.976,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.143,
+   "wiki_mean": 4.0,
+   "combined": 4.107,
    "judges": {
     "J1": {
-     "project": 4,
-     "wiki": 4.1,
-     "combined": 4.025,
-     "rank": 12
+     "project": 4.071,
+     "wiki": 4.125,
+     "combined": 4.085,
+     "rank": 13
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 3.8,
-     "combined": 3.809,
-     "rank": 14
+     "project": 4.0,
+     "wiki": 3.75,
+     "combined": 3.938,
+     "rank": 13
     },
     "J3": {
-     "project": 4.125,
-     "wiki": 4,
-     "combined": 4.094,
-     "rank": 8
+     "project": 4.357,
+     "wiki": 4.125,
+     "combined": 4.299,
+     "rank": 2
     }
    },
-   "spread": 0.285,
+   "spread": 0.361,
    "one_line": {
     "en": "A disciplined AND-gate therapeutic with a genuine failure-driven redesign and characterised logic in the therapeutic chassis, badly let down by having no attributions anywhere.",
     "zh": "嚴謹的 AND 閘治療設計，有真實因失敗而改版的過程，並在治療底盤中完成邏輯表徵，但完全沒有任何貢獻歸屬。"
@@ -7325,30 +7341,34 @@
     "w4": 4.67,
     "w5": 4.17
    },
-   "project_mean": 4.125,
-   "wiki_mean": 4.3,
-   "combined": 4.169,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 4.208,
+   "combined": 4.213,
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.5,
-     "combined": 4.219,
-     "rank": 3
-    },
-    "J2": {
-     "project": 4.063,
-     "wiki": 4.2,
-     "combined": 4.097,
+     "project": 4.143,
+     "wiki": 4.375,
+     "combined": 4.201,
      "rank": 4
     },
-    "J3": {
-     "project": 4.188,
-     "wiki": 4.2,
-     "combined": 4.191,
+    "J2": {
+     "project": 4.214,
+     "wiki": 4.125,
+     "combined": 4.192,
      "rank": 3
+    },
+    "J3": {
+     "project": 4.286,
+     "wiki": 4.125,
+     "combined": 4.246,
+     "rank": 4
     }
    },
-   "spread": 0.122,
+   "spread": 0.054,
    "one_line": {
     "en": "The most complete engineered system in the field — real secretion, plant-rescue and reactor data, four instruments, twelve DBTL cycles and a pre-registered prediction — undercut by a light switch that is not shown to switch and a blank Attribution page.",
     "zh": "全場最完整的工程系統——真實的分泌、植物救援與反應器數據，四台儀器，十二個 DBTL 循環，還有預先登記的預測——但光控開關未能證實會切換，Attribution 頁完全空白。"
@@ -8382,7 +8402,7 @@
    }
   },
   "final": {
-   "rank": 12,
+   "rank": 5,
    "slug": "greatbay-scie",
    "team": "GreatBay-SCIE",
    "village": "Fashion & Cosmetics",
@@ -8405,30 +8425,34 @@
     "w4": 3.67,
     "w5": 4.33
    },
-   "project_mean": 4,
-   "wiki_mean": 3.867,
-   "combined": 3.967,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.917,
+   "combined": 4.14,
    "judges": {
     "J1": {
-     "project": 4,
-     "wiki": 3.9,
-     "combined": 3.975,
-     "rank": 16
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 5
     },
     "J2": {
-     "project": 3.938,
-     "wiki": 3.9,
-     "combined": 3.928,
-     "rank": 7
+     "project": 4.143,
+     "wiki": 3.875,
+     "combined": 4.076,
+     "rank": 6
     },
     "J3": {
-     "project": 4.063,
-     "wiki": 3.8,
-     "combined": 3.997,
-     "rank": 11
+     "project": 4.286,
+     "wiki": 3.875,
+     "combined": 4.183,
+     "rank": 7
     }
    },
-   "spread": 0.069,
+   "spread": 0.107,
    "one_line": {
     "en": "Three AI-designed interventions on one pathway, all built and tested against controls on a surrogate the team made itself, held back by an empty Attributions page, an empty Notebook and small indirect effects.",
     "zh": "針對同一途徑的三種 AI 設計介入，全部建成並在自建替代系統上對照測試，但歸屬頁與實驗紀錄頁皆空白，效應量小且屬間接測量。"
@@ -9118,7 +9142,7 @@
    }
   },
   "final": {
-   "rank": 9,
+   "rank": 6,
    "slug": "hangzhoufourteenap",
    "team": "HangzhouFourteenAP",
    "village": "Biomanufacturing",
@@ -9141,30 +9165,34 @@
     "w4": 4.17,
     "w5": 4.33
    },
-   "project_mean": 3.979,
-   "wiki_mean": 4,
-   "combined": 3.984,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.19,
+   "wiki_mean": 3.958,
+   "combined": 4.132,
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 4.1,
-     "combined": 4.072,
-     "rank": 9
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 6
     },
     "J2": {
-     "project": 3.875,
-     "wiki": 3.7,
-     "combined": 3.831,
-     "rank": 12
+     "project": 4.143,
+     "wiki": 3.625,
+     "combined": 4.013,
+     "rank": 10
     },
     "J3": {
-     "project": 4,
-     "wiki": 4.2,
-     "combined": 4.05,
-     "rank": 9
+     "project": 4.214,
+     "wiki": 4.25,
+     "combined": 4.223,
+     "rank": 5
     }
    },
-   "spread": 0.241,
+   "spread": 0.21,
    "one_line": {
     "en": "A well-controlled enzyme project where the computational prediction was overturned by the team's own assay and said so, undermined by a missing attributions page and standard URLs that 404.",
     "zh": "對照嚴謹的酵素專案，計算預測被自家實驗推翻並據實說明，但缺少歸屬頁且標準網址 404。"
@@ -10237,7 +10265,7 @@
    }
   },
   "final": {
-   "rank": 18,
+   "rank": 20,
    "slug": "hk-league",
    "team": "HK League",
    "village": "Bioremediation",
@@ -10260,30 +10288,34 @@
     "w4": 4.0,
     "w5": 4.0
    },
-   "project_mean": 3.792,
-   "wiki_mean": 4.1,
-   "combined": 3.869,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.738,
+   "wiki_mean": 4.125,
+   "combined": 3.835,
    "judges": {
     "J1": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978,
-     "rank": 15
+     "project": 3.857,
+     "wiki": 4.125,
+     "combined": 3.924,
+     "rank": 19
     },
     "J2": {
-     "project": 3.688,
-     "wiki": 4,
-     "combined": 3.766,
-     "rank": 18
+     "project": 3.643,
+     "wiki": 4.0,
+     "combined": 3.732,
+     "rank": 22
     },
     "J3": {
-     "project": 3.75,
-     "wiki": 4.2,
-     "combined": 3.862,
-     "rank": 20
+     "project": 3.714,
+     "wiki": 4.25,
+     "combined": 3.848,
+     "rank": 21
     }
    },
-   "spread": 0.212,
+   "spread": 0.192,
    "one_line": {
     "en": "A wide six-school chain from de novo designed proteins to an operated cartridge, written with unusual honesty about its limits, but never showing that the designed protein rather than the gel does the binding.",
     "zh": "六校合作、從全新設計蛋白到實際運行匣體的完整鏈條，對自身限制書寫異常誠實，但始終未證明結合來自設計蛋白而非膠體。"
@@ -10735,7 +10767,7 @@
    }
   },
   "final": {
-   "rank": 14,
+   "rank": 10,
    "slug": "hk-joint-school",
    "team": "HK-Joint-School",
    "village": "Biomanufacturing",
@@ -10758,27 +10790,31 @@
     "w4": 3.83,
     "w5": 3.83
    },
-   "project_mean": 4,
-   "wiki_mean": 3.733,
-   "combined": 3.933,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.708,
+   "combined": 4.088,
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 3.8,
-     "combined": 3.997,
-     "rank": 14
+     "project": 4.286,
+     "wiki": 3.75,
+     "combined": 4.152,
+     "rank": 8
     },
     "J2": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 9
+     "project": 4.143,
+     "wiki": 3.875,
+     "combined": 4.076,
+     "rank": 7
     },
     "J3": {
-     "project": 4.063,
+     "project": 4.214,
      "wiki": 3.5,
-     "combined": 3.922,
-     "rank": 17
+     "combined": 4.036,
+     "rank": 13
     }
    },
    "spread": 0.116,
@@ -11651,30 +11687,34 @@
     "w4": 4.5,
     "w5": 4.0
    },
-   "project_mean": 4.229,
-   "wiki_mean": 4.267,
-   "combined": 4.239,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.31,
+   "wiki_mean": 4.208,
+   "combined": 4.284,
    "judges": {
     "J1": {
-     "project": 4.25,
-     "wiki": 4.3,
-     "combined": 4.263,
-     "rank": 2
+     "project": 4.286,
+     "wiki": 4.25,
+     "combined": 4.277,
+     "rank": 1
     },
     "J2": {
-     "project": 4.188,
-     "wiki": 4.2,
-     "combined": 4.191,
+     "project": 4.286,
+     "wiki": 4.125,
+     "combined": 4.246,
      "rank": 1
     },
     "J3": {
-     "project": 4.25,
-     "wiki": 4.3,
-     "combined": 4.263,
-     "rank": 2
+     "project": 4.357,
+     "wiki": 4.25,
+     "combined": 4.33,
+     "rank": 1
     }
    },
-   "spread": 0.072,
+   "spread": 0.084,
    "one_line": {
     "en": "The field's only replicated headline result: a mercury biosensor characterised over five matched runs with paired statistics, a held-out calibration model and two iterated hardware platforms, with all construct building outsourced.",
     "zh": "全場唯一被重複驗證的核心結果：汞生物感測器經五次配對實驗、配對統計、保留集校正模型與兩代自建硬體驗證，但所有構築建造都外包。"
@@ -12368,7 +12408,7 @@
    }
   },
   "final": {
-   "rank": 13,
+   "rank": 11,
    "slug": "hongwen-school",
    "team": "Hongwen School",
    "village": "Food & Nutrition",
@@ -12391,30 +12431,34 @@
     "w4": 4.33,
     "w5": 4.5
    },
-   "project_mean": 3.917,
-   "wiki_mean": 4.1,
-   "combined": 3.963,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.095,
+   "wiki_mean": 4.042,
+   "combined": 4.082,
    "judges": {
     "J1": {
-     "project": 3.938,
-     "wiki": 4.2,
-     "combined": 4.003,
-     "rank": 13
+     "project": 4.143,
+     "wiki": 4.125,
+     "combined": 4.138,
+     "rank": 9
     },
     "J2": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788,
-     "rank": 15
+     "project": 3.929,
+     "wiki": 3.875,
+     "combined": 3.915,
+     "rank": 14
     },
     "J3": {
-     "project": 4.063,
-     "wiki": 4.2,
-     "combined": 4.097,
-     "rank": 7
+     "project": 4.214,
+     "wiki": 4.125,
+     "combined": 4.192,
+     "rank": 6
     }
    },
-   "spread": 0.309,
+   "spread": 0.277,
    "one_line": {
     "en": "A disciplined five-strain comparison with raw replicate data on both a model substrate and real spent grain, plus a built and user-tested fermenter, let down by an unidentified product and a missing attributions page.",
     "zh": "五株菌的嚴謹比較，模型基質與真實酒糟都附原始重複數據，並有自建且經使用者測試的發酵槽，但產物未經鑑定、歸屬頁缺失。"
@@ -14014,30 +14058,34 @@
     "w4": 3.83,
     "w5": 3.83
    },
-   "project_mean": 3.75,
-   "wiki_mean": 3.8,
-   "combined": 3.762,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.833,
+   "wiki_mean": 3.792,
+   "combined": 3.823,
    "judges": {
     "J1": {
-     "project": 3.875,
-     "wiki": 4,
-     "combined": 3.906,
-     "rank": 17
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 18
     },
     "J2": {
-     "project": 3.5,
+     "project": 3.571,
      "wiki": 3.5,
-     "combined": 3.5,
-     "rank": 24
+     "combined": 3.554,
+     "rank": 23
     },
     "J3": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 19
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969,
+     "rank": 17
     }
    },
-   "spread": 0.406,
+   "spread": 0.415,
    "one_line": {
     "en": "A two-module yeast wastewater project with real comparative enzyme data and one genuine failure-driven redesign, let down by real-sample measurements that contradict the project's own premise.",
     "zh": "雙模組酵母廢水專案，具真實的酵素比較數據與一次因失敗而改版的過程，但真實樣品的測值與專案自身前提互相矛盾。"
@@ -14593,30 +14641,34 @@
     "w4": 4.5,
     "w5": 4.5
    },
-   "project_mean": 4.125,
-   "wiki_mean": 4.3,
-   "combined": 4.169,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.119,
+   "wiki_mean": 4.25,
+   "combined": 4.152,
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169,
-     "rank": 5
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116,
+     "rank": 10
     },
     "J2": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169,
+     "project": 4.214,
+     "wiki": 4.25,
+     "combined": 4.223,
      "rank": 2
     },
     "J3": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169,
-     "rank": 4
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116,
+     "rank": 9
     }
    },
-   "spread": 0,
+   "spread": 0.107,
    "one_line": {
     "en": "A narrow but unusually clean chain from a cloneable tyrosinase to a bacterially made wood coating, with the best statistical honesty on the ballot and a headline coating result that does not survive its own correction.",
     "zh": "從可選殖酪胺酸酶到細菌製木材塗層，鏈條雖窄但異常乾淨，統計誠實度全場最佳，但頭條塗層結果通不過自己的校正。"
@@ -15100,78 +15152,7 @@
     }
    }
   },
-  "final": {
-   "rank": 4,
-   "slug": "labi-taiwan",
-   "team": "Labi-Taiwan",
-   "village": "Diagnostics",
-   "country": "TWN",
-   "url": "https://2026.igem.wiki/labi-taiwan/",
-   "project": {
-    "a1": 4.5,
-    "a2": 4.17,
-    "a3": 3.83,
-    "a4": 4.5,
-    "a5": 4.83,
-    "a6": 3.0,
-    "a7": 4.33,
-    "a8": 3.83
-   },
-   "wiki": {
-    "w1": 4.33,
-    "w2": 4.5,
-    "w3": 3.5,
-    "w4": 4.17,
-    "w5": 4.33
-   },
-   "project_mean": 4.125,
-   "wiki_mean": 4.167,
-   "combined": 4.135,
-   "judges": {
-    "J1": {
-     "project": 4.313,
-     "wiki": 4.3,
-     "combined": 4.309,
-     "rank": 1
-    },
-    "J2": {
-     "project": 3.813,
-     "wiki": 3.8,
-     "combined": 3.809,
-     "rank": 13
-    },
-    "J3": {
-     "project": 4.25,
-     "wiki": 4.4,
-     "combined": 4.287,
-     "rank": 1
-    }
-   },
-   "spread": 0.5,
-   "one_line": {
-    "en": "A technically deep modular miRNA biosensor with the best Human Practices on the ballot, carrying the table's largest judge spread because its construction, its training data and much of its protocol design came from outside the student team.",
-    "zh": "技術深厚的模組化 miRNA 生物感測器，人文實踐全場最佳，但評審離散度全表最大：構築、訓練資料與多數實驗流程設計都來自學生團隊以外。"
-   },
-   "strengths": [
-    "Purpose-built sensor-only and trigger-only controls, a no-ligase transformation control, blank plus four non-target miRNAs for specificity, with n = 3 and stated statistics on essentially every figure",
-    "Genuine data-driven redesign twice over: nine failed toehold candidates led to an ML-guided round that worked, and a failed SWV series led to an overhaul giving a log-linear calibration",
-    "Fourteen engagements with a Before-to-After per phase, including abandoning the red/green readout, moving the user from patient to clinician and excluding workplace deployment",
-    "Real dry lab: FASTQ reprocessing, differential expression and network analysis narrowing thousands of miRNAs to five targets, with models tested prospectively"
-   ],
-   "weaknesses": [
-    "The complete sensing chain was never demonstrated — the fluorescent output was never replaced by the nuclease and the electrode was never driven by the biology",
-    "All targets were synthetic DNA analogues in clean buffer; no RNA, no plasma or spiked matrix, which is the risk the team's own interviewee raised",
-    "The PI designed the experimental workflow, wrote the protocols and ran most preliminary experiments, and plasmids were synthesised commercially",
-    "The portable reader and companion app are renderings and mock-ups with no bench measurement, and the wiki is very long with heavy duplication"
-   ],
-   "red_flags": [
-    "Attributions page renders empty, so the disclosure two judges scored from is not readable on the wiki itself; this drives the 0.5 judge spread",
-    "The ML model's training set came from the predecessor team's screening data",
-    "Malformed Registry identifier in the composite parts table does not resolve",
-    "Five standard page URLs return no content"
-   ],
-   "ours": false
-  }
+  "final": null
  },
  {
   "slug": "lambert-ga",
@@ -15654,7 +15635,7 @@
    }
   },
   "final": {
-   "rank": 17,
+   "rank": 15,
    "slug": "lambert-ga",
    "team": "Lambert-GA",
    "village": "Conservation",
@@ -15677,30 +15658,34 @@
     "w4": 3.83,
     "w5": 4.5
    },
-   "project_mean": 3.792,
-   "wiki_mean": 4.133,
-   "combined": 3.877,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.881,
+   "wiki_mean": 4.208,
+   "combined": 3.963,
    "judges": {
     "J1": {
-     "project": 3.563,
-     "wiki": 4,
-     "combined": 3.672,
-     "rank": 24
+     "project": 3.643,
+     "wiki": 4.125,
+     "combined": 3.763,
+     "rank": 23
     },
     "J2": {
-     "project": 4,
-     "wiki": 4.3,
-     "combined": 4.075,
-     "rank": 5
+     "project": 4.071,
+     "wiki": 4.375,
+     "combined": 4.147,
+     "rank": 4
     },
     "J3": {
-     "project": 3.813,
-     "wiki": 4.1,
-     "combined": 3.884,
-     "rank": 18
+     "project": 3.929,
+     "wiki": 4.125,
+     "combined": 3.978,
+     "rank": 16
     }
    },
-   "spread": 0.403,
+   "spread": 0.384,
    "one_line": {
     "en": "An ambitious two-arm project with an exemplary positive control, honest negative reporting and a cheap externally validated dryer, where the one confirmed binding number came from a commercial vendor.",
     "zh": "企圖心強的雙線專案，陽性對照堪稱典範、陰性結果誠實呈報、乾燥器低成本且經外部驗證，但唯一確認的結合數據來自商業廠商。"
@@ -16707,7 +16692,7 @@
    }
   },
   "final": {
-   "rank": 15,
+   "rank": 19,
    "slug": "mammothedu-united",
    "team": "MammothEdu-United",
    "village": "Biomanufacturing",
@@ -16730,30 +16715,34 @@
     "w4": 4.33,
     "w5": 4.5
    },
-   "project_mean": 3.813,
-   "wiki_mean": 4.233,
-   "combined": 3.918,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.786,
+   "wiki_mean": 4.208,
+   "combined": 3.891,
    "judges": {
     "J1": {
-     "project": 4,
-     "wiki": 4.2,
-     "combined": 4.05,
-     "rank": 10
+     "project": 4.0,
+     "wiki": 4.125,
+     "combined": 4.031,
+     "rank": 14
     },
     "J2": {
-     "project": 3.563,
-     "wiki": 4.2,
-     "combined": 3.722,
+     "project": 3.571,
+     "wiki": 4.25,
+     "combined": 3.741,
      "rank": 21
     },
     "J3": {
-     "project": 3.875,
-     "wiki": 4.3,
-     "combined": 3.981,
-     "rank": 12
+     "project": 3.786,
+     "wiki": 4.25,
+     "combined": 3.902,
+     "rank": 19
     }
    },
-   "spread": 0.328,
+   "spread": 0.29,
    "one_line": {
     "en": "Exceptionally well-framed and honestly documented, with grand-prize-calibre human practices and record-keeping, but the central conversion is screened and built rather than demonstrated.",
     "zh": "框架設定與文件誠實度極佳，人文實踐與紀錄保存達大獎水準，但核心轉化只做到篩選與建構，未獲實證。"
@@ -17288,30 +17277,34 @@
     "w4": 3.83,
     "w5": 4.33
    },
-   "project_mean": 3.854,
-   "wiki_mean": 3.967,
-   "combined": 3.882,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.928,
+   "wiki_mean": 4.0,
+   "combined": 3.947,
    "judges": {
     "J1": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881,
-     "rank": 18
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893,
+     "rank": 20
     },
     "J2": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788,
-     "rank": 16
+     "project": 3.857,
+     "wiki": 3.875,
+     "combined": 3.862,
+     "rank": 20
     },
     "J3": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978,
-     "rank": 14
+     "project": 4.071,
+     "wiki": 4.125,
+     "combined": 4.085,
+     "rank": 10
     }
    },
-   "spread": 0.19,
+   "spread": 0.223,
    "one_line": {
     "en": "A coherent waste-to-ethanol project with a genuinely new, well-documented Registry part and a model built on its own measured constants, let down by an uncontrolled final demonstration and seven missing standard pages.",
     "zh": "從廢棄物到乙醇的連貫專案，有真正新穎且文件完整的 Registry 零件，模型全部建立在自家量測常數上，但最終示範缺對照、七個標準頁缺失。"
@@ -19120,30 +19113,34 @@
     "w4": 3.83,
     "w5": 3.0
    },
-   "project_mean": 4.083,
-   "wiki_mean": 3.767,
-   "combined": 4.004,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.75,
+   "combined": 4.098,
    "judges": {
     "J1": {
-     "project": 4.25,
-     "wiki": 3.8,
-     "combined": 4.138,
-     "rank": 6
+     "project": 4.357,
+     "wiki": 3.75,
+     "combined": 4.205,
+     "rank": 2
     },
     "J2": {
-     "project": 4,
-     "wiki": 3.8,
-     "combined": 3.95,
-     "rank": 6
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045,
+     "rank": 8
     },
     "J3": {
-     "project": 4,
-     "wiki": 3.7,
-     "combined": 3.925,
-     "rank": 16
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045,
+     "rank": 11
     }
    },
-   "spread": 0.213,
+   "spread": 0.16,
    "one_line": {
     "en": "The broadest project outside the top five — characterised promoters, kill switches and three printer generations with outstanding Human Practices — held down by no attributions page at all and an unproven targeting module.",
     "zh": "前五名以外最廣的專案——已表徵的啟動子、自殺開關與三代列印機，人文實踐出色——但完全沒有歸屬頁，標靶模組也未獲證實。"
@@ -19745,7 +19742,7 @@
    }
   },
   "final": {
-   "rank": 7,
+   "rank": 4,
    "slug": "psi-korea",
    "team": "PSI Korea",
    "village": "Biomanufacturing",
@@ -19768,30 +19765,34 @@
     "w4": 4.33,
     "w5": 4.0
    },
-   "project_mean": 4,
-   "wiki_mean": 4.033,
-   "combined": 4.008,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.214,
+   "wiki_mean": 3.958,
+   "combined": 4.15,
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 4.1,
-     "combined": 4.072,
-     "rank": 8
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 7
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 3.9,
-     "combined": 3.834,
-     "rank": 11
+     "project": 4.071,
+     "wiki": 3.875,
+     "combined": 4.022,
+     "rank": 9
     },
     "J3": {
-     "project": 4.125,
-     "wiki": 4.1,
-     "combined": 4.119,
-     "rank": 5
+     "project": 4.357,
+     "wiki": 4.0,
+     "combined": 4.268,
+     "rank": 3
     }
    },
-   "spread": 0.285,
+   "spread": 0.246,
    "one_line": {
     "en": "A complete two-module project with five real DBTL cycles, a reusable graded part collection and a reader rebuilt by independent builders, held back by an empty attributions page and a one-cell capstone that was never built.",
     "zh": "完整的雙模組專案，五個真實 DBTL 循環、可重用的分級零件集，讀取器還被獨立團隊依文件重建，但歸屬頁空白、單細胞共產目標從未建成。"
@@ -21456,7 +21457,7 @@
    }
   },
   "final": {
-   "rank": 24,
+   "rank": 23,
    "slug": "shsid",
    "team": "SHSID",
    "village": "Agriculture",
@@ -21479,30 +21480,34 @@
     "w4": 3.67,
     "w5": 2.83
    },
-   "project_mean": 3.771,
-   "wiki_mean": 3.467,
-   "combined": 3.695,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.929,
+   "wiki_mean": 3.417,
+   "combined": 3.8,
    "judges": {
     "J1": {
-     "project": 3.813,
-     "wiki": 3.4,
-     "combined": 3.709,
-     "rank": 23
+     "project": 3.929,
+     "wiki": 3.375,
+     "combined": 3.79,
+     "rank": 21
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 3.7,
-     "combined": 3.784,
-     "rank": 17
+     "project": 4.0,
+     "wiki": 3.625,
+     "combined": 3.906,
+     "rank": 15
     },
     "J3": {
-     "project": 3.688,
-     "wiki": 3.3,
-     "combined": 3.591,
-     "rank": 24
+     "project": 3.857,
+     "wiki": 3.25,
+     "combined": 3.705,
+     "rank": 23
     }
    },
-   "spread": 0.193,
+   "spread": 0.201,
    "one_line": {
     "en": "A broad two-module yeast project with a working, well-controlled drought alarm and an honestly reported failed first design, let down by a missing attributions page, placeholder pages and no soil measurement of the retention it claims.",
     "zh": "範圍寬廣的雙模組酵母專案，乾旱警示模組運作良好且對照嚴謹，第一版失敗也誠實呈報，但缺歸屬頁、有未完成頁面，且從未在土壤中量測其宣稱的保水效果。"
@@ -21982,7 +21987,7 @@
    }
   },
   "final": {
-   "rank": 5,
+   "rank": 9,
    "slug": "sms-shenzhen",
    "team": "SMS-Shenzhen",
    "village": "Bioremediation",
@@ -22005,30 +22010,34 @@
     "w4": 4.5,
     "w5": 4.5
    },
-   "project_mean": 4.125,
-   "wiki_mean": 4.1,
-   "combined": 4.119,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.119,
+   "wiki_mean": 4.0,
+   "combined": 4.089,
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.1,
-     "combined": 4.119,
-     "rank": 7
+     "project": 4.143,
+     "wiki": 4.0,
+     "combined": 4.107,
+     "rank": 11
     },
     "J2": {
-     "project": 4.063,
-     "wiki": 4.3,
-     "combined": 4.122,
-     "rank": 3
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116,
+     "rank": 5
     },
     "J3": {
-     "project": 4.188,
-     "wiki": 3.9,
-     "combined": 4.116,
-     "rank": 6
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045,
+     "rank": 12
     }
    },
-   "spread": 0.006,
+   "spread": 0.071,
    "one_line": {
     "en": "A disciplined four-cycle biosorption platform on an unusual cellulose-producing chassis with exemplary attribution and handover, let down by a metal-capture assay with no non-engineered control.",
     "zh": "在少見的產纖維素底盤上完成四個嚴謹循環的生物吸附平台，貢獻歸屬與交接文件堪稱典範，但金屬捕捉實驗缺少非工程化對照。"
@@ -22645,7 +22654,7 @@
    }
   },
   "final": {
-   "rank": 10,
+   "rank": 12,
    "slug": "squirrel-beijing",
    "team": "Squirrel-Beijing",
    "village": "Bioremediation",
@@ -22668,30 +22677,34 @@
     "w4": 4.17,
     "w5": 4.0
    },
-   "project_mean": 3.959,
-   "wiki_mean": 4.033,
-   "combined": 3.977,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 4.095,
+   "wiki_mean": 4.0,
+   "combined": 4.071,
    "judges": {
     "J1": {
-     "project": 4,
-     "wiki": 4.1,
-     "combined": 4.025,
-     "rank": 11
+     "project": 4.143,
+     "wiki": 4.0,
+     "combined": 4.107,
+     "rank": 12
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859,
-     "rank": 10
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946,
+     "rank": 12
     },
     "J3": {
-     "project": 4.063,
-     "wiki": 4,
-     "combined": 4.047,
-     "rank": 10
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161,
+     "rank": 8
     }
    },
-   "spread": 0.188,
+   "spread": 0.215,
    "one_line": {
     "en": "A three-module project with model-guided mutant selection, HPLC-verified degradation against an empty-vector control and strong Human Practices, let down by a 404 attributions page and boilerplate standard pages.",
     "zh": "三模組專案，模型導向的突變體選擇、以空載體對照驗證的 HPLC 降解數據與紮實的人文實踐，但歸屬頁 404、多個標準頁仍是範本文字。"
@@ -23163,7 +23176,7 @@
    }
   },
   "final": {
-   "rank": 19,
+   "rank": 14,
    "slug": "squirrel-guangzhou",
    "team": "Squirrel-Guangzhou",
    "village": "Biomanufacturing",
@@ -23186,30 +23199,34 @@
     "w4": 4.0,
     "w5": 4.17
    },
-   "project_mean": 3.792,
-   "wiki_mean": 3.967,
-   "combined": 3.835,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.976,
+   "wiki_mean": 3.958,
+   "combined": 3.972,
    "judges": {
     "J1": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859,
-     "rank": 19
+     "project": 4.0,
+     "wiki": 4.0,
+     "combined": 4.0,
+     "rank": 15
     },
     "J2": {
-     "project": 3.625,
-     "wiki": 4,
-     "combined": 3.719,
-     "rank": 22
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893,
+     "rank": 17
     },
     "J3": {
-     "project": 3.938,
-     "wiki": 3.9,
-     "combined": 3.928,
+     "project": 4.071,
+     "wiki": 3.875,
+     "combined": 4.022,
      "rank": 15
     }
    },
-   "spread": 0.209,
+   "spread": 0.129,
    "one_line": {
     "en": "Four generations of metabolic engineering with real titres, controls and two tested containment circuits, undermined by a missing attributions page and a probiotic chassis that was never built.",
     "zh": "四代代謝工程，具真實效價、對照與兩套經測試的圍阻電路，但缺少歸屬頁，且作為產品核心的益生菌底盤從未建成。"
@@ -28496,7 +28513,7 @@
    }
   },
   "final": {
-   "rank": 23,
+   "rank": 21,
    "slug": "zqt-nanjing",
    "team": "ZQT-Nanjing",
    "village": "Fashion & Cosmetics",
@@ -28519,30 +28536,34 @@
     "w4": 4.0,
     "w5": 3.17
    },
-   "project_mean": 3.75,
-   "wiki_mean": 3.733,
-   "combined": 3.746,
+   "dropped": [
+    "a6",
+    "w4"
+   ],
+   "project_mean": 3.881,
+   "wiki_mean": 3.667,
+   "combined": 3.827,
    "judges": {
     "J1": {
-     "project": 3.75,
-     "wiki": 3.6,
-     "combined": 3.712,
+     "project": 3.857,
+     "wiki": 3.5,
+     "combined": 3.768,
      "rank": 22
     },
     "J2": {
-     "project": 3.75,
-     "wiki": 3.8,
-     "combined": 3.763,
-     "rank": 20
+     "project": 3.929,
+     "wiki": 3.75,
+     "combined": 3.884,
+     "rank": 19
     },
     "J3": {
-     "project": 3.75,
-     "wiki": 3.8,
-     "combined": 3.763,
+     "project": 3.857,
+     "wiki": 3.75,
+     "combined": 3.83,
      "rank": 22
     }
    },
-   "spread": 0.051,
+   "spread": 0.116,
    "one_line": {
     "en": "A disciplined two-module project with same-batch controls, replicates and honest limits, let down by a missing attributions page, four template standard pages and an unbuilt final product.",
     "zh": "嚴謹的雙模組專案，具同批次對照、重複與誠實的限制說明，但缺歸屬頁、四個標準頁仍是範本，最終產品從未製作。"

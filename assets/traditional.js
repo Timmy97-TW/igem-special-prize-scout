@@ -5,12 +5,13 @@ const KS=['a1','a2','a3','a4','a5','a6','a7','a8','w1','w2','w3','w4','w5'];
 const J=['J1','J2','J3'];
 const f2=v=>v==null?'–':Number(v).toFixed(2);
 const sg=v=>v==null?'–':(v>0?'+':'')+Number(v).toFixed(3);
-let L={};
+let L={},DR=[];
+const off=k=>DR.indexOf(k)>-1;
 
 function lb(k){const x=L[k]||{en:k,zh:k};return bi(esc(x.en),esc(x.zh))}
 
 function bars(t){
-  return `<div class="abars">${KS.map(k=>{const v=t.aspects[k];return `<div class="ab"><span class="l">${lb(k)}</span><span class="tr"><span class="fl${k[0]==='w'?' wk':''}" style="width:${(v||0)/5*100}%"></span></span><span class="v">${v??'–'}</span></div>`}).join('')}</div>`;
+  return `<div class="abars">${KS.map(k=>{const v=t.aspects[k];return `<div class="ab${off(k)?' off':''}"><span class="l">${lb(k)}</span><span class="tr"><span class="fl${k[0]==='w'?' wk':''}" style="width:${(v||0)/5*100}%"></span></span><span class="v">${v??'–'}</span></div>`}).join('')}</div>`;
 }
 
 function gapTable(t,refs){
@@ -20,7 +21,7 @@ function gapTable(t,refs){
       const v=d?d.d:null, cls=v==null?'':(v<-0.02?'neg':(v>0.02?'pos':''));
       return `<td class="n ${cls}"><span class="dd">${sg(v)}</span><span class="sc">${refs.length?r.aspects[k]:''}</span></td>`;
     }).join('');
-    return `<tr><th>${lb(k)}</th><td class="n me">${t.aspects[k]}</td>${cells}</tr>`;
+    return `<tr class="${off(k)?'offrow':''}"><th>${lb(k)}</th><td class="n me">${t.aspects[k]}</td>${cells}</tr>`;
   }).join('');
   const tot=refs.map(r=>`<td class="n ${t.combined<r.combined?'neg':'pos'}"><span class="dd">${sg(+(t.combined-r.combined).toFixed(3))}</span><span class="sc">${f2(r.combined)}</span></td>`).join('');
   return `<div class="tscroll"><table class="gaps">
@@ -36,14 +37,14 @@ function teamSection(t,refs){
       <div class="rk">#${t.rank}</div>
       <div>
         <h2><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.team)}</a></h2>
-        <p class="meta">${esc(t.village)} · ${esc(t.country)} · ${bi('combined','綜合')} <b>${f2(t.combined)}</b> · ${bi('project','專題')} ${f2(t.project_mean)} · wiki ${f2(t.wiki_mean)} · ${bi('screening','篩選')} ${f2(t.screen)}</p>
+        <p class="meta">${esc(t.village)} · ${esc(t.country)} · ${bi('combined','綜合')} <b>${f2(t.combined)}</b> <span class="was">${bi('was','原為')} ${f2(t.old_combined)} (#${t.old_rank})</span> · ${bi('project','專題')} ${f2(t.project_mean)} · wiki ${f2(t.wiki_mean)} · ${bi('screening','篩選')} ${f2(t.screen)}</p>
       </div>
     </div>
     <p class="lead">${bi(esc(t.short.en),esc(t.short.zh))}</p>
     <p class="built">${bi(esc(t.built.en),esc(t.built.zh))}</p>
-    <h3 class="h3s">${bi('Why it is not in the top ten','為什麼沒有進前十')}</h3>
+    <h3 class="h3s">${bi('What held it back','是什麼拖住了它')}</h3>
     <div class="why">${t.why.map(w=>`<p>${bi(esc(w.en),esc(w.zh))}</p>`).join('')}</div>
-    <h3 class="h3s">${bi('Aspect by aspect against the teams above it','與前面隊伍的逐項比較')}</h3>
+    <h3 class="h3s">${bi('Aspect by aspect against the teams above it','與排在前面的隊伍逐項比較')}</h3>
     ${gapTable(t,refs)}
     <div class="cols">
       <div><h3 class="h3s">${bi('Its own scores','本隊各面向分數')}</h3>${bars(t)}</div>
@@ -62,12 +63,13 @@ function teamSection(t,refs){
 function render(){
   const D=window.SCOUT_TRADITIONAL;
   if(!D){$('tverdict').innerHTML=bi('No data loaded (data/traditional.js).','尚未載入資料（data/traditional.js）。');return}
-  L=D.labels||{};
+  L=D.labels||{};DR=D.dropped||[];
   $('tsnap').textContent=D.snapshot;$('tsnap2').textContent=D.snapshot;
   $('tverdict').innerHTML=`<div class="label fin">${bi('Short answer','簡短回答')}</div>
     <h2>${bi(esc(D.lede.en),esc(D.lede.zh))}</h2>
     <p class="vp">${bi(esc(D.intro.en),esc(D.intro.zh))}</p>`;
   $('tsections').innerHTML=D.teams.map(t=>teamSection(t,D.refs)).join('');
+  if(D.scoring_note&&$('tnote'))$('tnote').innerHTML=`<div class="banner note2"><p><b>${bi('Struck-through rows are not counted','畫線的列未計入')}:</b> ${DR.join(', ')}</p><p>${bi(esc(D.scoring_note.en),esc(D.scoring_note.zh))}</p></div>`;
   $('tclosing').innerHTML=paras(D.closing);
 }
 return {render};

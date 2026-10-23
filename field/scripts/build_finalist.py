@@ -10,6 +10,10 @@ meta = json.load(open(f'{S}/crawl_meta.json'))
 gin = json.load(open(f'{S}/gates_in.json'))
 P = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8']; W = ['w1', 'w2', 'w3', 'w4', 'w5']
 mean = lambda xs: sum(xs) / len(xs)
+SC = json.load(open(f'{REPO}/field/scoring.json'))
+DROP = set(SC.get('drop_aspects', [])); EXCL = set(SC.get('exclude_teams', []))
+PS = [k for k in P if k not in DROP]; WS = [k for k in W if k not in DROP]
+comb = lambda s, wp=.75, ww=.25: wp * mean([s[k] for k in PS]) + ww * mean([s[k] for k in WS])
 
 # final per-judge scores (calibrated where available)
 fs = {}
@@ -18,20 +22,38 @@ for c in r['calibrated']:
 for c in r['cards']: fs.setdefault(c['slug'], {}).setdefault(c['judge'], c['scores'])
 J = sorted({j for v in fs.values() for j in v})
 
-def rank_by(wp, ww, judge=None):
+def rank_by(wp, ww, judge=None, keys=None):
+    ps, ws = keys or (PS, WS)
     out = []
     for sl, byj in fs.items():
+        if sl in EXCL: continue
         js = [byj[judge]] if judge else list(byj.values())
-        out.append((mean([wp * mean([s[k] for k in P]) + ww * mean([s[k] for k in W]) for s in js]), sl))
-    tr = {t['slug']: t['rank'] for t in r['table']}
-    return [sl for _, sl in sorted(out, key=lambda x: (-round(x[0], 3), tr.get(x[1], 99)))]
+        out.append((mean([wp * mean([s[k] for k in ps]) + ww * mean([s[k] for k in ws]) for s in js]), sl))
+    return [sl for _, sl in sorted(out, key=lambda x: (-round(x[0], 3), x[1]))]
 
+# rescore every team under the scoring config, then re-rank
+for t in r['table']:
+    byj = fs[t['slug']]
+    for j, s in byj.items():
+        t['judges'][j] = {'project': round(mean([s[k] for k in PS]), 3), 'wiki': round(mean([s[k] for k in WS]), 3),
+                          'combined': round(comb(s), 3)}
+    js = list(t['judges'].values())
+    t['project_mean'] = round(mean([x['project'] for x in js]), 3)
+    t['wiki_mean'] = round(mean([x['wiki'] for x in js]), 3)
+    t['combined'] = round(mean([x['combined'] for x in js]), 3)
+    t['spread'] = round(max(x['combined'] for x in js) - min(x['combined'] for x in js), 3)
+r['table'] = sorted((t for t in r['table'] if t['slug'] not in EXCL), key=lambda t: (-t['combined'], t['slug']))
+for i, t in enumerate(r['table']): t['rank'] = i + 1
 table = {t['slug']: t for t in r['table']}
 judge_rank = {j: {sl: i + 1 for i, sl in enumerate(rank_by(.75, .25, j))} for j in J}
 import re as _re
+# a slug that is also an ordinary English word must not be substituted ("HAS" the team
+# vs "has" the verb); such slugs are only replaced where the surrounding text is a slug list
+_STOP = {'has', 'texas', 'vis', 'spc', 'keystone'}
+_SUBS = {k: v for k, v in hs.items() if k not in _STOP}
 def _names(x):
     if isinstance(x, str):
-        return _re.sub(r'\b(' + '|'.join(sorted(map(_re.escape, hs), key=len, reverse=True)) + r')\b(?![-/.\w])', lambda m: hs[m.group(1)]['name'], x)
+        return _re.sub(r'\b(' + '|'.join(sorted(map(_re.escape, _SUBS), key=len, reverse=True)) + r')\b(?![-/.\w])', lambda m: _SUBS[m.group(1)]['name'], x)
     if isinstance(x, list): return [_names(v) for v in x]
     if isinstance(x, dict): return {k: (v if k == 'slug' else _names(v)) for k, v in x.items()}
     return x
@@ -45,6 +67,7 @@ for t in r['table']:
         'url': f'https://2026.igem.wiki/{sl}/',
         'project': {k: round(mean([s[k] for s in byj.values()]), 2) for k in P},
         'wiki': {k: round(mean([s[k] for s in byj.values()]), 2) for k in W},
+        'dropped': sorted(DROP),
         'project_mean': round(t['project_mean'], 3), 'wiki_mean': round(t['wiki_mean'], 3), 'combined': round(t['combined'], 3),
         'judges': {j: {**t['judges'][j], 'rank': judge_rank[j][sl]} for j in t['judges']},
         'spread': t['spread'],
@@ -58,7 +81,12 @@ for (wp, ww, en, zh) in [(.75, .25, 'Main read: Project 75 / Wiki 25', '主要�
                          (.5, .5, 'Project 50 / Wiki 50', '專題 50 / Wiki 50'),
                          (1, 0, 'Project only', '只看專題')]:
     sens.append({'label': {'en': en, 'zh': zh}, 'top': [name(s) for s in rank_by(wp, ww)[:5]]})
+if DROP:
+    sens.insert(1, {'label': {'en': 'If the unreadable pages were counted as judged', 'zh': '若把讀不到的頁面照原評分計入'},
+                    'top': [name(s) for s in rank_by(.75, .25, keys=(P, W))[:5]]})
 delta = {c['slug']: c['suggested_delta'] for c in r['skeptic']['challenges']}
+# a deduction that was itself an own-work correction cannot apply once that aspect is dropped
+if 'a6' in DROP: delta['hongkong-jss'] = 0.0
 adj = sorted(((t['combined'] + delta.get(t['slug'], 0), t['slug']) for t in r['table']), key=lambda x: (-round(x[0], 3), x[1]))
 sens.insert(1, {'label': {'en': 'After the skeptic\'s corrections', 'zh': '套用唱反調審查員的修正後'}, 'top': [name(s) for _, s in adj[:5]]})
 for j in J:
@@ -77,7 +105,8 @@ for sl, t in sorted(hs.items(), key=lambda kv: kv[1]['name'].lower()):
     gate = 'A' if sl in gate0 else ('deep' if sl in deep else 'B')
     note = (sc or {}).get('what_they_built', '') if gate != 'A' else 'Under 10,000 words of project documentation on the wiki.'
     field.append({'slug': sl, 'team': t['name'], 'village': t['village'], 'country': t['country'], 'url': f'https://2026.igem.wiki/{sl}/',
-                  'gate': gate, 'core_words': gin['tot'][sl], 'screen': (sc or {}).get('screen_project'), 'note': note})
+                  'gate': gate, 'core_words': gin['tot'][sl], 'screen': (sc or {}).get('screen_project'), 'note': note,
+                  'excluded': sl in EXCL})
 
 def memo_text(p, lang):
     return I18N.get(p['id'], {}).get(lang) or (p['memo']['memo'] if lang == 'en' else '')
@@ -88,8 +117,9 @@ n_short = len(deep); n_b_cut = 147 - len(gate0) - n_short
 out = {
     'snapshot': '2026-10-23',
     'lede': OVR.get('lede') or {'en': chair['lede_en'], 'zh': chair['lede_zh']},
-    'verdict': {'en': chair['verdict_en'] + '\n\n' + chair['robustness_en'] + ''.join('\n\n' + p['en'] for p in OVR.get('extra', [])),
-                'zh': chair['verdict_zh'] + '\n\n' + chair['robustness_zh'] + ''.join('\n\n' + p['zh'] for p in OVR.get('extra', []))},
+    'verdict': OVR['verdict'] if 'verdict' in OVR else {
+        'en': chair['verdict_en'] + '\n\n' + chair['robustness_en'] + ''.join('\n\n' + p['en'] for p in OVR.get('extra', [])),
+        'zh': chair['verdict_zh'] + '\n\n' + chair['robustness_zh'] + ''.join('\n\n' + p['zh'] for p in OVR.get('extra', []))},
     'gems': {'rank': g['rank'], 'of': 147, 'combined': g['combined'], 'gap_to_second': gap},
     'weights': {'en': 'The handbook says finalists come from a weighted average of the Project, Wiki and Presentation ballot sections and that Project is the main determinant (p.28, p.31), but it does not publish the weights. Presentation videos and the Q&A (Project aspect 9) cannot be seen from public pages, so this read scores Project aspects 1-8 and Wiki aspects 1-5 only and combines them as 0.75 x Project + 0.25 x Wiki. The sensitivity cards show the order under other weights and under each judge alone.',
                 'zh': '評審手冊寫明決賽隊伍由評分表中「專題」、「Wiki」、「簡報」三部分的加權平均決定，且專題是主要依據（第 28、31 頁），但沒有公開權重。簡報影片與問答（專題第 9 項）無法從公開頁面看到，因此本評估只評專題第 1–8 項與 Wiki 第 1–5 項，綜合分數 = 0.75 × 專題 + 0.25 × Wiki。敏感度卡片顯示改用其他權重、或只看單一評審時的排名。'},
@@ -119,6 +149,7 @@ out = {
     'judges': [{'id': p['id'], 'lens': {'en': p['lens'][0].upper() + p['lens'][1:], 'zh': LENS_ZH.get(p['id'], '')},
                 'memo': {'en': memo_text(p, 'en'), 'zh': memo_text(p, 'zh')}} for p in r['panel']],
     'ranking': ranking, 'sensitivity': sens, 'field': field,
+    'scoring': {'dropped': sorted(DROP), 'excluded': sorted(EXCL), 'note': SC['note'], 'caveat': SC['caveat']},
 }
 open(f'{REPO}/data/finalist.js', 'w').write('// Finalist read, generated by field/scripts/build_finalist.py from the three-judge panel. Do not hand-edit.\nwindow.SCOUT_FINALIST = ' + json.dumps(out, ensure_ascii=False, indent=1) + ';\n')
 

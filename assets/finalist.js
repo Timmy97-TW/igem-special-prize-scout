@@ -22,12 +22,15 @@ const J=['J1','J2','J3'];
 const f2=v=>v==null?'–':Number(v).toFixed(2);
 const sg=v=>v==null?'–':(v>0?'+':'')+Number(v).toFixed(2);
 
-function abars(defs,obj){return `<div class="abars">${defs.map(d=>{const v=obj&&obj[d[0]];return `<div class="ab" title="${esc(d[3])}"><span class="l">${bi(d[1],d[2])}</span><span class="tr"><span class="fl" style="width:${(v||0)/5*100}%"></span></span><span class="v">${v??'–'}</span></div>`}).join('')}</div>`}
+let DROPPED=[];
+const isDrop=k=>DROPPED.indexOf(k)>-1;
+function abars(defs,obj){return `<div class="abars">${defs.map(d=>{const v=obj&&obj[d[0]];return `<div class="ab${isDrop(d[0])?' off':''}" title="${isDrop(d[0])?'Not counted / 未計入 · ':''}${esc(d[3])}"><span class="l">${bi(d[1],d[2])}</span><span class="tr"><span class="fl" style="width:${(v||0)/5*100}%"></span></span><span class="v">${v??'–'}</span></div>`}).join('')}</div>`}
 
 function render(){
   const F=window.SCOUT_FINALIST;
   if(!F){$('fverdict').innerHTML=bi('No finalist data loaded (data/finalist.js).','尚未載入決賽資料（data/finalist.js）。');return}
   const R=F.ranking||[], g=F.gems||{}, us=R.find(r=>r.ours);
+  DROPPED=(F.scoring&&F.scoring.dropped)||[];
   $('fsnap').textContent=F.snapshot;$('fsnap2').textContent=F.snapshot;
   if(F.placeholder)$('fbanner').innerHTML=`<div class="banner">${bi('Placeholder data. The schema is final; every number and sentence on this page will be replaced by the real finalist read.','佔位資料。資料格式已定案；本頁所有數字與文字都會由正式的決賽評估取代。')}</div>`;
 
@@ -64,10 +67,13 @@ function render(){
   $('fboard').innerHTML=h;
 
   const SH={a5:['HP','人文'],a6:['Own','自製'],a7:['SynBio','合生'],a8:['Docs','文件'],w1:['Goals','目標'],w3:['Design','設計'],w4:['Record','紀錄']};
-  const th=(d,cls)=>{const l=SH[d[0]]||[d[1],d[2]];return `<th class="${cls||''}" title="${esc(d[1])}: ${esc(d[3])} / ${esc(d[2])}：${esc(d[4])}">${bi(l[0],l[1])}</th>`};
+  const th=(d,cls)=>{const l=SH[d[0]]||[d[1],d[2]];return `<th class="${cls||''}${isDrop(d[0])?' off':''}" title="${esc(d[1])}: ${esc(d[3])} / ${esc(d[2])}：${esc(d[4])}">${bi(l[0],l[1])}</th>`};
   let m=`<thead><tr><th class="gl"></th><th class="gl grp" colspan="8">${bi('Project (aspects 1–8)','專題（面向 1–8）')}</th><th class="gl grp" colspan="5">Wiki</th><th class="gl grp"></th></tr><tr><th>${bi('Team','隊伍')}</th>${A.map((d,i)=>th(d,i===0?'grp':'')).join('')}${WK.map((d,i)=>th(d,i===0?'grp':'')).join('')}<th class="grp">${bi('Combined','綜合')}</th></tr></thead><tbody>`;
-  R.forEach(r=>{m+=`<tr class="${r.ours?'us':''}"><td>${r.rank}. ${esc(r.team)}</td>${A.map((d,i)=>`<td class="${i===0?'grp':''}">${r.project[d[0]]??'–'}</td>`).join('')}${WK.map((d,i)=>`<td class="${i===0?'grp':''}">${r.wiki[d[0]]??'–'}</td>`).join('')}<td class="grp"><b>${f2(r.combined)}</b></td></tr>`});
+  R.forEach(r=>{m+=`<tr class="${r.ours?'us':''}"><td>${r.rank}. ${esc(r.team)}</td>${A.map((d,i)=>`<td class="${i===0?'grp':''}${isDrop(d[0])?' off':''}">${r.project[d[0]]??'–'}</td>`).join('')}${WK.map((d,i)=>`<td class="${i===0?'grp':''}${isDrop(d[0])?' off':''}">${r.wiki[d[0]]??'–'}</td>`).join('')}<td class="grp"><b>${f2(r.combined)}</b></td></tr>`});
   $('matrix').innerHTML=m+'</tbody>';
+
+  const SCG=F.scoring;
+  if(SCG&&$('scorenote'))$('scorenote').innerHTML=`<div class="banner note2"><p><b>${bi('Not counted in the combined score','未計入綜合分數')}:</b> ${SCG.dropped.map(k=>{const d=A.concat(WK).find(x=>x[0]===k);return d?bi(d[1],d[2])+' ('+k+')':k}).join(', ')}${SCG.excluded.length?' · '+bi('Excluded from the ranking','排除於排名外')+': '+SCG.excluded.map(x=>esc(x)).join(', '):''}</p><p>${bi(esc(SCG.note.en),esc(SCG.note.zh))}</p><p class="cav">${bi(esc(SCG.caveat.en),esc(SCG.caveat.zh))}</p></div>`;
 
   $('sens').innerHTML=(F.sensitivity||[]).map(s=>`<div class="card"><h3>${bi(esc(s.label.en),esc(s.label.zh))}</h3><ol>${s.top.map((t,i)=>`<li class="${us&&t===us.team?'us':''}">${esc(t)}</li>`).join('')}</ol>${us&&s.top.indexOf(us.team)>-1&&s.top.indexOf(us.team)<2?`<span class="tag go">${bi('We make the final','我們進入決賽')}</span>`:`<span class="tag no">${bi('We miss the final','我們未進決賽')}</span>`}</div>`).join('');
 

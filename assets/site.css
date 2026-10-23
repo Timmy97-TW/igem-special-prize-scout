@@ -308,3 +308,14 @@ table.gaps tfoot th,table.gaps tfoot td{border-bottom:0;border-top:2px solid var
   .tsec .lead{font-size:19px}
   .tsec .rk{font-size:30px}
 }
+.ab.off .l,.ab.off .v{color:var(--ink3);text-decoration:line-through;text-decoration-thickness:1px}
+.ab.off .fl{background:#e2e2e7}
+table.mx th.off,table.mx td.off{color:var(--ink3);background:repeating-linear-gradient(45deg,transparent,transparent 5px,rgba(0,0,0,.028) 5px,rgba(0,0,0,.028) 10px)}
+.banner.note2{margin-top:18px;text-align:left}
+.banner.note2 p{margin:0 0 10px}
+.banner.note2 p:last-child{margin-bottom:0}
+.banner.note2 .cav{color:var(--ink2);font-size:14px}
+table.gaps tr.offrow th,table.gaps tr.offrow td{color:var(--ink3)}
+table.gaps tr.offrow th{text-decoration:line-through;text-decoration-thickness:1px}
+table.gaps tr.offrow td.neg .dd,table.gaps tr.offrow td.pos .dd{color:var(--ink3)}
+.tsec .meta .was{color:var(--ink3)}

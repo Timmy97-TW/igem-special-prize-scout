@@ -93,601 +93,576 @@
    "slug": "hongkong-jss",
    "judges": {
     "J1": {
-     "project": 4.25,
-     "wiki": 4.3,
-     "combined": 4.263
+     "project": 4.286,
+     "wiki": 4.25,
+     "combined": 4.277
     },
     "J2": {
-     "project": 4.188,
-     "wiki": 4.2,
-     "combined": 4.191
+     "project": 4.286,
+     "wiki": 4.125,
+     "combined": 4.246
     },
     "J3": {
-     "project": 4.25,
-     "wiki": 4.3,
-     "combined": 4.263
+     "project": 4.357,
+     "wiki": 4.25,
+     "combined": 4.33
     }
    },
-   "project_mean": 4.229,
-   "wiki_mean": 4.267,
-   "combined": 4.239,
-   "spread": 0.072,
+   "project_mean": 4.31,
+   "wiki_mean": 4.208,
+   "combined": 4.284,
+   "spread": 0.084,
    "rank": 1
   },
   {
    "slug": "gems-taiwan",
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.5,
-     "combined": 4.219
+     "project": 4.143,
+     "wiki": 4.375,
+     "combined": 4.201
     },
     "J2": {
-     "project": 4.063,
-     "wiki": 4.2,
-     "combined": 4.097
+     "project": 4.214,
+     "wiki": 4.125,
+     "combined": 4.192
     },
     "J3": {
-     "project": 4.188,
-     "wiki": 4.2,
-     "combined": 4.191
+     "project": 4.286,
+     "wiki": 4.125,
+     "combined": 4.246
     }
    },
-   "project_mean": 4.125,
-   "wiki_mean": 4.3,
-   "combined": 4.169,
-   "spread": 0.122,
+   "project_mean": 4.214,
+   "wiki_mean": 4.208,
+   "combined": 4.213,
+   "spread": 0.054,
    "rank": 2
   },
   {
    "slug": "korea-hs",
    "judges": {
     "J1": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116
     },
     "J2": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169
+     "project": 4.214,
+     "wiki": 4.25,
+     "combined": 4.223
     },
     "J3": {
-     "project": 4.125,
-     "wiki": 4.3,
-     "combined": 4.169
-    }
-   },
-   "project_mean": 4.125,
-   "wiki_mean": 4.3,
-   "combined": 4.169,
-   "spread": 0,
-   "rank": 3
-  },
-  {
-   "slug": "labi-taiwan",
-   "judges": {
-    "J1": {
-     "project": 4.313,
-     "wiki": 4.3,
-     "combined": 4.309
-    },
-    "J2": {
-     "project": 3.813,
-     "wiki": 3.8,
-     "combined": 3.809
-    },
-    "J3": {
-     "project": 4.25,
-     "wiki": 4.4,
-     "combined": 4.287
-    }
-   },
-   "project_mean": 4.125,
-   "wiki_mean": 4.167,
-   "combined": 4.135,
-   "spread": 0.5,
-   "rank": 4
-  },
-  {
-   "slug": "sms-shenzhen",
-   "judges": {
-    "J1": {
-     "project": 4.125,
-     "wiki": 4.1,
-     "combined": 4.119
-    },
-    "J2": {
-     "project": 4.063,
-     "wiki": 4.3,
-     "combined": 4.122
-    },
-    "J3": {
-     "project": 4.188,
-     "wiki": 3.9,
+     "project": 4.071,
+     "wiki": 4.25,
      "combined": 4.116
     }
    },
-   "project_mean": 4.125,
-   "wiki_mean": 4.1,
-   "combined": 4.119,
-   "spread": 0.006,
-   "rank": 5
-  },
-  {
-   "slug": "basis-china",
-   "judges": {
-    "J1": {
-     "project": 4.125,
-     "wiki": 4.4,
-     "combined": 4.194
-    },
-    "J2": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881
-    },
-    "J3": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978
-    }
-   },
-   "project_mean": 3.979,
-   "wiki_mean": 4.133,
-   "combined": 4.018,
-   "spread": 0.313,
-   "rank": 6
+   "project_mean": 4.119,
+   "wiki_mean": 4.25,
+   "combined": 4.152,
+   "spread": 0.107,
+   "rank": 3
   },
   {
    "slug": "psi-korea",
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 4.1,
-     "combined": 4.072
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 3.9,
-     "combined": 3.834
+     "project": 4.071,
+     "wiki": 3.875,
+     "combined": 4.022
     },
     "J3": {
-     "project": 4.125,
-     "wiki": 4.1,
-     "combined": 4.119
+     "project": 4.357,
+     "wiki": 4.0,
+     "combined": 4.268
     }
    },
-   "project_mean": 4,
-   "wiki_mean": 4.033,
-   "combined": 4.008,
-   "spread": 0.285,
+   "project_mean": 4.214,
+   "wiki_mean": 3.958,
+   "combined": 4.15,
+   "spread": 0.246,
+   "rank": 4
+  },
+  {
+   "slug": "greatbay-scie",
+   "judges": {
+    "J1": {
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161
+    },
+    "J2": {
+     "project": 4.143,
+     "wiki": 3.875,
+     "combined": 4.076
+    },
+    "J3": {
+     "project": 4.286,
+     "wiki": 3.875,
+     "combined": 4.183
+    }
+   },
+   "project_mean": 4.214,
+   "wiki_mean": 3.917,
+   "combined": 4.14,
+   "spread": 0.107,
+   "rank": 5
+  },
+  {
+   "slug": "hangzhoufourteenap",
+   "judges": {
+    "J1": {
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161
+    },
+    "J2": {
+     "project": 4.143,
+     "wiki": 3.625,
+     "combined": 4.013
+    },
+    "J3": {
+     "project": 4.214,
+     "wiki": 4.25,
+     "combined": 4.223
+    }
+   },
+   "project_mean": 4.19,
+   "wiki_mean": 3.958,
+   "combined": 4.132,
+   "spread": 0.21,
+   "rank": 6
+  },
+  {
+   "slug": "gcgs",
+   "judges": {
+    "J1": {
+     "project": 4.071,
+     "wiki": 4.125,
+     "combined": 4.085
+    },
+    "J2": {
+     "project": 4.0,
+     "wiki": 3.75,
+     "combined": 3.938
+    },
+    "J3": {
+     "project": 4.357,
+     "wiki": 4.125,
+     "combined": 4.299
+    }
+   },
+   "project_mean": 4.143,
+   "wiki_mean": 4.0,
+   "combined": 4.107,
+   "spread": 0.361,
    "rank": 7
   },
   {
    "slug": "plklfc",
    "judges": {
     "J1": {
-     "project": 4.25,
-     "wiki": 3.8,
-     "combined": 4.138
+     "project": 4.357,
+     "wiki": 3.75,
+     "combined": 4.205
     },
     "J2": {
-     "project": 4,
-     "wiki": 3.8,
-     "combined": 3.95
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045
     },
     "J3": {
-     "project": 4,
-     "wiki": 3.7,
-     "combined": 3.925
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045
     }
    },
-   "project_mean": 4.083,
-   "wiki_mean": 3.767,
-   "combined": 4.004,
-   "spread": 0.213,
+   "project_mean": 4.214,
+   "wiki_mean": 3.75,
+   "combined": 4.098,
+   "spread": 0.16,
    "rank": 8
   },
   {
-   "slug": "hangzhoufourteenap",
+   "slug": "sms-shenzhen",
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 4.1,
-     "combined": 4.072
+     "project": 4.143,
+     "wiki": 4.0,
+     "combined": 4.107
     },
     "J2": {
-     "project": 3.875,
-     "wiki": 3.7,
-     "combined": 3.831
+     "project": 4.071,
+     "wiki": 4.25,
+     "combined": 4.116
     },
     "J3": {
-     "project": 4,
-     "wiki": 4.2,
-     "combined": 4.05
+     "project": 4.143,
+     "wiki": 3.75,
+     "combined": 4.045
     }
    },
-   "project_mean": 3.979,
-   "wiki_mean": 4,
-   "combined": 3.984,
-   "spread": 0.241,
+   "project_mean": 4.119,
+   "wiki_mean": 4.0,
+   "combined": 4.089,
+   "spread": 0.071,
    "rank": 9
-  },
-  {
-   "slug": "squirrel-beijing",
-   "judges": {
-    "J1": {
-     "project": 4,
-     "wiki": 4.1,
-     "combined": 4.025
-    },
-    "J2": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859
-    },
-    "J3": {
-     "project": 4.063,
-     "wiki": 4,
-     "combined": 4.047
-    }
-   },
-   "project_mean": 3.959,
-   "wiki_mean": 4.033,
-   "combined": 3.977,
-   "spread": 0.188,
-   "rank": 10
-  },
-  {
-   "slug": "gcgs",
-   "judges": {
-    "J1": {
-     "project": 4,
-     "wiki": 4.1,
-     "combined": 4.025
-    },
-    "J2": {
-     "project": 3.813,
-     "wiki": 3.8,
-     "combined": 3.809
-    },
-    "J3": {
-     "project": 4.125,
-     "wiki": 4,
-     "combined": 4.094
-    }
-   },
-   "project_mean": 3.979,
-   "wiki_mean": 3.967,
-   "combined": 3.976,
-   "spread": 0.285,
-   "rank": 11
-  },
-  {
-   "slug": "greatbay-scie",
-   "judges": {
-    "J1": {
-     "project": 4,
-     "wiki": 3.9,
-     "combined": 3.975
-    },
-    "J2": {
-     "project": 3.938,
-     "wiki": 3.9,
-     "combined": 3.928
-    },
-    "J3": {
-     "project": 4.063,
-     "wiki": 3.8,
-     "combined": 3.997
-    }
-   },
-   "project_mean": 4,
-   "wiki_mean": 3.867,
-   "combined": 3.967,
-   "spread": 0.069,
-   "rank": 12
-  },
-  {
-   "slug": "hongwen-school",
-   "judges": {
-    "J1": {
-     "project": 3.938,
-     "wiki": 4.2,
-     "combined": 4.003
-    },
-    "J2": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788
-    },
-    "J3": {
-     "project": 4.063,
-     "wiki": 4.2,
-     "combined": 4.097
-    }
-   },
-   "project_mean": 3.917,
-   "wiki_mean": 4.1,
-   "combined": 3.963,
-   "spread": 0.309,
-   "rank": 13
   },
   {
    "slug": "hk-joint-school",
    "judges": {
     "J1": {
-     "project": 4.063,
-     "wiki": 3.8,
-     "combined": 3.997
+     "project": 4.286,
+     "wiki": 3.75,
+     "combined": 4.152
     },
     "J2": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881
+     "project": 4.143,
+     "wiki": 3.875,
+     "combined": 4.076
     },
     "J3": {
-     "project": 4.063,
+     "project": 4.214,
      "wiki": 3.5,
-     "combined": 3.922
+     "combined": 4.036
     }
    },
-   "project_mean": 4,
-   "wiki_mean": 3.733,
-   "combined": 3.933,
+   "project_mean": 4.214,
+   "wiki_mean": 3.708,
+   "combined": 4.088,
    "spread": 0.116,
+   "rank": 10
+  },
+  {
+   "slug": "hongwen-school",
+   "judges": {
+    "J1": {
+     "project": 4.143,
+     "wiki": 4.125,
+     "combined": 4.138
+    },
+    "J2": {
+     "project": 3.929,
+     "wiki": 3.875,
+     "combined": 3.915
+    },
+    "J3": {
+     "project": 4.214,
+     "wiki": 4.125,
+     "combined": 4.192
+    }
+   },
+   "project_mean": 4.095,
+   "wiki_mean": 4.042,
+   "combined": 4.082,
+   "spread": 0.277,
+   "rank": 11
+  },
+  {
+   "slug": "squirrel-beijing",
+   "judges": {
+    "J1": {
+     "project": 4.143,
+     "wiki": 4.0,
+     "combined": 4.107
+    },
+    "J2": {
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946
+    },
+    "J3": {
+     "project": 4.214,
+     "wiki": 4.0,
+     "combined": 4.161
+    }
+   },
+   "project_mean": 4.095,
+   "wiki_mean": 4.0,
+   "combined": 4.071,
+   "spread": 0.215,
+   "rank": 12
+  },
+  {
+   "slug": "basis-china",
+   "judges": {
+    "J1": {
+     "project": 4.143,
+     "wiki": 4.375,
+     "combined": 4.201
+    },
+    "J2": {
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969
+    },
+    "J3": {
+     "project": 4.0,
+     "wiki": 4.125,
+     "combined": 4.031
+    }
+   },
+   "project_mean": 4.048,
+   "wiki_mean": 4.125,
+   "combined": 4.067,
+   "spread": 0.232,
+   "rank": 13
+  },
+  {
+   "slug": "squirrel-guangzhou",
+   "judges": {
+    "J1": {
+     "project": 4.0,
+     "wiki": 4.0,
+     "combined": 4.0
+    },
+    "J2": {
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893
+    },
+    "J3": {
+     "project": 4.071,
+     "wiki": 3.875,
+     "combined": 4.022
+    }
+   },
+   "project_mean": 3.976,
+   "wiki_mean": 3.958,
+   "combined": 3.972,
+   "spread": 0.129,
    "rank": 14
   },
   {
-   "slug": "mammothedu-united",
+   "slug": "lambert-ga",
    "judges": {
     "J1": {
-     "project": 4,
-     "wiki": 4.2,
-     "combined": 4.05
+     "project": 3.643,
+     "wiki": 4.125,
+     "combined": 3.763
     },
     "J2": {
-     "project": 3.563,
-     "wiki": 4.2,
-     "combined": 3.722
+     "project": 4.071,
+     "wiki": 4.375,
+     "combined": 4.147
     },
     "J3": {
-     "project": 3.875,
-     "wiki": 4.3,
-     "combined": 3.981
+     "project": 3.929,
+     "wiki": 4.125,
+     "combined": 3.978
     }
    },
-   "project_mean": 3.813,
-   "wiki_mean": 4.233,
-   "combined": 3.918,
-   "spread": 0.328,
+   "project_mean": 3.881,
+   "wiki_mean": 4.208,
+   "combined": 3.963,
+   "spread": 0.384,
    "rank": 15
   },
   {
    "slug": "mingdao",
    "judges": {
     "J1": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893
     },
     "J2": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788
-    },
-    "J3": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978
-    }
-   },
-   "project_mean": 3.854,
-   "wiki_mean": 3.967,
-   "combined": 3.882,
-   "spread": 0.19,
-   "rank": 16
-  },
-  {
-   "slug": "lambert-ga",
-   "judges": {
-    "J1": {
-     "project": 3.563,
-     "wiki": 4,
-     "combined": 3.672
-    },
-    "J2": {
-     "project": 4,
-     "wiki": 4.3,
-     "combined": 4.075
-    },
-    "J3": {
-     "project": 3.813,
-     "wiki": 4.1,
-     "combined": 3.884
-    }
-   },
-   "project_mean": 3.792,
-   "wiki_mean": 4.133,
-   "combined": 3.877,
-   "spread": 0.403,
-   "rank": 17
-  },
-  {
-   "slug": "hk-league",
-   "judges": {
-    "J1": {
-     "project": 3.938,
-     "wiki": 4.1,
-     "combined": 3.978
-    },
-    "J2": {
-     "project": 3.688,
-     "wiki": 4,
-     "combined": 3.766
-    },
-    "J3": {
-     "project": 3.75,
-     "wiki": 4.2,
+     "project": 3.857,
+     "wiki": 3.875,
      "combined": 3.862
-    }
-   },
-   "project_mean": 3.792,
-   "wiki_mean": 4.1,
-   "combined": 3.869,
-   "spread": 0.212,
-   "rank": 18
-  },
-  {
-   "slug": "squirrel-guangzhou",
-   "judges": {
-    "J1": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859
-    },
-    "J2": {
-     "project": 3.625,
-     "wiki": 4,
-     "combined": 3.719
     },
     "J3": {
-     "project": 3.938,
-     "wiki": 3.9,
-     "combined": 3.928
+     "project": 4.071,
+     "wiki": 4.125,
+     "combined": 4.085
     }
    },
-   "project_mean": 3.792,
-   "wiki_mean": 3.967,
-   "combined": 3.835,
-   "spread": 0.209,
-   "rank": 19
+   "project_mean": 3.928,
+   "wiki_mean": 4.0,
+   "combined": 3.947,
+   "spread": 0.223,
+   "rank": 16
   },
   {
    "slug": "bist-china",
    "judges": {
     "J1": {
-     "project": 3.75,
-     "wiki": 4,
-     "combined": 3.813
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946
     },
     "J2": {
-     "project": 3.688,
-     "wiki": 4,
-     "combined": 3.766
+     "project": 3.857,
+     "wiki": 4.0,
+     "combined": 3.893
     },
     "J3": {
-     "project": 3.75,
-     "wiki": 3.9,
-     "combined": 3.788
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946
     }
    },
-   "project_mean": 3.729,
-   "wiki_mean": 3.967,
-   "combined": 3.789,
-   "spread": 0.047,
-   "rank": 20
+   "project_mean": 3.905,
+   "wiki_mean": 4.0,
+   "combined": 3.928,
+   "spread": 0.053,
+   "rank": 17
   },
   {
    "slug": "cataverse-greatbay",
    "judges": {
     "J1": {
-     "project": 3.813,
-     "wiki": 4,
-     "combined": 3.859
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969
     },
     "J2": {
-     "project": 3.688,
-     "wiki": 3.8,
-     "combined": 3.716
+     "project": 3.929,
+     "wiki": 3.75,
+     "combined": 3.884
     },
     "J3": {
-     "project": 3.813,
+     "project": 4.0,
      "wiki": 3.5,
-     "combined": 3.734
+     "combined": 3.875
     }
    },
-   "project_mean": 3.771,
-   "wiki_mean": 3.767,
-   "combined": 3.77,
-   "spread": 0.143,
+   "project_mean": 3.976,
+   "wiki_mean": 3.708,
+   "combined": 3.909,
+   "spread": 0.094,
+   "rank": 18
+  },
+  {
+   "slug": "mammothedu-united",
+   "judges": {
+    "J1": {
+     "project": 4.0,
+     "wiki": 4.125,
+     "combined": 4.031
+    },
+    "J2": {
+     "project": 3.571,
+     "wiki": 4.25,
+     "combined": 3.741
+    },
+    "J3": {
+     "project": 3.786,
+     "wiki": 4.25,
+     "combined": 3.902
+    }
+   },
+   "project_mean": 3.786,
+   "wiki_mean": 4.208,
+   "combined": 3.891,
+   "spread": 0.29,
+   "rank": 19
+  },
+  {
+   "slug": "hk-league",
+   "judges": {
+    "J1": {
+     "project": 3.857,
+     "wiki": 4.125,
+     "combined": 3.924
+    },
+    "J2": {
+     "project": 3.643,
+     "wiki": 4.0,
+     "combined": 3.732
+    },
+    "J3": {
+     "project": 3.714,
+     "wiki": 4.25,
+     "combined": 3.848
+    }
+   },
+   "project_mean": 3.738,
+   "wiki_mean": 4.125,
+   "combined": 3.835,
+   "spread": 0.192,
+   "rank": 20
+  },
+  {
+   "slug": "zqt-nanjing",
+   "judges": {
+    "J1": {
+     "project": 3.857,
+     "wiki": 3.5,
+     "combined": 3.768
+    },
+    "J2": {
+     "project": 3.929,
+     "wiki": 3.75,
+     "combined": 3.884
+    },
+    "J3": {
+     "project": 3.857,
+     "wiki": 3.75,
+     "combined": 3.83
+    }
+   },
+   "project_mean": 3.881,
+   "wiki_mean": 3.667,
+   "combined": 3.827,
+   "spread": 0.116,
    "rank": 21
   },
   {
    "slug": "keystone",
    "judges": {
     "J1": {
-     "project": 3.875,
-     "wiki": 4,
-     "combined": 3.906
+     "project": 3.929,
+     "wiki": 4.0,
+     "combined": 3.946
     },
     "J2": {
-     "project": 3.5,
+     "project": 3.571,
      "wiki": 3.5,
-     "combined": 3.5
+     "combined": 3.554
     },
     "J3": {
-     "project": 3.875,
-     "wiki": 3.9,
-     "combined": 3.881
+     "project": 4.0,
+     "wiki": 3.875,
+     "combined": 3.969
     }
    },
-   "project_mean": 3.75,
-   "wiki_mean": 3.8,
-   "combined": 3.762,
-   "spread": 0.406,
+   "project_mean": 3.833,
+   "wiki_mean": 3.792,
+   "combined": 3.823,
+   "spread": 0.415,
    "rank": 22
-  },
-  {
-   "slug": "zqt-nanjing",
-   "judges": {
-    "J1": {
-     "project": 3.75,
-     "wiki": 3.6,
-     "combined": 3.712
-    },
-    "J2": {
-     "project": 3.75,
-     "wiki": 3.8,
-     "combined": 3.763
-    },
-    "J3": {
-     "project": 3.75,
-     "wiki": 3.8,
-     "combined": 3.763
-    }
-   },
-   "project_mean": 3.75,
-   "wiki_mean": 3.733,
-   "combined": 3.746,
-   "spread": 0.051,
-   "rank": 23
   },
   {
    "slug": "shsid",
    "judges": {
     "J1": {
-     "project": 3.813,
-     "wiki": 3.4,
-     "combined": 3.709
+     "project": 3.929,
+     "wiki": 3.375,
+     "combined": 3.79
     },
     "J2": {
-     "project": 3.813,
-     "wiki": 3.7,
-     "combined": 3.784
+     "project": 4.0,
+     "wiki": 3.625,
+     "combined": 3.906
     },
     "J3": {
-     "project": 3.688,
-     "wiki": 3.3,
-     "combined": 3.591
+     "project": 3.857,
+     "wiki": 3.25,
+     "combined": 3.705
     }
    },
-   "project_mean": 3.771,
-   "wiki_mean": 3.467,
-   "combined": 3.695,
-   "spread": 0.193,
-   "rank": 24
+   "project_mean": 3.929,
+   "wiki_mean": 3.417,
+   "combined": 3.8,
+   "spread": 0.201,
+   "rank": 23
   }
  ],
  "skeptic": {
